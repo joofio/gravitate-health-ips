@@ -1,15 +1,15 @@
 ﻿GhR4ImplementationGuide : Validation Results
 =========================================
 
-err = 5, warn = 6, info = 93
+err = 5, warn = 7, info = 92
 IG Publisher Version: 1.2.22
-Generated Tue Dec 06 16:36:08 UTC 2022. FHIR version 4.0.1 for hl7.eu.fhir.gh-ips#0.1.0 (canonical = http://hl7.eu/fhir/ig/gravitate-health-ips)
+Generated Tue Dec 06 16:43:35 UTC 2022. FHIR version 4.0.1 for hl7.eu.fhir.gh-ips#0.1.0 (canonical = http://hl7.eu/fhir/ig/gravitate-health-ips)
  Build Errors : 36 / 4 / 0
  /github/workspace/fsh-generated/resources/Bundle-gravitate-helen : 5 / 2 / 17
  /github/workspace/fsh-generated/resources/Bundle-gravitate-maria : 0 / 0 / 20
  /github/workspace/fsh-generated/resources/ImplementationGuide-hl7.eu.fhir.gh-ips : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire : 0 / 0 / 63
- /github/workspace/fsh-generated/resources/QuestionnaireResponse-QuestionnaireResponse-example : 0 / 0 / 20
+ /github/workspace/fsh-generated/resources/QuestionnaireResponse-QuestionnaireResponse-example : 0 / 1 / 19
 </table>
 == n/a ==
 ERROR: /github/workspace/output/Bundle-gravitate-helen.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 120, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
@@ -156,4 +156,4 @@ INFORMATION: QuestionnaireResponse/QuestionnaireResponse-example: QuestionnaireR
 INFORMATION: QuestionnaireResponse/QuestionnaireResponse-example: QuestionnaireResponse.item[17].answer[0].value.ofType(Coding): Code System URI 'https://system-so-and-so.com' is unknown so the code cannot be validated
 INFORMATION: QuestionnaireResponse/QuestionnaireResponse-example: QuestionnaireResponse.item[18].answer[0].value.ofType(Coding): Code System URI 'https://system-so-and-so.com' is unknown so the code cannot be validated
 INFORMATION: QuestionnaireResponse/QuestionnaireResponse-example: QuestionnaireResponse.item[19].answer[0].value.ofType(Coding): Code System URI 'https://system-so-and-so.com' is unknown so the code cannot be validated
-INFORMATION: QuestionnaireResponse/QuestionnaireResponse-example: QuestionnaireResponse: No questionnaire is identified, so no validation can be performed against the base questionnaire
+WARNING: QuestionnaireResponse/QuestionnaireResponse-example: QuestionnaireResponse: The questionnaire 'https://server.fire.ly/r4/Questionnaire/196f47ee-45c1-470e-888c-742cb0098b72' could not be resolved, so no validation can be performed against the base questionnaire
