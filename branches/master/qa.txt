@@ -3,8 +3,8 @@
 
 err = 5, warn = 6, info = 64
 IG Publisher Version: 1.2.22
-Generated Tue Dec 06 13:16:01 UTC 2022. FHIR version 4.0.1 for hl7.eu.fhir.gh-ips#0.1.0 (canonical = http://hl7.eu/fhir/ig/gravitate-health-ips)
- Build Errors : 30 / 4 / 0
+Generated Tue Dec 06 13:27:16 UTC 2022. FHIR version 4.0.1 for hl7.eu.fhir.gh-ips#0.1.0 (canonical = http://hl7.eu/fhir/ig/gravitate-health-ips)
+ Build Errors : 31 / 4 / 0
  /github/workspace/fsh-generated/resources/Bundle-gravitate-helen : 5 / 2 / 17
  /github/workspace/fsh-generated/resources/Bundle-gravitate-maria : 0 / 0 / 20
  /github/workspace/fsh-generated/resources/ImplementationGuide-hl7.eu.fhir.gh-ips : 0 / 0 / 1
@@ -37,6 +37,7 @@ ERROR: /github/workspace/output/ePI-structure.html#/html/body/div/div/div/div/di
 ERROR: /github/workspace/output/ePI-structure.html#/html/body/div/div/div/div/div/p/a at Line 285, column 106: The link 'http://build.fhir.org/ig/hl7-eu/gravitate-health/terminology.html' for "Terminology" cannot be resolved
 ERROR: /github/workspace/output/index.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
 ERROR: /github/workspace/output/index.html#/html/body/div/div/div/div/div/p/a at Line 280, column 290: The link 'http://build.fhir.org/ig/HL7/fhir-ips/index.html' for "IPS Implementation Guide" cannot be resolved
+ERROR: /github/workspace/output/persona-checklist.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
 ERROR: /github/workspace/output/terminology.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
 ERROR: /github/workspace/output/terminology.html#/html/body/div/div/div/div/div/p/a at Line 216, column 18: The link 'http://build.fhir.org/ig/HL7/fhir-ips/terminology.html' for "IPS Implementation Guide" cannot be resolved
 ERROR: /github/workspace/output/toc.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
