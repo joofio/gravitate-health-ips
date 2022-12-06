@@ -10,7 +10,7 @@
   "name" : "GhR4ImplementationGuide",
   "title" : "Gravitate Health FHIR Implementation Guide (FHIR R4)",
   "status" : "active",
-  "date" : "2022-12-06T13:26:56+00:00",
+  "date" : "2022-12-06T15:40:16+00:00",
   "contact" : [{
     "name" : "Gravitate Health Project",
     "telecom" : [{
@@ -599,6 +599,18 @@
       },
       "name" : "Questionnaire",
       "description" : "Questionnaire",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "QuestionnaireResponse"
+      }],
+      "reference" : {
+        "reference" : "QuestionnaireResponse/QuestionnaireResponse-example"
+      },
+      "name" : "QuestionnaireResponse-example",
+      "description" : "Questionnaire Response example",
       "exampleBoolean" : true
     },
     {
