@@ -1,0 +1,122 @@
+﻿GhR4ImplementationGuide : Validation Results
+=========================================
+
+err = 5, warn = 6, info = 64
+IG Publisher Version: 1.2.22
+Generated Tue Dec 06 13:16:01 UTC 2022. FHIR version 4.0.1 for hl7.eu.fhir.gh-ips#0.1.0 (canonical = http://hl7.eu/fhir/ig/gravitate-health-ips)
+ Build Errors : 30 / 4 / 0
+ /github/workspace/fsh-generated/resources/Bundle-gravitate-helen : 5 / 2 / 17
+ /github/workspace/fsh-generated/resources/Bundle-gravitate-maria : 0 / 0 / 20
+ /github/workspace/fsh-generated/resources/ImplementationGuide-hl7.eu.fhir.gh-ips : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire : 0 / 0 / 53
+</table>
+== n/a ==
+ERROR: /github/workspace/output/Bundle-gravitate-helen.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 120, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/Bundle-gravitate-helen.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/Bundle-gravitate-helen.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/Bundle-gravitate-helen.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/Bundle-gravitate-helen.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/Bundle-gravitate-maria.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 120, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/Bundle-gravitate-maria.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/Bundle-gravitate-maria.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/Bundle-gravitate-maria.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/Bundle-gravitate-maria.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-testing.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 120, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/connections.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/copyright.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/copyright.html#/html/body/div/div/div/div/div/p/a at Line 234, column 14: The link 'http://build.fhir.org/ig/HL7/fhir-ips/copyrights.html' for "IPS Implementation Guide" cannot be resolved
+ERROR: /github/workspace/output/downloads.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/ePI-structure.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/ePI-structure.html#/html/body/div/div/div/div/div/p/a at Line 239, column 121: The link 'http://build.fhir.org/ig/hl7-eu/gravitate-health/terminology.html' for "Terminology" cannot be resolved
+ERROR: /github/workspace/output/ePI-structure.html#/html/body/div/div/div/div/div/p/a at Line 285, column 106: The link 'http://build.fhir.org/ig/hl7-eu/gravitate-health/terminology.html' for "Terminology" cannot be resolved
+ERROR: /github/workspace/output/index.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/index.html#/html/body/div/div/div/div/div/p/a at Line 280, column 290: The link 'http://build.fhir.org/ig/HL7/fhir-ips/index.html' for "IPS Implementation Guide" cannot be resolved
+ERROR: /github/workspace/output/terminology.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/terminology.html#/html/body/div/div/div/div/div/p/a at Line 216, column 18: The link 'http://build.fhir.org/ig/HL7/fhir-ips/terminology.html' for "IPS Implementation Guide" cannot be resolved
+ERROR: /github/workspace/output/toc.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/use-case-example.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/Bundle-gravitate-helen.json ==
+WARNING: Bundle/gravitate-helen: Bundle.entry[1].resource.ofType(Patient).extension[0].extension[0].value.ofType(CodeableConcept).coding[0]: The display "United Kingdom" is not a valid display for the code {urn:iso:std:iso:3166}GB - should be one of ['United Kingdom of Great Britain and Northern Ireland'] (from http://tx.fhir.org/r4) for 'urn:iso:std:iso:3166#GB'
+INFORMATION: Bundle/gravitate-helen: Bundle.entry[5].resource.ofType(MedicationStatement).medication.ofType(Reference): Details for urn:uuid:9d7be868-8264-4d94-ad04-ef04ecc92e50 matching against profile http://hl7.org/fhir/StructureDefinition/Medication|4.0.1
+ERROR: Bundle/gravitate-helen: Bundle.entry[6].resource.ofType(MedicationStatement).basedOn[0]: Matching reference for reference MedicationStatement/c872135e-f219-4f32-8fd6-7099009abf42 has resourceType MedicationRequest
+INFORMATION: Bundle/gravitate-helen: Bundle.entry[6].resource.ofType(MedicationStatement).basedOn[0]: Details for MedicationStatement/c872135e-f219-4f32-8fd6-7099009abf42 matching against profile http://hl7.org/fhir/StructureDefinition/MedicationRequest|4.0.1
+WARNING: Bundle/gravitate-helen: Bundle.entry[7].resource.ofType(MedicationRequest).medication.ofType(Reference): URN reference is not locally contained within the bundle urn:fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e3
+ERROR: Bundle/gravitate-helen: Bundle.entry[7].resource.ofType(MedicationRequest).medication.ofType(Reference): Unable to resolve resource with reference 'urn:fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e3'
+ERROR: Bundle/gravitate-helen: Bundle.entry[7].resource.ofType(MedicationRequest).subject: Unable to resolve resource with reference 'Patient/urn:uuid:be61951b-44fc-4853-8822-f9d398193c50'
+INFORMATION: Bundle/gravitate-helen: Bundle.entry[8].resource.ofType(Medication).code.coding[0]: Code System URI 'http://ema.europa.eu/fhir/marketingAuthorizationNumber' is unknown so the code cannot be validated
+INFORMATION: Bundle/gravitate-helen: Bundle.entry[8].resource.ofType(Medication).code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
+ERROR: Bundle/gravitate-helen: Bundle.entry[8].resource.ofType(Medication).code.coding[2]: Invalid System URI: http://snomed.info/sct/83821000000107
+INFORMATION: Bundle/gravitate-helen: Bundle.entry[9].resource.ofType(Medication).code.coding[0]: Code System URI 'http://ema.europa.eu/fhir/marketingAuthorizationNumber' is unknown so the code cannot be validated
+INFORMATION: Bundle/gravitate-helen: Bundle.entry[9].resource.ofType(Medication).code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
+ERROR: Bundle/gravitate-helen: Bundle.entry[8]: Entry 'urn:uuid:c872135e-f219-4f32-8fd6-7099009abf42' isn't reachable by traversing from first Bundle entry
+== fsh-generated/resources/Bundle-gravitate-maria.json ==
+INFORMATION: Bundle/gravitate-maria: Bundle.entry[10].resource.ofType(Medication).code.coding[0]: Code System URI 'http://ema.europa.eu/fhir/marketingAuthorizationNumber' is unknown so the code cannot be validated
+INFORMATION: Bundle/gravitate-maria: Bundle.entry[10].resource.ofType(Medication).code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
+INFORMATION: Bundle/gravitate-maria: Bundle.entry[11].resource.ofType(Medication).code.coding[0]: Code System URI 'http://ema.europa.eu/fhir/marketingAuthorizationNumber' is unknown so the code cannot be validated
+INFORMATION: Bundle/gravitate-maria: Bundle.entry[11].resource.ofType(Medication).code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
+INFORMATION: Bundle/gravitate-maria: Bundle.entry[12].resource.ofType(Medication).code.coding[0]: Code System URI 'https://www.gravitatehealth.eu/sid/man' is unknown so the code cannot be validated
+INFORMATION: Bundle/gravitate-maria: Bundle.entry[12].resource.ofType(Medication).code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
+== fsh-generated/resources/ImplementationGuide-hl7.eu.fhir.gh-ips.json ==
+== fsh-generated/resources/Questionnaire-Questionnaire.json ==
+INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[1].answerOption[0].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[1].answerOption[1].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[1].answerOption[2].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[1].answerOption[3].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[2].answerOption[0].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[2].answerOption[1].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[2].answerOption[2].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[3].answerOption[0].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[3].answerOption[1].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[3].answerOption[2].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[3].answerOption[3].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[4].answerOption[0].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[4].answerOption[1].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[4].answerOption[2].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[4].answerOption[3].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[5].answerOption[0].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[5].answerOption[1].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[5].answerOption[2].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[6].answerOption[0].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[6].answerOption[1].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[6].answerOption[2].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[7].answerOption[0].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[7].answerOption[1].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[7].answerOption[2].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[7].answerOption[3].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[9].answerOption[0].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[9].answerOption[1].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[9].answerOption[2].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[9].answerOption[3].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[10].answerOption[0].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[10].answerOption[1].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[10].answerOption[2].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[10].answerOption[3].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[11].answerOption[0].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[11].answerOption[1].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[11].answerOption[2].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[11].answerOption[3].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[12].answerOption[0].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[12].answerOption[1].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[12].answerOption[2].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[13].answerOption[0].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[13].answerOption[1].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[13].answerOption[2].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[14].answerOption[0].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[14].answerOption[1].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[14].answerOption[2].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[15].answerOption[0].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[15].answerOption[1].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[15].answerOption[2].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[16].answerOption[0].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[16].answerOption[1].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[16].answerOption[2].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated

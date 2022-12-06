@@ -1,0 +1,518 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.eu/fhir/ig/gravitate-health-ips/Questionnaire/Questionnaire> a fhir:Questionnaire;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "Questionnaire"]; # 
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><b>Structure</b><table border=\"1\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;\"><tr style=\"border: 2px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top\"><th style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"The linkId for the item\">LinkId</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Text for the item\">Text</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Minimum and Maximum # of times the the itemcan appear in the instance\">Cardinality</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"The type of the item\">Type</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Additional information about the item\">Description &amp; Constraints</a><span style=\"float: right\"><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Legend for this format\"><img src=\"http://hl7.org/fhir/R4/help16.png\" alt=\"doco\" style=\"background-color: inherit\"/></a></span></th></tr><tr style=\"border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_q_root.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"QuestionnaireRoot\" class=\"hierarchy\"/> </td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">An questionnaire to gather personal info regarding mental stability</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Questionnaire</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">http://hl7.eu/fhir/ig/gravitate-health-ips/Questionnaire/Questionnaire#0.1.0</td></tr>\r\n<tr style=\"border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" id=\"item.age\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon-q-quantity.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Quantity\" class=\"hierarchy\"/> age</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1. What's your age?</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-quantity\">quantity</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/></tr>\r\n<tr style=\"border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" id=\"item.social-sup\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon-q-coding.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Coding\" class=\"hierarchy\"/> social-sup</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">2. How's your Social Support?</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-choice\">choice</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Options: <a href=\"#opt-item.social-sup\">4 options</a></td></tr>\r\n<tr style=\"border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" id=\"item.workLife\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon-q-coding.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Coding\" class=\"hierarchy\"/> workLife</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">3. How's your work Life ?</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-choice\">choice</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Options: <a href=\"#opt-item.workLife\">3 options</a></td></tr>\r\n<tr style=\"border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" id=\"item.smoking\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon-q-coding.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Coding\" class=\"hierarchy\"/> smoking</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">4. How many cigaretes do you smoke per day?</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-choice\">choice</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Options: <a href=\"#opt-item.smoking\">4 options</a></td></tr>\r\n<tr style=\"border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" id=\"item.physical\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon-q-coding.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Coding\" class=\"hierarchy\"/> physical</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">5. How is your physical activity?</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-choice\">choice</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Options: <a href=\"#opt-item.physical\">4 options</a></td></tr>\r\n<tr style=\"border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" id=\"item.extrovert\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon-q-coding.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Coding\" class=\"hierarchy\"/> extrovert</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">6. How Extrovert do you feel?</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-choice\">choice</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Options: <a href=\"#opt-item.extrovert\">3 options</a></td></tr>\r\n<tr style=\"border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" id=\"item.emotional\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon-q-coding.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Coding\" class=\"hierarchy\"/> emotional</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">7. How emotional do you feel?</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-choice\">choice</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Options: <a href=\"#opt-item.emotional\">3 options</a></td></tr>\r\n<tr style=\"border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" id=\"item.nrdiagnoses\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon-q-coding.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Coding\" class=\"hierarchy\"/> nrdiagnoses</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">8. Nr of Diagnoses that you have?</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-choice\">choice</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Options: <a href=\"#opt-item.nrdiagnoses\">4 options</a></td></tr>\r\n<tr style=\"border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" id=\"item.chronic\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon-q-boolean.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Boolean\" class=\"hierarchy\"/> chronic</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">9. Do you have a chronic afliction?</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-boolean\">boolean</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/></tr>\r\n<tr style=\"border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" id=\"item.nrmedicine\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon-q-coding.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Coding\" class=\"hierarchy\"/> nrmedicine</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">10. Nr of medicines that you have?</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-choice\">choice</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Options: <a href=\"#opt-item.nrmedicine\">4 options</a></td></tr>\r\n<tr style=\"border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" id=\"item.healthadvice\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon-q-coding.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Coding\" class=\"hierarchy\"/> healthadvice</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">11. Did you receive any health advice?</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-choice\">choice</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Options: <a href=\"#opt-item.healthadvice\">4 options</a></td></tr>\r\n<tr style=\"border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" id=\"item.concern\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon-q-coding.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Coding\" class=\"hierarchy\"/> concern</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">12. Did you have any concern domains?</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-choice\">choice</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Options: <a href=\"#opt-item.concern\">4 options</a></td></tr>\r\n<tr style=\"border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" id=\"item.shareinfo\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon-q-coding.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Coding\" class=\"hierarchy\"/> shareinfo</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">13. How willing are you to share information?</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-choice\">choice</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Options: <a href=\"#opt-item.shareinfo\">3 options</a></td></tr>\r\n<tr style=\"border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" id=\"item.mood\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon-q-coding.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Coding\" class=\"hierarchy\"/> mood</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">14. How's your mood level?</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-choice\">choice</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Options: <a href=\"#opt-item.mood\">3 options</a></td></tr>\r\n<tr style=\"border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" id=\"item.autonomy\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon-q-coding.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Coding\" class=\"hierarchy\"/> autonomy</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">15. How's your Autonomy?</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-choice\">choice</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Options: <a href=\"#opt-item.autonomy\">3 options</a></td></tr>\r\n<tr style=\"border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" id=\"item.healthliteracy\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon-q-coding.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Coding\" class=\"hierarchy\"/> healthliteracy</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">16. How's your level of health literacy?</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-choice\">choice</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Options: <a href=\"#opt-item.healthliteracy\">3 options</a></td></tr>\r\n<tr style=\"border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00.png)\" id=\"item.toolsupport\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon-q-coding.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Coding\" class=\"hierarchy\"/> toolsupport</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">17. How's your level of tool support interest?</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-choice\">choice</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Options: <a href=\"#opt-item.toolsupport\">3 options</a></td></tr>\r\n<tr><td colspan=\"5\" class=\"hierarchy\"><br/><a href=\"http://hl7.org/fhir/R4/formats.html#table\" title=\"Legend for this format\"><img src=\"http://hl7.org/fhir/R4/help16.png\" alt=\"doco\" style=\"background-color: inherit\"/> Documentation for this format</a></td></tr></table><hr/><p><b>Option Sets</b></p><a name=\"opt-item.social-sup\"> </a><p><b>Answer options for social-sup</b></p><ul><li style=\"font-size: 11px\">https://system-so-and-so#None (&quot;None&quot;)</li><li style=\"font-size: 11px\">https://system-so-and-so#Low (&quot;Low&quot;)</li><li style=\"font-size: 11px\">https://system-so-and-so#Medium (&quot;Medium&quot;)</li><li style=\"font-size: 11px\">https://system-so-and-so#High (&quot;High&quot;)</li></ul><a name=\"opt-item.workLife\"> </a><p><b>Answer options for workLife</b></p><ul><li style=\"font-size: 11px\">https://system-so-and-so#U (&quot;Unemployed/Retired&quot;)</li><li style=\"font-size: 11px\">https://system-so-and-so#EM (&quot;Employed Manual&quot;)</li><li style=\"font-size: 11px\">https://system-so-and-so#ENM (&quot;Employed non Manual&quot;)</li></ul><a name=\"opt-item.smoking\"> </a><p><b>Answer options for smoking</b></p><ul><li style=\"font-size: 11px\">https://system-so-and-so#1 (&quot;Non Smoker&quot;)</li><li style=\"font-size: 11px\">https://system-so-and-so#1 (&quot;1-5&quot;)</li><li style=\"font-size: 11px\">https://system-so-and-so#2 (&quot;5-20&quot;)</li><li style=\"font-size: 11px\">https://system-so-and-so#3 (&quot;&gt;20&quot;)</li></ul><a name=\"opt-item.physical\"> </a><p><b>Answer options for physical</b></p><ul><li style=\"font-size: 11px\">https://system-so-and-so#None (&quot;None&quot;)</li><li style=\"font-size: 11px\">https://system-so-and-so#Low (&quot;Low&quot;)</li><li style=\"font-size: 11px\">https://system-so-and-so#Medium (&quot;Medium&quot;)</li><li style=\"font-size: 11px\">https://system-so-and-so#High (&quot;High&quot;)</li></ul><a name=\"opt-item.extrovert\"> </a><p><b>Answer options for extrovert</b></p><ul><li style=\"font-size: 11px\">https://system-so-and-so#Low (&quot;Low&quot;)</li><li style=\"font-size: 11px\">https://system-so-and-so#Medium (&quot;Medium&quot;)</li><li style=\"font-size: 11px\">https://system-so-and-so#High (&quot;High&quot;)</li></ul><a name=\"opt-item.emotional\"> </a><p><b>Answer options for emotional</b></p><ul><li style=\"font-size: 11px\">https://system-so-and-so#Low (&quot;Low&quot;)</li><li style=\"font-size: 11px\">https://system-so-and-so#Medium (&quot;Medium&quot;)</li><li style=\"font-size: 11px\">https://system-so-and-so#High (&quot;High&quot;)</li></ul><a name=\"opt-item.nrdiagnoses\"> </a><p><b>Answer options for nrdiagnoses</b></p><ul><li style=\"font-size: 11px\">https://system-so-and-so#N (&quot;None&quot;)</li><li style=\"font-size: 11px\">https://system-so-and-so#SINGLE (&quot;single&quot;)</li><li style=\"font-size: 11px\">https://system-so-and-so#SOME (&quot;some (2-3)&quot;)</li><li style=\"font-size: 11px\">https://system-so-and-so#MANY (&quot;Many&quot;)</li></ul><a name=\"opt-item.nrmedicine\"> </a><p><b>Answer options for nrmedicine</b></p><ul><li style=\"font-size: 11px\">https://system-so-and-so#N (&quot;None&quot;)</li><li style=\"font-size: 11px\">https://system-so-and-so#SINGLE (&quot;single&quot;)</li><li style=\"font-size: 11px\">https://system-so-and-so#SOME (&quot;some (2-3)&quot;)</li><li style=\"font-size: 11px\">https://system-so-and-so#MANY (&quot;Many&quot;)</li></ul><a name=\"opt-item.healthadvice\"> </a><p><b>Answer options for healthadvice</b></p><ul><li style=\"font-size: 11px\">https://system-so-and-so#N (&quot;None&quot;)</li><li style=\"font-size: 11px\">https://system-so-and-so#SINGLE (&quot;single&quot;)</li><li style=\"font-size: 11px\">https://system-so-and-so#SOME (&quot;some&quot;)</li><li style=\"font-size: 11px\">https://system-so-and-so#MANY (&quot;Many&quot;)</li></ul><a name=\"opt-item.concern\"> </a><p><b>Answer options for concern</b></p><ul><li style=\"font-size: 11px\">https://system-so-and-so#N (&quot;None&quot;)</li><li style=\"font-size: 11px\">https://system-so-and-so#SINGLE (&quot;single&quot;)</li><li style=\"font-size: 11px\">https://system-so-and-so#SOME (&quot;some&quot;)</li><li style=\"font-size: 11px\">https://system-so-and-so#MANY (&quot;Many&quot;)</li></ul><a name=\"opt-item.shareinfo\"> </a><p><b>Answer options for shareinfo</b></p><ul><li style=\"font-size: 11px\">https://system-so-and-so#Low (&quot;Low&quot;)</li><li style=\"font-size: 11px\">https://system-so-and-so#Medium (&quot;Medium&quot;)</li><li style=\"font-size: 11px\">https://system-so-and-so#High (&quot;High&quot;)</li></ul><a name=\"opt-item.mood\"> </a><p><b>Answer options for mood</b></p><ul><li style=\"font-size: 11px\">https://system-so-and-so#Low (&quot;Low&quot;)</li><li style=\"font-size: 11px\">https://system-so-and-so#Medium (&quot;Medium&quot;)</li><li style=\"font-size: 11px\">https://system-so-and-so#High (&quot;High&quot;)</li></ul><a name=\"opt-item.autonomy\"> </a><p><b>Answer options for autonomy</b></p><ul><li style=\"font-size: 11px\">https://system-so-and-so#Low (&quot;Low&quot;)</li><li style=\"font-size: 11px\">https://system-so-and-so#Medium (&quot;Medium&quot;)</li><li style=\"font-size: 11px\">https://system-so-and-so#High (&quot;High&quot;)</li></ul><a name=\"opt-item.healthliteracy\"> </a><p><b>Answer options for healthliteracy</b></p><ul><li style=\"font-size: 11px\">https://system-so-and-so#Low (&quot;Low&quot;)</li><li style=\"font-size: 11px\">https://system-so-and-so#Medium (&quot;Medium&quot;)</li><li style=\"font-size: 11px\">https://system-so-and-so#High (&quot;High&quot;)</li></ul><a name=\"opt-item.toolsupport\"> </a><p><b>Answer options for toolsupport</b></p><ul><li style=\"font-size: 11px\">https://system-so-and-so#Low (&quot;Low&quot;)</li><li style=\"font-size: 11px\">https://system-so-and-so#Medium (&quot;Medium&quot;)</li><li style=\"font-size: 11px\">https://system-so-and-so#High (&quot;High&quot;)</li></ul></div>"
+  ]; # 
+  fhir:Questionnaire.url [ fhir:value "http://hl7.eu/fhir/ig/gravitate-health-ips/Questionnaire/Questionnaire"]; # 
+  fhir:Questionnaire.version [ fhir:value "0.1.0"]; # 
+  fhir:Questionnaire.status [ fhir:value "active"]; # 
+  fhir:Questionnaire.date [ fhir:value "2022-12-06T13:15:39+00:00"^^xsd:dateTime]; # 
+  fhir:Questionnaire.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "Gravitate Health Project" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "https://www.gravitatehealth.eu/" ]
+     ]
+  ]; # 
+  fhir:Questionnaire.description [ fhir:value "An questionnaire to gather personal info regarding mental stability"]; # 
+  fhir:Questionnaire.item [
+     fhir:index 0;
+     fhir:Questionnaire.item.linkId [ fhir:value "age" ];
+     fhir:Questionnaire.item.prefix [ fhir:value "1" ];
+     fhir:Questionnaire.item.text [ fhir:value "What's your age?" ];
+     fhir:Questionnaire.item.type [ fhir:value "quantity" ]
+  ], [
+     fhir:index 1;
+     fhir:Questionnaire.item.linkId [ fhir:value "social-sup" ];
+     fhir:Questionnaire.item.prefix [ fhir:value "2" ];
+     fhir:Questionnaire.item.text [ fhir:value "How's your Social Support?" ];
+     fhir:Questionnaire.item.type [ fhir:value "choice" ];
+     fhir:Questionnaire.item.answerOption [
+       fhir:index 0;
+       fhir:Questionnaire.item.answerOption.valueCoding [
+         fhir:Coding.system [ fhir:value "https://system-so-and-so" ];
+         fhir:Coding.code [ fhir:value "None" ];
+         fhir:Coding.display [ fhir:value "None" ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:Questionnaire.item.answerOption.valueCoding [
+         fhir:Coding.system [ fhir:value "https://system-so-and-so" ];
+         fhir:Coding.code [ fhir:value "Low" ];
+         fhir:Coding.display [ fhir:value "Low" ]
+       ]
+     ], [
+       fhir:index 2;
+       fhir:Questionnaire.item.answerOption.valueCoding [
+         fhir:Coding.system [ fhir:value "https://system-so-and-so" ];
+         fhir:Coding.code [ fhir:value "Medium" ];
+         fhir:Coding.display [ fhir:value "Medium" ]
+       ]
+     ], [
+       fhir:index 3;
+       fhir:Questionnaire.item.answerOption.valueCoding [
+         fhir:Coding.system [ fhir:value "https://system-so-and-so" ];
+         fhir:Coding.code [ fhir:value "High" ];
+         fhir:Coding.display [ fhir:value "High" ]
+       ]
+     ]
+  ], [
+     fhir:index 2;
+     fhir:Questionnaire.item.linkId [ fhir:value "workLife" ];
+     fhir:Questionnaire.item.prefix [ fhir:value "3" ];
+     fhir:Questionnaire.item.text [ fhir:value "How's your work Life ?" ];
+     fhir:Questionnaire.item.type [ fhir:value "choice" ];
+     fhir:Questionnaire.item.answerOption [
+       fhir:index 0;
+       fhir:Questionnaire.item.answerOption.valueCoding [
+         fhir:Coding.system [ fhir:value "https://system-so-and-so" ];
+         fhir:Coding.code [ fhir:value "U" ];
+         fhir:Coding.display [ fhir:value "Unemployed/Retired" ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:Questionnaire.item.answerOption.valueCoding [
+         fhir:Coding.system [ fhir:value "https://system-so-and-so" ];
+         fhir:Coding.code [ fhir:value "EM" ];
+         fhir:Coding.display [ fhir:value "Employed Manual" ]
+       ]
+     ], [
+       fhir:index 2;
+       fhir:Questionnaire.item.answerOption.valueCoding [
+         fhir:Coding.system [ fhir:value "https://system-so-and-so" ];
+         fhir:Coding.code [ fhir:value "ENM" ];
+         fhir:Coding.display [ fhir:value "Employed non Manual" ]
+       ]
+     ]
+  ], [
+     fhir:index 3;
+     fhir:Questionnaire.item.linkId [ fhir:value "smoking" ];
+     fhir:Questionnaire.item.prefix [ fhir:value "4" ];
+     fhir:Questionnaire.item.text [ fhir:value "How many cigaretes do you smoke per day?" ];
+     fhir:Questionnaire.item.type [ fhir:value "choice" ];
+     fhir:Questionnaire.item.answerOption [
+       fhir:index 0;
+       fhir:Questionnaire.item.answerOption.valueCoding [
+         fhir:Coding.system [ fhir:value "https://system-so-and-so" ];
+         fhir:Coding.code [ fhir:value "1" ];
+         fhir:Coding.display [ fhir:value "Non Smoker" ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:Questionnaire.item.answerOption.valueCoding [
+         fhir:Coding.system [ fhir:value "https://system-so-and-so" ];
+         fhir:Coding.code [ fhir:value "1" ];
+         fhir:Coding.display [ fhir:value "1-5" ]
+       ]
+     ], [
+       fhir:index 2;
+       fhir:Questionnaire.item.answerOption.valueCoding [
+         fhir:Coding.system [ fhir:value "https://system-so-and-so" ];
+         fhir:Coding.code [ fhir:value "2" ];
+         fhir:Coding.display [ fhir:value "5-20" ]
+       ]
+     ], [
+       fhir:index 3;
+       fhir:Questionnaire.item.answerOption.valueCoding [
+         fhir:Coding.system [ fhir:value "https://system-so-and-so" ];
+         fhir:Coding.code [ fhir:value "3" ];
+         fhir:Coding.display [ fhir:value ">20" ]
+       ]
+     ]
+  ], [
+     fhir:index 4;
+     fhir:Questionnaire.item.linkId [ fhir:value "physical" ];
+     fhir:Questionnaire.item.prefix [ fhir:value "5" ];
+     fhir:Questionnaire.item.text [ fhir:value "How is your physical activity?" ];
+     fhir:Questionnaire.item.type [ fhir:value "choice" ];
+     fhir:Questionnaire.item.answerOption [
+       fhir:index 0;
+       fhir:Questionnaire.item.answerOption.valueCoding [
+         fhir:Coding.system [ fhir:value "https://system-so-and-so" ];
+         fhir:Coding.code [ fhir:value "None" ];
+         fhir:Coding.display [ fhir:value "None" ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:Questionnaire.item.answerOption.valueCoding [
+         fhir:Coding.system [ fhir:value "https://system-so-and-so" ];
+         fhir:Coding.code [ fhir:value "Low" ];
+         fhir:Coding.display [ fhir:value "Low" ]
+       ]
+     ], [
+       fhir:index 2;
+       fhir:Questionnaire.item.answerOption.valueCoding [
+         fhir:Coding.system [ fhir:value "https://system-so-and-so" ];
+         fhir:Coding.code [ fhir:value "Medium" ];
+         fhir:Coding.display [ fhir:value "Medium" ]
+       ]
+     ], [
+       fhir:index 3;
+       fhir:Questionnaire.item.answerOption.valueCoding [
+         fhir:Coding.system [ fhir:value "https://system-so-and-so" ];
+         fhir:Coding.code [ fhir:value "High" ];
+         fhir:Coding.display [ fhir:value "High" ]
+       ]
+     ]
+  ], [
+     fhir:index 5;
+     fhir:Questionnaire.item.linkId [ fhir:value "extrovert" ];
+     fhir:Questionnaire.item.prefix [ fhir:value "6" ];
+     fhir:Questionnaire.item.text [ fhir:value "How Extrovert do you feel?" ];
+     fhir:Questionnaire.item.type [ fhir:value "choice" ];
+     fhir:Questionnaire.item.answerOption [
+       fhir:index 0;
+       fhir:Questionnaire.item.answerOption.valueCoding [
+         fhir:Coding.system [ fhir:value "https://system-so-and-so" ];
+         fhir:Coding.code [ fhir:value "Low" ];
+         fhir:Coding.display [ fhir:value "Low" ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:Questionnaire.item.answerOption.valueCoding [
+         fhir:Coding.system [ fhir:value "https://system-so-and-so" ];
+         fhir:Coding.code [ fhir:value "Medium" ];
+         fhir:Coding.display [ fhir:value "Medium" ]
+       ]
+     ], [
+       fhir:index 2;
+       fhir:Questionnaire.item.answerOption.valueCoding [
+         fhir:Coding.system [ fhir:value "https://system-so-and-so" ];
+         fhir:Coding.code [ fhir:value "High" ];
+         fhir:Coding.display [ fhir:value "High" ]
+       ]
+     ]
+  ], [
+     fhir:index 6;
+     fhir:Questionnaire.item.linkId [ fhir:value "emotional" ];
+     fhir:Questionnaire.item.prefix [ fhir:value "7" ];
+     fhir:Questionnaire.item.text [ fhir:value "How emotional do you feel?" ];
+     fhir:Questionnaire.item.type [ fhir:value "choice" ];
+     fhir:Questionnaire.item.answerOption [
+       fhir:index 0;
+       fhir:Questionnaire.item.answerOption.valueCoding [
+         fhir:Coding.system [ fhir:value "https://system-so-and-so" ];
+         fhir:Coding.code [ fhir:value "Low" ];
+         fhir:Coding.display [ fhir:value "Low" ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:Questionnaire.item.answerOption.valueCoding [
+         fhir:Coding.system [ fhir:value "https://system-so-and-so" ];
+         fhir:Coding.code [ fhir:value "Medium" ];
+         fhir:Coding.display [ fhir:value "Medium" ]
+       ]
+     ], [
+       fhir:index 2;
+       fhir:Questionnaire.item.answerOption.valueCoding [
+         fhir:Coding.system [ fhir:value "https://system-so-and-so" ];
+         fhir:Coding.code [ fhir:value "High" ];
+         fhir:Coding.display [ fhir:value "High" ]
+       ]
+     ]
+  ], [
+     fhir:index 7;
+     fhir:Questionnaire.item.linkId [ fhir:value "nrdiagnoses" ];
+     fhir:Questionnaire.item.prefix [ fhir:value "8" ];
+     fhir:Questionnaire.item.text [ fhir:value "Nr of Diagnoses that you have?" ];
+     fhir:Questionnaire.item.type [ fhir:value "choice" ];
+     fhir:Questionnaire.item.answerOption [
+       fhir:index 0;
+       fhir:Questionnaire.item.answerOption.valueCoding [
+         fhir:Coding.system [ fhir:value "https://system-so-and-so" ];
+         fhir:Coding.code [ fhir:value "N" ];
+         fhir:Coding.display [ fhir:value "None" ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:Questionnaire.item.answerOption.valueCoding [
+         fhir:Coding.system [ fhir:value "https://system-so-and-so" ];
+         fhir:Coding.code [ fhir:value "SINGLE" ];
+         fhir:Coding.display [ fhir:value "single" ]
+       ]
+     ], [
+       fhir:index 2;
+       fhir:Questionnaire.item.answerOption.valueCoding [
+         fhir:Coding.system [ fhir:value "https://system-so-and-so" ];
+         fhir:Coding.code [ fhir:value "SOME" ];
+         fhir:Coding.display [ fhir:value "some (2-3)" ]
+       ]
+     ], [
+       fhir:index 3;
+       fhir:Questionnaire.item.answerOption.valueCoding [
+         fhir:Coding.system [ fhir:value "https://system-so-and-so" ];
+         fhir:Coding.code [ fhir:value "MANY" ];
+         fhir:Coding.display [ fhir:value "Many" ]
+       ]
+     ]
+  ], [
+     fhir:index 8;
+     fhir:Questionnaire.item.linkId [ fhir:value "chronic" ];
+     fhir:Questionnaire.item.prefix [ fhir:value "9" ];
+     fhir:Questionnaire.item.text [ fhir:value "Do you have a chronic afliction?" ];
+     fhir:Questionnaire.item.type [ fhir:value "boolean" ]
+  ], [
+     fhir:index 9;
+     fhir:Questionnaire.item.linkId [ fhir:value "nrmedicine" ];
+     fhir:Questionnaire.item.prefix [ fhir:value "10" ];
+     fhir:Questionnaire.item.text [ fhir:value "Nr of medicines that you have?" ];
+     fhir:Questionnaire.item.type [ fhir:value "choice" ];
+     fhir:Questionnaire.item.answerOption [
+       fhir:index 0;
+       fhir:Questionnaire.item.answerOption.valueCoding [
+         fhir:Coding.system [ fhir:value "https://system-so-and-so" ];
+         fhir:Coding.code [ fhir:value "N" ];
+         fhir:Coding.display [ fhir:value "None" ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:Questionnaire.item.answerOption.valueCoding [
+         fhir:Coding.system [ fhir:value "https://system-so-and-so" ];
+         fhir:Coding.code [ fhir:value "SINGLE" ];
+         fhir:Coding.display [ fhir:value "single" ]
+       ]
+     ], [
+       fhir:index 2;
+       fhir:Questionnaire.item.answerOption.valueCoding [
+         fhir:Coding.system [ fhir:value "https://system-so-and-so" ];
+         fhir:Coding.code [ fhir:value "SOME" ];
+         fhir:Coding.display [ fhir:value "some (2-3)" ]
+       ]
+     ], [
+       fhir:index 3;
+       fhir:Questionnaire.item.answerOption.valueCoding [
+         fhir:Coding.system [ fhir:value "https://system-so-and-so" ];
+         fhir:Coding.code [ fhir:value "MANY" ];
+         fhir:Coding.display [ fhir:value "Many" ]
+       ]
+     ]
+  ], [
+     fhir:index 10;
+     fhir:Questionnaire.item.linkId [ fhir:value "healthadvice" ];
+     fhir:Questionnaire.item.prefix [ fhir:value "11" ];
+     fhir:Questionnaire.item.text [ fhir:value "Did you receive any health advice?" ];
+     fhir:Questionnaire.item.type [ fhir:value "choice" ];
+     fhir:Questionnaire.item.answerOption [
+       fhir:index 0;
+       fhir:Questionnaire.item.answerOption.valueCoding [
+         fhir:Coding.system [ fhir:value "https://system-so-and-so" ];
+         fhir:Coding.code [ fhir:value "N" ];
+         fhir:Coding.display [ fhir:value "None" ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:Questionnaire.item.answerOption.valueCoding [
+         fhir:Coding.system [ fhir:value "https://system-so-and-so" ];
+         fhir:Coding.code [ fhir:value "SINGLE" ];
+         fhir:Coding.display [ fhir:value "single" ]
+       ]
+     ], [
+       fhir:index 2;
+       fhir:Questionnaire.item.answerOption.valueCoding [
+         fhir:Coding.system [ fhir:value "https://system-so-and-so" ];
+         fhir:Coding.code [ fhir:value "SOME" ];
+         fhir:Coding.display [ fhir:value "some" ]
+       ]
+     ], [
+       fhir:index 3;
+       fhir:Questionnaire.item.answerOption.valueCoding [
+         fhir:Coding.system [ fhir:value "https://system-so-and-so" ];
+         fhir:Coding.code [ fhir:value "MANY" ];
+         fhir:Coding.display [ fhir:value "Many" ]
+       ]
+     ]
+  ], [
+     fhir:index 11;
+     fhir:Questionnaire.item.linkId [ fhir:value "concern" ];
+     fhir:Questionnaire.item.prefix [ fhir:value "12" ];
+     fhir:Questionnaire.item.text [ fhir:value "Did you have any concern domains?" ];
+     fhir:Questionnaire.item.type [ fhir:value "choice" ];
+     fhir:Questionnaire.item.answerOption [
+       fhir:index 0;
+       fhir:Questionnaire.item.answerOption.valueCoding [
+         fhir:Coding.system [ fhir:value "https://system-so-and-so" ];
+         fhir:Coding.code [ fhir:value "N" ];
+         fhir:Coding.display [ fhir:value "None" ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:Questionnaire.item.answerOption.valueCoding [
+         fhir:Coding.system [ fhir:value "https://system-so-and-so" ];
+         fhir:Coding.code [ fhir:value "SINGLE" ];
+         fhir:Coding.display [ fhir:value "single" ]
+       ]
+     ], [
+       fhir:index 2;
+       fhir:Questionnaire.item.answerOption.valueCoding [
+         fhir:Coding.system [ fhir:value "https://system-so-and-so" ];
+         fhir:Coding.code [ fhir:value "SOME" ];
+         fhir:Coding.display [ fhir:value "some" ]
+       ]
+     ], [
+       fhir:index 3;
+       fhir:Questionnaire.item.answerOption.valueCoding [
+         fhir:Coding.system [ fhir:value "https://system-so-and-so" ];
+         fhir:Coding.code [ fhir:value "MANY" ];
+         fhir:Coding.display [ fhir:value "Many" ]
+       ]
+     ]
+  ], [
+     fhir:index 12;
+     fhir:Questionnaire.item.linkId [ fhir:value "shareinfo" ];
+     fhir:Questionnaire.item.prefix [ fhir:value "13" ];
+     fhir:Questionnaire.item.text [ fhir:value "How willing are you to share information?" ];
+     fhir:Questionnaire.item.type [ fhir:value "choice" ];
+     fhir:Questionnaire.item.answerOption [
+       fhir:index 0;
+       fhir:Questionnaire.item.answerOption.valueCoding [
+         fhir:Coding.system [ fhir:value "https://system-so-and-so" ];
+         fhir:Coding.code [ fhir:value "Low" ];
+         fhir:Coding.display [ fhir:value "Low" ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:Questionnaire.item.answerOption.valueCoding [
+         fhir:Coding.system [ fhir:value "https://system-so-and-so" ];
+         fhir:Coding.code [ fhir:value "Medium" ];
+         fhir:Coding.display [ fhir:value "Medium" ]
+       ]
+     ], [
+       fhir:index 2;
+       fhir:Questionnaire.item.answerOption.valueCoding [
+         fhir:Coding.system [ fhir:value "https://system-so-and-so" ];
+         fhir:Coding.code [ fhir:value "High" ];
+         fhir:Coding.display [ fhir:value "High" ]
+       ]
+     ]
+  ], [
+     fhir:index 13;
+     fhir:Questionnaire.item.linkId [ fhir:value "mood" ];
+     fhir:Questionnaire.item.prefix [ fhir:value "14" ];
+     fhir:Questionnaire.item.text [ fhir:value "How's your mood level?" ];
+     fhir:Questionnaire.item.type [ fhir:value "choice" ];
+     fhir:Questionnaire.item.answerOption [
+       fhir:index 0;
+       fhir:Questionnaire.item.answerOption.valueCoding [
+         fhir:Coding.system [ fhir:value "https://system-so-and-so" ];
+         fhir:Coding.code [ fhir:value "Low" ];
+         fhir:Coding.display [ fhir:value "Low" ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:Questionnaire.item.answerOption.valueCoding [
+         fhir:Coding.system [ fhir:value "https://system-so-and-so" ];
+         fhir:Coding.code [ fhir:value "Medium" ];
+         fhir:Coding.display [ fhir:value "Medium" ]
+       ]
+     ], [
+       fhir:index 2;
+       fhir:Questionnaire.item.answerOption.valueCoding [
+         fhir:Coding.system [ fhir:value "https://system-so-and-so" ];
+         fhir:Coding.code [ fhir:value "High" ];
+         fhir:Coding.display [ fhir:value "High" ]
+       ]
+     ]
+  ], [
+     fhir:index 14;
+     fhir:Questionnaire.item.linkId [ fhir:value "autonomy" ];
+     fhir:Questionnaire.item.prefix [ fhir:value "15" ];
+     fhir:Questionnaire.item.text [ fhir:value "How's your Autonomy?" ];
+     fhir:Questionnaire.item.type [ fhir:value "choice" ];
+     fhir:Questionnaire.item.answerOption [
+       fhir:index 0;
+       fhir:Questionnaire.item.answerOption.valueCoding [
+         fhir:Coding.system [ fhir:value "https://system-so-and-so" ];
+         fhir:Coding.code [ fhir:value "Low" ];
+         fhir:Coding.display [ fhir:value "Low" ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:Questionnaire.item.answerOption.valueCoding [
+         fhir:Coding.system [ fhir:value "https://system-so-and-so" ];
+         fhir:Coding.code [ fhir:value "Medium" ];
+         fhir:Coding.display [ fhir:value "Medium" ]
+       ]
+     ], [
+       fhir:index 2;
+       fhir:Questionnaire.item.answerOption.valueCoding [
+         fhir:Coding.system [ fhir:value "https://system-so-and-so" ];
+         fhir:Coding.code [ fhir:value "High" ];
+         fhir:Coding.display [ fhir:value "High" ]
+       ]
+     ]
+  ], [
+     fhir:index 15;
+     fhir:Questionnaire.item.linkId [ fhir:value "healthliteracy" ];
+     fhir:Questionnaire.item.prefix [ fhir:value "16" ];
+     fhir:Questionnaire.item.text [ fhir:value "How's your level of health literacy?" ];
+     fhir:Questionnaire.item.type [ fhir:value "choice" ];
+     fhir:Questionnaire.item.answerOption [
+       fhir:index 0;
+       fhir:Questionnaire.item.answerOption.valueCoding [
+         fhir:Coding.system [ fhir:value "https://system-so-and-so" ];
+         fhir:Coding.code [ fhir:value "Low" ];
+         fhir:Coding.display [ fhir:value "Low" ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:Questionnaire.item.answerOption.valueCoding [
+         fhir:Coding.system [ fhir:value "https://system-so-and-so" ];
+         fhir:Coding.code [ fhir:value "Medium" ];
+         fhir:Coding.display [ fhir:value "Medium" ]
+       ]
+     ], [
+       fhir:index 2;
+       fhir:Questionnaire.item.answerOption.valueCoding [
+         fhir:Coding.system [ fhir:value "https://system-so-and-so" ];
+         fhir:Coding.code [ fhir:value "High" ];
+         fhir:Coding.display [ fhir:value "High" ]
+       ]
+     ]
+  ], [
+     fhir:index 16;
+     fhir:Questionnaire.item.linkId [ fhir:value "toolsupport" ];
+     fhir:Questionnaire.item.prefix [ fhir:value "17" ];
+     fhir:Questionnaire.item.text [ fhir:value "How's your level of tool support interest?" ];
+     fhir:Questionnaire.item.type [ fhir:value "choice" ];
+     fhir:Questionnaire.item.answerOption [
+       fhir:index 0;
+       fhir:Questionnaire.item.answerOption.valueCoding [
+         fhir:Coding.system [ fhir:value "https://system-so-and-so" ];
+         fhir:Coding.code [ fhir:value "Low" ];
+         fhir:Coding.display [ fhir:value "Low" ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:Questionnaire.item.answerOption.valueCoding [
+         fhir:Coding.system [ fhir:value "https://system-so-and-so" ];
+         fhir:Coding.code [ fhir:value "Medium" ];
+         fhir:Coding.display [ fhir:value "Medium" ]
+       ]
+     ], [
+       fhir:index 2;
+       fhir:Questionnaire.item.answerOption.valueCoding [
+         fhir:Coding.system [ fhir:value "https://system-so-and-so" ];
+         fhir:Coding.code [ fhir:value "High" ];
+         fhir:Coding.display [ fhir:value "High" ]
+       ]
+     ]
+  ] . # 
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.eu/fhir/ig/gravitate-health-ips/Questionnaire/Questionnaire.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+
