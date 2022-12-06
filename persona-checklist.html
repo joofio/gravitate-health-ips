@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <title>HL7.EU.FHIR.GH-IPS\Use Case Example - FHIR v4.0.1</title>
+    <title>HL7.EU.FHIR.GH-IPS\Persona Checklist - FHIR v4.0.1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -40,8 +40,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"8"}
-    h3,h4,h5,h6{--heading-prefix:"8"}</style>
+    <style type="text/css">h2{--heading-prefix:"6"}
+    h3,h4,h5,h6{--heading-prefix:"6"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
       <div class="container">    <!-- container -->
         
@@ -148,7 +148,7 @@
     <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
       <div class="container">    <!-- container -->
         <ul class="breadcrumb">
-          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><b>Use Case Example</b></li>
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><b>Persona Checklist</b></li>
 
         </ul>
       </div>    <!-- /container -->
@@ -169,7 +169,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 </style>
 <div class="col-12">
     <!-- ReleaseHeader --><p id="publish-box">Gravitate Health FHIR Implementation Guide (FHIR R4) - Local Development build (v0.1.0). See the <a href="http://hl7.eu/fhir/ig/gravitate-health-ips/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
-  <h2>Use Case Example</h2>
+  <h2>Persona Checklist</h2>
   
 
 
@@ -187,52 +187,28 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <div>
   <!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown. -->
 </div>
-<p>Maria is a 75 year old Norwegian woman, on two prescription medications (medicinal product #1 and medicinal product #2). She lives with her husband in their home, and uses glasses, hearing aid and a walker when she is outside. Maria uses mobile phone apps to help make it is easier to manage her medications (e.g., what to take, when, and when to refill).</p>
-
-<p>While travelling in Cyprus, a Cypriot pharmacy/HCP recommends an Over the Counter (OTC) medication for her hay fever.</p>
-
-<p>Maria needs to show the Greek/Cypriot pharmacist/HCP a list of her current medications. Her list is in Norwegian but the Cypriot pharmacist needs it in Greek or English.</p>
-
-<p><strong>Objectives of this example use case:</strong></p>
-<ol>
-  <li>Find Maria’s IPS and extract (a)the name and unique IDs of her two prescribed medications; and (b) a list of what she is allergic to.</li>
-  <li>Find the Patient Information Leaflets (in Norwegian, Greek and English) for the two prescribed medications using their name or IDs.</li>
-  <li>Use information from the IPS and ePI to keep Maria informed and safe.</li>
-</ol>
-
-<p><strong>Scenario 1 - Find and display Patient Information Leaflet</strong></p>
-
-<p>Technical Actions:</p>
-<ol>
-  <li>Acquire endpoint for FHIR server with IPS documents</li>
-  <li>Find Maria’s IPS instance using her unique ID</li>
-  <li>Review Medication Summary section of Maria’s IPS</li>
-  <li>Acquire list of Maria’s active medications (i.e., product name and products unique ID)</li>
-  <li>Acquire endpoint for FHIR server with ePI documents</li>
-  <li>Find available ePI documents for Maria’s active medications</li>
-  <li>Find Patient Information Leaflets for Maria’s active medications</li>
-  <li>Display Patient Information Leaflets in a friendly manner for Maria</li>
-</ol>
-
-<p>[Add detailed cross-references to our example data; e.g., x-paths, product name and ID#, Maria IPS #]</p>
-
-<p><strong>Scenario 2 – Flag allergens in medication</strong></p>
-
-<p>Technical Actions:</p>
-<ol>
-  <li>Acquire endpoint for FHIR server with IPS documents</li>
-  <li>Find Maria’s IPS instance using her unique ID</li>
-  <li>Review Medication Summary section of Maria’s IPS</li>
-  <li>Acquire list of Maria’s active medications (i.e., product name and products unique ID)</li>
-  <li>Review Allergies and Intolerances section of Maria’s IPS</li>
-  <li>Acquire list of Maria’s active allergies (i.e., list known allergies or ignore if code=No known allergies)</li>
-  <li>Acquire endpoint for FHIR server with ePI documents</li>
-  <li>Find available ePI documents for Maria’s active medications</li>
-  <li>Find Patient Information Leaflets for Maria’s active medications</li>
-  <li>Check Patient Information Leaflet and flag if any ingredients are on Maria’s allergen list</li>
-</ol>
-
-<p>[Add detailed cross-references to our example data; e.g., x-paths, product name and ID#, Maria IPS #]</p>
+<p>| Dimension              | IPS                                      | Alternative   |
+|————————|——————————————|—————|
+| Age                     |subject.birthDate                         | Questionnaire |
+| Social Support/ family |                                          | Questionnaire |
+| Sex                    | subject.gender                           | Questionnaire |
+| WorkLife               |                                          | Questionnaire |
+| Smoking,ongoing        | Social History                           | Questionnaire |
+| Physical Activity      |                                          | Questionnaire |
+| Organized              |                                          | Questionnaire |
+| Extrovert/introvert    |                                          | Questionnaire |
+| Emotional/Rational     |                                          | Questionnaire |
+| # diagnoses            | ProblemList Section                      | Questionnaire |
+| Chronic Afliction      | secondary interpretation of Problem List | Questionnaire |
+| # Medicines            | MedicationSummary Section                | Questionnaire |
+| Health Advice received |                                          | Questionnaire |
+| Concern Domains        |                                          | Questionnaire |
+| Share info Willingly   |                                          | Questionnaire |
+| Mood Level             |                                          | Questionnaire |
+| Autonomy               | Functional Status                        | Questionnaire |
+| Health Literacy        |                                          | Questionnaire |
+| Digital Literacy       |                                          | Questionnaire |
+| Tool Support Interest  |                                          | Questionnaire |</p>
 
 
 

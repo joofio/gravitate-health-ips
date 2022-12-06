@@ -11,7 +11,7 @@
   <name value="GhR4ImplementationGuide"/>
   <title value="Gravitate Health FHIR Implementation Guide (FHIR R4)"/>
   <status value="active"/>
-  <date value="2022-12-06T13:15:39+00:00"/>
+  <date value="2022-12-06T13:26:56+00:00"/>
   <contact>
     <name value="Gravitate Health Project"/>
     <telecom>
@@ -515,6 +515,14 @@
         </extension>
         <nameUrl value="ePI-structure.html"/>
         <title value="E PI Structure"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="persona-checklist.html"/>
+        </extension>
+        <nameUrl value="persona-checklist.html"/>
+        <title value="Persona Checklist"/>
         <generation value="markdown"/>
       </page>
       <page>

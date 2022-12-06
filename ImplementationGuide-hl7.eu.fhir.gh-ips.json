@@ -10,7 +10,7 @@
   "name" : "GhR4ImplementationGuide",
   "title" : "Gravitate Health FHIR Implementation Guide (FHIR R4)",
   "status" : "active",
-  "date" : "2022-12-06T13:15:39+00:00",
+  "date" : "2022-12-06T13:26:56+00:00",
   "contact" : [{
     "name" : "Gravitate Health Project",
     "telecom" : [{
@@ -676,6 +676,15 @@
         }],
         "nameUrl" : "ePI-structure.html",
         "title" : "E PI Structure",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "persona-checklist.html"
+        }],
+        "nameUrl" : "persona-checklist.html",
+        "title" : "Persona Checklist",
         "generation" : "markdown"
       },
       {
