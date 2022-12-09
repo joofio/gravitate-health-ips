@@ -1,0 +1,641 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix loinc: <http://loinc.org/rdf#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.eu/fhir/ig/gravitate-health-ips/Bundle/gravitate-ips-2> a fhir:Bundle;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "gravitate-ips-2"]; # 
+  fhir:Bundle.identifier [
+     fhir:Identifier.system [ fhir:value "https://www.gravitatehealth.eu/sid/doc" ];
+     fhir:Identifier.value [ fhir:value "ips-2" ]
+  ]; # 
+  fhir:Bundle.type [ fhir:value "document"]; # 
+  fhir:Bundle.timestamp [ fhir:value "2021-09-03T08:38:00+02:00"^^xsd:dateTime]; # 
+  fhir:Bundle.entry [
+     fhir:index 0;
+     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:2fa5b223-ebce-4f39-9c66-5dc014f73573" ];
+     fhir:Bundle.entry.resource <urn:uuid:2fa5b223-ebce-4f39-9c66-5dc014f73573>
+  ], [
+     fhir:index 1;
+     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:c154158f-6a43-4ab7-8443-e7f4bf915dd3" ];
+     fhir:Bundle.entry.resource <urn:uuid:c154158f-6a43-4ab7-8443-e7f4bf915dd3>
+  ], [
+     fhir:index 2;
+     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:1ece89c5-fda3-4db9-ace6-decbe6c603d3" ];
+     fhir:Bundle.entry.resource <urn:uuid:1ece89c5-fda3-4db9-ace6-decbe6c603d3>
+  ], [
+     fhir:index 3;
+     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:1dff4474-fa08-4f45-8260-dbb23094bf03" ];
+     fhir:Bundle.entry.resource <urn:uuid:1dff4474-fa08-4f45-8260-dbb23094bf03>
+  ], [
+     fhir:index 4;
+     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:bcc79261-142c-48ec-b032-f3f9af49ec53" ];
+     fhir:Bundle.entry.resource <urn:uuid:bcc79261-142c-48ec-b032-f3f9af49ec53>
+  ], [
+     fhir:index 5;
+     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:a4a9d90a-d1b0-4d60-82f0-c52343dc6253" ];
+     fhir:Bundle.entry.resource <urn:uuid:a4a9d90a-d1b0-4d60-82f0-c52343dc6253>
+  ], [
+     fhir:index 6;
+     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:f06b7cf8-c15c-4288-a0f9-45a1026e5133" ];
+     fhir:Bundle.entry.resource <urn:uuid:f06b7cf8-c15c-4288-a0f9-45a1026e5133>
+  ], [
+     fhir:index 7;
+     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:29074ca4-efcb-4ff4-8446-feed2399a893" ];
+     fhir:Bundle.entry.resource <urn:uuid:29074ca4-efcb-4ff4-8446-feed2399a893>
+  ], [
+     fhir:index 8;
+     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:f6cb1218-f81c-4338-80d8-3c10910f78f3" ];
+     fhir:Bundle.entry.resource <urn:uuid:f6cb1218-f81c-4338-80d8-3c10910f78f3>
+  ], [
+     fhir:index 9;
+     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:f26084c9-b1c8-46d9-acb2-1d400ade87b3" ];
+     fhir:Bundle.entry.resource <urn:uuid:f26084c9-b1c8-46d9-acb2-1d400ade87b3>
+  ], [
+     fhir:index 10;
+     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:b50ae644-e0b7-4007-809f-26f493cbe363" ];
+     fhir:Bundle.entry.resource <urn:uuid:b50ae644-e0b7-4007-809f-26f493cbe363>
+  ], [
+     fhir:index 11;
+     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:de131e15-ed13-4b31-b38c-3204a84d99c3" ];
+     fhir:Bundle.entry.resource <urn:uuid:de131e15-ed13-4b31-b38c-3204a84d99c3>
+  ], [
+     fhir:index 12;
+     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:9ac3356c-4ea4-4814-84c3-235484f2ef13" ];
+     fhir:Bundle.entry.resource <urn:uuid:9ac3356c-4ea4-4814-84c3-235484f2ef13>
+  ] . # 
+
+<urn:uuid:2fa5b223-ebce-4f39-9c66-5dc014f73573> a fhir:Composition;
+  fhir:Resource.id [ fhir:value "gravitate-maria"]; # 
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Composition</b><a name=\"gravitate-maria\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Composition &quot;gravitate-maria&quot; </p></div><p><b>status</b>: final</p><p><b>type</b>: Patient summary Document <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#60591-5)</span></p><p><b>date</b>: 2018-07-10 15:22:00+0200</p><p><b>author</b>: <a href=\"#Practitioner_1ece89c5-fda3-4db9-ace6-decbe6c603d3\">See above (urn:uuid:1ece89c5-fda3-4db9-ace6-decbe6c603d3: Dr. Anna Karlsson)</a></p><p><b>title</b>: Patient Summary (Maria Gravitate)</p><p><b>confidentiality</b>: N</p></div>"
+  ]; # 
+  fhir:Composition.status [ fhir:value "final"]; # 
+  fhir:Composition.type [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       a loinc:60591-5;
+       fhir:Coding.system [ fhir:value "http://loinc.org" ];
+       fhir:Coding.code [ fhir:value "60591-5" ];
+       fhir:Coding.display [ fhir:value "Patient summary Document" ]
+     ]
+  ]; # 
+  fhir:Composition.subject [
+     fhir:Reference.reference [ fhir:value "urn:uuid:c154158f-6a43-4ab7-8443-e7f4bf915dd3" ];
+     fhir:Reference.display [ fhir:value "Maria Gravitate" ]
+  ]; # 
+  fhir:Composition.date [ fhir:value "2018-07-10T15:22:00+02:00"^^xsd:dateTime]; # 
+  fhir:Composition.author [
+     fhir:index 0;
+     fhir:Reference.reference [ fhir:value "urn:uuid:1ece89c5-fda3-4db9-ace6-decbe6c603d3" ];
+     fhir:Reference.display [ fhir:value "Dr. Anna Karlsson" ]
+  ]; # 
+  fhir:Composition.title [ fhir:value "Patient Summary (Maria Gravitate)"]; # 
+  fhir:Composition.confidentiality [ fhir:value "N"]; # 
+  fhir:Composition.section [
+     fhir:index 0;
+     fhir:Composition.section.title [ fhir:value "Allergies and Intolerances" ];
+     fhir:Composition.section.code [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         a loinc:48765-2;
+         fhir:Coding.system [ fhir:value "http://loinc.org" ];
+         fhir:Coding.code [ fhir:value "48765-2" ];
+         fhir:Coding.display [ fhir:value "Allergies and adverse reactions Document" ]
+       ]
+     ];
+     fhir:Composition.section.text [
+       fhir:Narrative.status [ fhir:value "generated" ];
+       fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Hay fever (pollen)</li></ul></div>"
+     ];
+     fhir:Composition.section.entry [
+       fhir:index 0;
+       fhir:Reference.reference [ fhir:value "urn:uuid:1dff4474-fa08-4f45-8260-dbb23094bf03" ];
+       fhir:Reference.display [ fhir:value "Hay fever (pollen)" ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:Composition.section.title [ fhir:value "Problem List" ];
+     fhir:Composition.section.code [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         a loinc:11450-4;
+         fhir:Coding.system [ fhir:value "http://loinc.org" ];
+         fhir:Coding.code [ fhir:value "11450-4" ];
+         fhir:Coding.display [ fhir:value "Problem list Reported" ]
+       ]
+     ];
+     fhir:Composition.section.text [
+       fhir:Narrative.status [ fhir:value "generated" ];
+       fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Psoriasis</li><li>Hypertension</li><li>Congestive heart failure</li></ul></div>"
+     ];
+     fhir:Composition.section.entry [
+       fhir:index 0;
+       fhir:Reference.reference [ fhir:value "urn:uuid:bcc79261-142c-48ec-b032-f3f9af49ec53" ];
+       fhir:Reference.display [ fhir:value "Psoriasis" ]
+     ], [
+       fhir:index 1;
+       fhir:Reference.reference [ fhir:value "urn:uuid:f06b7cf8-c15c-4288-a0f9-45a1026e5133" ];
+       fhir:Reference.display [ fhir:value "Hypertension" ]
+     ], [
+       fhir:index 2;
+       fhir:Reference.reference [ fhir:value "urn:uuid:a4a9d90a-d1b0-4d60-82f0-c52343dc6253" ];
+       fhir:Reference.display [ fhir:value "Congestive heart failure" ]
+     ]
+  ], [
+     fhir:index 2;
+     fhir:Composition.section.title [ fhir:value "Medication Summary" ];
+     fhir:Composition.section.code [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         a loinc:10160-0;
+         fhir:Coding.system [ fhir:value "http://loinc.org" ];
+         fhir:Coding.code [ fhir:value "10160-0" ];
+         fhir:Coding.display [ fhir:value "Hx of Medication use" ]
+       ]
+     ];
+     fhir:Composition.section.text [
+       fhir:Narrative.status [ fhir:value "generated" ];
+       fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Brand Name</th><th>MAN</th><th>Active Substance</th><th>Common Name</th><th>ATC</th><th>Strength</th><th>Dose Form</th><th>RoA</th></tr></thead><tbody><tr><td>Skilarence</td><td>EU/1/17/1201/001</td><td>dimethyl fumarate (FO2303MNI2)</td><td>dimethyl fumarate</td><td>L04AX07</td><td>30 mg</td><td>Gastro-resistant tablet</td><td>Oral use</td></tr><tr><td>Karvea</td><td>EMEA/H/C/000142</td><td>irbesartan (J0E2756Z7N)</td><td>irbesartan</td><td>C09DA04</td><td>75 mg</td><td>Tablet</td><td>Oral use</td></tr><tr><td>Boots Decongestant 0.05% w/v Nasal spray</td><td>PL 16028/0049</td><td>oxymetazoline hydrochloride (K89MJ0S5VY)</td><td>oxymetazoline hydrochloride</td><td>R01AA05</td><td>0.05 mg / 1 ml</td><td>Nasal spray, solution</td><td>Nasal use</td></tr></tbody></table></div>"
+     ];
+     fhir:Composition.section.entry [
+       fhir:index 0;
+       fhir:Reference.reference [ fhir:value "urn:uuid:29074ca4-efcb-4ff4-8446-feed2399a893" ];
+       fhir:Reference.display [ fhir:value "Dimethyl fumarate 30 mg Gastro-resistant tablet" ]
+     ], [
+       fhir:index 1;
+       fhir:Reference.reference [ fhir:value "urn:uuid:f6cb1218-f81c-4338-80d8-3c10910f78f3" ];
+       fhir:Reference.display [ fhir:value "Irbesartan 75 mg Tablet" ]
+     ], [
+       fhir:index 2;
+       fhir:Reference.reference [ fhir:value "urn:uuid:f26084c9-b1c8-46d9-acb2-1d400ade87b3" ];
+       fhir:Reference.display [ fhir:value "Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray" ]
+     ]
+  ] . # 
+
+<urn:uuid:c154158f-6a43-4ab7-8443-e7f4bf915dd3> a fhir:Patient;
+  fhir:Resource.id [ fhir:value "c154158f-6a43-4ab7-8443-e7f4bf915dd3"]; # 
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Maria Gravitate, Female, 75 years old (1946-05-05)</div>"
+  ]; # 
+  fhir:DomainResource.extension [
+     fhir:index 0;
+     fhir:Element.extension [
+       fhir:index 0;
+       fhir:Extension.url [ fhir:value "code" ];
+       fhir:Extension.valueCodeableConcept [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
+           fhir:Coding.code [ fhir:value "NO" ];
+           fhir:Coding.display [ fhir:value "Norway" ]
+         ]
+       ]
+     ];
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/patient-citizenship" ]
+  ]; # 
+  fhir:Patient.identifier [
+     fhir:index 0;
+     fhir:Identifier.system [ fhir:value "https://www.gravitatehealth.eu/sid/doc" ];
+     fhir:Identifier.value [ fhir:value "maria-1" ]
+  ]; # 
+  fhir:Patient.active [ fhir:value "true"^^xsd:boolean]; # 
+  fhir:Patient.name [
+     fhir:index 0;
+     fhir:HumanName.family [ fhir:value "Gravitate" ];
+     fhir:HumanName.given [
+       fhir:value "Maria";
+       fhir:index 0
+     ]
+  ]; # 
+  fhir:Patient.gender [ fhir:value "female"]; # 
+  fhir:Patient.birthDate [ fhir:value "1946-05-05"^^xsd:date] . # 
+
+<urn:uuid:1ece89c5-fda3-4db9-ace6-decbe6c603d3> a fhir:Practitioner;
+  fhir:Resource.id [ fhir:value "1ece89c5-fda3-4db9-ace6-decbe6c603d3"]; # 
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Dr. Anne Karlsson</div>"
+  ]; # 
+  fhir:Practitioner.name [
+     fhir:index 0;
+     fhir:HumanName.family [ fhir:value "Karlsson" ];
+     fhir:HumanName.given [
+       fhir:value "Anne";
+       fhir:index 0
+     ];
+     fhir:HumanName.prefix [
+       fhir:value "Dr.";
+       fhir:index 0
+     ]
+  ] . # 
+
+<urn:uuid:1dff4474-fa08-4f45-8260-dbb23094bf03> a fhir:AllergyIntolerance;
+  fhir:Resource.id [ fhir:value "1dff4474-fa08-4f45-8260-dbb23094bf03"]; # 
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Hay fever</div>"
+  ]; # 
+  fhir:AllergyIntolerance.clinicalStatus [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical" ];
+       fhir:Coding.code [ fhir:value "active" ]
+     ]
+  ]; # 
+  fhir:AllergyIntolerance.verificationStatus [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification" ];
+       fhir:Coding.code [ fhir:value "confirmed" ]
+     ]
+  ]; # 
+  fhir:AllergyIntolerance.code [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       a sct:256259004;
+       fhir:Coding.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:Coding.code [ fhir:value "256259004" ];
+       fhir:Coding.display [ fhir:value "Pollen" ]
+     ]
+  ]; # 
+  fhir:AllergyIntolerance.patient [
+     fhir:Reference.reference [ fhir:value "urn:uuid:c154158f-6a43-4ab7-8443-e7f4bf915dd3" ];
+     fhir:Reference.display [ fhir:value "Maria Gravitate" ]
+  ]; # 
+  fhir:AllergyIntolerance.reaction [
+     fhir:index 0;
+     fhir:AllergyIntolerance.reaction.manifestation [
+       fhir:index 0;
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         a sct:21719001;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ];
+         fhir:Coding.code [ fhir:value "21719001" ];
+         fhir:Coding.display [ fhir:value "Allergic rhinitis caused by pollen" ]
+       ];
+       fhir:CodeableConcept.text [ fhir:value "Hay fever" ]
+     ]
+  ] . # 
+
+<urn:uuid:bcc79261-142c-48ec-b032-f3f9af49ec53> a fhir:Condition;
+  fhir:Resource.id [ fhir:value "bcc79261-142c-48ec-b032-f3f9af49ec53"]; # 
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Condition</b><a name=\"bcc79261-142c-48ec-b032-f3f9af49ec53\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Condition &quot;bcc79261-142c-48ec-b032-f3f9af49ec53&quot; </p></div><p><b>clinicalStatus</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-condition-clinical.html\">Condition Clinical Status Codes</a>#active)</span></p><p><b>code</b>: Psoriasis <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#9014002)</span></p><p><b>subject</b>: <a href=\"#Patient_c154158f-6a43-4ab7-8443-e7f4bf915dd3\">See above (urn:uuid:c154158f-6a43-4ab7-8443-e7f4bf915dd3: Maria Gravitate)</a></p><p><b>asserter</b>: <a href=\"#Practitioner_1ece89c5-fda3-4db9-ace6-decbe6c603d3\">See above (urn:uuid:1ece89c5-fda3-4db9-ace6-decbe6c603d3: Dr. Anna Karlsson)</a></p></div>"
+  ]; # 
+  fhir:Condition.clinicalStatus [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/condition-clinical" ];
+       fhir:Coding.code [ fhir:value "active" ]
+     ]
+  ]; # 
+  fhir:Condition.code [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       a sct:9014002;
+       fhir:Coding.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:Coding.code [ fhir:value "9014002" ];
+       fhir:Coding.display [ fhir:value "Psoriasis" ]
+     ];
+     fhir:CodeableConcept.text [ fhir:value "Psoriasis" ]
+  ]; # 
+  fhir:Condition.subject [
+     fhir:Reference.reference [ fhir:value "urn:uuid:c154158f-6a43-4ab7-8443-e7f4bf915dd3" ];
+     fhir:Reference.display [ fhir:value "Maria Gravitate" ]
+  ]; # 
+  fhir:Condition.asserter [
+     fhir:Reference.reference [ fhir:value "urn:uuid:1ece89c5-fda3-4db9-ace6-decbe6c603d3" ];
+     fhir:Reference.display [ fhir:value "Dr. Anna Karlsson" ]
+  ] . # 
+
+<urn:uuid:a4a9d90a-d1b0-4d60-82f0-c52343dc6253> a fhir:Condition;
+  fhir:Resource.id [ fhir:value "a4a9d90a-d1b0-4d60-82f0-c52343dc6253"]; # 
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Congestive heart failure (2015)</div>"
+  ]; # 
+  fhir:Condition.clinicalStatus [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/condition-clinical" ];
+       fhir:Coding.code [ fhir:value "active" ]
+     ]
+  ]; # 
+  fhir:Condition.code [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       a sct:42343007;
+       fhir:Coding.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:Coding.code [ fhir:value "42343007" ];
+       fhir:Coding.display [ fhir:value "Congestive heart failure" ]
+     ];
+     fhir:CodeableConcept.text [ fhir:value "Congestive heart failure" ]
+  ]; # 
+  fhir:Condition.subject [
+     fhir:Reference.reference [ fhir:value "urn:uuid:c154158f-6a43-4ab7-8443-e7f4bf915dd3" ];
+     fhir:Reference.display [ fhir:value "Maria Gravitate" ]
+  ]; # 
+  fhir:Condition.onsetDateTime [ fhir:value "2015"^^xsd:gYear]; # 
+  fhir:Condition.asserter [
+     fhir:Reference.reference [ fhir:value "urn:uuid:1ece89c5-fda3-4db9-ace6-decbe6c603d3" ];
+     fhir:Reference.display [ fhir:value "Dr. Anna Karlsson" ]
+  ] . # 
+
+<urn:uuid:f06b7cf8-c15c-4288-a0f9-45a1026e5133> a fhir:Condition;
+  fhir:Resource.id [ fhir:value "f06b7cf8-c15c-4288-a0f9-45a1026e5133"]; # 
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Condition</b><a name=\"f06b7cf8-c15c-4288-a0f9-45a1026e5133\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Condition &quot;f06b7cf8-c15c-4288-a0f9-45a1026e5133&quot; </p></div><p><b>clinicalStatus</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-condition-clinical.html\">Condition Clinical Status Codes</a>#active)</span></p><p><b>code</b>: Hypertension <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#38341003 &quot;HT - Hypertension&quot;)</span></p><p><b>subject</b>: <a href=\"#Patient_c154158f-6a43-4ab7-8443-e7f4bf915dd3\">See above (urn:uuid:c154158f-6a43-4ab7-8443-e7f4bf915dd3: Maria Gravitate)</a></p><p><b>onset</b>: 1993</p></div>"
+  ]; # 
+  fhir:Condition.clinicalStatus [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/condition-clinical" ];
+       fhir:Coding.code [ fhir:value "active" ]
+     ]
+  ]; # 
+  fhir:Condition.code [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       a sct:38341003;
+       fhir:Coding.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:Coding.code [ fhir:value "38341003" ];
+       fhir:Coding.display [ fhir:value "HT - Hypertension" ]
+     ];
+     fhir:CodeableConcept.text [ fhir:value "Hypertension" ]
+  ]; # 
+  fhir:Condition.subject [
+     fhir:Reference.reference [ fhir:value "urn:uuid:c154158f-6a43-4ab7-8443-e7f4bf915dd3" ];
+     fhir:Reference.display [ fhir:value "Maria Gravitate" ]
+  ]; # 
+  fhir:Condition.onsetDateTime [ fhir:value "1993"^^xsd:gYear] . # 
+
+<urn:uuid:29074ca4-efcb-4ff4-8446-feed2399a893> a fhir:MedicationStatement;
+  fhir:Resource.id [ fhir:value "29074ca4-efcb-4ff4-8446-feed2399a893"]; # 
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Brand Name</th><th>MAN</th><th>Active Substance</th><th>Common Name</th><th>ATC</th><th>Strength</th><th>Dose Form</th><th>RoA</th></tr></thead><tbody><tr><td>Skilarence</td><td>EU/1/17/1201/001</td><td>dimethyl fumarate (FO2303MNI2)</td><td>dimethyl fumarate</td><td>L04AX07</td><td>30 mg</td><td>Gastro-resistant tablet</td><td>Oral use</td></tr></tbody></table></div>"
+  ]; # 
+  fhir:MedicationStatement.status [ fhir:value "active"]; # 
+  fhir:MedicationStatement.medicationReference [
+     fhir:Reference.reference [ fhir:value "urn:uuid:b50ae644-e0b7-4007-809f-26f493cbe363" ];
+     fhir:Reference.display [ fhir:value "Dimethyl fumarate 30 mg Tablet" ]
+  ]; # 
+  fhir:MedicationStatement.subject [
+     fhir:Reference.reference [ fhir:value "urn:uuid:c154158f-6a43-4ab7-8443-e7f4bf915dd3" ];
+     fhir:Reference.display [ fhir:value "Maria Gravitate" ]
+  ]; # 
+  fhir:MedicationStatement.dosage [
+     fhir:index 0;
+     fhir:Dosage.route [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://standardterms.edqm.eu" ];
+         fhir:Coding.code [ fhir:value "20053000" ];
+         fhir:Coding.display [ fhir:value "Oral use" ]
+       ]
+     ]
+  ] . # 
+
+<urn:uuid:f6cb1218-f81c-4338-80d8-3c10910f78f3> a fhir:MedicationStatement;
+  fhir:Resource.id [ fhir:value "f6cb1218-f81c-4338-80d8-3c10910f78f3"]; # 
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicationStatement</b><a name=\"f6cb1218-f81c-4338-80d8-3c10910f78f3\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicationStatement &quot;f6cb1218-f81c-4338-80d8-3c10910f78f3&quot; </p></div><p><b>status</b>: active</p><p><b>medication</b>: <a href=\"#Medication_de131e15-ed13-4b31-b38c-3204a84d99c3\">See above (urn:uuid:de131e15-ed13-4b31-b38c-3204a84d99c3: Irbesartan 75 mg Tablet)</a></p><p><b>subject</b>: <a href=\"#Patient_c154158f-6a43-4ab7-8443-e7f4bf915dd3\">See above (urn:uuid:c154158f-6a43-4ab7-8443-e7f4bf915dd3: Maria Gravitate)</a></p><h3>Dosages</h3><table class=\"grid\"><tr><td>-</td><td><b>Route</b></td></tr><tr><td>*</td><td>Oral use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#20053000)</span></td></tr></table></div>"
+  ]; # 
+  fhir:MedicationStatement.status [ fhir:value "active"]; # 
+  fhir:MedicationStatement.medicationReference [
+     fhir:Reference.reference [ fhir:value "urn:uuid:de131e15-ed13-4b31-b38c-3204a84d99c3" ];
+     fhir:Reference.display [ fhir:value "Irbesartan 75 mg Tablet" ]
+  ]; # 
+  fhir:MedicationStatement.subject [
+     fhir:Reference.reference [ fhir:value "urn:uuid:c154158f-6a43-4ab7-8443-e7f4bf915dd3" ];
+     fhir:Reference.display [ fhir:value "Maria Gravitate" ]
+  ]; # 
+  fhir:MedicationStatement.dosage [
+     fhir:index 0;
+     fhir:Dosage.route [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://standardterms.edqm.eu" ];
+         fhir:Coding.code [ fhir:value "20053000" ];
+         fhir:Coding.display [ fhir:value "Oral use" ]
+       ]
+     ]
+  ] . # 
+
+<urn:uuid:f26084c9-b1c8-46d9-acb2-1d400ade87b3> a fhir:MedicationStatement;
+  fhir:Resource.id [ fhir:value "f26084c9-b1c8-46d9-acb2-1d400ade87b3"]; # 
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicationStatement</b><a name=\"f26084c9-b1c8-46d9-acb2-1d400ade87b3\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicationStatement &quot;f26084c9-b1c8-46d9-acb2-1d400ade87b3&quot; </p></div><p><b>status</b>: active</p><p><b>medication</b>: <a href=\"#Medication_9ac3356c-4ea4-4814-84c3-235484f2ef13\">See above (urn:uuid:9ac3356c-4ea4-4814-84c3-235484f2ef13: Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray)</a></p><p><b>subject</b>: <a href=\"#Patient_c154158f-6a43-4ab7-8443-e7f4bf915dd3\">See above (urn:uuid:c154158f-6a43-4ab7-8443-e7f4bf915dd3: Maria Gravitate)</a></p><h3>Dosages</h3><table class=\"grid\"><tr><td>-</td><td><b>Route</b></td></tr><tr><td>*</td><td>Nasal use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#20049000)</span></td></tr></table></div>"
+  ]; # 
+  fhir:MedicationStatement.status [ fhir:value "active"]; # 
+  fhir:MedicationStatement.medicationReference [
+     fhir:Reference.reference [ fhir:value "urn:uuid:9ac3356c-4ea4-4814-84c3-235484f2ef13" ];
+     fhir:Reference.display [ fhir:value "Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray" ]
+  ]; # 
+  fhir:MedicationStatement.subject [
+     fhir:Reference.reference [ fhir:value "urn:uuid:c154158f-6a43-4ab7-8443-e7f4bf915dd3" ];
+     fhir:Reference.display [ fhir:value "Maria Gravitate" ]
+  ]; # 
+  fhir:MedicationStatement.dosage [
+     fhir:index 0;
+     fhir:Dosage.route [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://standardterms.edqm.eu" ];
+         fhir:Coding.code [ fhir:value "20049000" ];
+         fhir:Coding.display [ fhir:value "Nasal use" ]
+       ]
+     ]
+  ] . # 
+
+<urn:uuid:b50ae644-e0b7-4007-809f-26f493cbe363> a fhir:Medication;
+  fhir:Resource.id [ fhir:value "b50ae644-e0b7-4007-809f-26f493cbe363"]; # 
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Medication</b><a name=\"b50ae644-e0b7-4007-809f-26f493cbe363\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Medication &quot;b50ae644-e0b7-4007-809f-26f493cbe363&quot; </p></div><p><b>code</b>: Skilarence <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (marketingAuthorizationNumber#EU/1/17/1201/001; phpid#0x9982CA8A825D4561506CE808982E3B9D &quot;dimethyl fumarate, 30 mg/ 1 tablet, Gastro-resistant tablet&quot;; <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html\">WHO ATC</a>#L04AX07 &quot;dimethyl fumarate&quot;)</span></p><p><b>form</b>: Gastro-resistant tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#10225000)</span></p><h3>Ingredients</h3><table class=\"grid\"><tr><td>-</td><td><b>Item[x]</b></td><td><b>Strength</b></td></tr><tr><td>*</td><td>dimethyl fumarate <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#FO2303MNI2)</span></td><td>30 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mg = 'mg')</span>/1 Tablet<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code {tablet} = '{tablet}')</span></td></tr></table></div>"
+  ]; # 
+  fhir:Medication.code [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://ema.europa.eu/fhir/marketingAuthorizationNumber" ];
+       fhir:Coding.code [ fhir:value "EU/1/17/1201/001" ];
+       fhir:Coding.display [ fhir:value "Skilarence" ]
+     ], [
+       fhir:index 1;
+       fhir:Coding.system [ fhir:value "https://www.who-umc.org/phpid" ];
+       fhir:Coding.code [ fhir:value "0x9982CA8A825D4561506CE808982E3B9D" ];
+       fhir:Coding.display [ fhir:value "dimethyl fumarate, 30 mg/ 1 tablet, Gastro-resistant tablet" ]
+     ], [
+       fhir:index 2;
+       fhir:Coding.system [ fhir:value "http://www.whocc.no/atc" ];
+       fhir:Coding.code [ fhir:value "L04AX07" ];
+       fhir:Coding.display [ fhir:value "dimethyl fumarate" ]
+     ]
+  ]; # 
+  fhir:Medication.form [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://standardterms.edqm.eu" ];
+       fhir:Coding.code [ fhir:value "10225000" ];
+       fhir:Coding.display [ fhir:value "Gastro-resistant tablet" ]
+     ]
+  ]; # 
+  fhir:Medication.ingredient [
+     fhir:index 0;
+     fhir:Medication.ingredient.itemCodeableConcept [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://fdasis.nlm.nih.gov" ];
+         fhir:Coding.code [ fhir:value "FO2303MNI2" ];
+         fhir:Coding.display [ fhir:value "dimethyl fumarate" ]
+       ];
+       fhir:CodeableConcept.text [ fhir:value "dimethyl fumarate" ]
+     ];
+     fhir:Medication.ingredient.strength [
+       fhir:Ratio.numerator [
+         fhir:Quantity.value [ fhir:value "30"^^xsd:decimal ];
+         fhir:Quantity.unit [ fhir:value "mg" ];
+         fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ];
+         fhir:Quantity.code [ fhir:value "mg" ]
+       ];
+       fhir:Ratio.denominator [
+         fhir:Quantity.value [ fhir:value "1"^^xsd:decimal ];
+         fhir:Quantity.unit [ fhir:value "Tablet" ];
+         fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ];
+         fhir:Quantity.code [ fhir:value "{tablet}" ]
+       ]
+     ]
+  ] . # 
+
+<urn:uuid:de131e15-ed13-4b31-b38c-3204a84d99c3> a fhir:Medication;
+  fhir:Resource.id [ fhir:value "de131e15-ed13-4b31-b38c-3204a84d99c3"]; # 
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Medication</b><a name=\"de131e15-ed13-4b31-b38c-3204a84d99c3\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Medication &quot;de131e15-ed13-4b31-b38c-3204a84d99c3&quot; </p></div><p><b>code</b>: Karvea <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (marketingAuthorizationNumber#EMEA/H/C/000142; phpid#0x8DFB446EDB3B8AE508AE493827A704E4 &quot;Irbesartan, 75 mg/ 1 tablet, Tablet&quot;; <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html\">WHO ATC</a>#C09DA04 &quot;irbesartan and diuretics&quot;)</span></p><p><b>form</b>: Tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#10219000)</span></p><h3>Ingredients</h3><table class=\"grid\"><tr><td>-</td><td><b>Item[x]</b></td><td><b>Strength</b></td></tr><tr><td>*</td><td>irbesartan <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#J0E2756Z7N)</span></td><td>75 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mg = 'mg')</span>/1 Tablet<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code {tablet} = '{tablet}')</span></td></tr></table></div>"
+  ]; # 
+  fhir:Medication.code [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://ema.europa.eu/fhir/marketingAuthorizationNumber" ];
+       fhir:Coding.code [ fhir:value "EMEA/H/C/000142" ];
+       fhir:Coding.display [ fhir:value "Karvea" ]
+     ], [
+       fhir:index 1;
+       fhir:Coding.system [ fhir:value "https://www.who-umc.org/phpid" ];
+       fhir:Coding.code [ fhir:value "0x8DFB446EDB3B8AE508AE493827A704E4" ];
+       fhir:Coding.display [ fhir:value "Irbesartan, 75 mg/ 1 tablet, Tablet" ]
+     ], [
+       fhir:index 2;
+       fhir:Coding.system [ fhir:value "http://www.whocc.no/atc" ];
+       fhir:Coding.code [ fhir:value "C09DA04" ];
+       fhir:Coding.display [ fhir:value "irbesartan and diuretics" ]
+     ]
+  ]; # 
+  fhir:Medication.form [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://standardterms.edqm.eu" ];
+       fhir:Coding.code [ fhir:value "10219000" ];
+       fhir:Coding.display [ fhir:value "Tablet" ]
+     ]
+  ]; # 
+  fhir:Medication.ingredient [
+     fhir:index 0;
+     fhir:Medication.ingredient.itemCodeableConcept [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://fdasis.nlm.nih.gov" ];
+         fhir:Coding.code [ fhir:value "J0E2756Z7N" ];
+         fhir:Coding.display [ fhir:value "irbesartan" ]
+       ];
+       fhir:CodeableConcept.text [ fhir:value "irbesartan" ]
+     ];
+     fhir:Medication.ingredient.strength [
+       fhir:Ratio.numerator [
+         fhir:Quantity.value [ fhir:value "75"^^xsd:decimal ];
+         fhir:Quantity.unit [ fhir:value "mg" ];
+         fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ];
+         fhir:Quantity.code [ fhir:value "mg" ]
+       ];
+       fhir:Ratio.denominator [
+         fhir:Quantity.value [ fhir:value "1"^^xsd:decimal ];
+         fhir:Quantity.unit [ fhir:value "Tablet" ];
+         fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ];
+         fhir:Quantity.code [ fhir:value "{tablet}" ]
+       ]
+     ]
+  ] . # 
+
+<urn:uuid:9ac3356c-4ea4-4814-84c3-235484f2ef13> a fhir:Medication;
+  fhir:Resource.id [ fhir:value "9ac3356c-4ea4-4814-84c3-235484f2ef13"]; # 
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Medication</b><a name=\"9ac3356c-4ea4-4814-84c3-235484f2ef13\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Medication &quot;9ac3356c-4ea4-4814-84c3-235484f2ef13&quot; </p></div><p><b>code</b>: Boots Decongestant 0.05% w/v Nasal spray <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (man#16028/0049; phpid#0xF79CABF272B6A7EEF104DDDA44E82716 &quot;Oxymetazoline hydrochloride, 0.5 mg/ 1 ml, Nasal spray, solution&quot;; <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html\">WHO ATC</a>#R01AA05 &quot;oxymetazoline&quot;)</span></p><p><b>form</b>: Nasal spray, solution <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ()</span></p><h3>Ingredients</h3><table class=\"grid\"><tr><td>-</td><td><b>Item[x]</b></td><td><b>Strength</b></td></tr><tr><td>*</td><td>oxymetazoline hydrochloride <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#K89MJ0S5VY)</span></td><td>0.05 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mg = 'mg')</span>/1 ml<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code ml = 'ml')</span></td></tr></table></div>"
+  ]; # 
+  fhir:Medication.code [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "https://www.gravitatehealth.eu/sid/man" ];
+       fhir:Coding.code [ fhir:value "16028/0049" ];
+       fhir:Coding.display [ fhir:value "Boots Decongestant 0.05% w/v Nasal spray" ]
+     ], [
+       fhir:index 1;
+       fhir:Coding.system [ fhir:value "https://www.who-umc.org/phpid" ];
+       fhir:Coding.code [ fhir:value "0xF79CABF272B6A7EEF104DDDA44E82716" ];
+       fhir:Coding.display [ fhir:value "Oxymetazoline hydrochloride, 0.5 mg/ 1 ml, Nasal spray, solution" ]
+     ], [
+       fhir:index 2;
+       fhir:Coding.system [ fhir:value "http://www.whocc.no/atc" ];
+       fhir:Coding.code [ fhir:value "R01AA05" ];
+       fhir:Coding.display [ fhir:value "oxymetazoline" ]
+     ]
+  ]; # 
+  fhir:Medication.form [
+     fhir:CodeableConcept.text [ fhir:value "Nasal spray, solution" ]
+  ]; # 
+  fhir:Medication.ingredient [
+     fhir:index 0;
+     fhir:Medication.ingredient.itemCodeableConcept [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://fdasis.nlm.nih.gov" ];
+         fhir:Coding.code [ fhir:value "K89MJ0S5VY" ];
+         fhir:Coding.display [ fhir:value "oxymetazoline hydrochloride" ]
+       ];
+       fhir:CodeableConcept.text [ fhir:value "oxymetazoline hydrochloride" ]
+     ];
+     fhir:Medication.ingredient.strength [
+       fhir:Ratio.numerator [
+         fhir:Quantity.value [ fhir:value "0.05"^^xsd:decimal ];
+         fhir:Quantity.unit [ fhir:value "mg" ];
+         fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ];
+         fhir:Quantity.code [ fhir:value "mg" ]
+       ];
+       fhir:Ratio.denominator [
+         fhir:Quantity.value [ fhir:value "1"^^xsd:decimal ];
+         fhir:Quantity.unit [ fhir:value "ml" ];
+         fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ];
+         fhir:Quantity.code [ fhir:value "ml" ]
+       ]
+     ]
+  ] . # 
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.eu/fhir/ig/gravitate-health-ips/Bundle/gravitate-ips-2.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

@@ -1,27 +1,54 @@
 ﻿GhR4ImplementationGuide : Validation Results
 =========================================
 
-err = 5, warn = 7, info = 92
+err = 6, warn = 11, info = 110
 IG Publisher Version: 1.2.22
-Generated Thu Dec 08 11:23:51 UTC 2022. FHIR version 4.0.1 for hl7.eu.fhir.gh-ips#0.1.0 (canonical = http://hl7.eu/fhir/ig/gravitate-health-ips)
- Build Errors : 36 / 4 / 0
+Generated Fri Dec 09 14:50:07 UTC 2022. FHIR version 4.0.1 for hl7.eu.fhir.gh-ips#0.1.0 (canonical = http://hl7.eu/fhir/ig/gravitate-health-ips)
+ Build Errors : 58 / 5 / 0
  /github/workspace/fsh-generated/resources/Bundle-gravitate-helen : 5 / 2 / 17
+ /github/workspace/fsh-generated/resources/Bundle-gravitate-ips-1 : 1 / 2 / 21
+ /github/workspace/fsh-generated/resources/Bundle-gravitate-ips-2 : 0 / 0 / 20
+ /github/workspace/fsh-generated/resources/Bundle-gravitate-ips-3 : 0 / 1 / 22
  /github/workspace/fsh-generated/resources/Bundle-gravitate-maria : 0 / 0 / 20
  /github/workspace/fsh-generated/resources/ImplementationGuide-hl7.eu.fhir.gh-ips : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Observation-e06e43a1-38d4-468f-8c35-f7f12da91061 : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire : 0 / 0 / 63
  /github/workspace/fsh-generated/resources/QuestionnaireResponse-QuestionnaireResponse-example : 0 / 1 / 19
 </table>
 == n/a ==
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/e06e43a1-38d4-468f-8c35-f7f12da91061.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 ERROR: /github/workspace/output/Bundle-gravitate-helen.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 120, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
 ERROR: /github/workspace/output/Bundle-gravitate-helen.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
 ERROR: /github/workspace/output/Bundle-gravitate-helen.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
 ERROR: /github/workspace/output/Bundle-gravitate-helen.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
 ERROR: /github/workspace/output/Bundle-gravitate-helen.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/Bundle-gravitate-ips-1.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 120, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/Bundle-gravitate-ips-1.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/Bundle-gravitate-ips-1.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/Bundle-gravitate-ips-1.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/Bundle-gravitate-ips-1.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/Bundle-gravitate-ips-2.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 120, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/Bundle-gravitate-ips-2.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/Bundle-gravitate-ips-2.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/Bundle-gravitate-ips-2.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/Bundle-gravitate-ips-2.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/Bundle-gravitate-ips-3.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 120, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/Bundle-gravitate-ips-3.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/Bundle-gravitate-ips-3.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/Bundle-gravitate-ips-3.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/Bundle-gravitate-ips-3.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
 ERROR: /github/workspace/output/Bundle-gravitate-maria.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 120, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
 ERROR: /github/workspace/output/Bundle-gravitate-maria.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
 ERROR: /github/workspace/output/Bundle-gravitate-maria.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
 ERROR: /github/workspace/output/Bundle-gravitate-maria.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
 ERROR: /github/workspace/output/Bundle-gravitate-maria.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/Observation-e06e43a1-38d4-468f-8c35-f7f12da91061.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 120, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/Observation-e06e43a1-38d4-468f-8c35-f7f12da91061.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/Observation-e06e43a1-38d4-468f-8c35-f7f12da91061.html#/html/body/div/div/div/div/div/div/p/a at Line 234, column 632: The link 'Patient-patient-example-female.html' for "Patient/patient-example-female" cannot be resolved
+ERROR: /github/workspace/output/Observation-e06e43a1-38d4-468f-8c35-f7f12da91061.html#/html/body/div/div/div/div/div/div/p/a at Line 234, column 945: The link 'Observation-pregnancy-edd-example.html' for "Observation/pregnancy-edd-example" cannot be resolved
+ERROR: /github/workspace/output/Observation-e06e43a1-38d4-468f-8c35-f7f12da91061.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/Observation-e06e43a1-38d4-468f-8c35-f7f12da91061.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/Observation-e06e43a1-38d4-468f-8c35-f7f12da91061.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
 ERROR: /github/workspace/output/Questionnaire-Questionnaire-testing.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
 ERROR: /github/workspace/output/Questionnaire-Questionnaire.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 120, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
 ERROR: /github/workspace/output/Questionnaire-Questionnaire.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
@@ -37,13 +64,13 @@ ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/nav/div/div/ul
 ERROR: /github/workspace/output/connections.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
 ERROR: /github/workspace/output/copyright.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
 ERROR: /github/workspace/output/copyright.html#/html/body/div/div/div/div/div/p/a at Line 234, column 14: The link 'http://build.fhir.org/ig/HL7/fhir-ips/copyrights.html' for "IPS Implementation Guide" cannot be resolved
+ERROR: /github/workspace/output/data.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
 ERROR: /github/workspace/output/downloads.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
 ERROR: /github/workspace/output/ePI-structure.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
 ERROR: /github/workspace/output/ePI-structure.html#/html/body/div/div/div/div/div/p/a at Line 239, column 121: The link 'http://build.fhir.org/ig/hl7-eu/gravitate-health/terminology.html' for "Terminology" cannot be resolved
 ERROR: /github/workspace/output/ePI-structure.html#/html/body/div/div/div/div/div/p/a at Line 285, column 106: The link 'http://build.fhir.org/ig/hl7-eu/gravitate-health/terminology.html' for "Terminology" cannot be resolved
 ERROR: /github/workspace/output/index.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
 ERROR: /github/workspace/output/index.html#/html/body/div/div/div/div/div/p/a at Line 280, column 290: The link 'http://build.fhir.org/ig/HL7/fhir-ips/index.html' for "IPS Implementation Guide" cannot be resolved
-ERROR: /github/workspace/output/persona-checklist.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
 ERROR: /github/workspace/output/terminology.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
 ERROR: /github/workspace/output/terminology.html#/html/body/div/div/div/div/div/p/a at Line 216, column 18: The link 'http://build.fhir.org/ig/HL7/fhir-ips/terminology.html' for "IPS Implementation Guide" cannot be resolved
 ERROR: /github/workspace/output/toc.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
@@ -66,6 +93,31 @@ ERROR: Bundle/gravitate-helen: Bundle.entry[8].resource.ofType(Medication).code.
 INFORMATION: Bundle/gravitate-helen: Bundle.entry[9].resource.ofType(Medication).code.coding[0]: Code System URI 'http://ema.europa.eu/fhir/marketingAuthorizationNumber' is unknown so the code cannot be validated
 INFORMATION: Bundle/gravitate-helen: Bundle.entry[9].resource.ofType(Medication).code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
 ERROR: Bundle/gravitate-helen: Bundle.entry[8]: Entry 'urn:uuid:c872135e-f219-4f32-8fd6-7099009abf42' isn't reachable by traversing from first Bundle entry
+== fsh-generated/resources/Bundle-gravitate-ips-1.json ==
+WARNING: Bundle/gravitate-ips-1: Bundle.entry[3].resource.ofType(AllergyIntolerance).patient: URN reference is not locally contained within the bundle urn:uuid:c154158f-6a43-4ab7-8443-e7f4bf915dd5
+WARNING: Bundle/gravitate-ips-1: Bundle.entry[4].resource.ofType(AllergyIntolerance).reaction[0].manifestation[2].coding[0]: The display "Diarrhoea" is not a valid display for the code {http://snomed.info/sct}62315008 - should be one of ['Diarrhea', 'D - Diarrhea', 'Diarrhea (finding)', 'Observation of diarrhea'] (from http://tx.fhir.org/r4) for 'http://snomed.info/sct#62315008'
+INFORMATION: Bundle/gravitate-ips-1: Bundle.entry[11].resource.ofType(Medication).code.coding[0]: Code System URI 'http://ema.europa.eu/fhir/marketingAuthorizationNumber' is unknown so the code cannot be validated
+INFORMATION: Bundle/gravitate-ips-1: Bundle.entry[11].resource.ofType(Medication).code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
+INFORMATION: Bundle/gravitate-ips-1: Bundle.entry[12].resource.ofType(Medication).code.coding[0]: Code System URI 'http://ema.europa.eu/fhir/marketingAuthorizationNumber' is unknown so the code cannot be validated
+INFORMATION: Bundle/gravitate-ips-1: Bundle.entry[12].resource.ofType(Medication).code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
+INFORMATION: Bundle/gravitate-ips-1: Bundle.entry[13].resource.ofType(Medication).code.coding[0]: Code System URI 'https://www.gravitatehealth.eu/sid/man' is unknown so the code cannot be validated
+INFORMATION: Bundle/gravitate-ips-1: Bundle.entry[13].resource.ofType(Medication).code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
+ERROR: Bundle/gravitate-ips-1: Bundle.entry[4]: Entry 'urn:uuid:1dff4474-fa08-4f45-8260-dbb23094bf05' isn't reachable by traversing from first Bundle entry
+== fsh-generated/resources/Bundle-gravitate-ips-2.json ==
+INFORMATION: Bundle/gravitate-ips-2: Bundle.entry[10].resource.ofType(Medication).code.coding[0]: Code System URI 'http://ema.europa.eu/fhir/marketingAuthorizationNumber' is unknown so the code cannot be validated
+INFORMATION: Bundle/gravitate-ips-2: Bundle.entry[10].resource.ofType(Medication).code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
+INFORMATION: Bundle/gravitate-ips-2: Bundle.entry[11].resource.ofType(Medication).code.coding[0]: Code System URI 'http://ema.europa.eu/fhir/marketingAuthorizationNumber' is unknown so the code cannot be validated
+INFORMATION: Bundle/gravitate-ips-2: Bundle.entry[11].resource.ofType(Medication).code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
+INFORMATION: Bundle/gravitate-ips-2: Bundle.entry[12].resource.ofType(Medication).code.coding[0]: Code System URI 'https://www.gravitatehealth.eu/sid/man' is unknown so the code cannot be validated
+INFORMATION: Bundle/gravitate-ips-2: Bundle.entry[12].resource.ofType(Medication).code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
+== fsh-generated/resources/Bundle-gravitate-ips-3.json ==
+WARNING: Bundle/gravitate-ips-3: Bundle.entry[0].resource.ofType(Composition).section[3].code.coding[0]: The display "History of pregnancies" is not a valid display for the code {http://loinc.org}10162-6 - should be one of ['History of pregnancies Narrative', 'Pregnancies Hx', '', '历史' (zh-CN), '史' (zh-CN), '病史 历史纪录与体格检查 历史纪录与体格检查.历史记录' (zh-CN), '历史纪录与体格检查.历史记录类' (zh-CN), '历史纪录与体格检查.历史记录类别' (zh-CN), '历史纪录与体格检查.病史' (zh-CN), '历史纪录与体格检查.病史类' (zh-CN), '历史纪录与体格检查.病史类别' (zh-CN), '历史纪录与体格检查.病史记录' (zh-CN), '历史纪录与体格检查.病史记录类' (zh-CN), '历史纪录与体格检查.病史记录类别' (zh-CN), '历史纪录与体格检查小节.历史记录' (zh-CN), '历史纪录与体格检查小节.历史记录类' (zh-CN), '历史纪录与体格检查小节.历史记录类别' (zh-CN), '历史纪录与体格检查小节.病史' (zh-CN), '历史纪录与体格检查小节.病史类' (zh-CN), '历史纪录与体格检查小节.病史类别 历史纪录与体格检查小节 叙述' (zh-CN), '叙述性文字' (zh-CN), '报告' (zh-CN), '报告型' (zh-CN), '文字叙述' (zh-CN), '文本叙述型' (zh-CN), '文本描述' (zh-CN), '文本描述型 怀孕' (zh-CN), '怀孕期' (zh-CN), '妊娠期' (zh-CN), '妊娠类' (zh-CN), '妊娠（复数） 怀孕史' (zh-CN), '妊娠历史 时刻' (zh-CN), '随机' (zh-CN), '随意' (zh-CN), '瞬间 病史与体格检查' (zh-CN), 'Anamnesi Apparato riproduttore Punto nel tempo (episodio) Storia' (it-IT), 'Anamnesi' (it-IT), 'Акушерский анамнез История Описательный Точка во времени' (ru-RU), 'Момент' (ru-RU), 'anamnese' (nl-NL)] (from http://tx.fhir.org/r4) for 'http://loinc.org#10162-6'
+INFORMATION: Bundle/gravitate-ips-3: Bundle.entry[10].resource.ofType(Medication).code.coding[0]: Code System URI 'http://ema.europa.eu/fhir/marketingAuthorizationNumber' is unknown so the code cannot be validated
+INFORMATION: Bundle/gravitate-ips-3: Bundle.entry[10].resource.ofType(Medication).code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
+INFORMATION: Bundle/gravitate-ips-3: Bundle.entry[11].resource.ofType(Medication).code.coding[0]: Code System URI 'http://ema.europa.eu/fhir/marketingAuthorizationNumber' is unknown so the code cannot be validated
+INFORMATION: Bundle/gravitate-ips-3: Bundle.entry[11].resource.ofType(Medication).code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
+INFORMATION: Bundle/gravitate-ips-3: Bundle.entry[12].resource.ofType(Medication).code.coding[0]: Code System URI 'https://www.gravitatehealth.eu/sid/man' is unknown so the code cannot be validated
+INFORMATION: Bundle/gravitate-ips-3: Bundle.entry[12].resource.ofType(Medication).code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
 == fsh-generated/resources/Bundle-gravitate-maria.json ==
 INFORMATION: Bundle/gravitate-maria: Bundle.entry[10].resource.ofType(Medication).code.coding[0]: Code System URI 'http://ema.europa.eu/fhir/marketingAuthorizationNumber' is unknown so the code cannot be validated
 INFORMATION: Bundle/gravitate-maria: Bundle.entry[10].resource.ofType(Medication).code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
@@ -74,6 +126,7 @@ INFORMATION: Bundle/gravitate-maria: Bundle.entry[11].resource.ofType(Medication
 INFORMATION: Bundle/gravitate-maria: Bundle.entry[12].resource.ofType(Medication).code.coding[0]: Code System URI 'https://www.gravitatehealth.eu/sid/man' is unknown so the code cannot be validated
 INFORMATION: Bundle/gravitate-maria: Bundle.entry[12].resource.ofType(Medication).code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
 == fsh-generated/resources/ImplementationGuide-hl7.eu.fhir.gh-ips.json ==
+== fsh-generated/resources/Observation-e06e43a1-38d4-468f-8c35-f7f12da91061.json ==
 == fsh-generated/resources/Questionnaire-Questionnaire.json ==
 INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[1].answerOption[0].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
 INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[1].answerOption[1].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated

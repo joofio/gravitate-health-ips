@@ -11,7 +11,7 @@
   <name value="GhR4ImplementationGuide"/>
   <title value="Gravitate Health FHIR Implementation Guide (FHIR R4)"/>
   <status value="active"/>
-  <date value="2022-12-08T11:23:28+00:00"/>
+  <date value="2022-12-09T14:49:44+00:00"/>
   <contact>
     <name value="Gravitate Health Project"/>
     <telecom>
@@ -461,6 +461,16 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/e06e43a1-38d4-468f-8c35-f7f12da91061"/>
+      </reference>
+      <name value="e06e43a1-38d4-468f-8c35-f7f12da91061"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Bundle"/>
       </extension>
       <reference>
@@ -468,6 +478,39 @@
       </reference>
       <name value="Helen Gravitate's IPS"/>
       <description value="Example of International Patient Summary for Helen Gravitate"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/gravitate-ips-1"/>
+      </reference>
+      <name value="IPS Example 1"/>
+      <description value="Example of International Patient Summary for Gravitate"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/gravitate-ips-2"/>
+      </reference>
+      <name value="IPS Example 2"/>
+      <description value="Example of International Patient Summary for Gravitate"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/gravitate-ips-3"/>
+      </reference>
+      <name value="IPS Example 3"/>
+      <description value="Example of International Patient Summary for Gravitate"/>
       <exampleBoolean value="true"/>
     </resource>
     <resource>
@@ -514,6 +557,14 @@
       </page>
       <page>
         <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="data.html"/>
+        </extension>
+        <nameUrl value="data.html"/>
+        <title value="Data"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
           <valueUrl value="downloads.html"/>
         </extension>
         <nameUrl value="downloads.html"/>
@@ -526,14 +577,6 @@
         </extension>
         <nameUrl value="ePI-structure.html"/>
         <title value="E PI Structure"/>
-        <generation value="markdown"/>
-      </page>
-      <page>
-        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="persona-checklist.html"/>
-        </extension>
-        <nameUrl value="persona-checklist.html"/>
-        <title value="Persona Checklist"/>
         <generation value="markdown"/>
       </page>
       <page>
