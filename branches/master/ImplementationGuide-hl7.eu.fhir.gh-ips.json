@@ -10,7 +10,7 @@
   "name" : "GhR4ImplementationGuide",
   "title" : "Gravitate Health FHIR Implementation Guide (FHIR R4)",
   "status" : "active",
-  "date" : "2022-12-08T11:23:28+00:00",
+  "date" : "2022-12-09T14:49:44+00:00",
   "contact" : [{
     "name" : "Gravitate Health Project",
     "telecom" : [{
@@ -616,6 +616,17 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/e06e43a1-38d4-468f-8c35-f7f12da91061"
+      },
+      "name" : "e06e43a1-38d4-468f-8c35-f7f12da91061",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
       }],
       "reference" : {
@@ -623,6 +634,42 @@
       },
       "name" : "Helen Gravitate's IPS",
       "description" : "Example of International Patient Summary for Helen Gravitate",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Bundle"
+      }],
+      "reference" : {
+        "reference" : "Bundle/gravitate-ips-1"
+      },
+      "name" : "IPS Example 1",
+      "description" : "Example of International Patient Summary for Gravitate",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Bundle"
+      }],
+      "reference" : {
+        "reference" : "Bundle/gravitate-ips-2"
+      },
+      "name" : "IPS Example 2",
+      "description" : "Example of International Patient Summary for Gravitate",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Bundle"
+      }],
+      "reference" : {
+        "reference" : "Bundle/gravitate-ips-3"
+      },
+      "name" : "IPS Example 3",
+      "description" : "Example of International Patient Summary for Gravitate",
       "exampleBoolean" : true
     },
     {
@@ -675,6 +722,15 @@
       {
         "extension" : [{
           "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "data.html"
+        }],
+        "nameUrl" : "data.html",
+        "title" : "Data",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
           "valueUrl" : "downloads.html"
         }],
         "nameUrl" : "downloads.html",
@@ -688,15 +744,6 @@
         }],
         "nameUrl" : "ePI-structure.html",
         "title" : "E PI Structure",
-        "generation" : "markdown"
-      },
-      {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "persona-checklist.html"
-        }],
-        "nameUrl" : "persona-checklist.html",
-        "title" : "Persona Checklist",
         "generation" : "markdown"
       },
       {
