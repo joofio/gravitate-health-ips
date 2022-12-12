@@ -105,7 +105,8 @@
           "display" : "Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray"
         },
         {
-          "reference" : "urn:uuid:5d129355-4b20-40d8-841f-7f93acbc3e61"
+          "reference" : "urn:uuid:5d129355-4b20-40d8-841f-7f93acbc3e61",
+          "display" : "valproic acid"
         }]
       },
       {

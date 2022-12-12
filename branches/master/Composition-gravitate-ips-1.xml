@@ -109,7 +109,7 @@
 
           <li>
 
-            
+            valproic acid
 
           </li>
         
@@ -224,6 +224,7 @@
     </entry>
     <entry>
       <reference value="urn:uuid:5d129355-4b20-40d8-841f-7f93acbc3e61"/>
+      <display value="valproic acid"/>
     </entry>
   </section>
   <section>

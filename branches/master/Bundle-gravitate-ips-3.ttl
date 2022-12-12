@@ -186,7 +186,8 @@
        fhir:Reference.display [ fhir:value "Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray" ]
      ], [
        fhir:index 3;
-       fhir:Reference.reference [ fhir:value "urn:uuid:5d129355-4b20-40d8-841f-7f93acbc3e61" ]
+       fhir:Reference.reference [ fhir:value "urn:uuid:5d129355-4b20-40d8-841f-7f93acbc3e61" ];
+       fhir:Reference.display [ fhir:value "valproic acid" ]
      ]
   ], [
      fhir:index 3;

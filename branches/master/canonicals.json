@@ -7,9 +7,9 @@
     "name" : "GhR4ImplementationGuide"
   },
   {
-    "id" : "Questionnaire",
+    "id" : "Questionnaire-example",
     "type" : "Questionnaire",
-    "url" : "http://hl7.eu/fhir/ig/gravitate-health-ips/Questionnaire/Questionnaire",
+    "url" : "http://hl7.eu/fhir/ig/gravitate-health-ips/Questionnaire/Questionnaire-example",
     "version" : "0.1.0"
   }
 ]

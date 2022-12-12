@@ -11,7 +11,7 @@
   fhir:Resource.id [ fhir:value "gravitate-ips-1"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  \n    <b>Id:</b>\n    gravitate-ips-1\n  <br/>\n  \n    <b>status:</b>\n    final\n  <br/>\n  \n    <b>Type:</b>\n    Patient summary Document\n  <br/>\n  \n    <b>Subject:</b>\n    <a>Example 1 Gravitate</a>\n  \n\n  <br/>\n  <b>Sections:</b>\n  <br/>\n\n  <ul>\n    \n      <li>\n\n        Allergies and Intolerances\n\n      </li>\n      <ul>\n\n        \n\n          <li>\n\n            Hay fever (pollen)\n\n          </li>\n        \n      </ul>\n\n    \n      <li>\n\n        Problem List\n\n      </li>\n      <ul>\n\n        \n\n          <li>\n\n            Psoriasis\n\n          </li>\n        \n\n          <li>\n\n            Hypertension\n\n          </li>\n        \n\n          <li>\n\n            Congestive heart failure\n\n          </li>\n        \n      </ul>\n\n    \n      <li>\n\n        Medication Summary\n\n      </li>\n      <ul>\n\n        \n\n          <li>\n\n            Dimethyl fumarate 30 mg Gastro-resistant tablet\n\n          </li>\n        \n\n          <li>\n\n            Irbesartan 75 mg Tablet\n\n          </li>\n        \n\n          <li>\n\n            Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray\n\n          </li>\n        \n\n          <li>\n\n            \n\n          </li>\n        \n      </ul>\n\n    \n      <li>\n\n        Pregnancy History\n\n      </li>\n      <ul>\n\n        \n\n          <li>\n\n            Pregrancy Status\n\n          </li>\n        \n      </ul>\n\n    \n  </ul>\n</div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  \n    <b>Id:</b>\n    gravitate-ips-1\n  <br/>\n  \n    <b>status:</b>\n    final\n  <br/>\n  \n    <b>Type:</b>\n    Patient summary Document\n  <br/>\n  \n    <b>Subject:</b>\n    <a>Example 1 Gravitate</a>\n  \n\n  <br/>\n  <b>Sections:</b>\n  <br/>\n\n  <ul>\n    \n      <li>\n\n        Allergies and Intolerances\n\n      </li>\n      <ul>\n\n        \n\n          <li>\n\n            Hay fever (pollen)\n\n          </li>\n        \n      </ul>\n\n    \n      <li>\n\n        Problem List\n\n      </li>\n      <ul>\n\n        \n\n          <li>\n\n            Psoriasis\n\n          </li>\n        \n\n          <li>\n\n            Hypertension\n\n          </li>\n        \n\n          <li>\n\n            Congestive heart failure\n\n          </li>\n        \n      </ul>\n\n    \n      <li>\n\n        Medication Summary\n\n      </li>\n      <ul>\n\n        \n\n          <li>\n\n            Dimethyl fumarate 30 mg Gastro-resistant tablet\n\n          </li>\n        \n\n          <li>\n\n            Irbesartan 75 mg Tablet\n\n          </li>\n        \n\n          <li>\n\n            Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray\n\n          </li>\n        \n\n          <li>\n\n            valproic acid\n\n          </li>\n        \n      </ul>\n\n    \n      <li>\n\n        Pregnancy History\n\n      </li>\n      <ul>\n\n        \n\n          <li>\n\n            Pregrancy Status\n\n          </li>\n        \n      </ul>\n\n    \n  </ul>\n</div>"
   ]; # 
   fhir:Composition.status [ fhir:value "final"]; # 
   fhir:Composition.type [
@@ -115,7 +115,8 @@
        fhir:Reference.display [ fhir:value "Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray" ]
      ], [
        fhir:index 3;
-       fhir:Reference.reference [ fhir:value "urn:uuid:5d129355-4b20-40d8-841f-7f93acbc3e61" ]
+       fhir:Reference.reference [ fhir:value "urn:uuid:5d129355-4b20-40d8-841f-7f93acbc3e61" ];
+       fhir:Reference.display [ fhir:value "valproic acid" ]
      ]
   ], [
      fhir:index 3;
