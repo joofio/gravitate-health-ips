@@ -10,7 +10,7 @@
   "name" : "GhR4ImplementationGuide",
   "title" : "Gravitate Health FHIR Implementation Guide (FHIR R4)",
   "status" : "active",
-  "date" : "2022-12-12T13:37:18+00:00",
+  "date" : "2022-12-12T15:45:40+00:00",
   "contact" : [{
     "name" : "Gravitate Health Project",
     "telecom" : [{
@@ -643,7 +643,7 @@
       "reference" : {
         "reference" : "Composition/gravitate-Cecilia"
       },
-      "name" : "Cecilia Gravitate's IPS Composition",
+      "name" : "[Composition] Cecilia Gravitate's IPS",
       "description" : "Example of International Patient Summary for Cecilia Gravitate",
       "exampleBoolean" : true
     },
@@ -686,6 +686,18 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Composition"
+      }],
+      "reference" : {
+        "reference" : "Composition/gravitate-Pedro"
+      },
+      "name" : "Pedro Gravitate's IPS Composition",
+      "description" : "Example of International Patient Summary for Pedro Gravitate",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
       }],
       "reference" : {
@@ -701,10 +713,9 @@
         "valueString" : "Composition"
       }],
       "reference" : {
-        "reference" : "Composition/gravitate-Pedro"
+        "reference" : "Composition/gravitate-helen"
       },
-      "name" : "Pedro Gravitate's IPS Composition",
-      "description" : "Example of International Patient Summary for Pedro Gravitate",
+      "name" : "[Composition] Helen Gravitate's IPS",
       "exampleBoolean" : true
     },
     {
@@ -786,7 +797,7 @@
       "reference" : {
         "reference" : "Composition/ips-example-1"
       },
-      "name" : "IPS Example 1 Composition",
+      "name" : "[Composition] IPS Example 1 IPS",
       "exampleBoolean" : true
     },
     {
@@ -797,7 +808,7 @@
       "reference" : {
         "reference" : "Composition/ips-example-2"
       },
-      "name" : "IPS Example 2 Composition",
+      "name" : "[Composition] IPS Example 2 IPS",
       "exampleBoolean" : true
     }],
     "page" : {
@@ -815,6 +826,15 @@
         }],
         "nameUrl" : "index.html",
         "title" : "Home",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "Connecting-data.html"
+        }],
+        "nameUrl" : "Connecting-data.html",
+        "title" : "Connecting Data",
         "generation" : "markdown"
       },
       {
@@ -838,19 +858,19 @@
       {
         "extension" : [{
           "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "data.html"
+          "valueUrl" : "ePI-structure.html"
         }],
-        "nameUrl" : "data.html",
-        "title" : "Data",
+        "nameUrl" : "ePI-structure.html",
+        "title" : "E PI Structure",
         "generation" : "markdown"
       },
       {
         "extension" : [{
           "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "ePI-structure.html"
+          "valueUrl" : "SampleData.html"
         }],
-        "nameUrl" : "ePI-structure.html",
-        "title" : "E PI Structure",
+        "nameUrl" : "SampleData.html",
+        "title" : "Sample Data",
         "generation" : "markdown"
       },
       {

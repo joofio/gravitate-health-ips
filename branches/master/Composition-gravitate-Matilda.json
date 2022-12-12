@@ -3,7 +3,7 @@
   "id" : "gravitate-Matilda",
   "text" : {
     "status" : "extensions",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  \n    <b>Id:</b>\n    gravitate-Matilda\n  <br/>\n  \n    <b>status:</b>\n    final\n  <br/>\n  \n    <b>Type:</b>\n    Patient summary Document\n  <br/>\n  \n    <b>Subject:</b>\n    <a>Matilda Gravitate</a>\n  \n\n  <br/>\n  <b>Sections:</b>\n  <br/>\n\n  <ul>\n    \n      <li>\n\n        Problem List\n\n      </li>\n      <ul>\n\n        \n\n          <li>\n\n            Diabetes type 1\n\n          </li>\n        \n      </ul>\n\n    \n      <li>\n\n        Medication Summary\n\n      </li>\n      <ul>\n\n        \n\n          <li>\n\n            Humalog Mix50 Insulin KwikPen, 3ml pre-fill\n\n          </li>\n        \n\n          <li>\n\n            Monuril 3 g granules for oral solution\n\n          </li>\n        \n      </ul>\n\n    \n  </ul>\n</div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  \n    <b>Id:</b>\n    gravitate-Matilda\n  <br/>\n  \n    <b>status:</b>\n    final\n  <br/>\n  \n    <b>Type:</b>\n    Patient summary Document\n  <br/>\n  \n    <b>Subject:</b>\n    <a>Matilda Gravitate</a>\n  \n\n  <br/>\n  <b>Sections:</b>\n  <br/>\n\n  <ul>\n    \n      <li>\n\n        Problem List\n\n      </li>\n      <ul>\n\n        \n\n          <li>\n\n            Crohn's disease\n\n          </li>\n        \n      </ul>\n\n    \n      <li>\n\n        Medication Summary\n\n      </li>\n      <ul>\n\n        \n\n          <li>\n\n            Humira 40 mg\n\n          </li>\n        \n\n          <li>\n\n            Paracetamol 500 mg\n\n          </li>\n        \n\n          <li>\n\n            Pentasa 1g mesalazine\n\n          </li>\n        \n      </ul>\n\n    \n  </ul>\n</div>"
   },
   "status" : "final",
   "type" : {
@@ -20,7 +20,7 @@
   "date" : "2018-07-10T15:22:00+02:00",
   "author" : [{
     "reference" : "urn:uuid:45cd0bd4-f685-4117-a9f0-5c53fffb7266",
-    "display" : "Dr. Anna Karlsson"
+    "display" : "Dr. Ana Lopez"
   }],
   "title" : "Patient Summary (Matilda Gravitate)",
   "confidentiality" : "N",
@@ -35,11 +35,11 @@
     },
     "text" : {
       "status" : "generated",
-      "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Diabetes type 1</li></ul></div>"
+      "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Crohn's disease</li></ul></div>"
     },
     "entry" : [{
       "reference" : "urn:uuid:de06df6b-0967-4b01-822b-7cfeea970aa7",
-      "display" : "Diabetes type 1"
+      "display" : "Crohn's disease"
     }]
   },
   {
@@ -53,15 +53,19 @@
     },
     "text" : {
       "status" : "generated",
-      "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Brand Name</th><th>MAN</th><th>Active Substance</th><th>Common Name</th><th>ATC</th><th>Strength</th><th>Dose Form</th><th>RoA</th></tr></thead><tbody><tr><td>Humalog Mix50 Insulin KwikPen, 3ml pre-fill</td><td>EU/1/96/007/035</td><td>insulin lispro (GFX7QIS1II)</td><td>insulin lispro</td><td>A10AD04</td><td>100 U/ml</td><td>Suspension for injection</td><td>Subcutaneous use</td></tr><tr><td>Monuril 3 g granules for oral solution</td><td>PL31654/0006</td><td>FOSFOMYCIN (2N81MY12TE)</td><td>fosfomycin</td><td>J01XX01</td><td>3 g (as trometamol: 5.631g/sachet)</td><td>Granules for oral solution</td><td>Oral use</td></tr></tbody></table></div>"
+      "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Brand Name</th><th>MAN</th><th>Active Substance</th><th>Common Name</th><th>ATC</th><th>Strength</th><th>Dose Form</th><th>RoA</th></tr></thead><tbody><tr><td>Humalog Mix50 Insulin KwikPen, 3ml pre-fill</td><td>EU/1/96/007/035</td><td>insulin lispro (GFX7QIS1II)</td><td>insulin lispro</td><td>A10AD04</td><td>100 U/ml</td><td>Suspension for injection</td><td>Subcutaneous use</td></tr><tr><td>Monuril 3 g granules for oral solution</td><td>PL31654/0006</td><td>FOSFOMYCIN (2N81MY12TE)</td><td>fosfomycin</td><td>J01XX01</td><td>3 g (as trometamol: 5.631g/sachet)</td><td>Granules for oral solution</td><td>Oral use</td></tr><tr><td>Monuril 3 g granules for oral solution</td><td>PL31654/0006</td><td>FOSFOMYCIN (2N81MY12TE)</td><td>fosfomycin</td><td>J01XX01</td><td>3 g (as trometamol: 5.631g/sachet)</td><td>Granules for oral solution</td><td>Oral use</td></tr></tbody></table></div>"
     },
     "entry" : [{
       "reference" : "urn:uuid:18eb9898-dea7-4c5e-b097-e507e011747b",
-      "display" : "Humalog Mix50 Insulin KwikPen, 3ml pre-fill"
+      "display" : "Humira 40 mg"
     },
     {
       "reference" : "urn:uuid:c90b943a-3d8e-4f14-b56d-5c5c208b2065",
-      "display" : "Monuril 3 g granules for oral solution"
+      "display" : "Paracetamol 500 mg"
+    },
+    {
+      "reference" : "urn:uuid:fbc29713-c2bc-4ebd-9422-8a8326d5f908",
+      "display" : "Pentasa 1g mesalazine"
     }]
   }]
 }

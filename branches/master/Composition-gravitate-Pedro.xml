@@ -70,14 +70,14 @@
 
           <li>
 
-            Mirtazapine 15 mg 
+            Mirtazapine 15 mg
 
           </li>
         
 
           <li>
 
-            Calcium carbonate 500 mg 
+            Calcium carbonate 500 mg
 
           </li>
         
@@ -91,21 +91,21 @@
 
           <li>
 
-            -Collagen and magnesium supplements
+            Collagen and magnesium supplements
 
           </li>
         
 
           <li>
 
-            -Vitamin c supplements
+            Vitamin c supplements
 
           </li>
         
 
           <li>
 
-            - Protein supplements 
+            Protein supplements
 
           </li>
         
@@ -173,11 +173,11 @@
     </entry>
     <entry>
       <reference value="MedicationStatement/pedro-med-stat-2"/>
-      <display value="Mirtazapine 15 mg "/>
+      <display value="Mirtazapine 15 mg"/>
     </entry>
     <entry>
       <reference value="MedicationStatement/pedro-med-stat-3"/>
-      <display value="Calcium carbonate 500 mg "/>
+      <display value="Calcium carbonate 500 mg"/>
     </entry>
     <entry>
       <reference value="MedicationStatement/pedro-med-stat-4"/>
@@ -185,15 +185,15 @@
     </entry>
     <entry>
       <reference value="MedicationStatement/pedro-med-stat-5"/>
-      <display value="-Collagen and magnesium supplements"/>
+      <display value="Collagen and magnesium supplements"/>
     </entry>
     <entry>
       <reference value="MedicationStatement/pedro-med-stat-6"/>
-      <display value="-Vitamin c supplements"/>
+      <display value="Vitamin c supplements"/>
     </entry>
     <entry>
       <reference value="MedicationStatement/pedro-med-stat-7"/>
-      <display value="- Protein supplements "/>
+      <display value="Protein supplements"/>
     </entry>
   </section>
 </Composition>

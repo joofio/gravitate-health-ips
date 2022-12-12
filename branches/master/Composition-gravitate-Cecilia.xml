@@ -84,14 +84,21 @@
 
           <li>
 
-            Monuril 3 g granules for oral solution
+            Metformina+sitagliptina
 
           </li>
         
 
           <li>
 
-            Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray
+            Fluticasona 92mcg+vilanterol 22mcg
+
+          </li>
+        
+
+          <li>
+
+            Digoxin
 
           </li>
         
@@ -133,19 +140,19 @@
       <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>COPD</li><li>Diabetes type 2</li><li>Osteoporosis</li><li>Congestive Heart Failure</li></ul></div>
     </text>
     <entry>
-      <reference value="urn:uuid:7b69285e-bf3a-4b8d-a30f-8effd6059a4f"/>
+      <reference value="Condition/cecilia-cond-1"/>
       <display value="COPD"/>
     </entry>
     <entry>
-      <reference value="urn:uuid:0d4addd6-c3ee-468c-9202-026a24293f32"/>
+      <reference value="Condition/cecilia-cond-2"/>
       <display value="Diabetese Type 2"/>
     </entry>
     <entry>
-      <reference value="urn:uuid:c2a8ea98-cf92-4f57-933c-7d857fb20b1d"/>
+      <reference value="Condition/cecilia-cond-3"/>
       <display value="Osteoporosis"/>
     </entry>
     <entry>
-      <reference value="urn:uuid:ebb1a59f-a249-40dd-9868-25879bc9bb71"/>
+      <reference value="Condition/cecilia-cond-4"/>
       <display value="Congestive Heart Failure"/>
     </entry>
   </section>
@@ -167,11 +174,15 @@
     </entry>
     <entry>
       <reference value="MedicationStatement/cecilia-med-stat-2"/>
-      <display value="Monuril 3 g granules for oral solution"/>
+      <display value="Metformina+sitagliptina"/>
     </entry>
     <entry>
       <reference value="MedicationStatement/cecilia-med-stat-3"/>
-      <display value="Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray"/>
+      <display value="Fluticasona 92mcg+vilanterol 22mcg"/>
+    </entry>
+    <entry>
+      <reference value="MedicationStatement/cecilia-med-stat-4"/>
+      <display value="Digoxin"/>
     </entry>
   </section>
 </Composition>
