@@ -10,7 +10,7 @@
   "name" : "GhR4ImplementationGuide",
   "title" : "Gravitate Health FHIR Implementation Guide (FHIR R4)",
   "status" : "active",
-  "date" : "2022-12-12T11:51:00+00:00",
+  "date" : "2022-12-12T13:32:43+00:00",
   "contact" : [{
     "name" : "Gravitate Health Project",
     "telecom" : [{
@@ -633,6 +633,42 @@
       },
       "name" : "QuestionnaireResponse-example",
       "description" : "Questionnaire Response example",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Bundle"
+      }],
+      "reference" : {
+        "reference" : "Bundle/gravitate-Cecilia"
+      },
+      "name" : "Cecilia Gravitate's IPS",
+      "description" : "Example of International Patient Summary for Cecilia Gravitate",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Bundle"
+      }],
+      "reference" : {
+        "reference" : "Bundle/gravitate-Matilda"
+      },
+      "name" : "Matilda Gravitate's IPS",
+      "description" : "Example of International Patient Summary for Matilda Gravitate",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Bundle"
+      }],
+      "reference" : {
+        "reference" : "Bundle/gravitate-Pedro"
+      },
+      "name" : "Pedro Gravitate's IPS",
+      "description" : "Example of International Patient Summary for Pedro Gravitate",
       "exampleBoolean" : true
     },
     {
