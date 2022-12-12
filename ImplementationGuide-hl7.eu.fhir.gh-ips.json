@@ -10,7 +10,7 @@
   "name" : "GhR4ImplementationGuide",
   "title" : "Gravitate Health FHIR Implementation Guide (FHIR R4)",
   "status" : "active",
-  "date" : "2022-12-12T13:32:43+00:00",
+  "date" : "2022-12-12T13:37:18+00:00",
   "contact" : [{
     "name" : "Gravitate Health Project",
     "telecom" : [{
@@ -638,6 +638,18 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Composition"
+      }],
+      "reference" : {
+        "reference" : "Composition/gravitate-Cecilia"
+      },
+      "name" : "Cecilia Gravitate's IPS Composition",
+      "description" : "Example of International Patient Summary for Cecilia Gravitate",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
       }],
       "reference" : {
@@ -662,12 +674,36 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Composition"
+      }],
+      "reference" : {
+        "reference" : "Composition/gravitate-Matilda"
+      },
+      "name" : "Matilda Gravitate's IPS Composition",
+      "description" : "Example of International Patient Summary for Matilda Gravitate",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
       }],
       "reference" : {
         "reference" : "Bundle/gravitate-Pedro"
       },
       "name" : "Pedro Gravitate's IPS",
+      "description" : "Example of International Patient Summary for Pedro Gravitate",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Composition"
+      }],
+      "reference" : {
+        "reference" : "Composition/gravitate-Pedro"
+      },
+      "name" : "Pedro Gravitate's IPS Composition",
       "description" : "Example of International Patient Summary for Pedro Gravitate",
       "exampleBoolean" : true
     },

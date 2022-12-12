@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "GhR4ImplementationGuide"]; # 
   fhir:ImplementationGuide.title [ fhir:value "Gravitate Health FHIR Implementation Guide (FHIR R4)"]; # 
   fhir:ImplementationGuide.status [ fhir:value "active"]; # 
-  fhir:ImplementationGuide.date [ fhir:value "2022-12-12T13:32:43+00:00"^^xsd:dateTime]; # 
+  fhir:ImplementationGuide.date [ fhir:value "2022-12-12T13:37:18+00:00"^^xsd:dateTime]; # 
   fhir:ImplementationGuide.contact [
      fhir:index 0;
      fhir:ContactDetail.name [ fhir:value "Gravitate Health Project" ];
@@ -717,6 +717,20 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Composition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Composition/gravitate-Cecilia>;
+         fhir:Reference.reference [ fhir:value "Composition/gravitate-Cecilia" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Cecilia Gravitate's IPS Composition" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example of International Patient Summary for Cecilia Gravitate" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 3;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "Bundle" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
@@ -727,7 +741,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example of International Patient Summary for Cecilia Gravitate" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 3;
+       fhir:index 4;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -741,7 +755,21 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example of International Patient Summary for Matilda Gravitate" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 4;
+       fhir:index 5;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Composition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Composition/gravitate-Matilda>;
+         fhir:Reference.reference [ fhir:value "Composition/gravitate-Matilda" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Matilda Gravitate's IPS Composition" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example of International Patient Summary for Matilda Gravitate" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 6;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -755,7 +783,21 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example of International Patient Summary for Pedro Gravitate" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 5;
+       fhir:index 7;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Composition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Composition/gravitate-Pedro>;
+         fhir:Reference.reference [ fhir:value "Composition/gravitate-Pedro" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Pedro Gravitate's IPS Composition" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example of International Patient Summary for Pedro Gravitate" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 8;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -769,7 +811,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example of International Patient Summary for Helen Gravitate" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 6;
+       fhir:index 9;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -783,7 +825,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example of International Patient Summary for Gravitate" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 7;
+       fhir:index 10;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -796,7 +838,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "IPS Example 3 Composition" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 8;
+       fhir:index 11;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -810,7 +852,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example of International Patient Summary for Gravitate" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 9;
+       fhir:index 12;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -824,7 +866,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example of International Patient Summary for Gravitate" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 10;
+       fhir:index 13;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -838,7 +880,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example of International Patient Summary for Maria Gravitate" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 11;
+       fhir:index 14;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -851,7 +893,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "IPS Example 1 Composition" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 12;
+       fhir:index 15;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
