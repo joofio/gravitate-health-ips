@@ -9,12 +9,12 @@
   <type value="document"/>
   <timestamp value="2021-04-18T09:22:00+02:00"/>
   <entry>
-    <fullUrl value="urn:uuid:5702fd1d-dd26-402e-a7c0-7629a5d9bba1"/>
+    <fullUrl value="matilda-comp"/>
     <resource>
       <Composition>
-        <id value="gravitate-helen"/>
+        <id value="gravitate-Matilda"/>
         <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Composition</b><a name="gravitate-helen"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Composition &quot;gravitate-helen&quot; </p></div><p><b>status</b>: final</p><p><b>type</b>: Patient summary Document <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#60591-5)</span></p><p><b>date</b>: 2018-07-10 15:22:00+0200</p><p><b>author</b>: <a href="#Practitioner_45cd0bd4-f685-4117-a9f0-5c53fffb7266">See above (urn:uuid:45cd0bd4-f685-4117-a9f0-5c53fffb7266: Dr. Anna Karlsson)</a></p><p><b>title</b>: Patient Summary (Helen Gravitate)</p><p><b>confidentiality</b>: N</p></div>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Composition</b><a name="gravitate-Matilda"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Composition &quot;gravitate-Matilda&quot; </p></div><p><b>status</b>: final</p><p><b>type</b>: Patient summary Document <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#60591-5)</span></p><p><b>date</b>: 2018-07-10 15:22:00+0200</p><p><b>author</b>: <a href="#Practitioner_matilda-pract">See above (Practitioner/matilda-pract: Dr. Ana Lopez)</a></p><p><b>title</b>: Patient Summary (Matilda Gravitate)</p><p><b>confidentiality</b>: N</p></div>
         </text>
         <status value="final"/>
         <type>
@@ -25,33 +25,16 @@
           </coding>
         </type>
         <subject>
-          <reference value="urn:uuid:be61951b-44fc-4853-8822-f9d398193c50"/>
-          <display value="Helen Gravitate"/>
+          <reference value="Patient/matilda-patient"/>
+          <display value="Matilda Gravitate"/>
         </subject>
         <date value="2018-07-10T15:22:00+02:00"/>
         <author>
-          <reference value="urn:uuid:45cd0bd4-f685-4117-a9f0-5c53fffb7266"/>
-          <display value="Dr. Anna Karlsson"/>
+          <reference value="Practitioner/matilda-pract"/>
+          <display value="Dr. Ana Lopez"/>
         </author>
-        <title value="Patient Summary (Helen Gravitate)"/>
+        <title value="Patient Summary (Matilda Gravitate)"/>
         <confidentiality value="N"/>
-        <section>
-          <title value="Allergies and Intolerances"/>
-          <code>
-            <coding>
-              <system value="http://loinc.org"/>
-              <code value="48765-2"/>
-              <display value="Allergies and adverse reactions Document"/>
-            </coding>
-          </code>
-          <text>
-            <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Hay fever (pollen)</li></ul></div>
-          </text>
-          <entry>
-            <reference value="urn:uuid:cb6e84fa-4302-4569-ac1c-6b1b32507d16"/>
-            <display value="Lactose Intolerance"/>
-          </entry>
-        </section>
         <section>
           <title value="Problem List"/>
           <code>
@@ -62,11 +45,11 @@
             </coding>
           </code>
           <text>
-            <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Diabetes type 1</li></ul></div>
+            <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Crohn's disease</li></ul></div>
           </text>
           <entry>
-            <reference value="urn:uuid:de06df6b-0967-4b01-822b-7cfeea970aa7"/>
-            <display value="Diabetes type 1"/>
+            <reference value="Condition/matilda-cond-1"/>
+            <display value="Crohn's disease"/>
           </entry>
         </section>
         <section>
@@ -79,15 +62,19 @@
             </coding>
           </code>
           <text>
-            <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><table><thead><tr><th>Brand Name</th><th>MAN</th><th>Active Substance</th><th>Common Name</th><th>ATC</th><th>Strength</th><th>Dose Form</th><th>RoA</th></tr></thead><tbody><tr><td>Humalog Mix50 Insulin KwikPen, 3ml pre-fill</td><td>EU/1/96/007/035</td><td>insulin lispro (GFX7QIS1II)</td><td>insulin lispro</td><td>A10AD04</td><td>100 U/ml</td><td>Suspension for injection</td><td>Subcutaneous use</td></tr><tr><td>Monuril 3 g granules for oral solution</td><td>PL31654/0006</td><td>FOSFOMYCIN (2N81MY12TE)</td><td>fosfomycin</td><td>J01XX01</td><td>3 g (as trometamol: 5.631g/sachet)</td><td>Granules for oral solution</td><td>Oral use</td></tr></tbody></table></div>
+            <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><table><thead><tr><th>Brand Name</th><th>MAN</th><th>Active Substance</th><th>Common Name</th><th>ATC</th><th>Strength</th><th>Dose Form</th><th>RoA</th></tr></thead><tbody><tr><td>Humalog Mix50 Insulin KwikPen, 3ml pre-fill</td><td>EU/1/96/007/035</td><td>insulin lispro (GFX7QIS1II)</td><td>insulin lispro</td><td>A10AD04</td><td>100 U/ml</td><td>Suspension for injection</td><td>Subcutaneous use</td></tr><tr><td>Monuril 3 g granules for oral solution</td><td>PL31654/0006</td><td>FOSFOMYCIN (2N81MY12TE)</td><td>fosfomycin</td><td>J01XX01</td><td>3 g (as trometamol: 5.631g/sachet)</td><td>Granules for oral solution</td><td>Oral use</td></tr><tr><td>Monuril 3 g granules for oral solution</td><td>PL31654/0006</td><td>FOSFOMYCIN (2N81MY12TE)</td><td>fosfomycin</td><td>J01XX01</td><td>3 g (as trometamol: 5.631g/sachet)</td><td>Granules for oral solution</td><td>Oral use</td></tr></tbody></table></div>
           </text>
           <entry>
-            <reference value="urn:uuid:18eb9898-dea7-4c5e-b097-e507e011747b"/>
-            <display value="Humalog Mix50 Insulin KwikPen, 3ml pre-fill"/>
+            <reference value="MedicationStatement/matilda-med-stat-1"/>
+            <display value="Humira 40 mg"/>
           </entry>
           <entry>
-            <reference value="urn:uuid:c90b943a-3d8e-4f14-b56d-5c5c208b2065"/>
-            <display value="Monuril 3 g granules for oral solution"/>
+            <reference value="MedicationStatement/matilda-med-stat-2"/>
+            <display value="Paracetamol 500 mg"/>
+          </entry>
+          <entry>
+            <reference value="MedicationStatement/matilda-med-stat-3"/>
+            <display value="Pentasa 1g mesalazine"/>
           </entry>
         </section>
       </Composition>
@@ -127,62 +114,28 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="urn:uuid:45cd0bd4-f685-4117-a9f0-5c53fffb7266"/>
+    <fullUrl value="matilda-pract"/>
     <resource>
       <Practitioner>
-        <id value="45cd0bd4-f685-4117-a9f0-5c53fffb7266"/>
+        <id value="matilda-pract"/>
         <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">Dr. Anne Karlsson</div>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">Dr. Ana Lopez</div>
         </text>
         <name>
-          <family value="Karlsson"/>
-          <given value="Anne"/>
+          <family value="Lopez"/>
+          <given value="Ana"/>
           <prefix value="Dr."/>
         </name>
       </Practitioner>
     </resource>
   </entry>
   <entry>
-    <fullUrl value="urn:uuid:cb6e84fa-4302-4569-ac1c-6b1b32507d16"/>
-    <resource>
-      <AllergyIntolerance>
-        <id value="cb6e84fa-4302-4569-ac1c-6b1b32507d16"/>
-        <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">Lactose Intolerance</div>
-        </text>
-        <clinicalStatus>
-          <coding>
-            <system value="http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"/>
-            <code value="active"/>
-          </coding>
-        </clinicalStatus>
-        <verificationStatus>
-          <coding>
-            <system value="http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"/>
-            <code value="confirmed"/>
-          </coding>
-        </verificationStatus>
-        <code>
-          <coding>
-            <system value="http://snomed.info/sct"/>
-            <code value="47703008"/>
-            <display value="Lactose"/>
-          </coding>
-        </code>
-        <patient>
-          <reference value="urn:uuid:be61951b-44fc-4853-8822-f9d398193c50"/>
-          <display value="Helen Gravitate"/>
-        </patient>
-      </AllergyIntolerance>
-    </resource>
-  </entry>
-  <entry>
-    <fullUrl value="urn:uuid:de06df6b-0967-4b01-822b-7cfeea970aa7"/>
+    <fullUrl value="matilda-cond-1"/>
     <resource>
       <Condition>
-        <id value="de06df6b-0967-4b01-822b-7cfeea970aa7"/>
+        <id value="matilda-cond-1"/>
         <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">Diabetes mellitus type 1 (2015)</div>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">Crohn's disease</div>
         </text>
         <clinicalStatus>
           <coding>
@@ -193,71 +146,39 @@
         <code>
           <coding>
             <system value="http://snomed.info/sct"/>
-            <code value="46635009"/>
-            <display value="Diabetes mellitus type 1"/>
+            <code value="34000006"/>
+            <display value="Crohn's disease"/>
           </coding>
-          <text value="Diabetes type 1"/>
+          <text value="Crohn's disease"/>
         </code>
         <subject>
-          <reference value="urn:uuid:be61951b-44fc-4853-8822-f9d398193c50"/>
-          <display value="Helen Gravitate"/>
+          <reference value="Patient/matilda-patient"/>
+          <display value="Matilda Gravitate"/>
         </subject>
         <onsetDateTime value="2015"/>
         <asserter>
           <reference value="urn:uuid:45cd0bd4-f685-4117-a9f0-5c53fffb7266"/>
-          <display value="Dr. Anna Karlsson"/>
+          <display value="Dr. Ana Lopez"/>
         </asserter>
       </Condition>
     </resource>
   </entry>
   <entry>
-    <fullUrl value="urn:uuid:18eb9898-dea7-4c5e-b097-e507e011747b"/>
+    <fullUrl value="matilda-med-stat-1"/>
     <resource>
       <MedicationStatement>
-        <id value="18eb9898-dea7-4c5e-b097-e507e011747b"/>
+        <id value="matilda-med-stat-1"/>
         <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><table><thead><tr><th>Brand Name</th><th>MAN</th><th>Active Substance</th><th>Common Name</th><th>ATC</th><th>Strength</th><th>Dose Form</th><th>RoA</th></tr></thead><tbody><tr><td>Humalog Mix50 Insulin KwikPen, 3ml pre-fill</td><td>EU/1/96/007/035</td><td>insulin lispro (GFX7QIS1II)</td><td>insulin lispro</td><td>A10AD04</td><td>100 U/ml</td><td>Suspension for injection</td><td>Subcutaneous use</td></tr></tbody></table></div>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: MedicationStatement</b><a name="matilda-med-stat-1"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource MedicationStatement &quot;matilda-med-stat-1&quot; </p></div><p><b>status</b>: active</p><p><b>medication</b>: <a href="#Medication_fdb5c97f-0a46-41ba-bc34-2efd2ef2f7et">See above (Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7et: Monuril 3g granules for oral solution)</a></p><p><b>subject</b>: <a href="#Patient_matilda-patient">See above (Patient/matilda-patient: Matilda Gravitate)</a></p><h3>Dosages</h3><table class="grid"><tr><td>-</td><td><b>Route</b></td></tr><tr><td>*</td><td>Oral use <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (standardterms.edqm.eu#20053000)</span></td></tr></table></div>
         </text>
         <status value="active"/>
         <medicationReference>
-          <reference value="urn:uuid:9d7be868-8264-4d94-ad04-ef04ecc92e50"/>
-          <display value="Humalog Mix50 Insulin KwikPen, 3ml pre-fill"/>
-        </medicationReference>
-        <subject>
-          <reference value="urn:uuid:be61951b-44fc-4853-8822-f9d398193c50"/>
-          <display value="Helen Gravitate"/>
-        </subject>
-        <dosage>
-          <route>
-            <coding>
-              <system value="http://standardterms.edqm.eu"/>
-              <code value="20066000"/>
-              <display value="Subcutaneous use"/>
-            </coding>
-          </route>
-        </dosage>
-      </MedicationStatement>
-    </resource>
-  </entry>
-  <entry>
-    <fullUrl value="urn:uuid:c90b943a-3d8e-4f14-b56d-5c5c208b2065"/>
-    <resource>
-      <MedicationStatement>
-        <id value="c90b943a-3d8e-4f14-b56d-5c5c208b2065"/>
-        <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><table><thead><tr><th>Brand Name</th><th>MAN</th><th>Active Substance</th><th>Common Name</th><th>ATC</th><th>Strength</th><th>Dose Form</th><th>RoA</th></tr></thead><tbody><tr><td>Monuril 3 g granules for oral solution</td><td>PL31654/0006</td><td>FOSFOMYCIN (2N81MY12TE)</td><td>fosfomycin</td><td>J01XX01</td><td>3 g (as trometamol: 5.631g/sachet)</td><td>Granules for oral solution</td><td>Oral use</td></tr></tbody></table></div>
-        </text>
-        <basedOn>
-          <reference value="MedicationStatement/c872135e-f219-4f32-8fd6-7099009abf42"/>
-        </basedOn>
-        <status value="active"/>
-        <medicationReference>
-          <reference value="urn:uuid:fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e3"/>
+          <reference value="Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7et"/>
           <display value="Monuril 3g granules for oral solution"/>
         </medicationReference>
         <subject>
-          <reference value="urn:uuid:be61951b-44fc-4853-8822-f9d398193c50"/>
-          <display value="Helen Gravitate"/>
+          <reference value="Patient/matilda-patient"/>
+          <display value="Matilda Gravitate"/>
         </subject>
         <dosage>
           <route>
@@ -272,23 +193,61 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="urn:uuid:c872135e-f219-4f32-8fd6-7099009abf42"/>
+    <fullUrl value="matilda-med-stat-2"/>
     <resource>
-      <MedicationRequest>
-        <id value="c872135e-f219-4f32-8fd6-7099009abf42"/>
+      <MedicationStatement>
+        <id value="matilda-med-stat-2"/>
         <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: MedicationRequest</b><a name="c872135e-f219-4f32-8fd6-7099009abf42"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource MedicationRequest &quot;c872135e-f219-4f32-8fd6-7099009abf42&quot; </p></div><p><b>status</b>: active</p><p><b>intent</b>: order</p><p><b>medication</b>: <a href="urn:fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e3">urn:fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e3: Monuril</a></p><p><b>subject</b>: <a href="http://fhir.org/packages/fhir.dicom/Patient/urn:uuid:be61951b-44fc-4853-8822-f9d398193c50">Patient/urn:uuid:be61951b-44fc-4853-8822-f9d398193c50</a></p></div>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: MedicationStatement</b><a name="matilda-med-stat-2"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource MedicationStatement &quot;matilda-med-stat-2&quot; </p></div><p><b>status</b>: active</p><p><b>medication</b>: <a href="#Medication_fdb5c97f-0a46-41ba-bc34-2efd2ef2f7eu">See above (Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7eu: Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray)</a></p><p><b>subject</b>: <a href="#Patient_matilda-patient">See above (Patient/matilda-patient: Matilda Gravitate)</a></p><h3>Dosages</h3><table class="grid"><tr><td>-</td><td><b>Route</b></td></tr><tr><td>*</td><td>Nasal use <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (standardterms.edqm.eu#20049000)</span></td></tr></table></div>
         </text>
         <status value="active"/>
-        <intent value="order"/>
         <medicationReference>
-          <reference value="urn:fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e3"/>
-          <display value="Monuril"/>
+          <reference value="Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7eu"/>
+          <display value="Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray"/>
         </medicationReference>
         <subject>
-          <reference value="Patient/urn:uuid:be61951b-44fc-4853-8822-f9d398193c50"/>
+          <reference value="Patient/matilda-patient"/>
+          <display value="Matilda Gravitate"/>
         </subject>
-      </MedicationRequest>
+        <dosage>
+          <route>
+            <coding>
+              <system value="http://standardterms.edqm.eu"/>
+              <code value="20049000"/>
+              <display value="Nasal use"/>
+            </coding>
+          </route>
+        </dosage>
+      </MedicationStatement>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="matilda-med-stat-3"/>
+    <resource>
+      <MedicationStatement>
+        <id value="matilda-med-stat-3"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: MedicationStatement</b><a name="matilda-med-stat-3"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource MedicationStatement &quot;matilda-med-stat-3&quot; </p></div><p><b>status</b>: active</p><p><b>medication</b>: <a href="#Medication_9d7be868-8264-4d94-ad04-ef04ecc92e51">See above (Medication/9d7be868-8264-4d94-ad04-ef04ecc92e51: Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray)</a></p><p><b>subject</b>: <a href="#Patient_matilda-patient">See above (Patient/matilda-patient: Matilda Gravitate)</a></p><h3>Dosages</h3><table class="grid"><tr><td>-</td><td><b>Route</b></td></tr><tr><td>*</td><td>Nasal use <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (standardterms.edqm.eu#20049000)</span></td></tr></table></div>
+        </text>
+        <status value="active"/>
+        <medicationReference>
+          <reference value="Medication/9d7be868-8264-4d94-ad04-ef04ecc92e51"/>
+          <display value="Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray"/>
+        </medicationReference>
+        <subject>
+          <reference value="Patient/matilda-patient"/>
+          <display value="Matilda Gravitate"/>
+        </subject>
+        <dosage>
+          <route>
+            <coding>
+              <system value="http://standardterms.edqm.eu"/>
+              <code value="20049000"/>
+              <display value="Nasal use"/>
+            </coding>
+          </route>
+        </dosage>
+      </MedicationStatement>
     </resource>
   </entry>
   <entry>
@@ -360,7 +319,7 @@
       <Medication>
         <id value="fdb5c97f-0a46-41ba-bc34-2efd2ef2f7et"/>
         <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Medication</b><a name="fdb5c97f-0a46-41ba-bc34-2efd2ef2f7et"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Medication &quot;fdb5c97f-0a46-41ba-bc34-2efd2ef2f7et&quot; </p></div><p><b>code</b>: Monuril <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (marketingAuthorizationNumber#PL31654/0006; phpid#0xE857DA811B4A6F3BD57810C45D2EA1ED &quot;Fosfomycin, 3g, Granules for oral solution&quot;; <a href="http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html">WHO ATC</a>#J01XX01 &quot;fosfomycin&quot;)</span></p><p><b>form</b>: Granules for oral solution <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (standardterms.edqm.eu#10112000)</span></p><h3>Ingredients</h3><table class="grid"><tr><td>-</td><td><b>Item[x]</b></td><td><b>Strength</b></td></tr><tr><td>*</td><td>FOSFOMYCIN TROMETAMOL <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html">Unique Ingredient Identifier (UNII)</a>#7FXW6U30GY &quot;FOSFOMYCIN TROMETHAMINE&quot;)</span></td><td>5.631 g<span style="background: LightGoldenRodYellow"> (Details: UCUM code g = 'g')</span>/1 sachet<span style="background: LightGoldenRodYellow"> (Details: UCUM code sachet = 'sachet')</span></td></tr></table></div>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Medication</b><a name="fdb5c97f-0a46-41ba-bc34-2efd2ef2f7et"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Medication &quot;fdb5c97f-0a46-41ba-bc34-2efd2ef2f7et&quot; </p></div><p><b>code</b>: Monuril <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (marketingAuthorizationNumber#PL31654/0006; phpid#0xE857DA811B4A6F3BD57810C45D2EA1ED &quot;Fosfomycin, 3g, Granules for oral solution&quot;; <a href="http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html">WHO ATC</a>#J01XX01 &quot;fosfomycin&quot;)</span></p><p><b>form</b>: Granules for oral solution <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (standardterms.edqm.eu#10112000)</span></p><h3>Ingredients</h3><table class="grid"><tr><td>-</td><td><b>Item[x]</b></td><td><b>Strength</b></td></tr><tr><td>*</td><td>FOSFOMYCIN TROMETAMOL <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html">Unique Ingredient Identifier (UNII)</a>#7FXW6U30GY &quot;FOSFOMYCIN TROMETHAMINE&quot;)</span></td><td>5.631 g<span style="background: LightGoldenRodYellow"> (Details: UCUM code g = 'g')</span>/1 {sachet}<span style="background: LightGoldenRodYellow"> (Details: UCUM code {sachet} = '{sachet}')</span></td></tr></table></div>
         </text>
         <code>
           <coding>
@@ -404,7 +363,60 @@
             <denominator>
               <value value="1"/>
               <system value="http://unitsofmeasure.org"/>
-              <code value="sachet"/>
+              <code value="{sachet}"/>
+            </denominator>
+          </strength>
+        </ingredient>
+      </Medication>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:fdb5c97f-0a46-41ba-bc34-2efd2ef2f7eu"/>
+    <resource>
+      <Medication>
+        <id value="fdb5c97f-0a46-41ba-bc34-2efd2ef2f7eu"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Medication</b><a name="fdb5c97f-0a46-41ba-bc34-2efd2ef2f7eu"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Medication &quot;fdb5c97f-0a46-41ba-bc34-2efd2ef2f7eu&quot; </p></div><p><b>code</b>: Boots Decongestant 0.05% w/v Nasal spray <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (man#16028/0049; phpid#0xF79CABF272B6A7EEF104DDDA44E82716 &quot;Oxymetazoline hydrochloride, 0.5 mg/ 1 ml, Nasal spray, solution&quot;; <a href="http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html">WHO ATC</a>#R01AA05 &quot;oxymetazoline&quot;)</span></p><p><b>form</b>: Nasal spray, solution <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> ()</span></p><h3>Ingredients</h3><table class="grid"><tr><td>-</td><td><b>Item[x]</b></td><td><b>Strength</b></td></tr><tr><td>*</td><td>oxymetazoline hydrochloride <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html">Unique Ingredient Identifier (UNII)</a>#K89MJ0S5VY)</span></td><td>0.05 mg<span style="background: LightGoldenRodYellow"> (Details: UCUM code mg = 'mg')</span>/1 ml<span style="background: LightGoldenRodYellow"> (Details: UCUM code ml = 'ml')</span></td></tr></table></div>
+        </text>
+        <code>
+          <coding>
+            <system value="https://www.gravitatehealth.eu/sid/man"/>
+            <code value="16028/0049"/>
+            <display value="Boots Decongestant 0.05% w/v Nasal spray"/>
+          </coding>
+          <coding>
+            <system value="https://www.who-umc.org/phpid"/>
+            <code value="0xF79CABF272B6A7EEF104DDDA44E82716"/>
+            <display value="Oxymetazoline hydrochloride, 0.5 mg/ 1 ml, Nasal spray, solution"/>
+          </coding>
+          <coding>
+            <system value="http://www.whocc.no/atc"/>
+            <code value="R01AA05"/>
+            <display value="oxymetazoline"/>
+          </coding>
+        </code>
+        <form>
+          <text value="Nasal spray, solution"/>
+        </form>
+        <ingredient>
+          <itemCodeableConcept>
+            <coding>
+              <system value="http://fdasis.nlm.nih.gov"/>
+              <code value="K89MJ0S5VY"/>
+              <display value="oxymetazoline hydrochloride"/>
+            </coding>
+            <text value="oxymetazoline hydrochloride"/>
+          </itemCodeableConcept>
+          <strength>
+            <numerator>
+              <value value="0.05"/>
+              <system value="http://unitsofmeasure.org"/>
+              <code value="mg"/>
+            </numerator>
+            <denominator>
+              <value value="1"/>
+              <system value="http://unitsofmeasure.org"/>
+              <code value="ml"/>
             </denominator>
           </strength>
         </ingredient>
