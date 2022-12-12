@@ -162,12 +162,12 @@
        fhir:index 1;
        fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/MedicationStatement/cecilia-med-stat-2>;
        fhir:Reference.reference [ fhir:value "MedicationStatement/cecilia-med-stat-2" ];
-       fhir:Reference.display [ fhir:value "Metformina+sitagliptina" ]
+       fhir:Reference.display [ fhir:value "Metformine + sitagliptine" ]
      ], [
        fhir:index 2;
        fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/MedicationStatement/cecilia-med-stat-3>;
        fhir:Reference.reference [ fhir:value "MedicationStatement/cecilia-med-stat-3" ];
-       fhir:Reference.display [ fhir:value "Fluticasona 92mcg+vilanterol 22mcg" ]
+       fhir:Reference.display [ fhir:value "Fluticasone 92mcg + vilanterol 22mcg" ]
      ], [
        fhir:index 3;
        fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/MedicationStatement/cecilia-med-stat-4>;

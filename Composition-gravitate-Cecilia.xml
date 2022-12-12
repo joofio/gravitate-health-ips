@@ -84,14 +84,14 @@
 
           <li>
 
-            Metformina+sitagliptina
+            Metformine + sitagliptine
 
           </li>
         
 
           <li>
 
-            Fluticasona 92mcg+vilanterol 22mcg
+            Fluticasone 92mcg + vilanterol 22mcg
 
           </li>
         
@@ -174,11 +174,11 @@
     </entry>
     <entry>
       <reference value="MedicationStatement/cecilia-med-stat-2"/>
-      <display value="Metformina+sitagliptina"/>
+      <display value="Metformine + sitagliptine"/>
     </entry>
     <entry>
       <reference value="MedicationStatement/cecilia-med-stat-3"/>
-      <display value="Fluticasona 92mcg+vilanterol 22mcg"/>
+      <display value="Fluticasone 92mcg + vilanterol 22mcg"/>
     </entry>
     <entry>
       <reference value="MedicationStatement/cecilia-med-stat-4"/>

@@ -84,11 +84,11 @@
         },
         {
           "reference" : "MedicationStatement/cecilia-med-stat-2",
-          "display" : "Metformina+sitagliptina"
+          "display" : "Metformine + sitagliptine"
         },
         {
           "reference" : "MedicationStatement/cecilia-med-stat-3",
-          "display" : "Fluticasona 92mcg+vilanterol 22mcg"
+          "display" : "Fluticasone 92mcg + vilanterol 22mcg"
         },
         {
           "reference" : "MedicationStatement/cecilia-med-stat-4",

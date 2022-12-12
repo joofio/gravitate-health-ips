@@ -11,7 +11,7 @@
   fhir:Resource.id [ fhir:value "gravitate-Pedro"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  \n    <b>Id:</b>\n    gravitate-Pedro\n  <br/>\n  \n    <b>status:</b>\n    final\n  <br/>\n  \n    <b>Type:</b>\n    Patient summary Document\n  <br/>\n  \n    <b>Subject:</b>\n    <a>Pedro Gravitate</a>\n  \n\n  <br/>\n  <b>Sections:</b>\n  <br/>\n\n  <ul>\n    \n      <li>\n\n        Problem List\n\n      </li>\n      <ul>\n\n        \n\n          <li>\n\n            HIV\n\n          </li>\n        \n\n          <li>\n\n            Depression\n\n          </li>\n        \n      </ul>\n\n    \n      <li>\n\n        Medication Summary\n\n      </li>\n      <ul>\n\n        \n\n          <li>\n\n            Dolutegravir/Lamivudina\n\n          </li>\n        \n\n          <li>\n\n            Mirtazapine 15 mg\n\n          </li>\n        \n\n          <li>\n\n            Calcium carbonate 500 mg\n\n          </li>\n        \n\n          <li>\n\n            Cinitrapide 1mg\n\n          </li>\n        \n\n          <li>\n\n            Collagen and magnesium supplements\n\n          </li>\n        \n\n          <li>\n\n            Vitamin c supplements\n\n          </li>\n        \n\n          <li>\n\n            Protein supplements\n\n          </li>\n        \n      </ul>\n\n    \n  </ul>\n</div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  \n    <b>Id:</b>\n    gravitate-Pedro\n  <br/>\n  \n    <b>status:</b>\n    final\n  <br/>\n  \n    <b>Type:</b>\n    Patient summary Document\n  <br/>\n  \n    <b>Subject:</b>\n    <a>Pedro Gravitate</a>\n  \n\n  <br/>\n  <b>Sections:</b>\n  <br/>\n\n  <ul>\n    \n      <li>\n\n        Problem List\n\n      </li>\n      <ul>\n\n        \n\n          <li>\n\n            HIV\n\n          </li>\n        \n\n          <li>\n\n            Depression\n\n          </li>\n        \n      </ul>\n\n    \n      <li>\n\n        Medication Summary\n\n      </li>\n      <ul>\n\n        \n\n          <li>\n\n            Dovato lamivudine and dolutegravir, 300 mg/50 mg\n\n          </li>\n        \n\n          <li>\n\n            Mirtazapine 15 mg\n\n          </li>\n        \n\n          <li>\n\n            Calcium carbonate 500 mg\n\n          </li>\n        \n\n          <li>\n\n            Cinitrapide 1 mg\n\n          </li>\n        \n\n          <li>\n\n            Collagen and magnesium supplements\n\n          </li>\n        \n\n          <li>\n\n            Vitamin C supplements\n\n          </li>\n        \n\n          <li>\n\n            Protein supplements\n\n          </li>\n        \n      </ul>\n\n    \n  </ul>\n</div>"
   ]; # 
   fhir:Composition.status [ fhir:value "final"]; # 
   fhir:Composition.type [
@@ -84,7 +84,7 @@
        fhir:index 0;
        fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/MedicationStatement/pedro-med-stat-1>;
        fhir:Reference.reference [ fhir:value "MedicationStatement/pedro-med-stat-1" ];
-       fhir:Reference.display [ fhir:value "Dolutegravir/Lamivudina" ]
+       fhir:Reference.display [ fhir:value "Dovato lamivudine and dolutegravir, 300 mg/50 mg" ]
      ], [
        fhir:index 1;
        fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/MedicationStatement/pedro-med-stat-2>;
@@ -99,7 +99,7 @@
        fhir:index 3;
        fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/MedicationStatement/pedro-med-stat-4>;
        fhir:Reference.reference [ fhir:value "MedicationStatement/pedro-med-stat-4" ];
-       fhir:Reference.display [ fhir:value "Cinitrapide 1mg" ]
+       fhir:Reference.display [ fhir:value "Cinitrapide 1 mg" ]
      ], [
        fhir:index 4;
        fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/MedicationStatement/pedro-med-stat-5>;
@@ -109,7 +109,7 @@
        fhir:index 5;
        fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/MedicationStatement/pedro-med-stat-6>;
        fhir:Reference.reference [ fhir:value "MedicationStatement/pedro-med-stat-6" ];
-       fhir:Reference.display [ fhir:value "Vitamin c supplements" ]
+       fhir:Reference.display [ fhir:value "Vitamin C supplements" ]
      ], [
        fhir:index 6;
        fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/MedicationStatement/pedro-med-stat-7>;

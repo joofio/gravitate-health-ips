@@ -171,7 +171,7 @@
        fhir:index 0;
        fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/MedicationStatement/pedro-med-stat-1>;
        fhir:Reference.reference [ fhir:value "MedicationStatement/pedro-med-stat-1" ];
-       fhir:Reference.display [ fhir:value "Dolutegravir/Lamivudina" ]
+       fhir:Reference.display [ fhir:value "Dovato lamivudine and dolutegravir, 300 mg/50 mg" ]
      ], [
        fhir:index 1;
        fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/MedicationStatement/pedro-med-stat-2>;
@@ -186,7 +186,7 @@
        fhir:index 3;
        fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/MedicationStatement/pedro-med-stat-4>;
        fhir:Reference.reference [ fhir:value "MedicationStatement/pedro-med-stat-4" ];
-       fhir:Reference.display [ fhir:value "Cinitrapide 1mg" ]
+       fhir:Reference.display [ fhir:value "Cinitrapide 1 mg" ]
      ], [
        fhir:index 4;
        fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/MedicationStatement/pedro-med-stat-5>;
@@ -196,7 +196,7 @@
        fhir:index 5;
        fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/MedicationStatement/pedro-med-stat-6>;
        fhir:Reference.reference [ fhir:value "MedicationStatement/pedro-med-stat-6" ];
-       fhir:Reference.display [ fhir:value "Vitamin c supplements" ]
+       fhir:Reference.display [ fhir:value "Vitamin C supplements" ]
      ], [
        fhir:index 6;
        fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/MedicationStatement/pedro-med-stat-7>;
@@ -531,7 +531,7 @@
   fhir:Resource.id [ fhir:value "9d7be868-8264-4d94-ad04-ef04ecc92e52"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Medication</b><a name=\"9d7be868-8264-4d94-ad04-ef04ecc92e52\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Medication &quot;9d7be868-8264-4d94-ad04-ef04ecc92e52&quot; </p></div><p><b>code</b>: Dovato 50 mg/300 mg 30 tablets <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (marketingAuthorizationNumber#EU/1/19/1370/001; phpid#0x073AF2E5B92AE19E8B67635AFFB3D6CA &quot;lamivudine and dolutegravir, 50 mg/300 mg, tablets&quot;; SNOMED CT#13884911000001102 &quot;Dovato 50 mg/300 mg tablet&quot;; <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html\">WHO ATC</a>#J05AR25 &quot;lamivudine and dolutegravir&quot;)</span></p><p><b>form</b>: Coated tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#10220000)</span></p><blockquote><p><b>ingredient</b></p><p><b>item</b>: lamivudine <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#2T8Q726O95)</span></p><p><b>strength</b>: 50 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mg = 'mg')</span>/1 tablet<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code tablet = 'tablet')</span></p></blockquote><blockquote><p><b>ingredient</b></p><p><b>item</b>: dolutegravir <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#DKO1W9H7M1)</span></p><p><b>strength</b>: 300 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mg = 'mg')</span>/1 tablet<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code tablet = 'tablet')</span></p></blockquote></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Medication</b><a name=\"9d7be868-8264-4d94-ad04-ef04ecc92e52\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Medication &quot;9d7be868-8264-4d94-ad04-ef04ecc92e52&quot; </p></div><p><b>code</b>: Dovato 50 mg/300 mg 30 tablets <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (marketingAuthorizationNumber#EU/1/19/1370/001; phpid#0x073AF2E5B92AE19E8B67635AFFB3D6CA &quot;lamivudine and dolutegravir, 300 mg/50 mg, tablets&quot;; SNOMED CT#13884911000001102 &quot;Dovato 50 mg/300 mg tablet&quot;; <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html\">WHO ATC</a>#J05AR25 &quot;lamivudine and dolutegravir&quot;)</span></p><p><b>form</b>: Coated tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#10220000)</span></p><blockquote><p><b>ingredient</b></p><p><b>item</b>: lamivudine <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#2T8Q726O95)</span></p><p><b>strength</b>: 300 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mg = 'mg')</span>/1 tablet<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code tablet = 'tablet')</span></p></blockquote><blockquote><p><b>ingredient</b></p><p><b>item</b>: dolutegravir <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#DKO1W9H7M1)</span></p><p><b>strength</b>: 50 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mg = 'mg')</span>/1 tablet<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code tablet = 'tablet')</span></p></blockquote></div>"
   ]; # 
   fhir:Medication.code [
      fhir:CodeableConcept.coding [
@@ -543,7 +543,7 @@
        fhir:index 1;
        fhir:Coding.system [ fhir:value "https://www.who-umc.org/phpid" ];
        fhir:Coding.code [ fhir:value "0x073AF2E5B92AE19E8B67635AFFB3D6CA" ];
-       fhir:Coding.display [ fhir:value "lamivudine and dolutegravir, 50 mg/300 mg, tablets" ]
+       fhir:Coding.display [ fhir:value "lamivudine and dolutegravir, 300 mg/50 mg, tablets" ]
      ], [
        fhir:index 2;
        fhir:Coding.system [ fhir:value "http://snomed.info/sct/83821000000107" ];
@@ -577,7 +577,7 @@
      ];
      fhir:Medication.ingredient.strength [
        fhir:Ratio.numerator [
-         fhir:Quantity.value [ fhir:value "50"^^xsd:decimal ];
+         fhir:Quantity.value [ fhir:value "300"^^xsd:decimal ];
          fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ];
          fhir:Quantity.code [ fhir:value "mg" ]
        ];
@@ -600,7 +600,7 @@
      ];
      fhir:Medication.ingredient.strength [
        fhir:Ratio.numerator [
-         fhir:Quantity.value [ fhir:value "300"^^xsd:decimal ];
+         fhir:Quantity.value [ fhir:value "50"^^xsd:decimal ];
          fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ];
          fhir:Quantity.code [ fhir:value "mg" ]
        ];

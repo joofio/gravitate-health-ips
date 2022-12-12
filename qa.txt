@@ -3,8 +3,8 @@
 
 err = 66, warn = 39, info = 144
 IG Publisher Version: 1.2.23
-Generated Mon Dec 12 15:46:17 UTC 2022. FHIR version 4.0.1 for hl7.eu.fhir.gh-ips#0.1.0 (canonical = http://hl7.eu/fhir/ig/gravitate-health-ips)
- Build Errors : 197 / 8 / 0
+Generated Mon Dec 12 16:08:54 UTC 2022. FHIR version 4.0.1 for hl7.eu.fhir.gh-ips#0.1.0 (canonical = http://hl7.eu/fhir/ig/gravitate-health-ips)
+ Build Errors : 209 / 8 / 0
  /github/workspace/fsh-generated/resources/Bundle-gravitate-Cecilia : 4 / 16 / 22
  /github/workspace/fsh-generated/resources/Bundle-gravitate-Matilda : 11 / 8 / 16
  /github/workspace/fsh-generated/resources/Bundle-gravitate-Pedro : 22 / 0 / 41
@@ -18,6 +18,7 @@ Generated Mon Dec 12 15:46:17 UTC 2022. FHIR version 4.0.1 for hl7.eu.fhir.gh-ip
  /github/workspace/fsh-generated/resources/Composition-gravitate-Pedro : 11 / 0 / 1
  /github/workspace/fsh-generated/resources/Composition-gravitate-helen : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Composition-gravitate-ips-1 : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/Composition-gravitate-maria : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Composition-ips-example-1 : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Composition-ips-example-2 : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ImplementationGuide-hl7.eu.fhir.gh-ips : 0 / 0 / 1
@@ -159,6 +160,16 @@ ERROR: /github/workspace/output/Composition-gravitate-ips-1.ttl.html#/html/body/
 ERROR: /github/workspace/output/Composition-gravitate-ips-1.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 134, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
 ERROR: /github/workspace/output/Composition-gravitate-ips-1.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
 ERROR: /github/workspace/output/Composition-gravitate-ips-1.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 134, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/Composition-gravitate-maria.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 120, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/Composition-gravitate-maria.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 136, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/Composition-gravitate-maria.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/Composition-gravitate-maria.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 132, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/Composition-gravitate-maria.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/Composition-gravitate-maria.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 134, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/Composition-gravitate-maria.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/Composition-gravitate-maria.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 134, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/Composition-gravitate-maria.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/Composition-gravitate-maria.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 134, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
 ERROR: /github/workspace/output/Composition-ips-example-1.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 120, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
 ERROR: /github/workspace/output/Composition-ips-example-1.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 136, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
 ERROR: /github/workspace/output/Composition-ips-example-1.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
@@ -205,6 +216,8 @@ ERROR: /github/workspace/output/QuestionnaireResponse-QuestionnaireResponse-exam
 ERROR: /github/workspace/output/QuestionnaireResponse-QuestionnaireResponse-example.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 134, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
 ERROR: /github/workspace/output/SampleData.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
 ERROR: /github/workspace/output/SampleData.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 132, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/SampleData.html#/html/body/div/div/div/div/div/ul/li/a at Line 197, column 8: The link 'Composition-5702fd1d-dd26-402e-a7c0-7629a5d9bba1.html' for "Helen (GB)" cannot be resolved
+ERROR: /github/workspace/output/SampleData.html#/html/body/div/div/div/div/div/ul/li/a at Line 200, column 8: The link 'Composition-2fa5b223-ebce-4f39-9c66-5dc014f73572.html' for "Maria (NOR)" cannot be resolved
 ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
 ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 132, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
 ERROR: /github/workspace/output/connections.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
@@ -403,6 +416,7 @@ ERROR: Composition/gravitate-Pedro: Composition.section[1].entry[6]: Unable to r
 == fsh-generated/resources/Composition-gravitate-helen.json ==
 == fsh-generated/resources/Composition-gravitate-ips-1.json ==
 WARNING: Composition/gravitate-ips-1: Composition.section[3].code.coding[0]: The display "History of pregnancies" is not a valid display for the code {http://loinc.org}10162-6 - should be one of ['History of pregnancies Narrative', 'Pregnancies Hx', '', '历史' (zh-CN), '史' (zh-CN), '病史 历史纪录与体格检查 历史纪录与体格检查.历史记录' (zh-CN), '历史纪录与体格检查.历史记录类' (zh-CN), '历史纪录与体格检查.历史记录类别' (zh-CN), '历史纪录与体格检查.病史' (zh-CN), '历史纪录与体格检查.病史类' (zh-CN), '历史纪录与体格检查.病史类别' (zh-CN), '历史纪录与体格检查.病史记录' (zh-CN), '历史纪录与体格检查.病史记录类' (zh-CN), '历史纪录与体格检查.病史记录类别' (zh-CN), '历史纪录与体格检查小节.历史记录' (zh-CN), '历史纪录与体格检查小节.历史记录类' (zh-CN), '历史纪录与体格检查小节.历史记录类别' (zh-CN), '历史纪录与体格检查小节.病史' (zh-CN), '历史纪录与体格检查小节.病史类' (zh-CN), '历史纪录与体格检查小节.病史类别 历史纪录与体格检查小节 叙述' (zh-CN), '叙述性文字' (zh-CN), '报告' (zh-CN), '报告型' (zh-CN), '文字叙述' (zh-CN), '文本叙述型' (zh-CN), '文本描述' (zh-CN), '文本描述型 怀孕' (zh-CN), '怀孕期' (zh-CN), '妊娠期' (zh-CN), '妊娠类' (zh-CN), '妊娠（复数） 怀孕史' (zh-CN), '妊娠历史 时刻' (zh-CN), '随机' (zh-CN), '随意' (zh-CN), '瞬间 病史与体格检查' (zh-CN), 'Anamnesi Apparato riproduttore Punto nel tempo (episodio) Storia' (it-IT), 'Anamnesi' (it-IT), 'Акушерский анамнез История Описательный Точка во времени' (ru-RU), 'Момент' (ru-RU), 'anamnese' (nl-NL)] (from http://tx.fhir.org/r4) for 'http://loinc.org#10162-6'
+== fsh-generated/resources/Composition-gravitate-maria.json ==
 == fsh-generated/resources/Composition-ips-example-1.json ==
 == fsh-generated/resources/Composition-ips-example-2.json ==
 == fsh-generated/resources/ImplementationGuide-hl7.eu.fhir.gh-ips.json ==
