@@ -70,7 +70,7 @@
           </text>
           <entry>
             <reference value="MedicationStatement/pedro-med-stat-1"/>
-            <display value="Dolutegravir/Lamivudina"/>
+            <display value="Dovato lamivudine and dolutegravir, 300 mg/50 mg"/>
           </entry>
           <entry>
             <reference value="MedicationStatement/pedro-med-stat-2"/>
@@ -82,7 +82,7 @@
           </entry>
           <entry>
             <reference value="MedicationStatement/pedro-med-stat-4"/>
-            <display value="Cinitrapide 1mg"/>
+            <display value="Cinitrapide 1 mg"/>
           </entry>
           <entry>
             <reference value="MedicationStatement/pedro-med-stat-5"/>
@@ -90,7 +90,7 @@
           </entry>
           <entry>
             <reference value="MedicationStatement/pedro-med-stat-6"/>
-            <display value="Vitamin c supplements"/>
+            <display value="Vitamin C supplements"/>
           </entry>
           <entry>
             <reference value="MedicationStatement/pedro-med-stat-7"/>
@@ -421,7 +421,7 @@
       <Medication>
         <id value="9d7be868-8264-4d94-ad04-ef04ecc92e52"/>
         <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Medication</b><a name="9d7be868-8264-4d94-ad04-ef04ecc92e52"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Medication &quot;9d7be868-8264-4d94-ad04-ef04ecc92e52&quot; </p></div><p><b>code</b>: Dovato 50 mg/300 mg 30 tablets <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (marketingAuthorizationNumber#EU/1/19/1370/001; phpid#0x073AF2E5B92AE19E8B67635AFFB3D6CA &quot;lamivudine and dolutegravir, 50 mg/300 mg, tablets&quot;; SNOMED CT#13884911000001102 &quot;Dovato 50 mg/300 mg tablet&quot;; <a href="http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html">WHO ATC</a>#J05AR25 &quot;lamivudine and dolutegravir&quot;)</span></p><p><b>form</b>: Coated tablet <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (standardterms.edqm.eu#10220000)</span></p><blockquote><p><b>ingredient</b></p><p><b>item</b>: lamivudine <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html">Unique Ingredient Identifier (UNII)</a>#2T8Q726O95)</span></p><p><b>strength</b>: 50 mg<span style="background: LightGoldenRodYellow"> (Details: UCUM code mg = 'mg')</span>/1 tablet<span style="background: LightGoldenRodYellow"> (Details: UCUM code tablet = 'tablet')</span></p></blockquote><blockquote><p><b>ingredient</b></p><p><b>item</b>: dolutegravir <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html">Unique Ingredient Identifier (UNII)</a>#DKO1W9H7M1)</span></p><p><b>strength</b>: 300 mg<span style="background: LightGoldenRodYellow"> (Details: UCUM code mg = 'mg')</span>/1 tablet<span style="background: LightGoldenRodYellow"> (Details: UCUM code tablet = 'tablet')</span></p></blockquote></div>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Medication</b><a name="9d7be868-8264-4d94-ad04-ef04ecc92e52"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Medication &quot;9d7be868-8264-4d94-ad04-ef04ecc92e52&quot; </p></div><p><b>code</b>: Dovato 50 mg/300 mg 30 tablets <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (marketingAuthorizationNumber#EU/1/19/1370/001; phpid#0x073AF2E5B92AE19E8B67635AFFB3D6CA &quot;lamivudine and dolutegravir, 300 mg/50 mg, tablets&quot;; SNOMED CT#13884911000001102 &quot;Dovato 50 mg/300 mg tablet&quot;; <a href="http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html">WHO ATC</a>#J05AR25 &quot;lamivudine and dolutegravir&quot;)</span></p><p><b>form</b>: Coated tablet <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (standardterms.edqm.eu#10220000)</span></p><blockquote><p><b>ingredient</b></p><p><b>item</b>: lamivudine <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html">Unique Ingredient Identifier (UNII)</a>#2T8Q726O95)</span></p><p><b>strength</b>: 300 mg<span style="background: LightGoldenRodYellow"> (Details: UCUM code mg = 'mg')</span>/1 tablet<span style="background: LightGoldenRodYellow"> (Details: UCUM code tablet = 'tablet')</span></p></blockquote><blockquote><p><b>ingredient</b></p><p><b>item</b>: dolutegravir <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html">Unique Ingredient Identifier (UNII)</a>#DKO1W9H7M1)</span></p><p><b>strength</b>: 50 mg<span style="background: LightGoldenRodYellow"> (Details: UCUM code mg = 'mg')</span>/1 tablet<span style="background: LightGoldenRodYellow"> (Details: UCUM code tablet = 'tablet')</span></p></blockquote></div>
         </text>
         <code>
           <coding>
@@ -432,7 +432,7 @@
           <coding>
             <system value="https://www.who-umc.org/phpid"/>
             <code value="0x073AF2E5B92AE19E8B67635AFFB3D6CA"/>
-            <display value="lamivudine and dolutegravir, 50 mg/300 mg, tablets"/>
+            <display value="lamivudine and dolutegravir, 300 mg/50 mg, tablets"/>
           </coding>
           <coding>
             <system value="http://snomed.info/sct/83821000000107"/>
@@ -463,7 +463,7 @@
           </itemCodeableConcept>
           <strength>
             <numerator>
-              <value value="50"/>
+              <value value="300"/>
               <system value="http://unitsofmeasure.org"/>
               <code value="mg"/>
             </numerator>
@@ -485,7 +485,7 @@
           </itemCodeableConcept>
           <strength>
             <numerator>
-              <value value="300"/>
+              <value value="50"/>
               <system value="http://unitsofmeasure.org"/>
               <code value="mg"/>
             </numerator>

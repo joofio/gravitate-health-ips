@@ -63,7 +63,7 @@
 
           <li>
 
-            Dolutegravir/Lamivudina
+            Dovato lamivudine and dolutegravir, 300 mg/50 mg
 
           </li>
         
@@ -84,7 +84,7 @@
 
           <li>
 
-            Cinitrapide 1mg
+            Cinitrapide 1 mg
 
           </li>
         
@@ -98,7 +98,7 @@
 
           <li>
 
-            Vitamin c supplements
+            Vitamin C supplements
 
           </li>
         
@@ -169,7 +169,7 @@
     </text>
     <entry>
       <reference value="MedicationStatement/pedro-med-stat-1"/>
-      <display value="Dolutegravir/Lamivudina"/>
+      <display value="Dovato lamivudine and dolutegravir, 300 mg/50 mg"/>
     </entry>
     <entry>
       <reference value="MedicationStatement/pedro-med-stat-2"/>
@@ -181,7 +181,7 @@
     </entry>
     <entry>
       <reference value="MedicationStatement/pedro-med-stat-4"/>
-      <display value="Cinitrapide 1mg"/>
+      <display value="Cinitrapide 1 mg"/>
     </entry>
     <entry>
       <reference value="MedicationStatement/pedro-med-stat-5"/>
@@ -189,7 +189,7 @@
     </entry>
     <entry>
       <reference value="MedicationStatement/pedro-med-stat-6"/>
-      <display value="Vitamin c supplements"/>
+      <display value="Vitamin C supplements"/>
     </entry>
     <entry>
       <reference value="MedicationStatement/pedro-med-stat-7"/>

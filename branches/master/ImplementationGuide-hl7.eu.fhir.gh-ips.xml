@@ -11,7 +11,7 @@
   <name value="GhR4ImplementationGuide"/>
   <title value="Gravitate Health FHIR Implementation Guide (FHIR R4)"/>
   <status value="active"/>
-  <date value="2022-12-12T15:45:40+00:00"/>
+  <date value="2022-12-12T16:08:21+00:00"/>
   <contact>
     <name value="Gravitate Health Project"/>
     <telecom>
@@ -515,8 +515,8 @@
       <reference>
         <reference value="Composition/gravitate-Matilda"/>
       </reference>
-      <name value="Matilda Gravitate's IPS Composition"/>
-      <description value="Example of International Patient Summary for Matilda Gravitate"/>
+      <name value="[Composition] Matilda Gravitate's IPS"/>
+      <description value="Example of International Patient Summary Composition for Matilda Gravitate"/>
       <exampleBoolean value="true"/>
     </resource>
     <resource>
@@ -603,6 +603,17 @@
       </reference>
       <name value="IPS Example 3 Document"/>
       <description value="Example of International Patient Summary for Gravitate"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Composition"/>
+      </extension>
+      <reference>
+        <reference value="Composition/gravitate-maria"/>
+      </reference>
+      <name value="[Composition] Maria Gravitate's IPS"/>
+      <description value="Example of International Patient Summary Composition for Maria Gravitate"/>
       <exampleBoolean value="true"/>
     </resource>
     <resource>

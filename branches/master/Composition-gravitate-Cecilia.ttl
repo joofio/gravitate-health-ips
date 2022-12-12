@@ -11,7 +11,7 @@
   fhir:Resource.id [ fhir:value "gravitate-Cecilia"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  \n    <b>Id:</b>\n    gravitate-Cecilia\n  <br/>\n  \n    <b>status:</b>\n    final\n  <br/>\n  \n    <b>Type:</b>\n    Patient summary Document\n  <br/>\n  \n    <b>Subject:</b>\n    <a>Cecilia Gravitate</a>\n  \n\n  <br/>\n  <b>Sections:</b>\n  <br/>\n\n  <ul>\n    \n      <li>\n\n        Problem List\n\n      </li>\n      <ul>\n\n        \n\n          <li>\n\n            COPD\n\n          </li>\n        \n\n          <li>\n\n            Diabetese Type 2\n\n          </li>\n        \n\n          <li>\n\n            Osteoporosis\n\n          </li>\n        \n\n          <li>\n\n            Congestive Heart Failure\n\n          </li>\n        \n      </ul>\n\n    \n      <li>\n\n        Medication Summary\n\n      </li>\n      <ul>\n\n        \n\n          <li>\n\n            Fosamax 70 mg tablets\n\n          </li>\n        \n\n          <li>\n\n            Metformina+sitagliptina\n\n          </li>\n        \n\n          <li>\n\n            Fluticasona 92mcg+vilanterol 22mcg\n\n          </li>\n        \n\n          <li>\n\n            Digoxin\n\n          </li>\n        \n      </ul>\n\n    \n  </ul>\n</div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  \n    <b>Id:</b>\n    gravitate-Cecilia\n  <br/>\n  \n    <b>status:</b>\n    final\n  <br/>\n  \n    <b>Type:</b>\n    Patient summary Document\n  <br/>\n  \n    <b>Subject:</b>\n    <a>Cecilia Gravitate</a>\n  \n\n  <br/>\n  <b>Sections:</b>\n  <br/>\n\n  <ul>\n    \n      <li>\n\n        Problem List\n\n      </li>\n      <ul>\n\n        \n\n          <li>\n\n            COPD\n\n          </li>\n        \n\n          <li>\n\n            Diabetese Type 2\n\n          </li>\n        \n\n          <li>\n\n            Osteoporosis\n\n          </li>\n        \n\n          <li>\n\n            Congestive Heart Failure\n\n          </li>\n        \n      </ul>\n\n    \n      <li>\n\n        Medication Summary\n\n      </li>\n      <ul>\n\n        \n\n          <li>\n\n            Fosamax 70 mg tablets\n\n          </li>\n        \n\n          <li>\n\n            Metformine + sitagliptine\n\n          </li>\n        \n\n          <li>\n\n            Fluticasone 92mcg + vilanterol 22mcg\n\n          </li>\n        \n\n          <li>\n\n            Digoxin\n\n          </li>\n        \n      </ul>\n\n    \n  </ul>\n</div>"
   ]; # 
   fhir:Composition.status [ fhir:value "final"]; # 
   fhir:Composition.type [
@@ -99,12 +99,12 @@
        fhir:index 1;
        fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/MedicationStatement/cecilia-med-stat-2>;
        fhir:Reference.reference [ fhir:value "MedicationStatement/cecilia-med-stat-2" ];
-       fhir:Reference.display [ fhir:value "Metformina+sitagliptina" ]
+       fhir:Reference.display [ fhir:value "Metformine + sitagliptine" ]
      ], [
        fhir:index 2;
        fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/MedicationStatement/cecilia-med-stat-3>;
        fhir:Reference.reference [ fhir:value "MedicationStatement/cecilia-med-stat-3" ];
-       fhir:Reference.display [ fhir:value "Fluticasona 92mcg+vilanterol 22mcg" ]
+       fhir:Reference.display [ fhir:value "Fluticasone 92mcg + vilanterol 22mcg" ]
      ], [
        fhir:index 3;
        fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/MedicationStatement/cecilia-med-stat-4>;
