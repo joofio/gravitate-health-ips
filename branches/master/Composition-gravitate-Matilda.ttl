@@ -31,7 +31,8 @@
   fhir:Composition.date [ fhir:value "2018-07-10T15:22:00+02:00"^^xsd:dateTime]; # 
   fhir:Composition.author [
      fhir:index 0;
-     fhir:Reference.reference [ fhir:value "urn:uuid:45cd0bd4-f685-4117-a9f0-5c53fffb7266" ];
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Practitioner/matilda-pract>;
+     fhir:Reference.reference [ fhir:value "Practitioner/matilda-pract" ];
      fhir:Reference.display [ fhir:value "Dr. Ana Lopez" ]
   ]; # 
   fhir:Composition.title [ fhir:value "Patient Summary (Matilda Gravitate)"]; # 
@@ -54,7 +55,8 @@
      ];
      fhir:Composition.section.entry [
        fhir:index 0;
-       fhir:Reference.reference [ fhir:value "urn:uuid:de06df6b-0967-4b01-822b-7cfeea970aa7" ];
+       fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Condition/matilda-cond-1>;
+       fhir:Reference.reference [ fhir:value "Condition/matilda-cond-1" ];
        fhir:Reference.display [ fhir:value "Crohn's disease" ]
      ]
   ], [
@@ -75,15 +77,18 @@
      ];
      fhir:Composition.section.entry [
        fhir:index 0;
-       fhir:Reference.reference [ fhir:value "urn:uuid:18eb9898-dea7-4c5e-b097-e507e011747b" ];
+       fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/MedicationStatement/matilda-med-stat-1>;
+       fhir:Reference.reference [ fhir:value "MedicationStatement/matilda-med-stat-1" ];
        fhir:Reference.display [ fhir:value "Humira 40 mg" ]
      ], [
        fhir:index 1;
-       fhir:Reference.reference [ fhir:value "urn:uuid:c90b943a-3d8e-4f14-b56d-5c5c208b2065" ];
+       fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/MedicationStatement/matilda-med-stat-2>;
+       fhir:Reference.reference [ fhir:value "MedicationStatement/matilda-med-stat-2" ];
        fhir:Reference.display [ fhir:value "Paracetamol 500 mg" ]
      ], [
        fhir:index 2;
-       fhir:Reference.reference [ fhir:value "urn:uuid:fbc29713-c2bc-4ebd-9422-8a8326d5f908" ];
+       fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/MedicationStatement/matilda-med-stat-3>;
+       fhir:Reference.reference [ fhir:value "MedicationStatement/matilda-med-stat-3" ];
        fhir:Reference.display [ fhir:value "Pentasa 1g mesalazine" ]
      ]
   ] . # 

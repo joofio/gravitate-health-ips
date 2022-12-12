@@ -18,51 +18,51 @@
   fhir:Bundle.timestamp [ fhir:value "2021-04-18T09:22:00+02:00"^^xsd:dateTime]; # 
   fhir:Bundle.entry [
      fhir:index 0;
-     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:5702fd1d-dd26-402e-a7c0-7629a5d9bba1" ];
-     fhir:Bundle.entry.resource <urn:uuid:5702fd1d-dd26-402e-a7c0-7629a5d9bba1>
+     fhir:Bundle.entry.fullUrl [ fhir:value "matilda-comp" ];
+     fhir:Bundle.entry.resource <matilda-comp>
   ], [
      fhir:index 1;
      fhir:Bundle.entry.fullUrl [ fhir:value "matilda-patient" ];
      fhir:Bundle.entry.resource <matilda-patient>
   ], [
      fhir:index 2;
-     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:45cd0bd4-f685-4117-a9f0-5c53fffb7266" ];
-     fhir:Bundle.entry.resource <urn:uuid:45cd0bd4-f685-4117-a9f0-5c53fffb7266>
+     fhir:Bundle.entry.fullUrl [ fhir:value "matilda-pract" ];
+     fhir:Bundle.entry.resource <matilda-pract>
   ], [
      fhir:index 3;
-     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:cb6e84fa-4302-4569-ac1c-6b1b32507d16" ];
-     fhir:Bundle.entry.resource <urn:uuid:cb6e84fa-4302-4569-ac1c-6b1b32507d16>
+     fhir:Bundle.entry.fullUrl [ fhir:value "matilda-cond-1" ];
+     fhir:Bundle.entry.resource <matilda-cond-1>
   ], [
      fhir:index 4;
-     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:de06df6b-0967-4b01-822b-7cfeea970aa7" ];
-     fhir:Bundle.entry.resource <urn:uuid:de06df6b-0967-4b01-822b-7cfeea970aa7>
+     fhir:Bundle.entry.fullUrl [ fhir:value "matilda-med-stat-1" ];
+     fhir:Bundle.entry.resource <matilda-med-stat-1>
   ], [
      fhir:index 5;
-     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:18eb9898-dea7-4c5e-b097-e507e011747b" ];
-     fhir:Bundle.entry.resource <urn:uuid:18eb9898-dea7-4c5e-b097-e507e011747b>
+     fhir:Bundle.entry.fullUrl [ fhir:value "matilda-med-stat-2" ];
+     fhir:Bundle.entry.resource <matilda-med-stat-2>
   ], [
      fhir:index 6;
-     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:c90b943a-3d8e-4f14-b56d-5c5c208b2065" ];
-     fhir:Bundle.entry.resource <urn:uuid:c90b943a-3d8e-4f14-b56d-5c5c208b2065>
+     fhir:Bundle.entry.fullUrl [ fhir:value "matilda-med-stat-3" ];
+     fhir:Bundle.entry.resource <matilda-med-stat-3>
   ], [
      fhir:index 7;
-     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:c872135e-f219-4f32-8fd6-7099009abf42" ];
-     fhir:Bundle.entry.resource <urn:uuid:c872135e-f219-4f32-8fd6-7099009abf42>
-  ], [
-     fhir:index 8;
      fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:9d7be868-8264-4d94-ad04-ef04ecc92e51" ];
      fhir:Bundle.entry.resource <urn:uuid:9d7be868-8264-4d94-ad04-ef04ecc92e51>
   ], [
-     fhir:index 9;
+     fhir:index 8;
      fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:fdb5c97f-0a46-41ba-bc34-2efd2ef2f7et" ];
      fhir:Bundle.entry.resource <urn:uuid:fdb5c97f-0a46-41ba-bc34-2efd2ef2f7et>
+  ], [
+     fhir:index 9;
+     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:fdb5c97f-0a46-41ba-bc34-2efd2ef2f7eu" ];
+     fhir:Bundle.entry.resource <urn:uuid:fdb5c97f-0a46-41ba-bc34-2efd2ef2f7eu>
   ] . # 
 
-<urn:uuid:5702fd1d-dd26-402e-a7c0-7629a5d9bba1> a fhir:Composition;
-  fhir:Resource.id [ fhir:value "gravitate-helen"]; # 
+<matilda-comp> a fhir:Composition;
+  fhir:Resource.id [ fhir:value "gravitate-Matilda"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Composition</b><a name=\"gravitate-helen\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Composition &quot;gravitate-helen&quot; </p></div><p><b>status</b>: final</p><p><b>type</b>: Patient summary Document <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#60591-5)</span></p><p><b>date</b>: 2018-07-10 15:22:00+0200</p><p><b>author</b>: <a href=\"#Practitioner_45cd0bd4-f685-4117-a9f0-5c53fffb7266\">See above (urn:uuid:45cd0bd4-f685-4117-a9f0-5c53fffb7266: Dr. Anna Karlsson)</a></p><p><b>title</b>: Patient Summary (Helen Gravitate)</p><p><b>confidentiality</b>: N</p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Composition</b><a name=\"gravitate-Matilda\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Composition &quot;gravitate-Matilda&quot; </p></div><p><b>status</b>: final</p><p><b>type</b>: Patient summary Document <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#60591-5)</span></p><p><b>date</b>: 2018-07-10 15:22:00+0200</p><p><b>author</b>: <a href=\"#Practitioner_matilda-pract\">See above (Practitioner/matilda-pract: Dr. Ana Lopez)</a></p><p><b>title</b>: Patient Summary (Matilda Gravitate)</p><p><b>confidentiality</b>: N</p></div>"
   ]; # 
   fhir:Composition.status [ fhir:value "final"]; # 
   fhir:Composition.type [
@@ -75,40 +75,21 @@
      ]
   ]; # 
   fhir:Composition.subject [
-     fhir:Reference.reference [ fhir:value "urn:uuid:be61951b-44fc-4853-8822-f9d398193c50" ];
-     fhir:Reference.display [ fhir:value "Helen Gravitate" ]
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Patient/matilda-patient>;
+     fhir:Reference.reference [ fhir:value "Patient/matilda-patient" ];
+     fhir:Reference.display [ fhir:value "Matilda Gravitate" ]
   ]; # 
   fhir:Composition.date [ fhir:value "2018-07-10T15:22:00+02:00"^^xsd:dateTime]; # 
   fhir:Composition.author [
      fhir:index 0;
-     fhir:Reference.reference [ fhir:value "urn:uuid:45cd0bd4-f685-4117-a9f0-5c53fffb7266" ];
-     fhir:Reference.display [ fhir:value "Dr. Anna Karlsson" ]
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Practitioner/matilda-pract>;
+     fhir:Reference.reference [ fhir:value "Practitioner/matilda-pract" ];
+     fhir:Reference.display [ fhir:value "Dr. Ana Lopez" ]
   ]; # 
-  fhir:Composition.title [ fhir:value "Patient Summary (Helen Gravitate)"]; # 
+  fhir:Composition.title [ fhir:value "Patient Summary (Matilda Gravitate)"]; # 
   fhir:Composition.confidentiality [ fhir:value "N"]; # 
   fhir:Composition.section [
      fhir:index 0;
-     fhir:Composition.section.title [ fhir:value "Allergies and Intolerances" ];
-     fhir:Composition.section.code [
-       fhir:CodeableConcept.coding [
-         fhir:index 0;
-         a loinc:48765-2;
-         fhir:Coding.system [ fhir:value "http://loinc.org" ];
-         fhir:Coding.code [ fhir:value "48765-2" ];
-         fhir:Coding.display [ fhir:value "Allergies and adverse reactions Document" ]
-       ]
-     ];
-     fhir:Composition.section.text [
-       fhir:Narrative.status [ fhir:value "generated" ];
-       fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Hay fever (pollen)</li></ul></div>"
-     ];
-     fhir:Composition.section.entry [
-       fhir:index 0;
-       fhir:Reference.reference [ fhir:value "urn:uuid:cb6e84fa-4302-4569-ac1c-6b1b32507d16" ];
-       fhir:Reference.display [ fhir:value "Lactose Intolerance" ]
-     ]
-  ], [
-     fhir:index 1;
      fhir:Composition.section.title [ fhir:value "Problem List" ];
      fhir:Composition.section.code [
        fhir:CodeableConcept.coding [
@@ -121,15 +102,16 @@
      ];
      fhir:Composition.section.text [
        fhir:Narrative.status [ fhir:value "generated" ];
-       fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Diabetes type 1</li></ul></div>"
+       fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Crohn's disease</li></ul></div>"
      ];
      fhir:Composition.section.entry [
        fhir:index 0;
-       fhir:Reference.reference [ fhir:value "urn:uuid:de06df6b-0967-4b01-822b-7cfeea970aa7" ];
-       fhir:Reference.display [ fhir:value "Diabetes type 1" ]
+       fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Condition/matilda-cond-1>;
+       fhir:Reference.reference [ fhir:value "Condition/matilda-cond-1" ];
+       fhir:Reference.display [ fhir:value "Crohn's disease" ]
      ]
   ], [
-     fhir:index 2;
+     fhir:index 1;
      fhir:Composition.section.title [ fhir:value "Medication Summary" ];
      fhir:Composition.section.code [
        fhir:CodeableConcept.coding [
@@ -142,16 +124,23 @@
      ];
      fhir:Composition.section.text [
        fhir:Narrative.status [ fhir:value "generated" ];
-       fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Brand Name</th><th>MAN</th><th>Active Substance</th><th>Common Name</th><th>ATC</th><th>Strength</th><th>Dose Form</th><th>RoA</th></tr></thead><tbody><tr><td>Humalog Mix50 Insulin KwikPen, 3ml pre-fill</td><td>EU/1/96/007/035</td><td>insulin lispro (GFX7QIS1II)</td><td>insulin lispro</td><td>A10AD04</td><td>100 U/ml</td><td>Suspension for injection</td><td>Subcutaneous use</td></tr><tr><td>Monuril 3 g granules for oral solution</td><td>PL31654/0006</td><td>FOSFOMYCIN (2N81MY12TE)</td><td>fosfomycin</td><td>J01XX01</td><td>3 g (as trometamol: 5.631g/sachet)</td><td>Granules for oral solution</td><td>Oral use</td></tr></tbody></table></div>"
+       fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Brand Name</th><th>MAN</th><th>Active Substance</th><th>Common Name</th><th>ATC</th><th>Strength</th><th>Dose Form</th><th>RoA</th></tr></thead><tbody><tr><td>Humalog Mix50 Insulin KwikPen, 3ml pre-fill</td><td>EU/1/96/007/035</td><td>insulin lispro (GFX7QIS1II)</td><td>insulin lispro</td><td>A10AD04</td><td>100 U/ml</td><td>Suspension for injection</td><td>Subcutaneous use</td></tr><tr><td>Monuril 3 g granules for oral solution</td><td>PL31654/0006</td><td>FOSFOMYCIN (2N81MY12TE)</td><td>fosfomycin</td><td>J01XX01</td><td>3 g (as trometamol: 5.631g/sachet)</td><td>Granules for oral solution</td><td>Oral use</td></tr><tr><td>Monuril 3 g granules for oral solution</td><td>PL31654/0006</td><td>FOSFOMYCIN (2N81MY12TE)</td><td>fosfomycin</td><td>J01XX01</td><td>3 g (as trometamol: 5.631g/sachet)</td><td>Granules for oral solution</td><td>Oral use</td></tr></tbody></table></div>"
      ];
      fhir:Composition.section.entry [
        fhir:index 0;
-       fhir:Reference.reference [ fhir:value "urn:uuid:18eb9898-dea7-4c5e-b097-e507e011747b" ];
-       fhir:Reference.display [ fhir:value "Humalog Mix50 Insulin KwikPen, 3ml pre-fill" ]
+       fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/MedicationStatement/matilda-med-stat-1>;
+       fhir:Reference.reference [ fhir:value "MedicationStatement/matilda-med-stat-1" ];
+       fhir:Reference.display [ fhir:value "Humira 40 mg" ]
      ], [
        fhir:index 1;
-       fhir:Reference.reference [ fhir:value "urn:uuid:c90b943a-3d8e-4f14-b56d-5c5c208b2065" ];
-       fhir:Reference.display [ fhir:value "Monuril 3 g granules for oral solution" ]
+       fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/MedicationStatement/matilda-med-stat-2>;
+       fhir:Reference.reference [ fhir:value "MedicationStatement/matilda-med-stat-2" ];
+       fhir:Reference.display [ fhir:value "Paracetamol 500 mg" ]
+     ], [
+       fhir:index 2;
+       fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/MedicationStatement/matilda-med-stat-3>;
+       fhir:Reference.reference [ fhir:value "MedicationStatement/matilda-med-stat-3" ];
+       fhir:Reference.display [ fhir:value "Pentasa 1g mesalazine" ]
      ]
   ] . # 
 
@@ -194,17 +183,17 @@
   fhir:Patient.gender [ fhir:value "female"]; # 
   fhir:Patient.birthDate [ fhir:value "1950-09-01"^^xsd:date] . # 
 
-<urn:uuid:45cd0bd4-f685-4117-a9f0-5c53fffb7266> a fhir:Practitioner;
-  fhir:Resource.id [ fhir:value "45cd0bd4-f685-4117-a9f0-5c53fffb7266"]; # 
+<matilda-pract> a fhir:Practitioner;
+  fhir:Resource.id [ fhir:value "matilda-pract"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Dr. Anne Karlsson</div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Dr. Ana Lopez</div>"
   ]; # 
   fhir:Practitioner.name [
      fhir:index 0;
-     fhir:HumanName.family [ fhir:value "Karlsson" ];
+     fhir:HumanName.family [ fhir:value "Lopez" ];
      fhir:HumanName.given [
-       fhir:value "Anne";
+       fhir:value "Ana";
        fhir:index 0
      ];
      fhir:HumanName.prefix [
@@ -213,45 +202,11 @@
      ]
   ] . # 
 
-<urn:uuid:cb6e84fa-4302-4569-ac1c-6b1b32507d16> a fhir:AllergyIntolerance;
-  fhir:Resource.id [ fhir:value "cb6e84fa-4302-4569-ac1c-6b1b32507d16"]; # 
+<matilda-cond-1> a fhir:Condition;
+  fhir:Resource.id [ fhir:value "matilda-cond-1"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Lactose Intolerance</div>"
-  ]; # 
-  fhir:AllergyIntolerance.clinicalStatus [
-     fhir:CodeableConcept.coding [
-       fhir:index 0;
-       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical" ];
-       fhir:Coding.code [ fhir:value "active" ]
-     ]
-  ]; # 
-  fhir:AllergyIntolerance.verificationStatus [
-     fhir:CodeableConcept.coding [
-       fhir:index 0;
-       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification" ];
-       fhir:Coding.code [ fhir:value "confirmed" ]
-     ]
-  ]; # 
-  fhir:AllergyIntolerance.code [
-     fhir:CodeableConcept.coding [
-       fhir:index 0;
-       a sct:47703008;
-       fhir:Coding.system [ fhir:value "http://snomed.info/sct" ];
-       fhir:Coding.code [ fhir:value "47703008" ];
-       fhir:Coding.display [ fhir:value "Lactose" ]
-     ]
-  ]; # 
-  fhir:AllergyIntolerance.patient [
-     fhir:Reference.reference [ fhir:value "urn:uuid:be61951b-44fc-4853-8822-f9d398193c50" ];
-     fhir:Reference.display [ fhir:value "Helen Gravitate" ]
-  ] . # 
-
-<urn:uuid:de06df6b-0967-4b01-822b-7cfeea970aa7> a fhir:Condition;
-  fhir:Resource.id [ fhir:value "de06df6b-0967-4b01-822b-7cfeea970aa7"]; # 
-  fhir:DomainResource.text [
-     fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Diabetes mellitus type 1 (2015)</div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Crohn's disease</div>"
   ]; # 
   fhir:Condition.clinicalStatus [
      fhir:CodeableConcept.coding [
@@ -263,69 +218,40 @@
   fhir:Condition.code [
      fhir:CodeableConcept.coding [
        fhir:index 0;
-       a sct:46635009;
+       a sct:34000006;
        fhir:Coding.system [ fhir:value "http://snomed.info/sct" ];
-       fhir:Coding.code [ fhir:value "46635009" ];
-       fhir:Coding.display [ fhir:value "Diabetes mellitus type 1" ]
+       fhir:Coding.code [ fhir:value "34000006" ];
+       fhir:Coding.display [ fhir:value "Crohn's disease" ]
      ];
-     fhir:CodeableConcept.text [ fhir:value "Diabetes type 1" ]
+     fhir:CodeableConcept.text [ fhir:value "Crohn's disease" ]
   ]; # 
   fhir:Condition.subject [
-     fhir:Reference.reference [ fhir:value "urn:uuid:be61951b-44fc-4853-8822-f9d398193c50" ];
-     fhir:Reference.display [ fhir:value "Helen Gravitate" ]
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Patient/matilda-patient>;
+     fhir:Reference.reference [ fhir:value "Patient/matilda-patient" ];
+     fhir:Reference.display [ fhir:value "Matilda Gravitate" ]
   ]; # 
   fhir:Condition.onsetDateTime [ fhir:value "2015"^^xsd:gYear]; # 
   fhir:Condition.asserter [
      fhir:Reference.reference [ fhir:value "urn:uuid:45cd0bd4-f685-4117-a9f0-5c53fffb7266" ];
-     fhir:Reference.display [ fhir:value "Dr. Anna Karlsson" ]
+     fhir:Reference.display [ fhir:value "Dr. Ana Lopez" ]
   ] . # 
 
-<urn:uuid:18eb9898-dea7-4c5e-b097-e507e011747b> a fhir:MedicationStatement;
-  fhir:Resource.id [ fhir:value "18eb9898-dea7-4c5e-b097-e507e011747b"]; # 
+<matilda-med-stat-1> a fhir:MedicationStatement;
+  fhir:Resource.id [ fhir:value "matilda-med-stat-1"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Brand Name</th><th>MAN</th><th>Active Substance</th><th>Common Name</th><th>ATC</th><th>Strength</th><th>Dose Form</th><th>RoA</th></tr></thead><tbody><tr><td>Humalog Mix50 Insulin KwikPen, 3ml pre-fill</td><td>EU/1/96/007/035</td><td>insulin lispro (GFX7QIS1II)</td><td>insulin lispro</td><td>A10AD04</td><td>100 U/ml</td><td>Suspension for injection</td><td>Subcutaneous use</td></tr></tbody></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicationStatement</b><a name=\"matilda-med-stat-1\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicationStatement &quot;matilda-med-stat-1&quot; </p></div><p><b>status</b>: active</p><p><b>medication</b>: <a href=\"#Medication_fdb5c97f-0a46-41ba-bc34-2efd2ef2f7et\">See above (Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7et: Monuril 3g granules for oral solution)</a></p><p><b>subject</b>: <a href=\"#Patient_matilda-patient\">See above (Patient/matilda-patient: Matilda Gravitate)</a></p><h3>Dosages</h3><table class=\"grid\"><tr><td>-</td><td><b>Route</b></td></tr><tr><td>*</td><td>Oral use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#20053000)</span></td></tr></table></div>"
   ]; # 
   fhir:MedicationStatement.status [ fhir:value "active"]; # 
   fhir:MedicationStatement.medicationReference [
-     fhir:Reference.reference [ fhir:value "urn:uuid:9d7be868-8264-4d94-ad04-ef04ecc92e50" ];
-     fhir:Reference.display [ fhir:value "Humalog Mix50 Insulin KwikPen, 3ml pre-fill" ]
-  ]; # 
-  fhir:MedicationStatement.subject [
-     fhir:Reference.reference [ fhir:value "urn:uuid:be61951b-44fc-4853-8822-f9d398193c50" ];
-     fhir:Reference.display [ fhir:value "Helen Gravitate" ]
-  ]; # 
-  fhir:MedicationStatement.dosage [
-     fhir:index 0;
-     fhir:Dosage.route [
-       fhir:CodeableConcept.coding [
-         fhir:index 0;
-         fhir:Coding.system [ fhir:value "http://standardterms.edqm.eu" ];
-         fhir:Coding.code [ fhir:value "20066000" ];
-         fhir:Coding.display [ fhir:value "Subcutaneous use" ]
-       ]
-     ]
-  ] . # 
-
-<urn:uuid:c90b943a-3d8e-4f14-b56d-5c5c208b2065> a fhir:MedicationStatement;
-  fhir:Resource.id [ fhir:value "c90b943a-3d8e-4f14-b56d-5c5c208b2065"]; # 
-  fhir:DomainResource.text [
-     fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Brand Name</th><th>MAN</th><th>Active Substance</th><th>Common Name</th><th>ATC</th><th>Strength</th><th>Dose Form</th><th>RoA</th></tr></thead><tbody><tr><td>Monuril 3 g granules for oral solution</td><td>PL31654/0006</td><td>FOSFOMYCIN (2N81MY12TE)</td><td>fosfomycin</td><td>J01XX01</td><td>3 g (as trometamol: 5.631g/sachet)</td><td>Granules for oral solution</td><td>Oral use</td></tr></tbody></table></div>"
-  ]; # 
-  fhir:MedicationStatement.basedOn [
-     fhir:index 0;
-     fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/MedicationStatement/c872135e-f219-4f32-8fd6-7099009abf42>;
-     fhir:Reference.reference [ fhir:value "MedicationStatement/c872135e-f219-4f32-8fd6-7099009abf42" ]
-  ]; # 
-  fhir:MedicationStatement.status [ fhir:value "active"]; # 
-  fhir:MedicationStatement.medicationReference [
-     fhir:Reference.reference [ fhir:value "urn:uuid:fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e3" ];
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7et>;
+     fhir:Reference.reference [ fhir:value "Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7et" ];
      fhir:Reference.display [ fhir:value "Monuril 3g granules for oral solution" ]
   ]; # 
   fhir:MedicationStatement.subject [
-     fhir:Reference.reference [ fhir:value "urn:uuid:be61951b-44fc-4853-8822-f9d398193c50" ];
-     fhir:Reference.display [ fhir:value "Helen Gravitate" ]
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Patient/matilda-patient>;
+     fhir:Reference.reference [ fhir:value "Patient/matilda-patient" ];
+     fhir:Reference.display [ fhir:value "Matilda Gravitate" ]
   ]; # 
   fhir:MedicationStatement.dosage [
      fhir:index 0;
@@ -339,21 +265,62 @@
      ]
   ] . # 
 
-<urn:uuid:c872135e-f219-4f32-8fd6-7099009abf42> a fhir:MedicationRequest;
-  fhir:Resource.id [ fhir:value "c872135e-f219-4f32-8fd6-7099009abf42"]; # 
+<matilda-med-stat-2> a fhir:MedicationStatement;
+  fhir:Resource.id [ fhir:value "matilda-med-stat-2"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicationRequest</b><a name=\"c872135e-f219-4f32-8fd6-7099009abf42\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicationRequest &quot;c872135e-f219-4f32-8fd6-7099009abf42&quot; </p></div><p><b>status</b>: active</p><p><b>intent</b>: order</p><p><b>medication</b>: <a href=\"urn:fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e3\">urn:fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e3: Monuril</a></p><p><b>subject</b>: <a href=\"http://fhir.org/packages/fhir.dicom/Patient/urn:uuid:be61951b-44fc-4853-8822-f9d398193c50\">Patient/urn:uuid:be61951b-44fc-4853-8822-f9d398193c50</a></p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicationStatement</b><a name=\"matilda-med-stat-2\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicationStatement &quot;matilda-med-stat-2&quot; </p></div><p><b>status</b>: active</p><p><b>medication</b>: <a href=\"#Medication_fdb5c97f-0a46-41ba-bc34-2efd2ef2f7eu\">See above (Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7eu: Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray)</a></p><p><b>subject</b>: <a href=\"#Patient_matilda-patient\">See above (Patient/matilda-patient: Matilda Gravitate)</a></p><h3>Dosages</h3><table class=\"grid\"><tr><td>-</td><td><b>Route</b></td></tr><tr><td>*</td><td>Nasal use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#20049000)</span></td></tr></table></div>"
   ]; # 
-  fhir:MedicationRequest.status [ fhir:value "active"]; # 
-  fhir:MedicationRequest.intent [ fhir:value "order"]; # 
-  fhir:MedicationRequest.medicationReference [
-     fhir:Reference.reference [ fhir:value "urn:fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e3" ];
-     fhir:Reference.display [ fhir:value "Monuril" ]
+  fhir:MedicationStatement.status [ fhir:value "active"]; # 
+  fhir:MedicationStatement.medicationReference [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7eu>;
+     fhir:Reference.reference [ fhir:value "Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7eu" ];
+     fhir:Reference.display [ fhir:value "Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray" ]
   ]; # 
-  fhir:MedicationRequest.subject [
-     fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Patient/urn:uuid:be61951b-44fc-4853-8822-f9d398193c50>;
-     fhir:Reference.reference [ fhir:value "Patient/urn:uuid:be61951b-44fc-4853-8822-f9d398193c50" ]
+  fhir:MedicationStatement.subject [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Patient/matilda-patient>;
+     fhir:Reference.reference [ fhir:value "Patient/matilda-patient" ];
+     fhir:Reference.display [ fhir:value "Matilda Gravitate" ]
+  ]; # 
+  fhir:MedicationStatement.dosage [
+     fhir:index 0;
+     fhir:Dosage.route [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://standardterms.edqm.eu" ];
+         fhir:Coding.code [ fhir:value "20049000" ];
+         fhir:Coding.display [ fhir:value "Nasal use" ]
+       ]
+     ]
+  ] . # 
+
+<matilda-med-stat-3> a fhir:MedicationStatement;
+  fhir:Resource.id [ fhir:value "matilda-med-stat-3"]; # 
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicationStatement</b><a name=\"matilda-med-stat-3\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicationStatement &quot;matilda-med-stat-3&quot; </p></div><p><b>status</b>: active</p><p><b>medication</b>: <a href=\"#Medication_9d7be868-8264-4d94-ad04-ef04ecc92e51\">See above (Medication/9d7be868-8264-4d94-ad04-ef04ecc92e51: Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray)</a></p><p><b>subject</b>: <a href=\"#Patient_matilda-patient\">See above (Patient/matilda-patient: Matilda Gravitate)</a></p><h3>Dosages</h3><table class=\"grid\"><tr><td>-</td><td><b>Route</b></td></tr><tr><td>*</td><td>Nasal use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#20049000)</span></td></tr></table></div>"
+  ]; # 
+  fhir:MedicationStatement.status [ fhir:value "active"]; # 
+  fhir:MedicationStatement.medicationReference [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Medication/9d7be868-8264-4d94-ad04-ef04ecc92e51>;
+     fhir:Reference.reference [ fhir:value "Medication/9d7be868-8264-4d94-ad04-ef04ecc92e51" ];
+     fhir:Reference.display [ fhir:value "Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray" ]
+  ]; # 
+  fhir:MedicationStatement.subject [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Patient/matilda-patient>;
+     fhir:Reference.reference [ fhir:value "Patient/matilda-patient" ];
+     fhir:Reference.display [ fhir:value "Matilda Gravitate" ]
+  ]; # 
+  fhir:MedicationStatement.dosage [
+     fhir:index 0;
+     fhir:Dosage.route [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://standardterms.edqm.eu" ];
+         fhir:Coding.code [ fhir:value "20049000" ];
+         fhir:Coding.display [ fhir:value "Nasal use" ]
+       ]
+     ]
   ] . # 
 
 <urn:uuid:9d7be868-8264-4d94-ad04-ef04ecc92e51> a fhir:Medication;
@@ -423,7 +390,7 @@
   fhir:Resource.id [ fhir:value "fdb5c97f-0a46-41ba-bc34-2efd2ef2f7et"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Medication</b><a name=\"fdb5c97f-0a46-41ba-bc34-2efd2ef2f7et\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Medication &quot;fdb5c97f-0a46-41ba-bc34-2efd2ef2f7et&quot; </p></div><p><b>code</b>: Monuril <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (marketingAuthorizationNumber#PL31654/0006; phpid#0xE857DA811B4A6F3BD57810C45D2EA1ED &quot;Fosfomycin, 3g, Granules for oral solution&quot;; <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html\">WHO ATC</a>#J01XX01 &quot;fosfomycin&quot;)</span></p><p><b>form</b>: Granules for oral solution <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#10112000)</span></p><h3>Ingredients</h3><table class=\"grid\"><tr><td>-</td><td><b>Item[x]</b></td><td><b>Strength</b></td></tr><tr><td>*</td><td>FOSFOMYCIN TROMETAMOL <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#7FXW6U30GY &quot;FOSFOMYCIN TROMETHAMINE&quot;)</span></td><td>5.631 g<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code g = 'g')</span>/1 sachet<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code sachet = 'sachet')</span></td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Medication</b><a name=\"fdb5c97f-0a46-41ba-bc34-2efd2ef2f7et\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Medication &quot;fdb5c97f-0a46-41ba-bc34-2efd2ef2f7et&quot; </p></div><p><b>code</b>: Monuril <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (marketingAuthorizationNumber#PL31654/0006; phpid#0xE857DA811B4A6F3BD57810C45D2EA1ED &quot;Fosfomycin, 3g, Granules for oral solution&quot;; <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html\">WHO ATC</a>#J01XX01 &quot;fosfomycin&quot;)</span></p><p><b>form</b>: Granules for oral solution <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#10112000)</span></p><h3>Ingredients</h3><table class=\"grid\"><tr><td>-</td><td><b>Item[x]</b></td><td><b>Strength</b></td></tr><tr><td>*</td><td>FOSFOMYCIN TROMETAMOL <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#7FXW6U30GY &quot;FOSFOMYCIN TROMETHAMINE&quot;)</span></td><td>5.631 g<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code g = 'g')</span>/1 {sachet}<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code {sachet} = '{sachet}')</span></td></tr></table></div>"
   ]; # 
   fhir:Medication.code [
      fhir:CodeableConcept.coding [
@@ -471,7 +438,59 @@
        fhir:Ratio.denominator [
          fhir:Quantity.value [ fhir:value "1"^^xsd:decimal ];
          fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ];
-         fhir:Quantity.code [ fhir:value "sachet" ]
+         fhir:Quantity.code [ fhir:value "{sachet}" ]
+       ]
+     ]
+  ] . # 
+
+<urn:uuid:fdb5c97f-0a46-41ba-bc34-2efd2ef2f7eu> a fhir:Medication;
+  fhir:Resource.id [ fhir:value "fdb5c97f-0a46-41ba-bc34-2efd2ef2f7eu"]; # 
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Medication</b><a name=\"fdb5c97f-0a46-41ba-bc34-2efd2ef2f7eu\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Medication &quot;fdb5c97f-0a46-41ba-bc34-2efd2ef2f7eu&quot; </p></div><p><b>code</b>: Boots Decongestant 0.05% w/v Nasal spray <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (man#16028/0049; phpid#0xF79CABF272B6A7EEF104DDDA44E82716 &quot;Oxymetazoline hydrochloride, 0.5 mg/ 1 ml, Nasal spray, solution&quot;; <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html\">WHO ATC</a>#R01AA05 &quot;oxymetazoline&quot;)</span></p><p><b>form</b>: Nasal spray, solution <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ()</span></p><h3>Ingredients</h3><table class=\"grid\"><tr><td>-</td><td><b>Item[x]</b></td><td><b>Strength</b></td></tr><tr><td>*</td><td>oxymetazoline hydrochloride <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#K89MJ0S5VY)</span></td><td>0.05 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mg = 'mg')</span>/1 ml<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code ml = 'ml')</span></td></tr></table></div>"
+  ]; # 
+  fhir:Medication.code [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "https://www.gravitatehealth.eu/sid/man" ];
+       fhir:Coding.code [ fhir:value "16028/0049" ];
+       fhir:Coding.display [ fhir:value "Boots Decongestant 0.05% w/v Nasal spray" ]
+     ], [
+       fhir:index 1;
+       fhir:Coding.system [ fhir:value "https://www.who-umc.org/phpid" ];
+       fhir:Coding.code [ fhir:value "0xF79CABF272B6A7EEF104DDDA44E82716" ];
+       fhir:Coding.display [ fhir:value "Oxymetazoline hydrochloride, 0.5 mg/ 1 ml, Nasal spray, solution" ]
+     ], [
+       fhir:index 2;
+       fhir:Coding.system [ fhir:value "http://www.whocc.no/atc" ];
+       fhir:Coding.code [ fhir:value "R01AA05" ];
+       fhir:Coding.display [ fhir:value "oxymetazoline" ]
+     ]
+  ]; # 
+  fhir:Medication.form [
+     fhir:CodeableConcept.text [ fhir:value "Nasal spray, solution" ]
+  ]; # 
+  fhir:Medication.ingredient [
+     fhir:index 0;
+     fhir:Medication.ingredient.itemCodeableConcept [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://fdasis.nlm.nih.gov" ];
+         fhir:Coding.code [ fhir:value "K89MJ0S5VY" ];
+         fhir:Coding.display [ fhir:value "oxymetazoline hydrochloride" ]
+       ];
+       fhir:CodeableConcept.text [ fhir:value "oxymetazoline hydrochloride" ]
+     ];
+     fhir:Medication.ingredient.strength [
+       fhir:Ratio.numerator [
+         fhir:Quantity.value [ fhir:value "0.05"^^xsd:decimal ];
+         fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ];
+         fhir:Quantity.code [ fhir:value "mg" ]
+       ];
+       fhir:Ratio.denominator [
+         fhir:Quantity.value [ fhir:value "1"^^xsd:decimal ];
+         fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ];
+         fhir:Quantity.code [ fhir:value "ml" ]
        ]
      ]
   ] . # 

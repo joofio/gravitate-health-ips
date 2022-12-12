@@ -9,7 +9,7 @@
   <type value="document"/>
   <timestamp value="2021-09-03T08:38:00+02:00"/>
   <entry>
-    <fullUrl value="urn:uuid:93ee42d0-4c5f-4bf7-8894-bb21ef80dbc5"/>
+    <fullUrl value="cecilia-comp"/>
     <resource>
       <Composition>
         <id value="gravitate-Cecilia"/>
@@ -97,7 +97,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="urn:uuid:f68aa05c-63e2-4305-992b-a421f743e328"/>
+    <fullUrl value="cecilia-patient"/>
     <resource>
       <Patient>
         <id value="cecilia-patient"/>
@@ -130,7 +130,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="urn:uuid:2153a841-3c69-47cb-948d-1d97ce20eb61"/>
+    <fullUrl value="cecilia-pract"/>
     <resource>
       <Practitioner>
         <id value="cecilia-pract"/>
@@ -151,7 +151,7 @@
       <Condition>
         <id value="cecilia-cond-1"/>
         <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Condition</b><a name="cecilia-cond-1"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Condition &quot;cecilia-cond-1&quot; </p></div><p><b>clinicalStatus</b>: Active <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.0.0/CodeSystem-condition-clinical.html">Condition Clinical Status Codes</a>#active)</span></p><p><b>code</b>: Psoriasis <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#9014002)</span></p><p><b>subject</b>: <a href="#Patient_cecilia-patient">See above (Patient/cecilia-patient: Cecilia Gravitate)</a></p><p><b>asserter</b>: <a href="#Practitioner_cecilia-pract">See above (urn:uuid:2153a841-3c69-47cb-948d-1d97ce20eb61: Dr. Anna Karlsson)</a></p></div>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Condition</b><a name="cecilia-cond-1"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Condition &quot;cecilia-cond-1&quot; </p></div><p><b>clinicalStatus</b>: Active <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.0.0/CodeSystem-condition-clinical.html">Condition Clinical Status Codes</a>#active)</span></p><p><b>code</b>: Psoriasis <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#9014002)</span></p><p><b>subject</b>: <a href="#Patient_cecilia-patient">See above (Patient/cecilia-patient: Cecilia Gravitate)</a></p><p><b>asserter</b>: <a href="urn:uuid:2153a841-3c69-47cb-948d-1d97ce20eb61">urn:uuid:2153a841-3c69-47cb-948d-1d97ce20eb61: Dr. Anna Karlsson</a></p></div>
         </text>
         <clinicalStatus>
           <coding>
