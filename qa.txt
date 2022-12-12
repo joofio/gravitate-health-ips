@@ -3,7 +3,7 @@
 
 err = 6, warn = 14, info = 110
 IG Publisher Version: 1.2.23
-Generated Mon Dec 12 11:40:09 UTC 2022. FHIR version 4.0.1 for hl7.eu.fhir.gh-ips#0.1.0 (canonical = http://hl7.eu/fhir/ig/gravitate-health-ips)
+Generated Mon Dec 12 11:51:28 UTC 2022. FHIR version 4.0.1 for hl7.eu.fhir.gh-ips#0.1.0 (canonical = http://hl7.eu/fhir/ig/gravitate-health-ips)
  Build Errors : 125 / 7 / 0
  /github/workspace/fsh-generated/resources/Bundle-gravitate-helen : 5 / 2 / 17
  /github/workspace/fsh-generated/resources/Bundle-gravitate-ips-1 : 1 / 2 / 21
@@ -14,7 +14,7 @@ Generated Mon Dec 12 11:40:09 UTC 2022. FHIR version 4.0.1 for hl7.eu.fhir.gh-ip
  /github/workspace/fsh-generated/resources/Composition-ips-example-1 : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Composition-ips-example-2 : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ImplementationGuide-hl7.eu.fhir.gh-ips : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire : 0 / 0 / 63
+ /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-example : 0 / 0 / 63
  /github/workspace/fsh-generated/resources/QuestionnaireResponse-QuestionnaireResponse-example : 0 / 1 / 19
 </table>
 == n/a ==
@@ -101,18 +101,18 @@ ERROR: /github/workspace/output/Composition-ips-example-2.ttl.html#/html/body/di
 ERROR: /github/workspace/output/Composition-ips-example-2.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 134, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
 ERROR: /github/workspace/output/Composition-ips-example-2.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
 ERROR: /github/workspace/output/Composition-ips-example-2.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 134, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Questionnaire-Questionnaire-testing.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
-ERROR: /github/workspace/output/Questionnaire-Questionnaire-testing.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 132, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Questionnaire-Questionnaire.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 120, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
-ERROR: /github/workspace/output/Questionnaire-Questionnaire.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 136, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Questionnaire-Questionnaire.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
-ERROR: /github/workspace/output/Questionnaire-Questionnaire.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 132, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Questionnaire-Questionnaire.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
-ERROR: /github/workspace/output/Questionnaire-Questionnaire.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 134, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Questionnaire-Questionnaire.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
-ERROR: /github/workspace/output/Questionnaire-Questionnaire.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 134, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Questionnaire-Questionnaire.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
-ERROR: /github/workspace/output/Questionnaire-Questionnaire.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 134, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-example-testing.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-example-testing.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 132, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-example.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 120, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-example.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 136, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-example.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-example.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 132, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-example.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-example.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 134, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-example.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-example.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 134, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-example.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/Questionnaire-Questionnaire-example.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 134, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
 ERROR: /github/workspace/output/QuestionnaireResponse-QuestionnaireResponse-example.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 120, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
 ERROR: /github/workspace/output/QuestionnaireResponse-QuestionnaireResponse-example.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 136, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
 ERROR: /github/workspace/output/QuestionnaireResponse-QuestionnaireResponse-example.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
@@ -201,69 +201,69 @@ WARNING: Composition/gravitate-ips-1: Composition.section[3].code.coding[0]: The
 == fsh-generated/resources/Composition-ips-example-1.json ==
 == fsh-generated/resources/Composition-ips-example-2.json ==
 == fsh-generated/resources/ImplementationGuide-hl7.eu.fhir.gh-ips.json ==
-== fsh-generated/resources/Questionnaire-Questionnaire.json ==
-INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[1].answerOption[0].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
-INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[1].answerOption[1].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
-INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[1].answerOption[2].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
-INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[1].answerOption[3].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
-INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[2].answerOption[0].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
-INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[2].answerOption[1].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
-INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[2].answerOption[2].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
-INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[2].answerOption[3].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
-INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[3].answerOption[0].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
-INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[3].answerOption[1].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
-INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[3].answerOption[2].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
-INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[4].answerOption[0].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
-INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[4].answerOption[1].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
-INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[4].answerOption[2].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
-INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[4].answerOption[3].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
-INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[5].answerOption[0].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
-INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[5].answerOption[1].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
-INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[5].answerOption[2].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
-INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[5].answerOption[3].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
-INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[6].answerOption[0].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
-INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[6].answerOption[1].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
-INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[6].answerOption[2].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
-INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[7].answerOption[0].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
-INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[7].answerOption[1].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
-INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[7].answerOption[2].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
-INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[8].answerOption[0].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
-INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[8].answerOption[1].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
-INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[8].answerOption[2].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
-INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[9].answerOption[0].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
-INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[9].answerOption[1].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
-INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[9].answerOption[2].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
-INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[9].answerOption[3].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
-INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[11].answerOption[0].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
-INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[11].answerOption[1].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
-INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[11].answerOption[2].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
-INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[11].answerOption[3].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
-INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[12].answerOption[0].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
-INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[12].answerOption[1].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
-INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[12].answerOption[2].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
-INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[12].answerOption[3].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
-INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[13].answerOption[0].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
-INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[13].answerOption[1].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
-INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[13].answerOption[2].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
-INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[13].answerOption[3].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
-INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[14].answerOption[0].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
-INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[14].answerOption[1].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
-INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[14].answerOption[2].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
-INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[15].answerOption[0].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
-INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[15].answerOption[1].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
-INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[15].answerOption[2].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
-INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[16].answerOption[0].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
-INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[16].answerOption[1].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
-INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[16].answerOption[2].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
-INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[17].answerOption[0].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
-INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[17].answerOption[1].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
-INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[17].answerOption[2].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
-INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[18].answerOption[0].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
-INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[18].answerOption[1].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
-INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[18].answerOption[2].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
-INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[19].answerOption[0].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
-INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[19].answerOption[1].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
-INFORMATION: Questionnaire/Questionnaire: Questionnaire.item[19].answerOption[2].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+== fsh-generated/resources/Questionnaire-Questionnaire-example.json ==
+INFORMATION: Questionnaire/Questionnaire-example: Questionnaire.item[1].answerOption[0].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-example: Questionnaire.item[1].answerOption[1].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-example: Questionnaire.item[1].answerOption[2].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-example: Questionnaire.item[1].answerOption[3].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-example: Questionnaire.item[2].answerOption[0].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-example: Questionnaire.item[2].answerOption[1].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-example: Questionnaire.item[2].answerOption[2].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-example: Questionnaire.item[2].answerOption[3].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-example: Questionnaire.item[3].answerOption[0].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-example: Questionnaire.item[3].answerOption[1].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-example: Questionnaire.item[3].answerOption[2].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-example: Questionnaire.item[4].answerOption[0].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-example: Questionnaire.item[4].answerOption[1].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-example: Questionnaire.item[4].answerOption[2].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-example: Questionnaire.item[4].answerOption[3].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-example: Questionnaire.item[5].answerOption[0].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-example: Questionnaire.item[5].answerOption[1].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-example: Questionnaire.item[5].answerOption[2].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-example: Questionnaire.item[5].answerOption[3].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-example: Questionnaire.item[6].answerOption[0].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-example: Questionnaire.item[6].answerOption[1].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-example: Questionnaire.item[6].answerOption[2].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-example: Questionnaire.item[7].answerOption[0].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-example: Questionnaire.item[7].answerOption[1].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-example: Questionnaire.item[7].answerOption[2].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-example: Questionnaire.item[8].answerOption[0].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-example: Questionnaire.item[8].answerOption[1].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-example: Questionnaire.item[8].answerOption[2].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-example: Questionnaire.item[9].answerOption[0].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-example: Questionnaire.item[9].answerOption[1].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-example: Questionnaire.item[9].answerOption[2].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-example: Questionnaire.item[9].answerOption[3].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-example: Questionnaire.item[11].answerOption[0].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-example: Questionnaire.item[11].answerOption[1].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-example: Questionnaire.item[11].answerOption[2].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-example: Questionnaire.item[11].answerOption[3].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-example: Questionnaire.item[12].answerOption[0].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-example: Questionnaire.item[12].answerOption[1].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-example: Questionnaire.item[12].answerOption[2].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-example: Questionnaire.item[12].answerOption[3].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-example: Questionnaire.item[13].answerOption[0].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-example: Questionnaire.item[13].answerOption[1].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-example: Questionnaire.item[13].answerOption[2].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-example: Questionnaire.item[13].answerOption[3].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-example: Questionnaire.item[14].answerOption[0].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-example: Questionnaire.item[14].answerOption[1].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-example: Questionnaire.item[14].answerOption[2].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-example: Questionnaire.item[15].answerOption[0].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-example: Questionnaire.item[15].answerOption[1].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-example: Questionnaire.item[15].answerOption[2].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-example: Questionnaire.item[16].answerOption[0].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-example: Questionnaire.item[16].answerOption[1].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-example: Questionnaire.item[16].answerOption[2].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-example: Questionnaire.item[17].answerOption[0].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-example: Questionnaire.item[17].answerOption[1].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-example: Questionnaire.item[17].answerOption[2].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-example: Questionnaire.item[18].answerOption[0].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-example: Questionnaire.item[18].answerOption[1].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-example: Questionnaire.item[18].answerOption[2].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-example: Questionnaire.item[19].answerOption[0].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-example: Questionnaire.item[19].answerOption[1].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-example: Questionnaire.item[19].answerOption[2].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
 == fsh-generated/resources/QuestionnaireResponse-QuestionnaireResponse-example.json ==
 INFORMATION: QuestionnaireResponse/QuestionnaireResponse-example: QuestionnaireResponse.item[1].answer[0].value.ofType(Coding): Code System URI 'https://system-so-and-so.com' is unknown so the code cannot be validated
 INFORMATION: QuestionnaireResponse/QuestionnaireResponse-example: QuestionnaireResponse.item[2].answer[0].value.ofType(Coding): Code System URI 'https://system-so-and-so.com' is unknown so the code cannot be validated
