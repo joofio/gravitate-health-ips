@@ -11,5 +11,26 @@
     "type" : "Questionnaire",
     "url" : "http://hl7.eu/fhir/ig/gravitate-health-ips/Questionnaire/Questionnaire-example",
     "version" : "0.1.0"
+  },
+  {
+    "id" : "example-persona-profile",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.eu/fhir/ig/gravitate-health-ips/StructureDefinition/example-persona-profile",
+    "version" : "0.1.0",
+    "name" : "PersonaDimension"
+  },
+  {
+    "id" : "PDcategoryVS",
+    "type" : "ValueSet",
+    "url" : "http://hl7.eu/fhir/ig/gravitate-health-ips/ValueSet/PDcategoryVS",
+    "version" : "0.1.0",
+    "name" : "PDcategoryVS"
+  },
+  {
+    "id" : "PDtypeVS",
+    "type" : "ValueSet",
+    "url" : "http://hl7.eu/fhir/ig/gravitate-health-ips/ValueSet/PDtypeVS",
+    "version" : "0.1.0",
+    "name" : "PDtypeVS"
   }
 ]

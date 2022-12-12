@@ -1,6 +1,6 @@
 ﻿<!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<!-- broken links = errors = 64, warn = 47, info = 145, 209 -->
+<!-- broken links = errors = 70, warn = 50, info = 145, 251 -->
 <head>
   <title>GhR4ImplementationGuide : Validation Results</title>
   <link href="fhir.css" rel="stylesheet"/>
@@ -36,13 +36,13 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Validation Results for GhR4ImplementationGuide</h1>
- <p>Generated Mon Dec 12 16:56:20 UTC 2022, FHIR version 4.0.1 for hl7.eu.fhir.gh-ips#0.1.0 (canonical = <a href="http://hl7.eu/fhir/ig/gravitate-health-ips">http://hl7.eu/fhir/ig/gravitate-health-ips</a> (<a href="http://hl7.eu/fhir/ig/gravitate-health-ips/history.html">history</a>)). See <a href="qa.html">Full QA Report</a></p>
+ <p>Generated Mon Dec 12 17:57:43 UTC 2022, FHIR version 4.0.1 for hl7.eu.fhir.gh-ips#0.1.0 (canonical = <a href="http://hl7.eu/fhir/ig/gravitate-health-ips">http://hl7.eu/fhir/ig/gravitate-health-ips</a> (<a href="http://hl7.eu/fhir/ig/gravitate-health-ips/history.html">history</a>)). See <a href="qa.html">Full QA Report</a></p>
 <table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
  <tr><td>Publisher Version:</td><td><span>IG Publisher Version: v1.2.23</span></td></tr>
  <tr><td>Publication Code:</td><td>n/a<span style="color: maroon; font-weight: bold"> </span>. PackageId = hl7.eu.fhir.gh-ips, Canonical = http://hl7.eu/fhir/ig/gravitate-health-ips</td></tr>
  <tr><td>Realm Check for n/a:</td><td><span style="color: maroon; font-weight: bold"></span><ul><li>n/a</li></ul></td></tr>
  <tr><td>Publication Request:</td><td><ul><li>The file package-list.json should not exist in the root folder <img src="icon-error.gif" height="16px" width="16px"/></li>
-<li><span title="Invalid HTTP response 404 from http://hl7.eu/fhir/ig/gravitate-health-ips/package-list.json?nocache=1670864179396 (Not Found) (content in /tmp/fhir-http-3.log)">This IG has never been published</span> <img src="information.png" height="16px" width="16px"/></li>
+<li><span title="Invalid HTTP response 404 from http://hl7.eu/fhir/ig/gravitate-health-ips/package-list.json?nocache=1670867862736 (Not Found) (content in /tmp/fhir-http-3.log)">This IG has never been published</span> <img src="information.png" height="16px" width="16px"/></li>
 <li>No publication request found <img src="information.png" height="16px" width="16px"/></li>
 </ul>
 </td></tr>
@@ -59,16 +59,16 @@
  <tr><td>HTA Analysis:</td><td><i>no Non-HL7 references found</i></td></tr>
  <tr><td>R5 Dependencies:</td><td><span style="color: grey">(none)</span></td></tr>
  <tr><td>Modifier Extensions:</td><td><span style="color: grey">(none)</span></td></tr>
- <tr><td>Previous Version Comparison:</td><td> Unable to compare with previous version: Unable to find version history at http://hl7.eu/fhir/ig/gravitate-health-ips (Problem #1 with package-list.json at http://hl7.eu/fhir/ig/gravitate-health-ips: Invalid HTTP response 404 from http://hl7.eu/fhir/ig/gravitate-health-ips/package-list.json?nocache=1670864125858 (Not Found) (content in /tmp/fhir-http-2.log))</td></tr>
+ <tr><td>Previous Version Comparison:</td><td> Unable to compare with previous version: Unable to find version history at http://hl7.eu/fhir/ig/gravitate-health-ips (Problem #1 with package-list.json at http://hl7.eu/fhir/ig/gravitate-health-ips: Invalid HTTP response 404 from http://hl7.eu/fhir/ig/gravitate-health-ips/package-list.json?nocache=1670867821938 (Not Found) (content in /tmp/fhir-http-2.log))</td></tr>
  <tr><td>IPA Comparison:</td><td> n/a</td></tr>
- <tr><td>Summary:</td><td> errors = 64, warn = 47, info = 145, broken links = 209</td></tr>
+ <tr><td>Summary:</td><td> errors = 70, warn = 50, info = 145, broken links = 251</td></tr>
 </table>
  <table class="grid">
    <tr>
      <td><b>Filename</b></td><td><b>Errors</b></td><td><b>Warnings</b></td><td><b>Hints</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><a href="#internal"><b>Build Errors</b></a></td><td><b>209</b></td><td><b>8</b></td><td><b>0</b></td>
+     <td><a href="#internal"><b>Build Errors</b></a></td><td><b>251</b></td><td><b>10</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><a href="#_github_workspace_fsh-generated_resources_Bundle-gravitate-Cecilia"><b>/github/workspace/fsh-generated/resources/Bundle-gravitate-Cecilia</b></a></td><td><b>6</b></td><td><b>18</b></td><td><b>8</b></td>
@@ -103,12 +103,27 @@
    <tr style="background-color: #EFFFEF">
      <td><a href="#_github_workspace_fsh-generated_resources_QuestionnaireResponse-QuestionnaireResponse-example"><b>/github/workspace/fsh-generated/resources/QuestionnaireResponse-QuestionnaireResponse-example</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>18</b></td>
    </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_github_workspace_fsh-generated_resources_StructureDefinition-example-persona-profile"><b>/github/workspace/fsh-generated/resources/StructureDefinition-example-persona-profile</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_github_workspace_fsh-generated_resources_ValueSet-PDcategoryVS"><b>/github/workspace/fsh-generated/resources/ValueSet-PDcategoryVS</b></a></td><td><b>3</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_github_workspace_fsh-generated_resources_ValueSet-PDtypeVS"><b>/github/workspace/fsh-generated/resources/ValueSet-PDtypeVS</b></a></td><td><b>3</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
 </table>
 <hr/>
 <a name="internal"> </a>
 <h2><a href="">n/a</a> <span id="sv" class="toggle" onclick="toggle('v')">Show Validation Information</span> <span class="vcount" onclick="toggle('v')"></span></h2>
  <div style="border: 1px grey solid; display: none" id="v"></div>
  <table class="grid">
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/PDcategoryVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/PDtypeVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
+   </tr>
    <tr style="background-color: #ffebcc">
      <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource Composition/gravitate-helen.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
    </tr>
@@ -686,6 +701,132 @@
      <td><b><a href="SampleData.html#l344">output/SampleData.html#/html/body/div/div/div/div/div/ul/li/a at Line 200, column 8</a></b></td><td><b>error</b></td><td><b>The link 'Composition-2fa5b223-ebce-4f39-9c66-5dc014f73572.html' for &quot;Maria (NOR)&quot; cannot be resolved</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-example-persona-profile-definitions.html#l192">output/StructureDefinition-example-persona-profile-definitions.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 120, column 10</a></b></td><td><b>error</b></td><td><b>The link 'CapabilityStatement-capability-statement-ema.html' for &quot;SmPC / PL&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-example-persona-profile-definitions.html#l221">output/StructureDefinition-example-persona-profile-definitions.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 136, column 10</a></b></td><td><b>error</b></td><td><b>The link 'downloads.html' for &quot;Downloads&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-example-persona-profile-examples.html#l192">output/StructureDefinition-example-persona-profile-examples.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 120, column 10</a></b></td><td><b>error</b></td><td><b>The link 'CapabilityStatement-capability-statement-ema.html' for &quot;SmPC / PL&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-example-persona-profile-examples.html#l221">output/StructureDefinition-example-persona-profile-examples.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 136, column 10</a></b></td><td><b>error</b></td><td><b>The link 'downloads.html' for &quot;Downloads&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-example-persona-profile-mappings.html#l192">output/StructureDefinition-example-persona-profile-mappings.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 120, column 10</a></b></td><td><b>error</b></td><td><b>The link 'CapabilityStatement-capability-statement-ema.html' for &quot;SmPC / PL&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-example-persona-profile-mappings.html#l221">output/StructureDefinition-example-persona-profile-mappings.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 136, column 10</a></b></td><td><b>error</b></td><td><b>The link 'downloads.html' for &quot;Downloads&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-example-persona-profile-testing.html#l192">output/StructureDefinition-example-persona-profile-testing.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 120, column 10</a></b></td><td><b>error</b></td><td><b>The link 'CapabilityStatement-capability-statement-ema.html' for &quot;SmPC / PL&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-example-persona-profile-testing.html#l221">output/StructureDefinition-example-persona-profile-testing.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 136, column 10</a></b></td><td><b>error</b></td><td><b>The link 'downloads.html' for &quot;Downloads&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-example-persona-profile.html#l192">output/StructureDefinition-example-persona-profile.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 120, column 10</a></b></td><td><b>error</b></td><td><b>The link 'CapabilityStatement-capability-statement-ema.html' for &quot;SmPC / PL&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-example-persona-profile.html#l221">output/StructureDefinition-example-persona-profile.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 136, column 10</a></b></td><td><b>error</b></td><td><b>The link 'downloads.html' for &quot;Downloads&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-example-persona-profile.profile.history.html#l192">output/StructureDefinition-example-persona-profile.profile.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 120, column 10</a></b></td><td><b>error</b></td><td><b>The link 'CapabilityStatement-capability-statement-ema.html' for &quot;SmPC / PL&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-example-persona-profile.profile.history.html#l221">output/StructureDefinition-example-persona-profile.profile.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 136, column 10</a></b></td><td><b>error</b></td><td><b>The link 'downloads.html' for &quot;Downloads&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-example-persona-profile.profile.json.html#l192">output/StructureDefinition-example-persona-profile.profile.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 124, column 10</a></b></td><td><b>error</b></td><td><b>The link 'CapabilityStatement-capability-statement-ema.html' for &quot;SmPC / PL&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-example-persona-profile.profile.json.html#l221">output/StructureDefinition-example-persona-profile.profile.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 140, column 10</a></b></td><td><b>error</b></td><td><b>The link 'downloads.html' for &quot;Downloads&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-example-persona-profile.profile.ttl.html#l192">output/StructureDefinition-example-persona-profile.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 124, column 10</a></b></td><td><b>error</b></td><td><b>The link 'CapabilityStatement-capability-statement-ema.html' for &quot;SmPC / PL&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-example-persona-profile.profile.ttl.html#l221">output/StructureDefinition-example-persona-profile.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 140, column 10</a></b></td><td><b>error</b></td><td><b>The link 'downloads.html' for &quot;Downloads&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-example-persona-profile.profile.xml.html#l192">output/StructureDefinition-example-persona-profile.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 124, column 10</a></b></td><td><b>error</b></td><td><b>The link 'CapabilityStatement-capability-statement-ema.html' for &quot;SmPC / PL&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-example-persona-profile.profile.xml.html#l221">output/StructureDefinition-example-persona-profile.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 140, column 10</a></b></td><td><b>error</b></td><td><b>The link 'downloads.html' for &quot;Downloads&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-PDcategoryVS-testing.html#l191">output/ValueSet-PDcategoryVS-testing.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10</a></b></td><td><b>error</b></td><td><b>The link 'CapabilityStatement-capability-statement-ema.html' for &quot;SmPC / PL&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-PDcategoryVS-testing.html#l220">output/ValueSet-PDcategoryVS-testing.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 132, column 10</a></b></td><td><b>error</b></td><td><b>The link 'downloads.html' for &quot;Downloads&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-PDcategoryVS.change.history.html#l193">output/ValueSet-PDcategoryVS.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 120, column 10</a></b></td><td><b>error</b></td><td><b>The link 'CapabilityStatement-capability-statement-ema.html' for &quot;SmPC / PL&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-PDcategoryVS.change.history.html#l222">output/ValueSet-PDcategoryVS.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 136, column 10</a></b></td><td><b>error</b></td><td><b>The link 'downloads.html' for &quot;Downloads&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-PDcategoryVS.html#l191">output/ValueSet-PDcategoryVS.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10</a></b></td><td><b>error</b></td><td><b>The link 'CapabilityStatement-capability-statement-ema.html' for &quot;SmPC / PL&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-PDcategoryVS.html#l220">output/ValueSet-PDcategoryVS.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 132, column 10</a></b></td><td><b>error</b></td><td><b>The link 'downloads.html' for &quot;Downloads&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-PDcategoryVS.json.html#l191">output/ValueSet-PDcategoryVS.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 10</a></b></td><td><b>error</b></td><td><b>The link 'CapabilityStatement-capability-statement-ema.html' for &quot;SmPC / PL&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-PDcategoryVS.json.html#l220">output/ValueSet-PDcategoryVS.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 134, column 10</a></b></td><td><b>error</b></td><td><b>The link 'downloads.html' for &quot;Downloads&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-PDcategoryVS.ttl.html#l191">output/ValueSet-PDcategoryVS.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 10</a></b></td><td><b>error</b></td><td><b>The link 'CapabilityStatement-capability-statement-ema.html' for &quot;SmPC / PL&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-PDcategoryVS.ttl.html#l220">output/ValueSet-PDcategoryVS.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 134, column 10</a></b></td><td><b>error</b></td><td><b>The link 'downloads.html' for &quot;Downloads&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-PDcategoryVS.xml.html#l191">output/ValueSet-PDcategoryVS.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 10</a></b></td><td><b>error</b></td><td><b>The link 'CapabilityStatement-capability-statement-ema.html' for &quot;SmPC / PL&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-PDcategoryVS.xml.html#l220">output/ValueSet-PDcategoryVS.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 134, column 10</a></b></td><td><b>error</b></td><td><b>The link 'downloads.html' for &quot;Downloads&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-PDtypeVS-testing.html#l191">output/ValueSet-PDtypeVS-testing.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10</a></b></td><td><b>error</b></td><td><b>The link 'CapabilityStatement-capability-statement-ema.html' for &quot;SmPC / PL&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-PDtypeVS-testing.html#l220">output/ValueSet-PDtypeVS-testing.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 132, column 10</a></b></td><td><b>error</b></td><td><b>The link 'downloads.html' for &quot;Downloads&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-PDtypeVS.change.history.html#l193">output/ValueSet-PDtypeVS.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 120, column 10</a></b></td><td><b>error</b></td><td><b>The link 'CapabilityStatement-capability-statement-ema.html' for &quot;SmPC / PL&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-PDtypeVS.change.history.html#l222">output/ValueSet-PDtypeVS.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 136, column 10</a></b></td><td><b>error</b></td><td><b>The link 'downloads.html' for &quot;Downloads&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-PDtypeVS.html#l191">output/ValueSet-PDtypeVS.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10</a></b></td><td><b>error</b></td><td><b>The link 'CapabilityStatement-capability-statement-ema.html' for &quot;SmPC / PL&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-PDtypeVS.html#l220">output/ValueSet-PDtypeVS.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 132, column 10</a></b></td><td><b>error</b></td><td><b>The link 'downloads.html' for &quot;Downloads&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-PDtypeVS.json.html#l191">output/ValueSet-PDtypeVS.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 10</a></b></td><td><b>error</b></td><td><b>The link 'CapabilityStatement-capability-statement-ema.html' for &quot;SmPC / PL&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-PDtypeVS.json.html#l220">output/ValueSet-PDtypeVS.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 134, column 10</a></b></td><td><b>error</b></td><td><b>The link 'downloads.html' for &quot;Downloads&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-PDtypeVS.ttl.html#l191">output/ValueSet-PDtypeVS.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 10</a></b></td><td><b>error</b></td><td><b>The link 'CapabilityStatement-capability-statement-ema.html' for &quot;SmPC / PL&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-PDtypeVS.ttl.html#l220">output/ValueSet-PDtypeVS.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 134, column 10</a></b></td><td><b>error</b></td><td><b>The link 'downloads.html' for &quot;Downloads&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-PDtypeVS.xml.html#l191">output/ValueSet-PDtypeVS.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 10</a></b></td><td><b>error</b></td><td><b>The link 'CapabilityStatement-capability-statement-ema.html' for &quot;SmPC / PL&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="ValueSet-PDtypeVS.xml.html#l220">output/ValueSet-PDtypeVS.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 134, column 10</a></b></td><td><b>error</b></td><td><b>The link 'downloads.html' for &quot;Downloads&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
      <td><b><a href="artifacts.html#l191">output/artifacts.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10</a></b></td><td><b>error</b></td><td><b>The link 'CapabilityStatement-capability-statement-ema.html' for &quot;SmPC / PL&quot; cannot be resolved</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
@@ -825,13 +966,13 @@
      <td><b>Bundle.entry[6].resource.ofType(Condition).subject</b></td><td><b>warning</b></td><td title="BUNDLE_BUNDLE_POSSIBLE_MATCH_WRONG_FU"><b>Entry 1 matches the reference Patient/cecilia-patient by type and id but it's fullUrl cecilia-patient does not match the full target URL urn:uuid:cecilia-patient by Bundle resolution rules</b></td>
    </tr>
    <tr style="background-color: #ffffe6">
-     <td><b><a href="">Bundle.entry[7].resource.ofType(MedicationStatement).medication.ofType(Reference) (l317/c10)</a></b></td><td><b>Slicing Information</b></td><td><b>Details for urn:uuid:b50ae644-e0b7-4007-809f-26f493cbe36c matching against profile http://hl7.org/fhir/StructureDefinition/Medication|4.0.1</b> <span id="sl235" class="flip" onclick="flip('l235')">Show Reasoning</span><div id="l235" style="display: none"><p>&nbsp;</p><ul><li>Bundle.entry[10].resource.ofType(Medication).ingredient[0].strength.denominator: Local Error: Resolved system http://unitsofmeasure.org (v3.0.1), but the definition is not complete. Server Error: Error processing Unit: 'tablet': The unit &quot;tablet&quot; is unknown at character 1; The code &quot;tablet&quot; is not valid in the system http://unitsofmeasure.org; The code provided (http://unitsofmeasure.org#tablet) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://unitsofmeasure.org#tablet'</li></ul></div></td>
+     <td><b><a href="">Bundle.entry[7].resource.ofType(MedicationStatement).medication.ofType(Reference) (l317/c10)</a></b></td><td><b>Slicing Information</b></td><td><b>Details for urn:uuid:b50ae644-e0b7-4007-809f-26f493cbe36c matching against profile http://hl7.org/fhir/StructureDefinition/Medication|4.0.1</b> <span id="sl279" class="flip" onclick="flip('l279')">Show Reasoning</span><div id="l279" style="display: none"><p>&nbsp;</p><ul><li>Bundle.entry[10].resource.ofType(Medication).ingredient[0].strength.denominator: Local Error: Resolved system http://unitsofmeasure.org (v3.0.1), but the definition is not complete. Server Error: Error processing Unit: 'tablet': The unit &quot;tablet&quot; is unknown at character 1; The code &quot;tablet&quot; is not valid in the system http://unitsofmeasure.org; The code provided (http://unitsofmeasure.org#tablet) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://unitsofmeasure.org#tablet'</li></ul></div></td>
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>Bundle.entry[7].resource.ofType(MedicationStatement).subject</b></td><td><b>warning</b></td><td title="BUNDLE_BUNDLE_POSSIBLE_MATCH_WRONG_FU"><b>Entry 1 matches the reference Patient/cecilia-patient by type and id but it's fullUrl cecilia-patient does not match the full target URL urn:uuid:cecilia-patient by Bundle resolution rules</b></td>
    </tr>
    <tr style="background-color: #ffffe6">
-     <td><b><a href="">Bundle.entry[8].resource.ofType(MedicationStatement).medication.ofType(Reference) (l346/c10)</a></b></td><td><b>Slicing Information</b></td><td><b>Details for urn:uuid:de131e15-ed13-4b31-b38c-3204a84d99c4 matching against profile http://hl7.org/fhir/StructureDefinition/Medication|4.0.1</b> <span id="sl237" class="flip" onclick="flip('l237')">Show Reasoning</span><div id="l237" style="display: none"><p>&nbsp;</p><ul><li>Bundle.entry[11].resource.ofType(Medication).ingredient[0].strength.denominator: Local Error: Resolved system http://unitsofmeasure.org (v3.0.1), but the definition is not complete. Server Error: Error processing Unit: 'tablet': The unit &quot;tablet&quot; is unknown at character 1; The code &quot;tablet&quot; is not valid in the system http://unitsofmeasure.org; The code provided (http://unitsofmeasure.org#tablet) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://unitsofmeasure.org#tablet'</li></ul></div></td>
+     <td><b><a href="">Bundle.entry[8].resource.ofType(MedicationStatement).medication.ofType(Reference) (l346/c10)</a></b></td><td><b>Slicing Information</b></td><td><b>Details for urn:uuid:de131e15-ed13-4b31-b38c-3204a84d99c4 matching against profile http://hl7.org/fhir/StructureDefinition/Medication|4.0.1</b> <span id="sl281" class="flip" onclick="flip('l281')">Show Reasoning</span><div id="l281" style="display: none"><p>&nbsp;</p><ul><li>Bundle.entry[11].resource.ofType(Medication).ingredient[0].strength.denominator: Local Error: Resolved system http://unitsofmeasure.org (v3.0.1), but the definition is not complete. Server Error: Error processing Unit: 'tablet': The unit &quot;tablet&quot; is unknown at character 1; The code &quot;tablet&quot; is not valid in the system http://unitsofmeasure.org; The code provided (http://unitsofmeasure.org#tablet) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://unitsofmeasure.org#tablet'</li></ul></div></td>
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>Bundle.entry[8].resource.ofType(MedicationStatement).subject</b></td><td><b>warning</b></td><td title="BUNDLE_BUNDLE_POSSIBLE_MATCH_WRONG_FU"><b>Entry 1 matches the reference Patient/cecilia-patient by type and id but it's fullUrl cecilia-patient does not match the full target URL urn:uuid:cecilia-patient by Bundle resolution rules</b></td>
@@ -971,43 +1112,43 @@
      <td><b>Bundle.entry[5].fullUrl (l256/c45)</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_UUID_Valid"><b>UUIDs must be valid (and lowercase)</b></td>
    </tr>
    <tr style="background-color: #ffffe6">
-     <td><b><a href="">Bundle.entry[5].resource.ofType(MedicationStatement).medication.ofType(Reference) (l261/c10)</a></b></td><td><b>Slicing Information</b></td><td><b>Details for urn:uuid:9d7be868-8264-4d94-ad04-ef04ecc92e52 matching against profile http://hl7.org/fhir/StructureDefinition/Medication|4.0.1</b> <span id="sl277" class="flip" onclick="flip('l277')">Show Reasoning</span><div id="l277" style="display: none"><p>&nbsp;</p><ul><li>Bundle.entry[12].resource.ofType(Medication).code.coding[2]: Invalid System URI: http://snomed.info/sct/83821000000107</li>, <li>Bundle.entry[12].resource.ofType(Medication).ingredient[0].strength.denominator: Local Error: Resolved system http://unitsofmeasure.org (v3.0.1), but the definition is not complete. Server Error: Error processing Unit: 'tablet': The unit &quot;tablet&quot; is unknown at character 1; The code &quot;tablet&quot; is not valid in the system http://unitsofmeasure.org; The code provided (http://unitsofmeasure.org#tablet) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://unitsofmeasure.org#tablet'</li>, <li>Bundle.entry[12].resource.ofType(Medication).ingredient[1].strength.denominator: Local Error: Resolved system http://unitsofmeasure.org (v3.0.1), but the definition is not complete. Server Error: Error processing Unit: 'tablet': The unit &quot;tablet&quot; is unknown at character 1; The code &quot;tablet&quot; is not valid in the system http://unitsofmeasure.org; The code provided (http://unitsofmeasure.org#tablet) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://unitsofmeasure.org#tablet'</li></ul></div></td>
+     <td><b><a href="">Bundle.entry[5].resource.ofType(MedicationStatement).medication.ofType(Reference) (l261/c10)</a></b></td><td><b>Slicing Information</b></td><td><b>Details for urn:uuid:9d7be868-8264-4d94-ad04-ef04ecc92e52 matching against profile http://hl7.org/fhir/StructureDefinition/Medication|4.0.1</b> <span id="sl321" class="flip" onclick="flip('l321')">Show Reasoning</span><div id="l321" style="display: none"><p>&nbsp;</p><ul><li>Bundle.entry[12].resource.ofType(Medication).code.coding[2]: Invalid System URI: http://snomed.info/sct/83821000000107</li>, <li>Bundle.entry[12].resource.ofType(Medication).ingredient[0].strength.denominator: Local Error: Resolved system http://unitsofmeasure.org (v3.0.1), but the definition is not complete. Server Error: Error processing Unit: 'tablet': The unit &quot;tablet&quot; is unknown at character 1; The code &quot;tablet&quot; is not valid in the system http://unitsofmeasure.org; The code provided (http://unitsofmeasure.org#tablet) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://unitsofmeasure.org#tablet'</li>, <li>Bundle.entry[12].resource.ofType(Medication).ingredient[1].strength.denominator: Local Error: Resolved system http://unitsofmeasure.org (v3.0.1), but the definition is not complete. Server Error: Error processing Unit: 'tablet': The unit &quot;tablet&quot; is unknown at character 1; The code &quot;tablet&quot; is not valid in the system http://unitsofmeasure.org; The code provided (http://unitsofmeasure.org#tablet) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://unitsofmeasure.org#tablet'</li></ul></div></td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><b>Bundle.entry[6].fullUrl (l285/c45)</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_UUID_Valid"><b>UUIDs must be valid (and lowercase)</b></td>
    </tr>
    <tr style="background-color: #ffffe6">
-     <td><b><a href="">Bundle.entry[6].resource.ofType(MedicationStatement).medication.ofType(Reference) (l290/c10)</a></b></td><td><b>Slicing Information</b></td><td><b>Details for Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4 matching against profile http://hl7.org/fhir/StructureDefinition/Medication|4.0.1</b> <span id="sl279" class="flip" onclick="flip('l279')">Show Reasoning</span><div id="l279" style="display: none"><p>&nbsp;</p><ul><li>Bundle.entry[13].resource.ofType(Medication).ingredient[0].strength.denominator: Local Error: Resolved system http://unitsofmeasure.org (v3.0.1), but the definition is not complete. Server Error: Error processing Unit: 'tablet': The unit &quot;tablet&quot; is unknown at character 1; The code &quot;tablet&quot; is not valid in the system http://unitsofmeasure.org; The code provided (http://unitsofmeasure.org#tablet) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://unitsofmeasure.org#tablet'</li></ul></div></td>
+     <td><b><a href="">Bundle.entry[6].resource.ofType(MedicationStatement).medication.ofType(Reference) (l290/c10)</a></b></td><td><b>Slicing Information</b></td><td><b>Details for Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4 matching against profile http://hl7.org/fhir/StructureDefinition/Medication|4.0.1</b> <span id="sl323" class="flip" onclick="flip('l323')">Show Reasoning</span><div id="l323" style="display: none"><p>&nbsp;</p><ul><li>Bundle.entry[13].resource.ofType(Medication).ingredient[0].strength.denominator: Local Error: Resolved system http://unitsofmeasure.org (v3.0.1), but the definition is not complete. Server Error: Error processing Unit: 'tablet': The unit &quot;tablet&quot; is unknown at character 1; The code &quot;tablet&quot; is not valid in the system http://unitsofmeasure.org; The code provided (http://unitsofmeasure.org#tablet) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://unitsofmeasure.org#tablet'</li></ul></div></td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><b>Bundle.entry[7].fullUrl (l314/c45)</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_UUID_Valid"><b>UUIDs must be valid (and lowercase)</b></td>
    </tr>
    <tr style="background-color: #ffffe6">
-     <td><b><a href="">Bundle.entry[7].resource.ofType(MedicationStatement).medication.ofType(Reference) (l319/c10)</a></b></td><td><b>Slicing Information</b></td><td><b>Details for urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda7785g matching against profile http://hl7.org/fhir/StructureDefinition/Medication|4.0.1</b> <span id="sl281" class="flip" onclick="flip('l281')">Show Reasoning</span><div id="l281" style="display: none"><p>&nbsp;</p><ul><li>Bundle.entry[14].resource.ofType(Medication).ingredient[0].strength.denominator: Local Error: Resolved system http://unitsofmeasure.org (v3.0.1), but the definition is not complete. Server Error: Error processing Unit: 'tablet': The unit &quot;tablet&quot; is unknown at character 1; The code &quot;tablet&quot; is not valid in the system http://unitsofmeasure.org; The code provided (http://unitsofmeasure.org#tablet) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://unitsofmeasure.org#tablet'</li></ul></div></td>
+     <td><b><a href="">Bundle.entry[7].resource.ofType(MedicationStatement).medication.ofType(Reference) (l319/c10)</a></b></td><td><b>Slicing Information</b></td><td><b>Details for urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda7785g matching against profile http://hl7.org/fhir/StructureDefinition/Medication|4.0.1</b> <span id="sl325" class="flip" onclick="flip('l325')">Show Reasoning</span><div id="l325" style="display: none"><p>&nbsp;</p><ul><li>Bundle.entry[14].resource.ofType(Medication).ingredient[0].strength.denominator: Local Error: Resolved system http://unitsofmeasure.org (v3.0.1), but the definition is not complete. Server Error: Error processing Unit: 'tablet': The unit &quot;tablet&quot; is unknown at character 1; The code &quot;tablet&quot; is not valid in the system http://unitsofmeasure.org; The code provided (http://unitsofmeasure.org#tablet) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://unitsofmeasure.org#tablet'</li></ul></div></td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><b>Bundle.entry[8].fullUrl (l343/c45)</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_UUID_Valid"><b>UUIDs must be valid (and lowercase)</b></td>
    </tr>
    <tr style="background-color: #ffffe6">
-     <td><b><a href="">Bundle.entry[8].resource.ofType(MedicationStatement).medication.ofType(Reference) (l348/c10)</a></b></td><td><b>Slicing Information</b></td><td><b>Details for urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda7785g matching against profile http://hl7.org/fhir/StructureDefinition/Medication|4.0.1</b> <span id="sl283" class="flip" onclick="flip('l283')">Show Reasoning</span><div id="l283" style="display: none"><p>&nbsp;</p><ul><li>Bundle.entry[14].resource.ofType(Medication).ingredient[0].strength.denominator: Local Error: Resolved system http://unitsofmeasure.org (v3.0.1), but the definition is not complete. Server Error: Error processing Unit: 'tablet': The unit &quot;tablet&quot; is unknown at character 1; The code &quot;tablet&quot; is not valid in the system http://unitsofmeasure.org; The code provided (http://unitsofmeasure.org#tablet) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://unitsofmeasure.org#tablet'</li></ul></div></td>
+     <td><b><a href="">Bundle.entry[8].resource.ofType(MedicationStatement).medication.ofType(Reference) (l348/c10)</a></b></td><td><b>Slicing Information</b></td><td><b>Details for urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda7785g matching against profile http://hl7.org/fhir/StructureDefinition/Medication|4.0.1</b> <span id="sl327" class="flip" onclick="flip('l327')">Show Reasoning</span><div id="l327" style="display: none"><p>&nbsp;</p><ul><li>Bundle.entry[14].resource.ofType(Medication).ingredient[0].strength.denominator: Local Error: Resolved system http://unitsofmeasure.org (v3.0.1), but the definition is not complete. Server Error: Error processing Unit: 'tablet': The unit &quot;tablet&quot; is unknown at character 1; The code &quot;tablet&quot; is not valid in the system http://unitsofmeasure.org; The code provided (http://unitsofmeasure.org#tablet) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://unitsofmeasure.org#tablet'</li></ul></div></td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><b>Bundle.entry[9].fullUrl (l372/c45)</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_UUID_Valid"><b>UUIDs must be valid (and lowercase)</b></td>
    </tr>
    <tr style="background-color: #ffffe6">
-     <td><b><a href="">Bundle.entry[9].resource.ofType(MedicationStatement).medication.ofType(Reference) (l377/c10)</a></b></td><td><b>Slicing Information</b></td><td><b>Details for Medication/6f4151e9-91f6-4f1e-adc3-fb94dda7785g matching against profile http://hl7.org/fhir/StructureDefinition/Medication|4.0.1</b> <span id="sl285" class="flip" onclick="flip('l285')">Show Reasoning</span><div id="l285" style="display: none"><p>&nbsp;</p><ul><li>Bundle.entry[14].resource.ofType(Medication).ingredient[0].strength.denominator: Local Error: Resolved system http://unitsofmeasure.org (v3.0.1), but the definition is not complete. Server Error: Error processing Unit: 'tablet': The unit &quot;tablet&quot; is unknown at character 1; The code &quot;tablet&quot; is not valid in the system http://unitsofmeasure.org; The code provided (http://unitsofmeasure.org#tablet) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://unitsofmeasure.org#tablet'</li></ul></div></td>
+     <td><b><a href="">Bundle.entry[9].resource.ofType(MedicationStatement).medication.ofType(Reference) (l377/c10)</a></b></td><td><b>Slicing Information</b></td><td><b>Details for Medication/6f4151e9-91f6-4f1e-adc3-fb94dda7785g matching against profile http://hl7.org/fhir/StructureDefinition/Medication|4.0.1</b> <span id="sl329" class="flip" onclick="flip('l329')">Show Reasoning</span><div id="l329" style="display: none"><p>&nbsp;</p><ul><li>Bundle.entry[14].resource.ofType(Medication).ingredient[0].strength.denominator: Local Error: Resolved system http://unitsofmeasure.org (v3.0.1), but the definition is not complete. Server Error: Error processing Unit: 'tablet': The unit &quot;tablet&quot; is unknown at character 1; The code &quot;tablet&quot; is not valid in the system http://unitsofmeasure.org; The code provided (http://unitsofmeasure.org#tablet) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://unitsofmeasure.org#tablet'</li></ul></div></td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><b>Bundle.entry[10].fullUrl (l401/c45)</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_UUID_Valid"><b>UUIDs must be valid (and lowercase)</b></td>
    </tr>
    <tr style="background-color: #ffffe6">
-     <td><b><a href="">Bundle.entry[10].resource.ofType(MedicationStatement).medication.ofType(Reference) (l406/c10)</a></b></td><td><b>Slicing Information</b></td><td><b>Details for Medication/6f4151e9-91f6-4f1e-adc3-fb94dda7785g matching against profile http://hl7.org/fhir/StructureDefinition/Medication|4.0.1</b> <span id="sl287" class="flip" onclick="flip('l287')">Show Reasoning</span><div id="l287" style="display: none"><p>&nbsp;</p><ul><li>Bundle.entry[14].resource.ofType(Medication).ingredient[0].strength.denominator: Local Error: Resolved system http://unitsofmeasure.org (v3.0.1), but the definition is not complete. Server Error: Error processing Unit: 'tablet': The unit &quot;tablet&quot; is unknown at character 1; The code &quot;tablet&quot; is not valid in the system http://unitsofmeasure.org; The code provided (http://unitsofmeasure.org#tablet) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://unitsofmeasure.org#tablet'</li></ul></div></td>
+     <td><b><a href="">Bundle.entry[10].resource.ofType(MedicationStatement).medication.ofType(Reference) (l406/c10)</a></b></td><td><b>Slicing Information</b></td><td><b>Details for Medication/6f4151e9-91f6-4f1e-adc3-fb94dda7785g matching against profile http://hl7.org/fhir/StructureDefinition/Medication|4.0.1</b> <span id="sl331" class="flip" onclick="flip('l331')">Show Reasoning</span><div id="l331" style="display: none"><p>&nbsp;</p><ul><li>Bundle.entry[14].resource.ofType(Medication).ingredient[0].strength.denominator: Local Error: Resolved system http://unitsofmeasure.org (v3.0.1), but the definition is not complete. Server Error: Error processing Unit: 'tablet': The unit &quot;tablet&quot; is unknown at character 1; The code &quot;tablet&quot; is not valid in the system http://unitsofmeasure.org; The code provided (http://unitsofmeasure.org#tablet) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://unitsofmeasure.org#tablet'</li></ul></div></td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><b>Bundle.entry[11].fullUrl (l430/c45)</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_UUID_Valid"><b>UUIDs must be valid (and lowercase)</b></td>
    </tr>
    <tr style="background-color: #ffffe6">
-     <td><b><a href="">Bundle.entry[11].resource.ofType(MedicationStatement).medication.ofType(Reference) (l435/c10)</a></b></td><td><b>Slicing Information</b></td><td><b>Details for Medication/6f4151e9-91f6-4f1e-adc3-fb94dda7785g matching against profile http://hl7.org/fhir/StructureDefinition/Medication|4.0.1</b> <span id="sl289" class="flip" onclick="flip('l289')">Show Reasoning</span><div id="l289" style="display: none"><p>&nbsp;</p><ul><li>Bundle.entry[14].resource.ofType(Medication).ingredient[0].strength.denominator: Local Error: Resolved system http://unitsofmeasure.org (v3.0.1), but the definition is not complete. Server Error: Error processing Unit: 'tablet': The unit &quot;tablet&quot; is unknown at character 1; The code &quot;tablet&quot; is not valid in the system http://unitsofmeasure.org; The code provided (http://unitsofmeasure.org#tablet) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://unitsofmeasure.org#tablet'</li></ul></div></td>
+     <td><b><a href="">Bundle.entry[11].resource.ofType(MedicationStatement).medication.ofType(Reference) (l435/c10)</a></b></td><td><b>Slicing Information</b></td><td><b>Details for Medication/6f4151e9-91f6-4f1e-adc3-fb94dda7785g matching against profile http://hl7.org/fhir/StructureDefinition/Medication|4.0.1</b> <span id="sl333" class="flip" onclick="flip('l333')">Show Reasoning</span><div id="l333" style="display: none"><p>&nbsp;</p><ul><li>Bundle.entry[14].resource.ofType(Medication).ingredient[0].strength.denominator: Local Error: Resolved system http://unitsofmeasure.org (v3.0.1), but the definition is not complete. Server Error: Error processing Unit: 'tablet': The unit &quot;tablet&quot; is unknown at character 1; The code &quot;tablet&quot; is not valid in the system http://unitsofmeasure.org; The code provided (http://unitsofmeasure.org#tablet) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://unitsofmeasure.org#tablet'</li></ul></div></td>
    </tr>
    <tr style="background-color: #ffffe6">
      <td><b>Bundle.entry[12].resource.ofType(Medication).code.coding[0] (l465/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://ema.europa.eu/fhir/marketingAuthorizationNumber' is unknown so the code cannot be validated</b></td>
@@ -1098,13 +1239,13 @@
      <td><b>Bundle.entry[1].resource.ofType(Patient).extension[0].extension[0].value.ofType(CodeableConcept).coding[0] (l125/c22)</b></td><td><b>warning</b></td><td><b>The display &quot;United Kingdom&quot; is not a valid display for the code {urn:iso:std:iso:3166}GB - should be one of ['United Kingdom of Great Britain and Northern Ireland'] (from http://tx.fhir.org/r4) for 'urn:iso:std:iso:3166#GB'</b> (<a href="qa-tx.html#l16">see Tx log</a>)</td>
    </tr>
    <tr style="background-color: #ffffe6">
-     <td><b><a href="">Bundle.entry[5].resource.ofType(MedicationStatement).medication.ofType(Reference) (l270/c10)</a></b></td><td><b>Slicing Information</b></td><td><b>Details for urn:uuid:9d7be868-8264-4d94-ad04-ef04ecc92e50 matching against profile http://hl7.org/fhir/StructureDefinition/Medication|4.0.1</b> <span id="sl316" class="flip" onclick="flip('l316')">Show Reasoning</span><div id="l316" style="display: none"><p>&nbsp;</p><ul><li>Bundle.entry[8].resource.ofType(Medication).code.coding[2]: Invalid System URI: http://snomed.info/sct/83821000000107</li></ul></div></td>
+     <td><b><a href="">Bundle.entry[5].resource.ofType(MedicationStatement).medication.ofType(Reference) (l270/c10)</a></b></td><td><b>Slicing Information</b></td><td><b>Details for urn:uuid:9d7be868-8264-4d94-ad04-ef04ecc92e50 matching against profile http://hl7.org/fhir/StructureDefinition/Medication|4.0.1</b> <span id="sl360" class="flip" onclick="flip('l360')">Show Reasoning</span><div id="l360" style="display: none"><p>&nbsp;</p><ul><li>Bundle.entry[8].resource.ofType(Medication).code.coding[2]: Invalid System URI: http://snomed.info/sct/83821000000107</li></ul></div></td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><b>Bundle.entry[6].resource.ofType(MedicationStatement).basedOn[0]</b></td><td><b>error</b></td><td title="Reference_REF_ResourceType"><b>Matching reference for reference MedicationStatement/c872135e-f219-4f32-8fd6-7099009abf42 has resourceType MedicationRequest</b></td>
    </tr>
    <tr style="background-color: #ffffe6">
-     <td><b><a href="">Bundle.entry[6].resource.ofType(MedicationStatement).basedOn[0] (l325/c12)</a></b></td><td><b>Slicing Information</b></td><td><b>Details for MedicationStatement/c872135e-f219-4f32-8fd6-7099009abf42 matching against profile http://hl7.org/fhir/StructureDefinition/MedicationRequest|4.0.1</b> <span id="sl318" class="flip" onclick="flip('l318')">Show Reasoning</span><div id="l318" style="display: none"><p>&nbsp;</p><ul><li>Bundle.entry[7].resource.ofType(MedicationRequest).medication.ofType(Reference): Unable to resolve resource with reference 'urn:fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e3'</li>, <li>Bundle.entry[7].resource.ofType(MedicationRequest).subject: Unable to resolve resource with reference 'Patient/urn:uuid:be61951b-44fc-4853-8822-f9d398193c50'</li></ul></div></td>
+     <td><b><a href="">Bundle.entry[6].resource.ofType(MedicationStatement).basedOn[0] (l325/c12)</a></b></td><td><b>Slicing Information</b></td><td><b>Details for MedicationStatement/c872135e-f219-4f32-8fd6-7099009abf42 matching against profile http://hl7.org/fhir/StructureDefinition/MedicationRequest|4.0.1</b> <span id="sl362" class="flip" onclick="flip('l362')">Show Reasoning</span><div id="l362" style="display: none"><p>&nbsp;</p><ul><li>Bundle.entry[7].resource.ofType(MedicationRequest).medication.ofType(Reference): Unable to resolve resource with reference 'urn:fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e3'</li>, <li>Bundle.entry[7].resource.ofType(MedicationRequest).subject: Unable to resolve resource with reference 'Patient/urn:uuid:be61951b-44fc-4853-8822-f9d398193c50'</li></ul></div></td>
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>Bundle.entry[7].resource.ofType(MedicationRequest).medication.ofType(Reference)</b></td><td><b>warning</b></td><td title="Bundle_BUNDLE_Not_Local"><b>URN reference is not locally contained within the bundle urn:fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e3</b></td>
@@ -1391,6 +1532,57 @@
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>QuestionnaireResponse (l5/c98)</b></td><td><b>warning</b></td><td title="Questionnaire_QR_Q_NotFound"><b>The questionnaire 'https://server.fire.ly/r4/Questionnaire/196f47ee-45c1-470e-888c-742cb0098b72' could not be resolved, so no validation can be performed against the base questionnaire</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_github_workspace_fsh-generated_resources_StructureDefinition-example-persona-profile"> </a>
+<h2><a href="StructureDefinition-example-persona-profile.html">fsh-generated/resources/StructureDefinition-example-persona-profile.json</a> <span id="svi12" class="toggle" onclick="toggle('vi12')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi12')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi12"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'http://hl7.eu/fhir/ig/gravitate-health-ips/StructureDefinition/example-persona-profile')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_github_workspace_fsh-generated_resources_ValueSet-PDcategoryVS"> </a>
+<h2><a href="ValueSet-PDcategoryVS.html">fsh-generated/resources/ValueSet-PDcategoryVS.json</a> <span id="svi13" class="toggle" onclick="toggle('vi13')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi13')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi13"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ValueSet (l1/c493)</b></td><td><b>error</b></td><td title="VALUESET_SHAREABLE_MISSING_HL7"><b>The ShareableValueSet profile says that the title element is mandatory, but it is not found. HL7 Published value sets SHALL conform to the ShareableValueSet profile</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ValueSet (l1/c493)</b></td><td><b>error</b></td><td title="VALUESET_SHAREABLE_MISSING_HL7"><b>The ShareableValueSet profile says that the experimental element is mandatory, but it is not found. HL7 Published value sets SHALL conform to the ShareableValueSet profile</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ValueSet (l1/c493)</b></td><td><b>error</b></td><td title="VALUESET_SHAREABLE_MISSING_HL7"><b>The ShareableValueSet profile says that the description element is mandatory, but it is not found. HL7 Published value sets SHALL conform to the ShareableValueSet profile</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_github_workspace_fsh-generated_resources_ValueSet-PDtypeVS"> </a>
+<h2><a href="ValueSet-PDtypeVS.html">fsh-generated/resources/ValueSet-PDtypeVS.json</a> <span id="svi14" class="toggle" onclick="toggle('vi14')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi14')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi14"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ValueSet (l1/c481)</b></td><td><b>error</b></td><td title="VALUESET_SHAREABLE_MISSING_HL7"><b>The ShareableValueSet profile says that the title element is mandatory, but it is not found. HL7 Published value sets SHALL conform to the ShareableValueSet profile</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ValueSet (l1/c481)</b></td><td><b>error</b></td><td title="VALUESET_SHAREABLE_MISSING_HL7"><b>The ShareableValueSet profile says that the experimental element is mandatory, but it is not found. HL7 Published value sets SHALL conform to the ShareableValueSet profile</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ValueSet (l1/c481)</b></td><td><b>error</b></td><td title="VALUESET_SHAREABLE_MISSING_HL7"><b>The ShareableValueSet profile says that the description element is mandatory, but it is not found. HL7 Published value sets SHALL conform to the ShareableValueSet profile</b></td>
    </tr>
 </table>
 <a name="suppressed"> </a>
@@ -2164,6 +2356,29 @@
    </tr>
    <tr style="background-color: #ffeeee">
      <td><a href="Bundle-gravitate-Pedro.html">fsh-generated/resources/Bundle-gravitate-Pedro.json</a></td><td><b>UUIDs must be valid (and lowercase)</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="VALUESET_SHAREABLE_MISSING_HL7"> </a>
+<h2>VALUESET_SHAREABLE_MISSING_HL7</h2>
+ <table class="grid">
+   <tr style="background-color: #ffeeee">
+     <td><a href="ValueSet-PDcategoryVS.html">fsh-generated/resources/ValueSet-PDcategoryVS.json</a></td><td><b>The ShareableValueSet profile says that the title element is mandatory, but it is not found. HL7 Published value sets SHALL conform to the ShareableValueSet profile</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="ValueSet-PDcategoryVS.html">fsh-generated/resources/ValueSet-PDcategoryVS.json</a></td><td><b>The ShareableValueSet profile says that the experimental element is mandatory, but it is not found. HL7 Published value sets SHALL conform to the ShareableValueSet profile</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="ValueSet-PDcategoryVS.html">fsh-generated/resources/ValueSet-PDcategoryVS.json</a></td><td><b>The ShareableValueSet profile says that the description element is mandatory, but it is not found. HL7 Published value sets SHALL conform to the ShareableValueSet profile</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="ValueSet-PDtypeVS.html">fsh-generated/resources/ValueSet-PDtypeVS.json</a></td><td><b>The ShareableValueSet profile says that the title element is mandatory, but it is not found. HL7 Published value sets SHALL conform to the ShareableValueSet profile</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="ValueSet-PDtypeVS.html">fsh-generated/resources/ValueSet-PDtypeVS.json</a></td><td><b>The ShareableValueSet profile says that the experimental element is mandatory, but it is not found. HL7 Published value sets SHALL conform to the ShareableValueSet profile</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="ValueSet-PDtypeVS.html">fsh-generated/resources/ValueSet-PDtypeVS.json</a></td><td><b>The ShareableValueSet profile says that the description element is mandatory, but it is not found. HL7 Published value sets SHALL conform to the ShareableValueSet profile</b></td>
    </tr>
 </table>
 </body>

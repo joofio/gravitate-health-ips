@@ -1,8 +1,70 @@
 {
   "resourceType" : "Bundle",
-  "id" : "c54ecaa2-1834-4cf3-877a-b2317ffb1b6d",
+  "id" : "73313b00-51e5-4e9f-9ad2-9de5e9b09ebd",
   "meta" : {
-    "lastUpdated" : "2022-12-12T16:55:27.099+00:00"
+    "lastUpdated" : "2022-12-12T17:57:03.089+00:00"
   },
-  "type" : "collection"
+  "type" : "collection",
+  "entry" : [{
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health-ips/ValueSet/PDcategoryVS",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "PDcategoryVS",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 0 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr></table></div>"
+      },
+      "url" : "http://hl7.eu/fhir/ig/gravitate-health-ips/ValueSet/PDcategoryVS",
+      "version" : "0.1.0",
+      "name" : "PDcategoryVS",
+      "status" : "active",
+      "date" : "2022-12-12T17:57:03+00:00",
+      "contact" : [{
+        "name" : "Gravitate Health Project",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "https://www.gravitatehealth.eu/"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:96895b4d-db96-41be-b7a5-a191bfef8239",
+        "timestamp" : "2022-12-12T17:57:27+00:00",
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.eu/fhir/ig/gravitate-health-ips/ValueSet/PDtypeVS",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "PDtypeVS",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 0 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr></table></div>"
+      },
+      "url" : "http://hl7.eu/fhir/ig/gravitate-health-ips/ValueSet/PDtypeVS",
+      "version" : "0.1.0",
+      "name" : "PDtypeVS",
+      "status" : "active",
+      "date" : "2022-12-12T17:57:03+00:00",
+      "contact" : [{
+        "name" : "Gravitate Health Project",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "https://www.gravitatehealth.eu/"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:26a0eac9-38bf-4b79-8551-54e0e1db95db",
+        "timestamp" : "2022-12-12T17:57:31+00:00",
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        }]
+      }
+    }
+  }]
 }

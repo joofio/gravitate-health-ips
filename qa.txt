@@ -1,10 +1,10 @@
 ﻿GhR4ImplementationGuide : Validation Results
 =========================================
 
-err = 64, warn = 47, info = 145
+err = 70, warn = 50, info = 145
 IG Publisher Version: 1.2.23
-Generated Mon Dec 12 16:56:21 UTC 2022. FHIR version 4.0.1 for hl7.eu.fhir.gh-ips#0.1.0 (canonical = http://hl7.eu/fhir/ig/gravitate-health-ips)
- Build Errors : 209 / 8 / 0
+Generated Mon Dec 12 17:57:44 UTC 2022. FHIR version 4.0.1 for hl7.eu.fhir.gh-ips#0.1.0 (canonical = http://hl7.eu/fhir/ig/gravitate-health-ips)
+ Build Errors : 251 / 10 / 0
  /github/workspace/fsh-generated/resources/Bundle-gravitate-Cecilia : 6 / 18 / 22
  /github/workspace/fsh-generated/resources/Bundle-gravitate-Matilda : 3 / 14 / 17
  /github/workspace/fsh-generated/resources/Bundle-gravitate-Pedro : 22 / 0 / 41
@@ -24,8 +24,13 @@ Generated Mon Dec 12 16:56:21 UTC 2022. FHIR version 4.0.1 for hl7.eu.fhir.gh-ip
  /github/workspace/fsh-generated/resources/ImplementationGuide-hl7.eu.fhir.gh-ips : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-example : 0 / 0 / 63
  /github/workspace/fsh-generated/resources/QuestionnaireResponse-QuestionnaireResponse-example : 0 / 1 / 19
+ /github/workspace/fsh-generated/resources/StructureDefinition-example-persona-profile : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-PDcategoryVS : 3 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-PDtypeVS : 3 / 0 / 1
 </table>
 == n/a ==
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/PDcategoryVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/PDtypeVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Composition/gravitate-helen.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Composition/gravitate-ips-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Composition/ips-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
@@ -218,6 +223,48 @@ ERROR: /github/workspace/output/SampleData.html#/html/body/div/div/nav/div/div/u
 ERROR: /github/workspace/output/SampleData.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 132, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
 ERROR: /github/workspace/output/SampleData.html#/html/body/div/div/div/div/div/ul/li/a at Line 197, column 8: The link 'Composition-5702fd1d-dd26-402e-a7c0-7629a5d9bba1.html' for "Helen (GB)" cannot be resolved
 ERROR: /github/workspace/output/SampleData.html#/html/body/div/div/div/div/div/ul/li/a at Line 200, column 8: The link 'Composition-2fa5b223-ebce-4f39-9c66-5dc014f73572.html' for "Maria (NOR)" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-example-persona-profile-definitions.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 120, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-example-persona-profile-definitions.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 136, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-example-persona-profile-examples.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 120, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-example-persona-profile-examples.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 136, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-example-persona-profile-mappings.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 120, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-example-persona-profile-mappings.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 136, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-example-persona-profile-testing.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 120, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-example-persona-profile-testing.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 136, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-example-persona-profile.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 120, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-example-persona-profile.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 136, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-example-persona-profile.profile.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 120, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-example-persona-profile.profile.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 136, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-example-persona-profile.profile.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 124, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-example-persona-profile.profile.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 140, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-example-persona-profile.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 124, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-example-persona-profile.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 140, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-example-persona-profile.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 124, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-example-persona-profile.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 140, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-PDcategoryVS-testing.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-PDcategoryVS-testing.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 132, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-PDcategoryVS.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 120, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-PDcategoryVS.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 136, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-PDcategoryVS.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-PDcategoryVS.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 132, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-PDcategoryVS.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-PDcategoryVS.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 134, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-PDcategoryVS.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-PDcategoryVS.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 134, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-PDcategoryVS.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-PDcategoryVS.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 134, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-PDtypeVS-testing.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-PDtypeVS-testing.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 132, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-PDtypeVS.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 120, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-PDtypeVS.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 136, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-PDtypeVS.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-PDtypeVS.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 132, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-PDtypeVS.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-PDtypeVS.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 134, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-PDtypeVS.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-PDtypeVS.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 134, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-PDtypeVS.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-PDtypeVS.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 134, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
 ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
 ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 132, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
 ERROR: /github/workspace/output/connections.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
@@ -510,3 +557,13 @@ INFORMATION: QuestionnaireResponse/QuestionnaireResponse-example: QuestionnaireR
 INFORMATION: QuestionnaireResponse/QuestionnaireResponse-example: QuestionnaireResponse.item[18].answer[0].value.ofType(Coding): Code System URI 'https://system-so-and-so.com' is unknown so the code cannot be validated
 INFORMATION: QuestionnaireResponse/QuestionnaireResponse-example: QuestionnaireResponse.item[19].answer[0].value.ofType(Coding): Code System URI 'https://system-so-and-so.com' is unknown so the code cannot be validated
 WARNING: QuestionnaireResponse/QuestionnaireResponse-example: QuestionnaireResponse: The questionnaire 'https://server.fire.ly/r4/Questionnaire/196f47ee-45c1-470e-888c-742cb0098b72' could not be resolved, so no validation can be performed against the base questionnaire
+== fsh-generated/resources/StructureDefinition-example-persona-profile.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.eu/fhir/ig/gravitate-health-ips/StructureDefinition/example-persona-profile'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/ValueSet-PDcategoryVS.json ==
+ERROR: ValueSet/PDcategoryVS: ValueSet: The ShareableValueSet profile says that the title element is mandatory, but it is not found. HL7 Published value sets SHALL conform to the ShareableValueSet profile
+ERROR: ValueSet/PDcategoryVS: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not found. HL7 Published value sets SHALL conform to the ShareableValueSet profile
+ERROR: ValueSet/PDcategoryVS: ValueSet: The ShareableValueSet profile says that the description element is mandatory, but it is not found. HL7 Published value sets SHALL conform to the ShareableValueSet profile
+== fsh-generated/resources/ValueSet-PDtypeVS.json ==
+ERROR: ValueSet/PDtypeVS: ValueSet: The ShareableValueSet profile says that the title element is mandatory, but it is not found. HL7 Published value sets SHALL conform to the ShareableValueSet profile
+ERROR: ValueSet/PDtypeVS: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not found. HL7 Published value sets SHALL conform to the ShareableValueSet profile
+ERROR: ValueSet/PDtypeVS: ValueSet: The ShareableValueSet profile says that the description element is mandatory, but it is not found. HL7 Published value sets SHALL conform to the ShareableValueSet profile

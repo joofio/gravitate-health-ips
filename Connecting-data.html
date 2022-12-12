@@ -199,14 +199,14 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <h2 id="personas-dimensions-checklist">Persona’s Dimensions checklist</h2>
 
-<p>Taking into account the persona vector, there are at least two paths:</p>
+<p>These are the persona’s dimensions. It is true that some could be inferred from IPS directly or indirectly. But only some take part in the mandatory sections of IPS as can be seen below. For the ones not possible to be inferred from IPS, there are at least two paths:</p>
 
 <ol>
-  <li>Assuming a lot of data comes from validated questionnaires, we can represent it as a pair of Questionnaire/QuestionnaireResponse</li>
-  <li>Creating Simple Observations for all of them and coupling them together as message, document, etc</li>
+  <li>Assuming a lot of data comes from validated questionnaires, we can represent it as a pair of Questionnaire/QuestionnaireResponse and then transform them into Observations/Conditions</li>
+  <li>Third parties (Social Worker, phycologist, physician, nurse, etc) asserts the observations/Condition directly for all/part of the dimensions.</li>
 </ol>
 
-<p>It is true that some could be infered from IPS directly or indirectly. But only some take part in the mandatory sections of IPS as can be seen below.</p>
+<p>Then, in both cases, observation can be coupled together as a document or message to be transmitted along with IPS.</p>
 
 <table>
   <thead>
@@ -240,7 +240,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       <td>WorkLife</td>
       <td>N/A</td>
       <td>&nbsp;</td>
-      <td>- 1.<a href="https://pubmed.ncbi.nlm.nih.gov/19839663/">paper</a></td>
+      <td><a href="https://prapare.org/">PRAPARE</a> - 2.<a href="https://pubmed.ncbi.nlm.nih.gov/19839663/">paper</a></td>
     </tr>
     <tr>
       <td>Smoking,ongoing</td>
@@ -343,9 +343,9 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <h2 id="possible-rules-to-test">Possible rules to test</h2>
 <ol>
-  <li>Maria has a prescription of Dovato (dolutegravir / lamivudine), Biktarvy (bictegravir / emtricitabine / tenofovir alafenamide) which are contraindicated (both for HIV and reduce efficacy)</li>
+  <li>Pedro has a prescription of Dovato (dolutegravir / lamivudine), Biktarvy (bictegravir / emtricitabine / tenofovir alafenamide) which are contraindicated (both for HIV and reduce efficacy)</li>
   <li>
-    <p>Maria has a prescription of Pentasa (mesalamine), Biktarvy (bictegravir / emtricitabine / tenofovir alafenamide) which are contraindicated (kidney impact)</p>
+    <p>Pedro has a prescription of Pentasa (mesalamine), Biktarvy (bictegravir / emtricitabine / tenofovir alafenamide) which are contraindicated (kidney impact)</p>
   </li>
   <li>Person A has lactose intolerance and is prescribed Karvea which has lactose as excipient</li>
   <li>Person B has been prescribed Humalog and Furosemide which are contraindicated since sulfonamides can cause hypoglycaemia</li>
@@ -380,7 +380,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.gravitatehealth.eu/"></a>.  Package hl7.eu.fhir.gh-ips#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Dec 12, 2022 16:55+0000">2022-12-12</span>
+          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.gravitatehealth.eu/"></a>.  Package hl7.eu.fhir.gh-ips#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Dec 12, 2022 17:57+0000">2022-12-12</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
             <div style="color: #33333">
