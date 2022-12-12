@@ -1,0 +1,113 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix loinc: <http://loinc.org/rdf#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.eu/fhir/ig/gravitate-health-ips/Composition/gravitate-Cecilia> a fhir:Composition;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "gravitate-Cecilia"]; # 
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "extensions" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  \n    <b>Id:</b>\n    gravitate-Cecilia\n  <br/>\n  \n    <b>status:</b>\n    final\n  <br/>\n  \n    <b>Type:</b>\n    Patient summary Document\n  <br/>\n  \n    <b>Subject:</b>\n    <a>Cecilia Gravitate</a>\n  \n\n  <br/>\n  <b>Sections:</b>\n  <br/>\n\n  <ul>\n    \n      <li>\n\n        Problem List\n\n      </li>\n      <ul>\n\n        \n\n          <li>\n\n            COPD\n\n          </li>\n        \n\n          <li>\n\n            Diabetese Type 2\n\n          </li>\n        \n\n          <li>\n\n            Osteoporosis\n\n          </li>\n        \n\n          <li>\n\n            Congestive Heart Failure\n\n          </li>\n        \n      </ul>\n\n    \n      <li>\n\n        Medication Summary\n\n      </li>\n      <ul>\n\n        \n\n          <li>\n\n            Fosamax 70 mg tablets\n\n          </li>\n        \n\n          <li>\n\n            Monuril 3 g granules for oral solution\n\n          </li>\n        \n\n          <li>\n\n            Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray\n\n          </li>\n        \n      </ul>\n\n    \n  </ul>\n</div>"
+  ]; # 
+  fhir:Composition.status [ fhir:value "final"]; # 
+  fhir:Composition.type [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       a loinc:60591-5;
+       fhir:Coding.system [ fhir:value "http://loinc.org" ];
+       fhir:Coding.code [ fhir:value "60591-5" ];
+       fhir:Coding.display [ fhir:value "Patient summary Document" ]
+     ]
+  ]; # 
+  fhir:Composition.subject [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Patient/cecilia-patient>;
+     fhir:Reference.reference [ fhir:value "Patient/cecilia-patient" ];
+     fhir:Reference.display [ fhir:value "Cecilia Gravitate" ]
+  ]; # 
+  fhir:Composition.date [ fhir:value "2018-07-10T15:22:00+02:00"^^xsd:dateTime]; # 
+  fhir:Composition.author [
+     fhir:index 0;
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Practitioner/cecilia-pract>;
+     fhir:Reference.reference [ fhir:value "Practitioner/cecilia-pract" ];
+     fhir:Reference.display [ fhir:value "Dr. Anna Karlsson" ]
+  ]; # 
+  fhir:Composition.title [ fhir:value "Patient Summary (Cecilia Gravitate)"]; # 
+  fhir:Composition.confidentiality [ fhir:value "N"]; # 
+  fhir:Composition.section [
+     fhir:index 0;
+     fhir:Composition.section.title [ fhir:value "Problem List" ];
+     fhir:Composition.section.code [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         a loinc:11450-4;
+         fhir:Coding.system [ fhir:value "http://loinc.org" ];
+         fhir:Coding.code [ fhir:value "11450-4" ];
+         fhir:Coding.display [ fhir:value "Problem list Reported" ]
+       ]
+     ];
+     fhir:Composition.section.text [
+       fhir:Narrative.status [ fhir:value "generated" ];
+       fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>COPD</li><li>Diabetes type 2</li><li>Osteoporosis</li><li>Congestive Heart Failure</li></ul></div>"
+     ];
+     fhir:Composition.section.entry [
+       fhir:index 0;
+       fhir:Reference.reference [ fhir:value "urn:uuid:7b69285e-bf3a-4b8d-a30f-8effd6059a4f" ];
+       fhir:Reference.display [ fhir:value "COPD" ]
+     ], [
+       fhir:index 1;
+       fhir:Reference.reference [ fhir:value "urn:uuid:0d4addd6-c3ee-468c-9202-026a24293f32" ];
+       fhir:Reference.display [ fhir:value "Diabetese Type 2" ]
+     ], [
+       fhir:index 2;
+       fhir:Reference.reference [ fhir:value "urn:uuid:c2a8ea98-cf92-4f57-933c-7d857fb20b1d" ];
+       fhir:Reference.display [ fhir:value "Osteoporosis" ]
+     ], [
+       fhir:index 3;
+       fhir:Reference.reference [ fhir:value "urn:uuid:ebb1a59f-a249-40dd-9868-25879bc9bb71" ];
+       fhir:Reference.display [ fhir:value "Congestive Heart Failure" ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:Composition.section.title [ fhir:value "Medication Summary" ];
+     fhir:Composition.section.code [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         a loinc:10160-0;
+         fhir:Coding.system [ fhir:value "http://loinc.org" ];
+         fhir:Coding.code [ fhir:value "10160-0" ];
+         fhir:Coding.display [ fhir:value "Hx of Medication use" ]
+       ]
+     ];
+     fhir:Composition.section.text [
+       fhir:Narrative.status [ fhir:value "generated" ];
+       fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Brand Name</th><th>MAN</th><th>Active Substance</th><th>Common Name</th><th>ATC</th><th>Strength</th><th>Dose Form</th><th>RoA</th></tr></thead><tbody><tr><td>Skilarence</td><td>EU/1/17/1201/001</td><td>dimethyl fumarate (FO2303MNI2)</td><td>dimethyl fumarate</td><td>L04AX07</td><td>30 mg</td><td>Gastro-resistant tablet</td><td>Oral use</td></tr><tr><td>Karvea</td><td>EMEA/H/C/000142</td><td>irbesartan (J0E2756Z7N)</td><td>irbesartan</td><td>C09DA04</td><td>75 mg</td><td>Tablet</td><td>Oral use</td></tr><tr><td>Boots Decongestant 0.05% w/v Nasal spray</td><td>PL 16028/0049</td><td>oxymetazoline hydrochloride (K89MJ0S5VY)</td><td>oxymetazoline hydrochloride</td><td>R01AA05</td><td>0.05 mg / 1 ml</td><td>Nasal spray, solution</td><td>Nasal use</td></tr></tbody></table></div>"
+     ];
+     fhir:Composition.section.entry [
+       fhir:index 0;
+       fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/MedicationStatement/cecilia-med-stat-1>;
+       fhir:Reference.reference [ fhir:value "MedicationStatement/cecilia-med-stat-1" ];
+       fhir:Reference.display [ fhir:value "Fosamax 70 mg tablets" ]
+     ], [
+       fhir:index 1;
+       fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/MedicationStatement/cecilia-med-stat-2>;
+       fhir:Reference.reference [ fhir:value "MedicationStatement/cecilia-med-stat-2" ];
+       fhir:Reference.display [ fhir:value "Monuril 3 g granules for oral solution" ]
+     ], [
+       fhir:index 2;
+       fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/MedicationStatement/cecilia-med-stat-3>;
+       fhir:Reference.reference [ fhir:value "MedicationStatement/cecilia-med-stat-3" ];
+       fhir:Reference.display [ fhir:value "Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray" ]
+     ]
+  ] . # 
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.eu/fhir/ig/gravitate-health-ips/Composition/gravitate-Cecilia.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

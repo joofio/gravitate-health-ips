@@ -1,0 +1,83 @@
+{
+  "resourceType" : "Composition",
+  "id" : "gravitate-Cecilia",
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  \n    <b>Id:</b>\n    gravitate-Cecilia\n  <br/>\n  \n    <b>status:</b>\n    final\n  <br/>\n  \n    <b>Type:</b>\n    Patient summary Document\n  <br/>\n  \n    <b>Subject:</b>\n    <a>Cecilia Gravitate</a>\n  \n\n  <br/>\n  <b>Sections:</b>\n  <br/>\n\n  <ul>\n    \n      <li>\n\n        Problem List\n\n      </li>\n      <ul>\n\n        \n\n          <li>\n\n            COPD\n\n          </li>\n        \n\n          <li>\n\n            Diabetese Type 2\n\n          </li>\n        \n\n          <li>\n\n            Osteoporosis\n\n          </li>\n        \n\n          <li>\n\n            Congestive Heart Failure\n\n          </li>\n        \n      </ul>\n\n    \n      <li>\n\n        Medication Summary\n\n      </li>\n      <ul>\n\n        \n\n          <li>\n\n            Fosamax 70 mg tablets\n\n          </li>\n        \n\n          <li>\n\n            Monuril 3 g granules for oral solution\n\n          </li>\n        \n\n          <li>\n\n            Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray\n\n          </li>\n        \n      </ul>\n\n    \n  </ul>\n</div>"
+  },
+  "status" : "final",
+  "type" : {
+    "coding" : [{
+      "system" : "http://loinc.org",
+      "code" : "60591-5",
+      "display" : "Patient summary Document"
+    }]
+  },
+  "subject" : {
+    "reference" : "Patient/cecilia-patient",
+    "display" : "Cecilia Gravitate"
+  },
+  "date" : "2018-07-10T15:22:00+02:00",
+  "author" : [{
+    "reference" : "Practitioner/cecilia-pract",
+    "display" : "Dr. Anna Karlsson"
+  }],
+  "title" : "Patient Summary (Cecilia Gravitate)",
+  "confidentiality" : "N",
+  "section" : [{
+    "title" : "Problem List",
+    "code" : {
+      "coding" : [{
+        "system" : "http://loinc.org",
+        "code" : "11450-4",
+        "display" : "Problem list Reported"
+      }]
+    },
+    "text" : {
+      "status" : "generated",
+      "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>COPD</li><li>Diabetes type 2</li><li>Osteoporosis</li><li>Congestive Heart Failure</li></ul></div>"
+    },
+    "entry" : [{
+      "reference" : "urn:uuid:7b69285e-bf3a-4b8d-a30f-8effd6059a4f",
+      "display" : "COPD"
+    },
+    {
+      "reference" : "urn:uuid:0d4addd6-c3ee-468c-9202-026a24293f32",
+      "display" : "Diabetese Type 2"
+    },
+    {
+      "reference" : "urn:uuid:c2a8ea98-cf92-4f57-933c-7d857fb20b1d",
+      "display" : "Osteoporosis"
+    },
+    {
+      "reference" : "urn:uuid:ebb1a59f-a249-40dd-9868-25879bc9bb71",
+      "display" : "Congestive Heart Failure"
+    }]
+  },
+  {
+    "title" : "Medication Summary",
+    "code" : {
+      "coding" : [{
+        "system" : "http://loinc.org",
+        "code" : "10160-0",
+        "display" : "Hx of Medication use"
+      }]
+    },
+    "text" : {
+      "status" : "generated",
+      "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Brand Name</th><th>MAN</th><th>Active Substance</th><th>Common Name</th><th>ATC</th><th>Strength</th><th>Dose Form</th><th>RoA</th></tr></thead><tbody><tr><td>Skilarence</td><td>EU/1/17/1201/001</td><td>dimethyl fumarate (FO2303MNI2)</td><td>dimethyl fumarate</td><td>L04AX07</td><td>30 mg</td><td>Gastro-resistant tablet</td><td>Oral use</td></tr><tr><td>Karvea</td><td>EMEA/H/C/000142</td><td>irbesartan (J0E2756Z7N)</td><td>irbesartan</td><td>C09DA04</td><td>75 mg</td><td>Tablet</td><td>Oral use</td></tr><tr><td>Boots Decongestant 0.05% w/v Nasal spray</td><td>PL 16028/0049</td><td>oxymetazoline hydrochloride (K89MJ0S5VY)</td><td>oxymetazoline hydrochloride</td><td>R01AA05</td><td>0.05 mg / 1 ml</td><td>Nasal spray, solution</td><td>Nasal use</td></tr></tbody></table></div>"
+    },
+    "entry" : [{
+      "reference" : "MedicationStatement/cecilia-med-stat-1",
+      "display" : "Fosamax 70 mg tablets"
+    },
+    {
+      "reference" : "MedicationStatement/cecilia-med-stat-2",
+      "display" : "Monuril 3 g granules for oral solution"
+    },
+    {
+      "reference" : "MedicationStatement/cecilia-med-stat-3",
+      "display" : "Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray"
+    }]
+  }]
+}
