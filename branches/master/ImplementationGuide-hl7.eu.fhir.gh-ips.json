@@ -10,7 +10,7 @@
   "name" : "GhR4ImplementationGuide",
   "title" : "Gravitate Health FHIR Implementation Guide (FHIR R4)",
   "status" : "active",
-  "date" : "2022-12-09T14:49:44+00:00",
+  "date" : "2022-12-12T11:39:49+00:00",
   "contact" : [{
     "name" : "Gravitate Health Project",
     "telecom" : [{
@@ -69,6 +69,17 @@
       {
         "url" : "value",
         "valueString" : "false"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "path-liquid"
+      },
+      {
+        "url" : "value",
+        "valueString" : "liquid"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -344,6 +355,17 @@
       {
         "url" : "value",
         "valueString" : "false"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "path-liquid"
+      },
+      {
+        "url" : "value",
+        "valueString" : "liquid"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -616,17 +638,6 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Observation"
-      }],
-      "reference" : {
-        "reference" : "Observation/e06e43a1-38d4-468f-8c35-f7f12da91061"
-      },
-      "name" : "e06e43a1-38d4-468f-8c35-f7f12da91061",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
       }],
       "reference" : {
@@ -644,8 +655,19 @@
       "reference" : {
         "reference" : "Bundle/gravitate-ips-1"
       },
-      "name" : "IPS Example 1",
+      "name" : "IPS Example 1 Document",
       "description" : "Example of International Patient Summary for Gravitate",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Composition"
+      }],
+      "reference" : {
+        "reference" : "Composition/gravitate-ips-1"
+      },
+      "name" : "IPS Example 3 Composition",
       "exampleBoolean" : true
     },
     {
@@ -656,7 +678,7 @@
       "reference" : {
         "reference" : "Bundle/gravitate-ips-2"
       },
-      "name" : "IPS Example 2",
+      "name" : "IPS Example 2 Document",
       "description" : "Example of International Patient Summary for Gravitate",
       "exampleBoolean" : true
     },
@@ -668,7 +690,7 @@
       "reference" : {
         "reference" : "Bundle/gravitate-ips-3"
       },
-      "name" : "IPS Example 3",
+      "name" : "IPS Example 3 Document",
       "description" : "Example of International Patient Summary for Gravitate",
       "exampleBoolean" : true
     },
@@ -682,6 +704,28 @@
       },
       "name" : "Maria Gravitate's IPS",
       "description" : "Example of International Patient Summary for Maria Gravitate",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Composition"
+      }],
+      "reference" : {
+        "reference" : "Composition/ips-example-1"
+      },
+      "name" : "IPS Example 1",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Composition"
+      }],
+      "reference" : {
+        "reference" : "Composition/ips-example-2"
+      },
+      "name" : "IPS Example 2 Composition",
       "exampleBoolean" : true
     }],
     "page" : {
@@ -727,15 +771,6 @@
         "nameUrl" : "data.html",
         "title" : "Data",
         "generation" : "markdown"
-      },
-      {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "downloads.html"
-        }],
-        "nameUrl" : "downloads.html",
-        "title" : "Downloads",
-        "generation" : "html"
       },
       {
         "extension" : [{
