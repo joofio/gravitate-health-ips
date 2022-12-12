@@ -11,7 +11,7 @@
   <name value="GhR4ImplementationGuide"/>
   <title value="Gravitate Health FHIR Implementation Guide (FHIR R4)"/>
   <status value="active"/>
-  <date value="2022-12-12T13:37:18+00:00"/>
+  <date value="2022-12-12T15:45:40+00:00"/>
   <contact>
     <name value="Gravitate Health Project"/>
     <telecom>
@@ -482,7 +482,7 @@
       <reference>
         <reference value="Composition/gravitate-Cecilia"/>
       </reference>
-      <name value="Cecilia Gravitate's IPS Composition"/>
+      <name value="[Composition] Cecilia Gravitate's IPS"/>
       <description value="Example of International Patient Summary for Cecilia Gravitate"/>
       <exampleBoolean value="true"/>
     </resource>
@@ -521,6 +521,17 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Composition"/>
+      </extension>
+      <reference>
+        <reference value="Composition/gravitate-Pedro"/>
+      </reference>
+      <name value="Pedro Gravitate's IPS Composition"/>
+      <description value="Example of International Patient Summary for Pedro Gravitate"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Bundle"/>
       </extension>
       <reference>
@@ -535,10 +546,9 @@
         <valueString value="Composition"/>
       </extension>
       <reference>
-        <reference value="Composition/gravitate-Pedro"/>
+        <reference value="Composition/gravitate-helen"/>
       </reference>
-      <name value="Pedro Gravitate's IPS Composition"/>
-      <description value="Example of International Patient Summary for Pedro Gravitate"/>
+      <name value="[Composition] Helen Gravitate's IPS"/>
       <exampleBoolean value="true"/>
     </resource>
     <resource>
@@ -613,7 +623,7 @@
       <reference>
         <reference value="Composition/ips-example-1"/>
       </reference>
-      <name value="IPS Example 1 Composition"/>
+      <name value="[Composition] IPS Example 1 IPS"/>
       <exampleBoolean value="true"/>
     </resource>
     <resource>
@@ -623,7 +633,7 @@
       <reference>
         <reference value="Composition/ips-example-2"/>
       </reference>
-      <name value="IPS Example 2 Composition"/>
+      <name value="[Composition] IPS Example 2 IPS"/>
       <exampleBoolean value="true"/>
     </resource>
     <page>
@@ -639,6 +649,14 @@
         </extension>
         <nameUrl value="index.html"/>
         <title value="Home"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="Connecting-data.html"/>
+        </extension>
+        <nameUrl value="Connecting-data.html"/>
+        <title value="Connecting Data"/>
         <generation value="markdown"/>
       </page>
       <page>
@@ -659,18 +677,18 @@
       </page>
       <page>
         <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="data.html"/>
-        </extension>
-        <nameUrl value="data.html"/>
-        <title value="Data"/>
-        <generation value="markdown"/>
-      </page>
-      <page>
-        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
           <valueUrl value="ePI-structure.html"/>
         </extension>
         <nameUrl value="ePI-structure.html"/>
         <title value="E PI Structure"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="SampleData.html"/>
+        </extension>
+        <nameUrl value="SampleData.html"/>
+        <title value="Sample Data"/>
         <generation value="markdown"/>
       </page>
       <page>

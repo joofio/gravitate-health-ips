@@ -1,21 +1,22 @@
 ﻿GhR4ImplementationGuide : Validation Results
 =========================================
 
-err = 44, warn = 46, info = 126
+err = 66, warn = 39, info = 144
 IG Publisher Version: 1.2.23
-Generated Mon Dec 12 13:37:48 UTC 2022. FHIR version 4.0.1 for hl7.eu.fhir.gh-ips#0.1.0 (canonical = http://hl7.eu/fhir/ig/gravitate-health-ips)
- Build Errors : 185 / 7 / 0
- /github/workspace/fsh-generated/resources/Bundle-gravitate-Cecilia : 0 / 12 / 20
- /github/workspace/fsh-generated/resources/Bundle-gravitate-Matilda : 10 / 9 / 16
- /github/workspace/fsh-generated/resources/Bundle-gravitate-Pedro : 11 / 12 / 20
+Generated Mon Dec 12 15:46:17 UTC 2022. FHIR version 4.0.1 for hl7.eu.fhir.gh-ips#0.1.0 (canonical = http://hl7.eu/fhir/ig/gravitate-health-ips)
+ Build Errors : 197 / 8 / 0
+ /github/workspace/fsh-generated/resources/Bundle-gravitate-Cecilia : 4 / 16 / 22
+ /github/workspace/fsh-generated/resources/Bundle-gravitate-Matilda : 11 / 8 / 16
+ /github/workspace/fsh-generated/resources/Bundle-gravitate-Pedro : 22 / 0 / 41
  /github/workspace/fsh-generated/resources/Bundle-gravitate-helen : 5 / 2 / 17
  /github/workspace/fsh-generated/resources/Bundle-gravitate-ips-1 : 1 / 2 / 21
  /github/workspace/fsh-generated/resources/Bundle-gravitate-ips-2 : 0 / 0 / 20
  /github/workspace/fsh-generated/resources/Bundle-gravitate-ips-3 : 0 / 1 / 22
  /github/workspace/fsh-generated/resources/Bundle-gravitate-maria : 0 / 0 / 20
- /github/workspace/fsh-generated/resources/Composition-gravitate-Cecilia : 5 / 0 / 1
- /github/workspace/fsh-generated/resources/Composition-gravitate-Matilda : 1 / 0 / 1
- /github/workspace/fsh-generated/resources/Composition-gravitate-Pedro : 11 / 3 / 1
+ /github/workspace/fsh-generated/resources/Composition-gravitate-Cecilia : 10 / 0 / 1
+ /github/workspace/fsh-generated/resources/Composition-gravitate-Matilda : 2 / 0 / 1
+ /github/workspace/fsh-generated/resources/Composition-gravitate-Pedro : 11 / 0 / 1
+ /github/workspace/fsh-generated/resources/Composition-gravitate-helen : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Composition-gravitate-ips-1 : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/Composition-ips-example-1 : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Composition-ips-example-2 : 0 / 0 / 1
@@ -24,6 +25,7 @@ Generated Mon Dec 12 13:37:48 UTC 2022. FHIR version 4.0.1 for hl7.eu.fhir.gh-ip
  /github/workspace/fsh-generated/resources/QuestionnaireResponse-QuestionnaireResponse-example : 0 / 1 / 19
 </table>
 == n/a ==
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Composition/gravitate-helen.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Composition/gravitate-ips-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Composition/ips-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Composition/ips-example-2.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
@@ -137,6 +139,16 @@ ERROR: /github/workspace/output/Composition-gravitate-Pedro.ttl.html#/html/body/
 ERROR: /github/workspace/output/Composition-gravitate-Pedro.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 134, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
 ERROR: /github/workspace/output/Composition-gravitate-Pedro.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
 ERROR: /github/workspace/output/Composition-gravitate-Pedro.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 134, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/Composition-gravitate-helen.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 120, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/Composition-gravitate-helen.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 136, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/Composition-gravitate-helen.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/Composition-gravitate-helen.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 132, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/Composition-gravitate-helen.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/Composition-gravitate-helen.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 134, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/Composition-gravitate-helen.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/Composition-gravitate-helen.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 134, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/Composition-gravitate-helen.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/Composition-gravitate-helen.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 134, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
 ERROR: /github/workspace/output/Composition-gravitate-ips-1.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 120, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
 ERROR: /github/workspace/output/Composition-gravitate-ips-1.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 136, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
 ERROR: /github/workspace/output/Composition-gravitate-ips-1.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
@@ -167,6 +179,8 @@ ERROR: /github/workspace/output/Composition-ips-example-2.ttl.html#/html/body/di
 ERROR: /github/workspace/output/Composition-ips-example-2.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 134, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
 ERROR: /github/workspace/output/Composition-ips-example-2.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
 ERROR: /github/workspace/output/Composition-ips-example-2.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 134, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/Connecting-data.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/Connecting-data.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 132, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
 ERROR: /github/workspace/output/Questionnaire-Questionnaire-example-testing.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
 ERROR: /github/workspace/output/Questionnaire-Questionnaire-example-testing.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 132, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
 ERROR: /github/workspace/output/Questionnaire-Questionnaire-example.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 120, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
@@ -189,6 +203,8 @@ ERROR: /github/workspace/output/QuestionnaireResponse-QuestionnaireResponse-exam
 ERROR: /github/workspace/output/QuestionnaireResponse-QuestionnaireResponse-example.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 134, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
 ERROR: /github/workspace/output/QuestionnaireResponse-QuestionnaireResponse-example.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 118, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
 ERROR: /github/workspace/output/QuestionnaireResponse-QuestionnaireResponse-example.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 134, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
+ERROR: /github/workspace/output/SampleData.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
+ERROR: /github/workspace/output/SampleData.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 132, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
 ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
 ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 132, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
 ERROR: /github/workspace/output/connections.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
@@ -196,8 +212,6 @@ ERROR: /github/workspace/output/connections.html#/html/body/div/div/nav/div/div/
 ERROR: /github/workspace/output/copyright.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
 ERROR: /github/workspace/output/copyright.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 132, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
 ERROR: /github/workspace/output/copyright.html#/html/body/div/div/div/div/div/p/a at Line 234, column 14: The link 'http://build.fhir.org/ig/HL7/fhir-ips/copyrights.html' for "IPS Implementation Guide" cannot be resolved
-ERROR: /github/workspace/output/data.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
-ERROR: /github/workspace/output/data.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 132, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
 ERROR: /github/workspace/output/ePI-structure.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 116, column 10: The link 'CapabilityStatement-capability-statement-ema.html' for "SmPC / PL" cannot be resolved
 ERROR: /github/workspace/output/ePI-structure.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 132, column 10: The link 'downloads.html' for "Downloads" cannot be resolved
 ERROR: /github/workspace/output/ePI-structure.html#/html/body/div/div/div/div/div/p/a at Line 239, column 121: The link 'http://build.fhir.org/ig/hl7-eu/gravitate-health/terminology.html' for "Terminology" cannot be resolved
@@ -219,25 +233,34 @@ WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in 
 == fsh-generated/resources/Bundle-gravitate-Cecilia.json ==
 WARNING: Bundle/gravitate-Cecilia: Bundle.entry[0].resource.ofType(Composition).subject: Entry 1 matches the reference Patient/cecilia-patient by type and id but it's fullUrl urn:uuid:f68aa05c-63e2-4305-992b-a421f743e328 does not match the full target URL urn:uuid:cecilia-patient by Bundle resolution rules
 WARNING: Bundle/gravitate-Cecilia: Bundle.entry[0].resource.ofType(Composition).author[0]: Entry 2 matches the reference Practitioner/cecilia-pract by type and id but it's fullUrl urn:uuid:2153a841-3c69-47cb-948d-1d97ce20eb61 does not match the full target URL urn:uuid:cecilia-pract by Bundle resolution rules
+WARNING: Bundle/gravitate-Cecilia: Bundle.entry[0].resource.ofType(Composition).section[0].entry[0]: Entry 3 matches the reference Condition/cecilia-cond-1 by type and id but it's fullUrl urn:uuid:7b69285e-bf3a-4b8d-a30f-8effd6059a4f does not match the full target URL urn:uuid:cecilia-cond-1 by Bundle resolution rules
+WARNING: Bundle/gravitate-Cecilia: Bundle.entry[0].resource.ofType(Composition).section[0].entry[1]: Entry 4 matches the reference Condition/cecilia-cond-2 by type and id but it's fullUrl urn:uuid:ebb1a59f-a249-40dd-9868-25879bc9bb71 does not match the full target URL urn:uuid:cecilia-cond-2 by Bundle resolution rules
+WARNING: Bundle/gravitate-Cecilia: Bundle.entry[0].resource.ofType(Composition).section[0].entry[2]: Entry 5 matches the reference Condition/cecilia-cond-3 by type and id but it's fullUrl urn:uuid:0d4addd6-c3ee-468c-9202-026a24293f32 does not match the full target URL urn:uuid:cecilia-cond-3 by Bundle resolution rules
+WARNING: Bundle/gravitate-Cecilia: Bundle.entry[0].resource.ofType(Composition).section[0].entry[3]: Entry 6 matches the reference Condition/cecilia-cond-4 by type and id but it's fullUrl urn:uuid:c2a8ea98-cf92-4f57-933c-7d857fb20b1d does not match the full target URL urn:uuid:cecilia-cond-4 by Bundle resolution rules
 WARNING: Bundle/gravitate-Cecilia: Bundle.entry[0].resource.ofType(Composition).section[1].entry[0]: Entry 7 matches the reference MedicationStatement/cecilia-med-stat-1 by type and id but it's fullUrl urn:uuid:29074ca4-efcb-4ff4-8446-feed2399a899 does not match the full target URL urn:uuid:cecilia-med-stat-1 by Bundle resolution rules
 WARNING: Bundle/gravitate-Cecilia: Bundle.entry[0].resource.ofType(Composition).section[1].entry[1]: Entry 8 matches the reference MedicationStatement/cecilia-med-stat-2 by type and id but it's fullUrl urn:uuid:f6cb1218-f81c-4338-80d8-3c10910f78fd does not match the full target URL urn:uuid:cecilia-med-stat-2 by Bundle resolution rules
 WARNING: Bundle/gravitate-Cecilia: Bundle.entry[0].resource.ofType(Composition).section[1].entry[2]: Entry 9 matches the reference MedicationStatement/cecilia-med-stat-3 by type and id but it's fullUrl urn:uuid:f26084c9-b1c8-46d9-acb2-1d400ade87ba does not match the full target URL urn:uuid:cecilia-med-stat-3 by Bundle resolution rules
+ERROR: Bundle/gravitate-Cecilia: Bundle.entry[0].resource.ofType(Composition).section[1].entry[3]: Unable to resolve resource with reference 'MedicationStatement/cecilia-med-stat-4'
 WARNING: Bundle/gravitate-Cecilia: Bundle.entry[3].resource.ofType(Condition).subject: Entry 1 matches the reference Patient/cecilia-patient by type and id but it's fullUrl urn:uuid:f68aa05c-63e2-4305-992b-a421f743e328 does not match the full target URL urn:uuid:cecilia-patient by Bundle resolution rules
 WARNING: Bundle/gravitate-Cecilia: Bundle.entry[4].resource.ofType(Condition).subject: Entry 1 matches the reference Patient/cecilia-patient by type and id but it's fullUrl urn:uuid:f68aa05c-63e2-4305-992b-a421f743e328 does not match the full target URL urn:uuid:cecilia-patient by Bundle resolution rules
 WARNING: Bundle/gravitate-Cecilia: Bundle.entry[5].resource.ofType(Condition).subject: Entry 1 matches the reference Patient/cecilia-patient by type and id but it's fullUrl urn:uuid:f68aa05c-63e2-4305-992b-a421f743e328 does not match the full target URL urn:uuid:cecilia-patient by Bundle resolution rules
 WARNING: Bundle/gravitate-Cecilia: Bundle.entry[6].resource.ofType(Condition).subject: Entry 1 matches the reference Patient/cecilia-patient by type and id but it's fullUrl urn:uuid:f68aa05c-63e2-4305-992b-a421f743e328 does not match the full target URL urn:uuid:cecilia-patient by Bundle resolution rules
+INFORMATION: Bundle/gravitate-Cecilia: Bundle.entry[7].resource.ofType(MedicationStatement).medication.ofType(Reference): Details for urn:uuid:b50ae644-e0b7-4007-809f-26f493cbe36c matching against profile http://hl7.org/fhir/StructureDefinition/Medication|4.0.1
 WARNING: Bundle/gravitate-Cecilia: Bundle.entry[7].resource.ofType(MedicationStatement).subject: Entry 1 matches the reference Patient/cecilia-patient by type and id but it's fullUrl urn:uuid:f68aa05c-63e2-4305-992b-a421f743e328 does not match the full target URL urn:uuid:cecilia-patient by Bundle resolution rules
+INFORMATION: Bundle/gravitate-Cecilia: Bundle.entry[8].resource.ofType(MedicationStatement).medication.ofType(Reference): Details for urn:uuid:de131e15-ed13-4b31-b38c-3204a84d99c4 matching against profile http://hl7.org/fhir/StructureDefinition/Medication|4.0.1
 WARNING: Bundle/gravitate-Cecilia: Bundle.entry[8].resource.ofType(MedicationStatement).subject: Entry 1 matches the reference Patient/cecilia-patient by type and id but it's fullUrl urn:uuid:f68aa05c-63e2-4305-992b-a421f743e328 does not match the full target URL urn:uuid:cecilia-patient by Bundle resolution rules
 WARNING: Bundle/gravitate-Cecilia: Bundle.entry[9].resource.ofType(MedicationStatement).subject: Entry 1 matches the reference Patient/cecilia-patient by type and id but it's fullUrl urn:uuid:f68aa05c-63e2-4305-992b-a421f743e328 does not match the full target URL urn:uuid:cecilia-patient by Bundle resolution rules
 INFORMATION: Bundle/gravitate-Cecilia: Bundle.entry[10].resource.ofType(Medication).code.coding[0]: Code System URI 'http://ema.europa.eu/fhir/marketingAuthorizationNumber' is unknown so the code cannot be validated
 INFORMATION: Bundle/gravitate-Cecilia: Bundle.entry[10].resource.ofType(Medication).code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
+ERROR: Bundle/gravitate-Cecilia: Bundle.entry[10].resource.ofType(Medication).ingredient[0].strength.denominator: Local Error: Resolved system http://unitsofmeasure.org (v3.0.1), but the definition is not complete. Server Error: Error processing Unit: 'tablet': The unit "tablet" is unknown at character 1; The code "tablet" is not valid in the system http://unitsofmeasure.org; The code provided (http://unitsofmeasure.org#tablet) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://unitsofmeasure.org#tablet'
 INFORMATION: Bundle/gravitate-Cecilia: Bundle.entry[11].resource.ofType(Medication).code.coding[0]: Code System URI 'http://ema.europa.eu/fhir/marketingAuthorizationNumber' is unknown so the code cannot be validated
 INFORMATION: Bundle/gravitate-Cecilia: Bundle.entry[11].resource.ofType(Medication).code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
+ERROR: Bundle/gravitate-Cecilia: Bundle.entry[11].resource.ofType(Medication).ingredient[0].strength.denominator: Local Error: Resolved system http://unitsofmeasure.org (v3.0.1), but the definition is not complete. Server Error: Error processing Unit: 'tablet': The unit "tablet" is unknown at character 1; The code "tablet" is not valid in the system http://unitsofmeasure.org; The code provided (http://unitsofmeasure.org#tablet) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://unitsofmeasure.org#tablet'
 INFORMATION: Bundle/gravitate-Cecilia: Bundle.entry[12].resource.ofType(Medication).code.coding[0]: Code System URI 'https://www.gravitatehealth.eu/sid/man' is unknown so the code cannot be validated
 INFORMATION: Bundle/gravitate-Cecilia: Bundle.entry[12].resource.ofType(Medication).code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
+ERROR: Bundle/gravitate-Cecilia: Bundle.entry[1].resource.section[2].entry[4].reference: Can't find 'MedicationStatement/cecilia-med-stat-4' in the bundle (Section Entry)
 == fsh-generated/resources/Bundle-gravitate-Matilda.json ==
 WARNING: Bundle/gravitate-Matilda: Bundle.entry[0].resource.ofType(Composition).subject: URN reference is not locally contained within the bundle urn:uuid:be61951b-44fc-4853-8822-f9d398193c50
-WARNING: Bundle/gravitate-Matilda: Bundle.entry[1].resource.ofType(Patient).extension[0].extension[0].value.ofType(CodeableConcept).coding[0]: The display "United Kingdom" is not a valid display for the code {urn:iso:std:iso:3166}GB - should be one of ['United Kingdom of Great Britain and Northern Ireland'] (from http://tx.fhir.org/r4) for 'urn:iso:std:iso:3166#GB'
 WARNING: Bundle/gravitate-Matilda: Bundle.entry[3].resource.ofType(AllergyIntolerance).patient: URN reference is not locally contained within the bundle urn:uuid:be61951b-44fc-4853-8822-f9d398193c50
 WARNING: Bundle/gravitate-Matilda: Bundle.entry[4].resource.ofType(Condition).subject: URN reference is not locally contained within the bundle urn:uuid:be61951b-44fc-4853-8822-f9d398193c50
 WARNING: Bundle/gravitate-Matilda: Bundle.entry[5].resource.ofType(MedicationStatement).medication.ofType(Reference): URN reference is not locally contained within the bundle urn:uuid:9d7be868-8264-4d94-ad04-ef04ecc92e50
@@ -255,36 +278,56 @@ ERROR: Bundle/gravitate-Matilda: Bundle.entry[8].resource.ofType(Medication).cod
 ERROR: Bundle/gravitate-Matilda: Bundle.entry[9].fullUrl: UUIDs must be valid (and lowercase)
 INFORMATION: Bundle/gravitate-Matilda: Bundle.entry[9].resource.ofType(Medication).code.coding[0]: Code System URI 'http://ema.europa.eu/fhir/marketingAuthorizationNumber' is unknown so the code cannot be validated
 INFORMATION: Bundle/gravitate-Matilda: Bundle.entry[9].resource.ofType(Medication).code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
+ERROR: Bundle/gravitate-Matilda: Bundle.entry[9].resource.ofType(Medication).ingredient[0].strength.denominator: Local Error: Resolved system http://unitsofmeasure.org (v3.0.1), but the definition is not complete. Server Error: Error processing Unit: 'sachet': The unit "sachet" is unknown at character 1; The code "sachet" is not valid in the system http://unitsofmeasure.org; The code provided (http://unitsofmeasure.org#sachet) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://unitsofmeasure.org#sachet'
 ERROR: Bundle/gravitate-Matilda: Bundle.entry[1].resource.subject.reference: Can't find 'urn:uuid:be61951b-44fc-4853-8822-f9d398193c50' in the bundle (Composition.subject)
 ERROR: Bundle/gravitate-Matilda: Bundle.entry[2]: Entry 'matilda-patient' isn't reachable by traversing links (forward or backward) from the Composition
 ERROR: Bundle/gravitate-Matilda: Bundle.entry[8]: Entry 'urn:uuid:c872135e-f219-4f32-8fd6-7099009abf42' isn't reachable by traversing links (forward or backward) from the Composition
 ERROR: Bundle/gravitate-Matilda: Bundle.entry[9]: Entry 'urn:uuid:9d7be868-8264-4d94-ad04-ef04ecc92e51' isn't reachable by traversing links (forward or backward) from the Composition
 ERROR: Bundle/gravitate-Matilda: Bundle.entry[10]: Entry 'urn:uuid:fdb5c97f-0a46-41ba-bc34-2efd2ef2f7et' isn't reachable by traversing links (forward or backward) from the Composition
 == fsh-generated/resources/Bundle-gravitate-Pedro.json ==
-ERROR: Bundle/gravitate-Pedro: Bundle: Rule bdl-7: 'FullUrl must be unique in a bundle, or else entries with the same fullUrl must have different meta.versionId (except in history bundles)' Failed
-WARNING: Bundle/gravitate-Pedro: Bundle.entry[0].resource.ofType(Composition).section[0].entry[0]: URN reference is not locally contained within the bundle urn:uuid:cb6e84fa-4302-4569-ac1c-6b1b32507d16
-ERROR: Bundle/gravitate-Pedro: Bundle.entry[0].resource.ofType(Composition).section[1].entry[0]: Multiple matches in bundle for reference urn:uuid:de06df6b-0967-4b01-822b-7cfeea970aa7
-ERROR: Bundle/gravitate-Pedro: Bundle.entry[0].resource.ofType(Composition).section[2].entry[1]: Multiple matches in bundle for reference urn:uuid:c90b943a-3d8e-4f14-b56d-5c5c208b2065
+ERROR: Bundle/gravitate-Pedro: Bundle.entry[1].fullUrl: UUIDs must be valid (and lowercase)
+ERROR: Bundle/gravitate-Pedro: Bundle.entry[2].fullUrl: UUIDs must be valid (and lowercase)
+ERROR: Bundle/gravitate-Pedro: Bundle.entry[3].fullUrl: UUIDs must be valid (and lowercase)
+ERROR: Bundle/gravitate-Pedro: Bundle.entry[4].fullUrl: UUIDs must be valid (and lowercase)
+ERROR: Bundle/gravitate-Pedro: Bundle.entry[5].fullUrl: UUIDs must be valid (and lowercase)
 INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[5].resource.ofType(MedicationStatement).medication.ofType(Reference): Details for urn:uuid:9d7be868-8264-4d94-ad04-ef04ecc92e52 matching against profile http://hl7.org/fhir/StructureDefinition/Medication|4.0.1
-ERROR: Bundle/gravitate-Pedro: Bundle.entry[6].resource.ofType(MedicationStatement).basedOn[0]: Unable to resolve resource with reference 'MedicationStatement/c872135e-f219-4f32-8fd6-7099009abf42'
-WARNING: Bundle/gravitate-Pedro: Bundle.entry[7].resource.ofType(MedicationStatement).medication.ofType(Reference): URN reference is not locally contained within the bundle urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda7785g
-ERROR: Bundle/gravitate-Pedro: Bundle.entry[7].resource.ofType(MedicationStatement).medication.ofType(Reference): Unable to resolve resource with reference 'urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda7785g'
-WARNING: Bundle/gravitate-Pedro: Bundle.entry[8].resource.ofType(MedicationStatement).medication.ofType(Reference): URN reference is not locally contained within the bundle urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda7785g
-ERROR: Bundle/gravitate-Pedro: Bundle.entry[8].resource.ofType(MedicationStatement).medication.ofType(Reference): Unable to resolve resource with reference 'urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda7785g'
-WARNING: Bundle/gravitate-Pedro: Bundle.entry[9].resource.ofType(MedicationStatement).medication.ofType(Reference): URN reference is not locally contained within the bundle urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda7785g
-ERROR: Bundle/gravitate-Pedro: Bundle.entry[9].resource.ofType(MedicationStatement).medication.ofType(Reference): Unable to resolve resource with reference 'urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda7785g'
-WARNING: Bundle/gravitate-Pedro: Bundle.entry[10].resource.ofType(MedicationStatement).medication.ofType(Reference): URN reference is not locally contained within the bundle urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda7785g
-ERROR: Bundle/gravitate-Pedro: Bundle.entry[10].resource.ofType(MedicationStatement).medication.ofType(Reference): Unable to resolve resource with reference 'urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda7785g'
-WARNING: Bundle/gravitate-Pedro: Bundle.entry[11].resource.ofType(MedicationStatement).medication.ofType(Reference): URN reference is not locally contained within the bundle urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda7785g
-ERROR: Bundle/gravitate-Pedro: Bundle.entry[11].resource.ofType(MedicationStatement).medication.ofType(Reference): Unable to resolve resource with reference 'urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda7785g'
+ERROR: Bundle/gravitate-Pedro: Bundle.entry[6].fullUrl: UUIDs must be valid (and lowercase)
+INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[6].resource.ofType(MedicationStatement).medication.ofType(Reference): Details for Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4 matching against profile http://hl7.org/fhir/StructureDefinition/Medication|4.0.1
+ERROR: Bundle/gravitate-Pedro: Bundle.entry[7].fullUrl: UUIDs must be valid (and lowercase)
+INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[7].resource.ofType(MedicationStatement).medication.ofType(Reference): Details for urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda7785g matching against profile http://hl7.org/fhir/StructureDefinition/Medication|4.0.1
+ERROR: Bundle/gravitate-Pedro: Bundle.entry[8].fullUrl: UUIDs must be valid (and lowercase)
+INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[8].resource.ofType(MedicationStatement).medication.ofType(Reference): Details for urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda7785g matching against profile http://hl7.org/fhir/StructureDefinition/Medication|4.0.1
+ERROR: Bundle/gravitate-Pedro: Bundle.entry[9].fullUrl: UUIDs must be valid (and lowercase)
+INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[9].resource.ofType(MedicationStatement).medication.ofType(Reference): Details for Medication/6f4151e9-91f6-4f1e-adc3-fb94dda7785g matching against profile http://hl7.org/fhir/StructureDefinition/Medication|4.0.1
+ERROR: Bundle/gravitate-Pedro: Bundle.entry[10].fullUrl: UUIDs must be valid (and lowercase)
+INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[10].resource.ofType(MedicationStatement).medication.ofType(Reference): Details for Medication/6f4151e9-91f6-4f1e-adc3-fb94dda7785g matching against profile http://hl7.org/fhir/StructureDefinition/Medication|4.0.1
+ERROR: Bundle/gravitate-Pedro: Bundle.entry[11].fullUrl: UUIDs must be valid (and lowercase)
+INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[11].resource.ofType(MedicationStatement).medication.ofType(Reference): Details for Medication/6f4151e9-91f6-4f1e-adc3-fb94dda7785g matching against profile http://hl7.org/fhir/StructureDefinition/Medication|4.0.1
 INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[12].resource.ofType(Medication).code.coding[0]: Code System URI 'http://ema.europa.eu/fhir/marketingAuthorizationNumber' is unknown so the code cannot be validated
 INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[12].resource.ofType(Medication).code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
 ERROR: Bundle/gravitate-Pedro: Bundle.entry[12].resource.ofType(Medication).code.coding[2]: Invalid System URI: http://snomed.info/sct/83821000000107
+ERROR: Bundle/gravitate-Pedro: Bundle.entry[12].resource.ofType(Medication).ingredient[0].strength.denominator: Local Error: Resolved system http://unitsofmeasure.org (v3.0.1), but the definition is not complete. Server Error: Error processing Unit: 'tablet': The unit "tablet" is unknown at character 1; The code "tablet" is not valid in the system http://unitsofmeasure.org; The code provided (http://unitsofmeasure.org#tablet) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://unitsofmeasure.org#tablet'
+ERROR: Bundle/gravitate-Pedro: Bundle.entry[12].resource.ofType(Medication).ingredient[1].strength.denominator: Local Error: Resolved system http://unitsofmeasure.org (v3.0.1), but the definition is not complete. Server Error: Error processing Unit: 'tablet': The unit "tablet" is unknown at character 1; The code "tablet" is not valid in the system http://unitsofmeasure.org; The code provided (http://unitsofmeasure.org#tablet) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://unitsofmeasure.org#tablet'
 INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[13].resource.ofType(Medication).code.coding[0]: Code System URI 'http://ema.europa.eu/fhir/marketingAuthorizationNumber' is unknown so the code cannot be validated
 INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[13].resource.ofType(Medication).code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
-ERROR: Bundle/gravitate-Pedro: Bundle.entry[1].resource.section[1].entry[1].reference: Can't find 'urn:uuid:cb6e84fa-4302-4569-ac1c-6b1b32507d16' in the bundle (Section Entry)
-WARNING: Bundle/gravitate-Pedro: Bundle.entry[15]: Entry 'urn:uuid:de06df6b-0967-4b01-822b-7cfeea970aa7' isn't reachable by traversing forwards from the Composition. Only Provenance is approved to be used this way (R4 section 3.3.1)
-WARNING: Bundle/gravitate-Pedro: Bundle.entry[15]: Entry 'urn:uuid:c90b943a-3d8e-4f14-b56d-5c5c208b2065' isn't reachable by traversing forwards from the Composition. Only Provenance is approved to be used this way (R4 section 3.3.1)
+ERROR: Bundle/gravitate-Pedro: Bundle.entry[13].resource.ofType(Medication).ingredient[0].strength.denominator: Local Error: Resolved system http://unitsofmeasure.org (v3.0.1), but the definition is not complete. Server Error: Error processing Unit: 'tablet': The unit "tablet" is unknown at character 1; The code "tablet" is not valid in the system http://unitsofmeasure.org; The code provided (http://unitsofmeasure.org#tablet) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://unitsofmeasure.org#tablet'
+ERROR: Bundle/gravitate-Pedro: Bundle.entry[14].fullUrl: UUIDs must be valid (and lowercase)
+INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[14].resource.ofType(Medication).code.coding[0]: Code System URI 'https://www.gravitatehealth.eu/sid/man' is unknown so the code cannot be validated
+INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[14].resource.ofType(Medication).code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
+ERROR: Bundle/gravitate-Pedro: Bundle.entry[14].resource.ofType(Medication).ingredient[0].strength.denominator: Local Error: Resolved system http://unitsofmeasure.org (v3.0.1), but the definition is not complete. Server Error: Error processing Unit: 'tablet': The unit "tablet" is unknown at character 1; The code "tablet" is not valid in the system http://unitsofmeasure.org; The code provided (http://unitsofmeasure.org#tablet) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://unitsofmeasure.org#tablet'
+INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[15].resource.ofType(Medication).code.coding[0]: Code System URI 'https://www.gravitatehealth.eu/sid/man' is unknown so the code cannot be validated
+INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[15].resource.ofType(Medication).code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
+ERROR: Bundle/gravitate-Pedro: Bundle.entry[15].resource.ofType(Medication).ingredient[0].strength.denominator: Local Error: Resolved system http://unitsofmeasure.org (v3.0.1), but the definition is not complete. Server Error: Error processing Unit: 'tablet': The unit "tablet" is unknown at character 1; The code "tablet" is not valid in the system http://unitsofmeasure.org; The code provided (http://unitsofmeasure.org#tablet) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://unitsofmeasure.org#tablet'
+INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[16].resource.ofType(Medication).code.coding[0]: Code System URI 'https://www.gravitatehealth.eu/sid/man' is unknown so the code cannot be validated
+INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[16].resource.ofType(Medication).code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
+INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[17].resource.ofType(Medication).code.coding[0]: Code System URI 'https://www.gravitatehealth.eu/sid/man' is unknown so the code cannot be validated
+INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[17].resource.ofType(Medication).code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
+INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[18].resource.ofType(Medication).code.coding[0]: Code System URI 'https://www.gravitatehealth.eu/sid/man' is unknown so the code cannot be validated
+INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[18].resource.ofType(Medication).code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
+ERROR: Bundle/gravitate-Pedro: Bundle.entry[16]: Entry 'urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda77854' isn't reachable by traversing links (forward or backward) from the Composition
+ERROR: Bundle/gravitate-Pedro: Bundle.entry[17]: Entry 'urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda77855' isn't reachable by traversing links (forward or backward) from the Composition
+ERROR: Bundle/gravitate-Pedro: Bundle.entry[18]: Entry 'urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda77856' isn't reachable by traversing links (forward or backward) from the Composition
+ERROR: Bundle/gravitate-Pedro: Bundle.entry[19]: Entry 'urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda77857' isn't reachable by traversing links (forward or backward) from the Composition
 == fsh-generated/resources/Bundle-gravitate-helen.json ==
 WARNING: Bundle/gravitate-helen: Bundle.entry[1].resource.ofType(Patient).extension[0].extension[0].value.ofType(CodeableConcept).coding[0]: The display "United Kingdom" is not a valid display for the code {urn:iso:std:iso:3166}GB - should be one of ['United Kingdom of Great Britain and Northern Ireland'] (from http://tx.fhir.org/r4) for 'urn:iso:std:iso:3166#GB'
 INFORMATION: Bundle/gravitate-helen: Bundle.entry[5].resource.ofType(MedicationStatement).medication.ofType(Reference): Details for urn:uuid:9d7be868-8264-4d94-ad04-ef04ecc92e50 matching against profile http://hl7.org/fhir/StructureDefinition/Medication|4.0.1
@@ -334,11 +377,17 @@ INFORMATION: Bundle/gravitate-maria: Bundle.entry[12].resource.ofType(Medication
 == fsh-generated/resources/Composition-gravitate-Cecilia.json ==
 ERROR: Composition/gravitate-Cecilia: Composition.subject: Unable to resolve resource with reference 'Patient/cecilia-patient'
 ERROR: Composition/gravitate-Cecilia: Composition.author[0]: Unable to resolve resource with reference 'Practitioner/cecilia-pract'
+ERROR: Composition/gravitate-Cecilia: Composition.section[0].entry[0]: Unable to resolve resource with reference 'Condition/cecilia-cond-1'
+ERROR: Composition/gravitate-Cecilia: Composition.section[0].entry[1]: Unable to resolve resource with reference 'Condition/cecilia-cond-2'
+ERROR: Composition/gravitate-Cecilia: Composition.section[0].entry[2]: Unable to resolve resource with reference 'Condition/cecilia-cond-3'
+ERROR: Composition/gravitate-Cecilia: Composition.section[0].entry[3]: Unable to resolve resource with reference 'Condition/cecilia-cond-4'
 ERROR: Composition/gravitate-Cecilia: Composition.section[1].entry[0]: Unable to resolve resource with reference 'MedicationStatement/cecilia-med-stat-1'
 ERROR: Composition/gravitate-Cecilia: Composition.section[1].entry[1]: Unable to resolve resource with reference 'MedicationStatement/cecilia-med-stat-2'
 ERROR: Composition/gravitate-Cecilia: Composition.section[1].entry[2]: Unable to resolve resource with reference 'MedicationStatement/cecilia-med-stat-3'
+ERROR: Composition/gravitate-Cecilia: Composition.section[1].entry[3]: Unable to resolve resource with reference 'MedicationStatement/cecilia-med-stat-4'
 == fsh-generated/resources/Composition-gravitate-Matilda.json ==
 ERROR: Composition/gravitate-Matilda: Composition.subject: Unable to resolve resource with reference 'Patient/matilda-patient'
+ERROR: Composition/gravitate-Matilda: Composition.section[1].entry[2]: Unable to resolve resource with reference 'urn:uuid:fbc29713-c2bc-4ebd-9422-8a8326d5f908'
 == fsh-generated/resources/Composition-gravitate-Pedro.json ==
 ERROR: Composition/gravitate-Pedro: Composition.subject: Unable to resolve resource with reference 'Patient/pedro-patient'
 ERROR: Composition/gravitate-Pedro: Composition.author[0]: Unable to resolve resource with reference 'Practitioner/pedro-pract'
@@ -346,14 +395,12 @@ ERROR: Composition/gravitate-Pedro: Composition.section[0].entry[0]: Unable to r
 ERROR: Composition/gravitate-Pedro: Composition.section[0].entry[1]: Unable to resolve resource with reference 'Condition/pedro-cond-2'
 ERROR: Composition/gravitate-Pedro: Composition.section[1].entry[0]: Unable to resolve resource with reference 'MedicationStatement/pedro-med-stat-1'
 ERROR: Composition/gravitate-Pedro: Composition.section[1].entry[1]: Unable to resolve resource with reference 'MedicationStatement/pedro-med-stat-2'
-WARNING: Composition/gravitate-Pedro: Composition.section[1].entry[1].display: value should not start or finish with whitespace 'Mirtazapine...mg '
 ERROR: Composition/gravitate-Pedro: Composition.section[1].entry[2]: Unable to resolve resource with reference 'MedicationStatement/pedro-med-stat-3'
-WARNING: Composition/gravitate-Pedro: Composition.section[1].entry[2].display: value should not start or finish with whitespace 'Calcium...mg '
 ERROR: Composition/gravitate-Pedro: Composition.section[1].entry[3]: Unable to resolve resource with reference 'MedicationStatement/pedro-med-stat-4'
 ERROR: Composition/gravitate-Pedro: Composition.section[1].entry[4]: Unable to resolve resource with reference 'MedicationStatement/pedro-med-stat-5'
 ERROR: Composition/gravitate-Pedro: Composition.section[1].entry[5]: Unable to resolve resource with reference 'MedicationStatement/pedro-med-stat-6'
 ERROR: Composition/gravitate-Pedro: Composition.section[1].entry[6]: Unable to resolve resource with reference 'MedicationStatement/pedro-med-stat-7'
-WARNING: Composition/gravitate-Pedro: Composition.section[1].entry[6].display: value should not start or finish with whitespace '-...supplements '
+== fsh-generated/resources/Composition-gravitate-helen.json ==
 == fsh-generated/resources/Composition-gravitate-ips-1.json ==
 WARNING: Composition/gravitate-ips-1: Composition.section[3].code.coding[0]: The display "History of pregnancies" is not a valid display for the code {http://loinc.org}10162-6 - should be one of ['History of pregnancies Narrative', 'Pregnancies Hx', '', '历史' (zh-CN), '史' (zh-CN), '病史 历史纪录与体格检查 历史纪录与体格检查.历史记录' (zh-CN), '历史纪录与体格检查.历史记录类' (zh-CN), '历史纪录与体格检查.历史记录类别' (zh-CN), '历史纪录与体格检查.病史' (zh-CN), '历史纪录与体格检查.病史类' (zh-CN), '历史纪录与体格检查.病史类别' (zh-CN), '历史纪录与体格检查.病史记录' (zh-CN), '历史纪录与体格检查.病史记录类' (zh-CN), '历史纪录与体格检查.病史记录类别' (zh-CN), '历史纪录与体格检查小节.历史记录' (zh-CN), '历史纪录与体格检查小节.历史记录类' (zh-CN), '历史纪录与体格检查小节.历史记录类别' (zh-CN), '历史纪录与体格检查小节.病史' (zh-CN), '历史纪录与体格检查小节.病史类' (zh-CN), '历史纪录与体格检查小节.病史类别 历史纪录与体格检查小节 叙述' (zh-CN), '叙述性文字' (zh-CN), '报告' (zh-CN), '报告型' (zh-CN), '文字叙述' (zh-CN), '文本叙述型' (zh-CN), '文本描述' (zh-CN), '文本描述型 怀孕' (zh-CN), '怀孕期' (zh-CN), '妊娠期' (zh-CN), '妊娠类' (zh-CN), '妊娠（复数） 怀孕史' (zh-CN), '妊娠历史 时刻' (zh-CN), '随机' (zh-CN), '随意' (zh-CN), '瞬间 病史与体格检查' (zh-CN), 'Anamnesi Apparato riproduttore Punto nel tempo (episodio) Storia' (it-IT), 'Anamnesi' (it-IT), 'Акушерский анамнез История Описательный Точка во времени' (ru-RU), 'Момент' (ru-RU), 'anamnese' (nl-NL)] (from http://tx.fhir.org/r4) for 'http://loinc.org#10162-6'
 == fsh-generated/resources/Composition-ips-example-1.json ==

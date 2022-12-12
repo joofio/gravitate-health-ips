@@ -11,7 +11,7 @@
   fhir:Resource.id [ fhir:value "gravitate-Matilda"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  \n    <b>Id:</b>\n    gravitate-Matilda\n  <br/>\n  \n    <b>status:</b>\n    final\n  <br/>\n  \n    <b>Type:</b>\n    Patient summary Document\n  <br/>\n  \n    <b>Subject:</b>\n    <a>Matilda Gravitate</a>\n  \n\n  <br/>\n  <b>Sections:</b>\n  <br/>\n\n  <ul>\n    \n      <li>\n\n        Problem List\n\n      </li>\n      <ul>\n\n        \n\n          <li>\n\n            Diabetes type 1\n\n          </li>\n        \n      </ul>\n\n    \n      <li>\n\n        Medication Summary\n\n      </li>\n      <ul>\n\n        \n\n          <li>\n\n            Humalog Mix50 Insulin KwikPen, 3ml pre-fill\n\n          </li>\n        \n\n          <li>\n\n            Monuril 3 g granules for oral solution\n\n          </li>\n        \n      </ul>\n\n    \n  </ul>\n</div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  \n    <b>Id:</b>\n    gravitate-Matilda\n  <br/>\n  \n    <b>status:</b>\n    final\n  <br/>\n  \n    <b>Type:</b>\n    Patient summary Document\n  <br/>\n  \n    <b>Subject:</b>\n    <a>Matilda Gravitate</a>\n  \n\n  <br/>\n  <b>Sections:</b>\n  <br/>\n\n  <ul>\n    \n      <li>\n\n        Problem List\n\n      </li>\n      <ul>\n\n        \n\n          <li>\n\n            Crohn's disease\n\n          </li>\n        \n      </ul>\n\n    \n      <li>\n\n        Medication Summary\n\n      </li>\n      <ul>\n\n        \n\n          <li>\n\n            Humira 40 mg\n\n          </li>\n        \n\n          <li>\n\n            Paracetamol 500 mg\n\n          </li>\n        \n\n          <li>\n\n            Pentasa 1g mesalazine\n\n          </li>\n        \n      </ul>\n\n    \n  </ul>\n</div>"
   ]; # 
   fhir:Composition.status [ fhir:value "final"]; # 
   fhir:Composition.type [
@@ -32,7 +32,7 @@
   fhir:Composition.author [
      fhir:index 0;
      fhir:Reference.reference [ fhir:value "urn:uuid:45cd0bd4-f685-4117-a9f0-5c53fffb7266" ];
-     fhir:Reference.display [ fhir:value "Dr. Anna Karlsson" ]
+     fhir:Reference.display [ fhir:value "Dr. Ana Lopez" ]
   ]; # 
   fhir:Composition.title [ fhir:value "Patient Summary (Matilda Gravitate)"]; # 
   fhir:Composition.confidentiality [ fhir:value "N"]; # 
@@ -50,12 +50,12 @@
      ];
      fhir:Composition.section.text [
        fhir:Narrative.status [ fhir:value "generated" ];
-       fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Diabetes type 1</li></ul></div>"
+       fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Crohn's disease</li></ul></div>"
      ];
      fhir:Composition.section.entry [
        fhir:index 0;
        fhir:Reference.reference [ fhir:value "urn:uuid:de06df6b-0967-4b01-822b-7cfeea970aa7" ];
-       fhir:Reference.display [ fhir:value "Diabetes type 1" ]
+       fhir:Reference.display [ fhir:value "Crohn's disease" ]
      ]
   ], [
      fhir:index 1;
@@ -71,16 +71,20 @@
      ];
      fhir:Composition.section.text [
        fhir:Narrative.status [ fhir:value "generated" ];
-       fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Brand Name</th><th>MAN</th><th>Active Substance</th><th>Common Name</th><th>ATC</th><th>Strength</th><th>Dose Form</th><th>RoA</th></tr></thead><tbody><tr><td>Humalog Mix50 Insulin KwikPen, 3ml pre-fill</td><td>EU/1/96/007/035</td><td>insulin lispro (GFX7QIS1II)</td><td>insulin lispro</td><td>A10AD04</td><td>100 U/ml</td><td>Suspension for injection</td><td>Subcutaneous use</td></tr><tr><td>Monuril 3 g granules for oral solution</td><td>PL31654/0006</td><td>FOSFOMYCIN (2N81MY12TE)</td><td>fosfomycin</td><td>J01XX01</td><td>3 g (as trometamol: 5.631g/sachet)</td><td>Granules for oral solution</td><td>Oral use</td></tr></tbody></table></div>"
+       fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Brand Name</th><th>MAN</th><th>Active Substance</th><th>Common Name</th><th>ATC</th><th>Strength</th><th>Dose Form</th><th>RoA</th></tr></thead><tbody><tr><td>Humalog Mix50 Insulin KwikPen, 3ml pre-fill</td><td>EU/1/96/007/035</td><td>insulin lispro (GFX7QIS1II)</td><td>insulin lispro</td><td>A10AD04</td><td>100 U/ml</td><td>Suspension for injection</td><td>Subcutaneous use</td></tr><tr><td>Monuril 3 g granules for oral solution</td><td>PL31654/0006</td><td>FOSFOMYCIN (2N81MY12TE)</td><td>fosfomycin</td><td>J01XX01</td><td>3 g (as trometamol: 5.631g/sachet)</td><td>Granules for oral solution</td><td>Oral use</td></tr><tr><td>Monuril 3 g granules for oral solution</td><td>PL31654/0006</td><td>FOSFOMYCIN (2N81MY12TE)</td><td>fosfomycin</td><td>J01XX01</td><td>3 g (as trometamol: 5.631g/sachet)</td><td>Granules for oral solution</td><td>Oral use</td></tr></tbody></table></div>"
      ];
      fhir:Composition.section.entry [
        fhir:index 0;
        fhir:Reference.reference [ fhir:value "urn:uuid:18eb9898-dea7-4c5e-b097-e507e011747b" ];
-       fhir:Reference.display [ fhir:value "Humalog Mix50 Insulin KwikPen, 3ml pre-fill" ]
+       fhir:Reference.display [ fhir:value "Humira 40 mg" ]
      ], [
        fhir:index 1;
        fhir:Reference.reference [ fhir:value "urn:uuid:c90b943a-3d8e-4f14-b56d-5c5c208b2065" ];
-       fhir:Reference.display [ fhir:value "Monuril 3 g granules for oral solution" ]
+       fhir:Reference.display [ fhir:value "Paracetamol 500 mg" ]
+     ], [
+       fhir:index 2;
+       fhir:Reference.reference [ fhir:value "urn:uuid:fbc29713-c2bc-4ebd-9422-8a8326d5f908" ];
+       fhir:Reference.display [ fhir:value "Pentasa 1g mesalazine" ]
      ]
   ] . # 
 

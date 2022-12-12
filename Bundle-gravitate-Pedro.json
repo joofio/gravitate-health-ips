@@ -11,10 +11,10 @@
     "fullUrl" : "urn:uuid:5702fd1d-dd26-402e-a7c0-7629a5d9bba1",
     "resource" : {
       "resourceType" : "Composition",
-      "id" : "gravitate-helen",
+      "id" : "gravitate-Pedro",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Composition</b><a name=\"gravitate-helen\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Composition &quot;gravitate-helen&quot; </p></div><p><b>status</b>: final</p><p><b>type</b>: Patient summary Document <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#60591-5)</span></p><p><b>date</b>: 2018-07-10 15:22:00+0200</p><p><b>author</b>: <a href=\"#Practitioner_pedro-pract\">See above (urn:uuid:45cd0bd4-f685-4117-a9f0-5c53fffb7266: Dr. Anna Karlsson)</a></p><p><b>title</b>: Patient Summary (Helen Gravitate)</p><p><b>confidentiality</b>: N</p></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Composition</b><a name=\"gravitate-Pedro\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Composition &quot;gravitate-Pedro&quot; </p></div><p><b>status</b>: final</p><p><b>type</b>: Patient summary Document <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#60591-5)</span></p><p><b>date</b>: 2018-07-10 15:22:00+0200</p><p><b>author</b>: <a href=\"#Practitioner_pedro-pract\">See above (Practitioner/pedro-pract: Dr. Anna Karlsson)</a></p><p><b>title</b>: Patient Summary (Pedro Gravitate)</p><p><b>confidentiality</b>: N</p></div>"
       },
       "status" : "final",
       "type" : {
@@ -25,35 +25,17 @@
         }]
       },
       "subject" : {
-        "reference" : "urn:uuid:be61951b-44fc-4853-8822-f9d398193c50",
-        "display" : "Helen Gravitate"
+        "reference" : "Patient/pedro-patient",
+        "display" : "Pedro Gravitate"
       },
       "date" : "2018-07-10T15:22:00+02:00",
       "author" : [{
-        "reference" : "urn:uuid:45cd0bd4-f685-4117-a9f0-5c53fffb7266",
+        "reference" : "Practitioner/pedro-pract",
         "display" : "Dr. Anna Karlsson"
       }],
-      "title" : "Patient Summary (Helen Gravitate)",
+      "title" : "Patient Summary (Pedro Gravitate)",
       "confidentiality" : "N",
       "section" : [{
-        "title" : "Allergies and Intolerances",
-        "code" : {
-          "coding" : [{
-            "system" : "http://loinc.org",
-            "code" : "48765-2",
-            "display" : "Allergies and adverse reactions Document"
-          }]
-        },
-        "text" : {
-          "status" : "generated",
-          "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Hay fever (pollen)</li></ul></div>"
-        },
-        "entry" : [{
-          "reference" : "urn:uuid:cb6e84fa-4302-4569-ac1c-6b1b32507d16",
-          "display" : "Lactose Intolerance"
-        }]
-      },
-      {
         "title" : "Problem List",
         "code" : {
           "coding" : [{
@@ -64,11 +46,15 @@
         },
         "text" : {
           "status" : "generated",
-          "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Diabetes type 1</li></ul></div>"
+          "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>HIV</li><li>Depression</li></ul></div>"
         },
         "entry" : [{
-          "reference" : "urn:uuid:de06df6b-0967-4b01-822b-7cfeea970aa7",
-          "display" : "Diabetes type 1"
+          "reference" : "Condition/pedro-cond-1",
+          "display" : "HIV"
+        },
+        {
+          "reference" : "Condition/pedro-cond-2",
+          "display" : "Depression"
         }]
       },
       {
@@ -85,18 +71,38 @@
           "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Brand Name</th><th>MAN</th><th>Active Substance</th><th>Common Name</th><th>ATC</th><th>Strength</th><th>Dose Form</th><th>RoA</th></tr></thead><tbody><tr><td>Humalog Mix50 Insulin KwikPen, 3ml pre-fill</td><td>EU/1/96/007/035</td><td>insulin lispro (GFX7QIS1II)</td><td>insulin lispro</td><td>A10AD04</td><td>100 U/ml</td><td>Suspension for injection</td><td>Subcutaneous use</td></tr><tr><td>Monuril 3 g granules for oral solution</td><td>PL31654/0006</td><td>FOSFOMYCIN (2N81MY12TE)</td><td>fosfomycin</td><td>J01XX01</td><td>3 g (as trometamol: 5.631g/sachet)</td><td>Granules for oral solution</td><td>Oral use</td></tr></tbody></table></div>"
         },
         "entry" : [{
-          "reference" : "urn:uuid:18eb9898-dea7-4c5e-b097-e507e011747b",
-          "display" : "Humalog Mix50 Insulin KwikPen, 3ml pre-fill"
+          "reference" : "MedicationStatement/pedro-med-stat-1",
+          "display" : "Dolutegravir/Lamivudina"
         },
         {
-          "reference" : "urn:uuid:c90b943a-3d8e-4f14-b56d-5c5c208b2065",
-          "display" : "Monuril 3 g granules for oral solution"
+          "reference" : "MedicationStatement/pedro-med-stat-2",
+          "display" : "Mirtazapine 15 mg"
+        },
+        {
+          "reference" : "MedicationStatement/pedro-med-stat-3",
+          "display" : "Calcium carbonate 500 mg"
+        },
+        {
+          "reference" : "MedicationStatement/pedro-med-stat-4",
+          "display" : "Cinitrapide 1mg"
+        },
+        {
+          "reference" : "MedicationStatement/pedro-med-stat-5",
+          "display" : "Collagen and magnesium supplements"
+        },
+        {
+          "reference" : "MedicationStatement/pedro-med-stat-6",
+          "display" : "Vitamin c supplements"
+        },
+        {
+          "reference" : "MedicationStatement/pedro-med-stat-7",
+          "display" : "Protein supplements"
         }]
       }]
     }
   },
   {
-    "fullUrl" : "urn:uuid:be61951b-44fc-4853-8822-f9d398193c50",
+    "fullUrl" : "urn:uuid:pedro-patient",
     "resource" : {
       "resourceType" : "Patient",
       "id" : "pedro-patient",
@@ -126,12 +132,12 @@
         "family" : "Gravitate",
         "given" : ["Pedro"]
       }],
-      "gender" : "female",
+      "gender" : "male",
       "birthDate" : "1980-10-05"
     }
   },
   {
-    "fullUrl" : "urn:uuid:45cd0bd4-f685-4117-a9f0-5c53fffb7266",
+    "fullUrl" : "urn:uuid:pedro-pract",
     "resource" : {
       "resourceType" : "Practitioner",
       "id" : "pedro-pract",
@@ -147,7 +153,7 @@
     }
   },
   {
-    "fullUrl" : "urn:uuid:de06df6b-0967-4b01-822b-7cfeea970aa7",
+    "fullUrl" : "urn:uuid:pedro-cond-1",
     "resource" : {
       "resourceType" : "Condition",
       "id" : "pedro-cond-1",
@@ -170,13 +176,13 @@
         "text" : "Depressive disorder (disorder)"
       },
       "subject" : {
-        "reference" : "urn:uuid:be61951b-44fc-4853-8822-f9d398193c50",
+        "reference" : "Patient/pedro-patient",
         "display" : "Pedro Gravitate"
       }
     }
   },
   {
-    "fullUrl" : "urn:uuid:de06df6b-0967-4b01-822b-7cfeea970aa7",
+    "fullUrl" : "urn:uuid:pedro-cond-2",
     "resource" : {
       "resourceType" : "Condition",
       "id" : "pedro-cond-2",
@@ -199,64 +205,32 @@
         "text" : "Human immunodeficiency virus infection"
       },
       "subject" : {
-        "reference" : "urn:uuid:be61951b-44fc-4853-8822-f9d398193c50",
+        "reference" : "Patient/pedro-patient",
         "display" : "Pedro Gravitate"
       },
       "onsetDateTime" : "2018",
       "asserter" : {
-        "reference" : "urn:uuid:45cd0bd4-f685-4117-a9f0-5c53fffb7266",
+        "reference" : "Practitioner/pedro-pract",
         "display" : "Dr. Xavier García"
       }
     }
   },
   {
-    "fullUrl" : "urn:uuid:18eb9898-dea7-4c5e-b097-e507e011747b",
+    "fullUrl" : "urn:uuid:pedro-med-stat-1",
     "resource" : {
       "resourceType" : "MedicationStatement",
       "id" : "pedro-med-stat-1",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Brand Name</th><th>MAN</th><th>Active Substance</th><th>Common Name</th><th>ATC</th><th>Strength</th><th>Dose Form</th><th>RoA</th></tr></thead><tbody><tr><td>Humalog Mix50 Insulin KwikPen, 3ml pre-fill</td><td>EU/1/96/007/035</td><td>insulin lispro (GFX7QIS1II)</td><td>insulin lispro</td><td>A10AD04</td><td>100 U/ml</td><td>Suspension for injection</td><td>Subcutaneous use</td></tr></tbody></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicationStatement</b><a name=\"pedro-med-stat-1\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicationStatement &quot;pedro-med-stat-1&quot; </p></div><p><b>status</b>: active</p><p><b>medication</b>: <a href=\"#Medication_9d7be868-8264-4d94-ad04-ef04ecc92e52\">See above (urn:uuid:9d7be868-8264-4d94-ad04-ef04ecc92e52: Dovato 50 mg/300 mg (Dolutegravir/ Lamivudine) tablets)</a></p><p><b>subject</b>: <a href=\"#Patient_pedro-patient\">See above (Patient/pedro-patient: Pedro Gravitate)</a></p><h3>Dosages</h3><table class=\"grid\"><tr><td>-</td><td><b>Route</b></td></tr><tr><td>*</td><td>Oral use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#20053000)</span></td></tr></table></div>"
       },
       "status" : "active",
       "medicationReference" : {
         "reference" : "urn:uuid:9d7be868-8264-4d94-ad04-ef04ecc92e52",
-        "display" : "Humalog Mix50 Insulin KwikPen, 3ml pre-fill"
+        "display" : "Dovato 50 mg/300 mg (Dolutegravir/ Lamivudine) tablets"
       },
       "subject" : {
-        "reference" : "urn:uuid:be61951b-44fc-4853-8822-f9d398193c50",
-        "display" : "Pedro Gravitate"
-      },
-      "dosage" : [{
-        "route" : {
-          "coding" : [{
-            "system" : "http://standardterms.edqm.eu",
-            "code" : "20066000",
-            "display" : "Subcutaneous use"
-          }]
-        }
-      }]
-    }
-  },
-  {
-    "fullUrl" : "urn:uuid:c90b943a-3d8e-4f14-b56d-5c5c208b2065",
-    "resource" : {
-      "resourceType" : "MedicationStatement",
-      "id" : "pedro-med-stat-2",
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Brand Name</th><th>MAN</th><th>Active Substance</th><th>Common Name</th><th>ATC</th><th>Strength</th><th>Dose Form</th><th>RoA</th></tr></thead><tbody><tr><td>Monuril 3 g granules for oral solution</td><td>PL31654/0006</td><td>FOSFOMYCIN (2N81MY12TE)</td><td>fosfomycin</td><td>J01XX01</td><td>3 g (as trometamol: 5.631g/sachet)</td><td>Granules for oral solution</td><td>Oral use</td></tr></tbody></table></div>"
-      },
-      "basedOn" : [{
-        "reference" : "MedicationStatement/c872135e-f219-4f32-8fd6-7099009abf42"
-      }],
-      "status" : "active",
-      "medicationReference" : {
-        "reference" : "urn:uuid:fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4",
-        "display" : "Monuril 3g granules for oral solution"
-      },
-      "subject" : {
-        "reference" : "urn:uuid:be61951b-44fc-4853-8822-f9d398193c50",
+        "reference" : "Patient/pedro-patient",
         "display" : "Pedro Gravitate"
       },
       "dosage" : [{
@@ -271,13 +245,42 @@
     }
   },
   {
-    "fullUrl" : "urn:uuid:c90b943a-3d8e-4f14-b56d-5c5c208b2065",
+    "fullUrl" : "urn:uuid:pedro-med-stat-2",
+    "resource" : {
+      "resourceType" : "MedicationStatement",
+      "id" : "pedro-med-stat-2",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicationStatement</b><a name=\"pedro-med-stat-2\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicationStatement &quot;pedro-med-stat-2&quot; </p></div><p><b>status</b>: active</p><p><b>medication</b>: <a href=\"#Medication_fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4\">See above (Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4: Monuril 3g granules for oral solution)</a></p><p><b>subject</b>: <a href=\"#Patient_pedro-patient\">See above (Patient/pedro-patient: Pedro Gravitate)</a></p><h3>Dosages</h3><table class=\"grid\"><tr><td>-</td><td><b>Route</b></td></tr><tr><td>*</td><td>Oral use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#20053000)</span></td></tr></table></div>"
+      },
+      "status" : "active",
+      "medicationReference" : {
+        "reference" : "Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4",
+        "display" : "Monuril 3g granules for oral solution"
+      },
+      "subject" : {
+        "reference" : "Patient/pedro-patient",
+        "display" : "Pedro Gravitate"
+      },
+      "dosage" : [{
+        "route" : {
+          "coding" : [{
+            "system" : "http://standardterms.edqm.eu",
+            "code" : "20053000",
+            "display" : "Oral use"
+          }]
+        }
+      }]
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:pedro-med-stat-3",
     "resource" : {
       "resourceType" : "MedicationStatement",
       "id" : "pedro-med-stat-3",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicationStatement</b><a name=\"pedro-med-stat-3\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicationStatement &quot;pedro-med-stat-3&quot; </p></div><p><b>status</b>: active</p><p><b>medication</b>: <a href=\"urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda7785g\">urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda7785g: Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray</a></p><p><b>subject</b>: <a href=\"#Patient_pedro-patient\">See above (urn:uuid:be61951b-44fc-4853-8822-f9d398193c50: Pedro Gravitate)</a></p><h3>Dosages</h3><table class=\"grid\"><tr><td>-</td><td><b>Route</b></td></tr><tr><td>*</td><td>Nasal use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#20049000)</span></td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicationStatement</b><a name=\"pedro-med-stat-3\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicationStatement &quot;pedro-med-stat-3&quot; </p></div><p><b>status</b>: active</p><p><b>medication</b>: <a href=\"#Medication_6f4151e9-91f6-4f1e-adc3-fb94dda7785g\">See above (urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda7785g: Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray)</a></p><p><b>subject</b>: <a href=\"#Patient_pedro-patient\">See above (Patient/pedro-patient: Pedro Gravitate)</a></p><h3>Dosages</h3><table class=\"grid\"><tr><td>-</td><td><b>Route</b></td></tr><tr><td>*</td><td>Oral use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#20053000)</span></td></tr></table></div>"
       },
       "status" : "active",
       "medicationReference" : {
@@ -285,28 +288,28 @@
         "display" : "Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray"
       },
       "subject" : {
-        "reference" : "urn:uuid:be61951b-44fc-4853-8822-f9d398193c50",
+        "reference" : "Patient/pedro-patient",
         "display" : "Pedro Gravitate"
       },
       "dosage" : [{
         "route" : {
           "coding" : [{
             "system" : "http://standardterms.edqm.eu",
-            "code" : "20049000",
-            "display" : "Nasal use"
+            "code" : "20053000",
+            "display" : "Oral use"
           }]
         }
       }]
     }
   },
   {
-    "fullUrl" : "urn:uuid:c90b943a-3d8e-4f14-b56d-5c5c208b2065",
+    "fullUrl" : "urn:uuid:pedro-med-stat-4",
     "resource" : {
       "resourceType" : "MedicationStatement",
       "id" : "pedro-med-stat-4",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicationStatement</b><a name=\"pedro-med-stat-4\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicationStatement &quot;pedro-med-stat-4&quot; </p></div><p><b>status</b>: active</p><p><b>medication</b>: <a href=\"urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda7785g\">urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda7785g: Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray</a></p><p><b>subject</b>: <a href=\"#Patient_pedro-patient\">See above (urn:uuid:be61951b-44fc-4853-8822-f9d398193c50: Pedro Gravitate)</a></p><h3>Dosages</h3><table class=\"grid\"><tr><td>-</td><td><b>Route</b></td></tr><tr><td>*</td><td>Nasal use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#20049000)</span></td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicationStatement</b><a name=\"pedro-med-stat-4\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicationStatement &quot;pedro-med-stat-4&quot; </p></div><p><b>status</b>: active</p><p><b>medication</b>: <a href=\"#Medication_6f4151e9-91f6-4f1e-adc3-fb94dda7785g\">See above (urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda7785g: Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray)</a></p><p><b>subject</b>: <a href=\"#Patient_pedro-patient\">See above (Patient/pedro-patient: Pedro Gravitate)</a></p><h3>Dosages</h3><table class=\"grid\"><tr><td>-</td><td><b>Route</b></td></tr><tr><td>*</td><td>Oral use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#20053000)</span></td></tr></table></div>"
       },
       "status" : "active",
       "medicationReference" : {
@@ -314,102 +317,102 @@
         "display" : "Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray"
       },
       "subject" : {
-        "reference" : "urn:uuid:be61951b-44fc-4853-8822-f9d398193c50",
+        "reference" : "Patient/pedro-patient",
         "display" : "Pedro Gravitate"
       },
       "dosage" : [{
         "route" : {
           "coding" : [{
             "system" : "http://standardterms.edqm.eu",
-            "code" : "20049000",
-            "display" : "Nasal use"
+            "code" : "20053000",
+            "display" : "Oral use"
           }]
         }
       }]
     }
   },
   {
-    "fullUrl" : "urn:uuid:c90b943a-3d8e-4f14-b56d-5c5c208b2065",
+    "fullUrl" : "urn:uuid:pedro-med-stat-5",
     "resource" : {
       "resourceType" : "MedicationStatement",
       "id" : "pedro-med-stat-5",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicationStatement</b><a name=\"pedro-med-stat-5\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicationStatement &quot;pedro-med-stat-5&quot; </p></div><p><b>status</b>: active</p><p><b>medication</b>: <a href=\"urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda7785g\">urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda7785g: Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray</a></p><p><b>subject</b>: <a href=\"#Patient_pedro-patient\">See above (urn:uuid:be61951b-44fc-4853-8822-f9d398193c50: Pedro Gravitate)</a></p><h3>Dosages</h3><table class=\"grid\"><tr><td>-</td><td><b>Route</b></td></tr><tr><td>*</td><td>Nasal use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#20049000)</span></td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicationStatement</b><a name=\"pedro-med-stat-5\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicationStatement &quot;pedro-med-stat-5&quot; </p></div><p><b>status</b>: active</p><p><b>medication</b>: <a href=\"#Medication_6f4151e9-91f6-4f1e-adc3-fb94dda7785g\">See above (Medication/6f4151e9-91f6-4f1e-adc3-fb94dda7785g: Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray)</a></p><p><b>subject</b>: <a href=\"#Patient_pedro-patient\">See above (Patient/pedro-patient: Pedro Gravitate)</a></p><h3>Dosages</h3><table class=\"grid\"><tr><td>-</td><td><b>Route</b></td></tr><tr><td>*</td><td>Oral use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#20053000)</span></td></tr></table></div>"
       },
       "status" : "active",
       "medicationReference" : {
-        "reference" : "urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda7785g",
+        "reference" : "Medication/6f4151e9-91f6-4f1e-adc3-fb94dda7785g",
         "display" : "Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray"
       },
       "subject" : {
-        "reference" : "urn:uuid:be61951b-44fc-4853-8822-f9d398193c50",
+        "reference" : "Patient/pedro-patient",
         "display" : "Pedro Gravitate"
       },
       "dosage" : [{
         "route" : {
           "coding" : [{
             "system" : "http://standardterms.edqm.eu",
-            "code" : "20049000",
-            "display" : "Nasal use"
+            "code" : "20053000",
+            "display" : "Oral use"
           }]
         }
       }]
     }
   },
   {
-    "fullUrl" : "urn:uuid:c90b943a-3d8e-4f14-b56d-5c5c208b2065",
+    "fullUrl" : "urn:uuid:pedro-med-stat-6",
     "resource" : {
       "resourceType" : "MedicationStatement",
       "id" : "pedro-med-stat-6",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicationStatement</b><a name=\"pedro-med-stat-6\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicationStatement &quot;pedro-med-stat-6&quot; </p></div><p><b>status</b>: active</p><p><b>medication</b>: <a href=\"urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda7785g\">urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda7785g: Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray</a></p><p><b>subject</b>: <a href=\"#Patient_pedro-patient\">See above (urn:uuid:be61951b-44fc-4853-8822-f9d398193c50: Pedro Gravitate)</a></p><h3>Dosages</h3><table class=\"grid\"><tr><td>-</td><td><b>Route</b></td></tr><tr><td>*</td><td>Nasal use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#20049000)</span></td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicationStatement</b><a name=\"pedro-med-stat-6\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicationStatement &quot;pedro-med-stat-6&quot; </p></div><p><b>status</b>: active</p><p><b>medication</b>: <a href=\"#Medication_6f4151e9-91f6-4f1e-adc3-fb94dda7785g\">See above (Medication/6f4151e9-91f6-4f1e-adc3-fb94dda7785g: Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray)</a></p><p><b>subject</b>: <a href=\"#Patient_pedro-patient\">See above (Patient/pedro-patient: Pedro Gravitate)</a></p><h3>Dosages</h3><table class=\"grid\"><tr><td>-</td><td><b>Route</b></td></tr><tr><td>*</td><td>Oral use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#20053000)</span></td></tr></table></div>"
       },
       "status" : "active",
       "medicationReference" : {
-        "reference" : "urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda7785g",
+        "reference" : "Medication/6f4151e9-91f6-4f1e-adc3-fb94dda7785g",
         "display" : "Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray"
       },
       "subject" : {
-        "reference" : "urn:uuid:be61951b-44fc-4853-8822-f9d398193c50",
+        "reference" : "Patient/pedro-patient",
         "display" : "Pedro Gravitate"
       },
       "dosage" : [{
         "route" : {
           "coding" : [{
             "system" : "http://standardterms.edqm.eu",
-            "code" : "20049000",
-            "display" : "Nasal use"
+            "code" : "20053000",
+            "display" : "Oral use"
           }]
         }
       }]
     }
   },
   {
-    "fullUrl" : "urn:uuid:c90b943a-3d8e-4f14-b56d-5c5c208b2065",
+    "fullUrl" : "urn:uuid:pedro-med-stat-7",
     "resource" : {
       "resourceType" : "MedicationStatement",
       "id" : "pedro-med-stat-7",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicationStatement</b><a name=\"pedro-med-stat-7\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicationStatement &quot;pedro-med-stat-7&quot; </p></div><p><b>status</b>: active</p><p><b>medication</b>: <a href=\"urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda7785g\">urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda7785g: Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray</a></p><p><b>subject</b>: <a href=\"#Patient_pedro-patient\">See above (urn:uuid:be61951b-44fc-4853-8822-f9d398193c50: Pedro Gravitate)</a></p><h3>Dosages</h3><table class=\"grid\"><tr><td>-</td><td><b>Route</b></td></tr><tr><td>*</td><td>Nasal use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#20049000)</span></td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicationStatement</b><a name=\"pedro-med-stat-7\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicationStatement &quot;pedro-med-stat-7&quot; </p></div><p><b>status</b>: active</p><p><b>medication</b>: <a href=\"#Medication_6f4151e9-91f6-4f1e-adc3-fb94dda7785g\">See above (Medication/6f4151e9-91f6-4f1e-adc3-fb94dda7785g: Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray)</a></p><p><b>subject</b>: <a href=\"#Patient_pedro-patient\">See above (Patient/pedro-patient: Pedro Gravitate)</a></p><h3>Dosages</h3><table class=\"grid\"><tr><td>-</td><td><b>Route</b></td></tr><tr><td>*</td><td>Oral use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#20053000)</span></td></tr></table></div>"
       },
       "status" : "active",
       "medicationReference" : {
-        "reference" : "urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda7785g",
+        "reference" : "Medication/6f4151e9-91f6-4f1e-adc3-fb94dda7785g",
         "display" : "Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray"
       },
       "subject" : {
-        "reference" : "urn:uuid:be61951b-44fc-4853-8822-f9d398193c50",
+        "reference" : "Patient/pedro-patient",
         "display" : "Pedro Gravitate"
       },
       "dosage" : [{
         "route" : {
           "coding" : [{
             "system" : "http://standardterms.edqm.eu",
-            "code" : "20049000",
-            "display" : "Nasal use"
+            "code" : "20053000",
+            "display" : "Oral use"
           }]
         }
       }]
@@ -422,58 +425,78 @@
       "id" : "9d7be868-8264-4d94-ad04-ef04ecc92e52",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Medication</b><a name=\"9d7be868-8264-4d94-ad04-ef04ecc92e52\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Medication &quot;9d7be868-8264-4d94-ad04-ef04ecc92e52&quot; </p></div><p><b>code</b>: Humalog Mix50 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (marketingAuthorizationNumber#EU/1/96/007/035; phpid#0x073AF2E5B92AE19E8B67635AFFB3D6CA &quot;insulin lispro, 100 units/ml, suspension for injection&quot;; SNOMED CT#13884911000001102 &quot;Humalog Mix50 KwikPen 100units/ml suspension for injection 3ml pre-filled pens&quot;; <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html\">WHO ATC</a>#A10AD04 &quot;insulin lispro&quot;)</span></p><p><b>form</b>: Suspension for injection <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#11202000)</span></p><h3>Ingredients</h3><table class=\"grid\"><tr><td>-</td><td><b>Item[x]</b></td><td><b>Strength</b></td></tr><tr><td>*</td><td>insulin lispro <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#GFX7QIS1II)</span></td><td>100 units<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code U = 'U')</span>/1 ml<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code ml = 'ml')</span></td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Medication</b><a name=\"9d7be868-8264-4d94-ad04-ef04ecc92e52\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Medication &quot;9d7be868-8264-4d94-ad04-ef04ecc92e52&quot; </p></div><p><b>code</b>: Dovato 50 mg/300 mg 30 tablets <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (marketingAuthorizationNumber#EU/1/19/1370/001; phpid#0x073AF2E5B92AE19E8B67635AFFB3D6CA &quot;lamivudine and dolutegravir, 50 mg/300 mg, tablets&quot;; SNOMED CT#13884911000001102 &quot;Dovato 50 mg/300 mg tablet&quot;; <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html\">WHO ATC</a>#J05AR25 &quot;lamivudine and dolutegravir&quot;)</span></p><p><b>form</b>: Coated tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#10220000)</span></p><blockquote><p><b>ingredient</b></p><p><b>item</b>: lamivudine <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#2T8Q726O95)</span></p><p><b>strength</b>: 50 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mg = 'mg')</span>/1 tablet<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code tablet = 'tablet')</span></p></blockquote><blockquote><p><b>ingredient</b></p><p><b>item</b>: dolutegravir <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#DKO1W9H7M1)</span></p><p><b>strength</b>: 300 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mg = 'mg')</span>/1 tablet<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code tablet = 'tablet')</span></p></blockquote></div>"
       },
       "code" : {
         "coding" : [{
           "system" : "http://ema.europa.eu/fhir/marketingAuthorizationNumber",
-          "code" : "EU/1/96/007/035",
-          "display" : "Humalog Mix50"
+          "code" : "EU/1/19/1370/001",
+          "display" : "Dovato 50 mg/300 mg 30 tablets"
         },
         {
           "system" : "https://www.who-umc.org/phpid",
           "code" : "0x073AF2E5B92AE19E8B67635AFFB3D6CA",
-          "display" : "insulin lispro, 100 units/ml, suspension for injection"
+          "display" : "lamivudine and dolutegravir, 50 mg/300 mg, tablets"
         },
         {
           "system" : "http://snomed.info/sct/83821000000107",
           "code" : "13884911000001102",
-          "display" : "Humalog Mix50 KwikPen 100units/ml suspension for injection 3ml pre-filled pens"
+          "display" : "Dovato 50 mg/300 mg tablet"
         },
         {
           "system" : "http://www.whocc.no/atc",
-          "code" : "A10AD04",
-          "display" : "insulin lispro"
+          "code" : "J05AR25",
+          "display" : "lamivudine and dolutegravir"
         }]
       },
       "form" : {
         "coding" : [{
           "system" : "http://standardterms.edqm.eu",
-          "code" : "11202000",
-          "display" : "Suspension for injection"
+          "code" : "10220000",
+          "display" : "Coated tablet"
         }]
       },
       "ingredient" : [{
         "itemCodeableConcept" : {
           "coding" : [{
             "system" : "http://fdasis.nlm.nih.gov",
-            "code" : "GFX7QIS1II",
-            "display" : "insulin lispro"
+            "code" : "2T8Q726O95",
+            "display" : "lamivudine"
           }],
-          "text" : "insulin lispro"
+          "text" : "lamivudine"
         },
         "strength" : {
           "numerator" : {
-            "value" : 100,
-            "unit" : "units",
+            "value" : 50,
             "system" : "http://unitsofmeasure.org",
-            "code" : "U"
+            "code" : "mg"
           },
           "denominator" : {
             "value" : 1,
-            "unit" : "ml",
             "system" : "http://unitsofmeasure.org",
-            "code" : "ml"
+            "code" : "tablet"
+          }
+        }
+      },
+      {
+        "itemCodeableConcept" : {
+          "coding" : [{
+            "system" : "http://fdasis.nlm.nih.gov",
+            "code" : "DKO1W9H7M1",
+            "display" : "dolutegravir"
+          }],
+          "text" : "dolutegravir"
+        },
+        "strength" : {
+          "numerator" : {
+            "value" : 300,
+            "system" : "http://unitsofmeasure.org",
+            "code" : "mg"
+          },
+          "denominator" : {
+            "value" : 1,
+            "system" : "http://unitsofmeasure.org",
+            "code" : "tablet"
           }
         }
       }]
@@ -486,53 +509,339 @@
       "id" : "fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Medication</b><a name=\"fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Medication &quot;fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4&quot; </p></div><p><b>code</b>: Monuril <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (marketingAuthorizationNumber#PL31654/0006; phpid#0xE857DA811B4A6F3BD57810C45D2EA1ED &quot;Fosfomycin, 3g, Granules for oral solution&quot;; <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html\">WHO ATC</a>#J01XX01 &quot;fosfomycin&quot;)</span></p><p><b>form</b>: Granules for oral solution <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#10112000)</span></p><h3>Ingredients</h3><table class=\"grid\"><tr><td>-</td><td><b>Item[x]</b></td><td><b>Strength</b></td></tr><tr><td>*</td><td>FOSFOMYCIN TROMETAMOL <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#7FXW6U30GY &quot;FOSFOMYCIN TROMETHAMINE&quot;)</span></td><td>5.631 g<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code g = 'g')</span>/1 Sachet<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code {sachet} = '{sachet}')</span></td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Medication</b><a name=\"fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Medication &quot;fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4&quot; </p></div><p><b>code</b>: mirtazapine <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (marketingAuthorizationNumber#PL31654/0006; phpid#0xE857DA811B4A6F3BD57810C45D2EA1ED; <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html\">WHO ATC</a>#N06AX11)</span></p><p><b>form</b>: Coated tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#10220000)</span></p><h3>Ingredients</h3><table class=\"grid\"><tr><td>-</td><td><b>Item[x]</b></td><td><b>Strength</b></td></tr><tr><td>*</td><td>Mirtazapine <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#A051Q2099Q)</span></td><td>15 g<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code g = 'g')</span>/1 tablet<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code tablet = 'tablet')</span></td></tr></table></div>"
       },
       "code" : {
         "coding" : [{
           "system" : "http://ema.europa.eu/fhir/marketingAuthorizationNumber",
-          "code" : "PL31654/0006",
-          "display" : "Monuril"
+          "code" : "PL31654/0006"
         },
         {
           "system" : "https://www.who-umc.org/phpid",
-          "code" : "0xE857DA811B4A6F3BD57810C45D2EA1ED",
-          "display" : "Fosfomycin, 3g, Granules for oral solution"
+          "code" : "0xE857DA811B4A6F3BD57810C45D2EA1ED"
         },
         {
           "system" : "http://www.whocc.no/atc",
-          "code" : "J01XX01",
-          "display" : "fosfomycin"
+          "code" : "N06AX11",
+          "display" : "mirtazapine"
         }]
       },
       "form" : {
         "coding" : [{
           "system" : "http://standardterms.edqm.eu",
-          "code" : "10112000",
-          "display" : "Granules for oral solution"
+          "code" : "10220000",
+          "display" : "Coated tablet"
         }]
       },
       "ingredient" : [{
         "itemCodeableConcept" : {
           "coding" : [{
             "system" : "http://fdasis.nlm.nih.gov",
-            "code" : "7FXW6U30GY",
-            "display" : "FOSFOMYCIN TROMETHAMINE"
+            "code" : "A051Q2099Q",
+            "display" : "Mirtazapine"
           }],
-          "text" : "FOSFOMYCIN TROMETAMOL"
+          "text" : "Mirtazapine"
         },
         "strength" : {
           "numerator" : {
-            "value" : 5.631,
-            "unit" : "g",
+            "value" : 15,
             "system" : "http://unitsofmeasure.org",
             "code" : "g"
           },
           "denominator" : {
             "value" : 1,
-            "unit" : "Sachet",
             "system" : "http://unitsofmeasure.org",
-            "code" : "{sachet}"
+            "code" : "tablet"
+          }
+        }
+      }]
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda7785g",
+    "resource" : {
+      "resourceType" : "Medication",
+      "id" : "6f4151e9-91f6-4f1e-adc3-fb94dda7785g",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Medication</b><a name=\"6f4151e9-91f6-4f1e-adc3-fb94dda7785g\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Medication &quot;6f4151e9-91f6-4f1e-adc3-fb94dda7785g&quot; </p></div><p><b>code</b>: Calcium carbonate 500 mg <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (man#16028/0049; phpid#0xF79CABF272B6A7EEF104DDDA44E82716; <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html\">WHO ATC</a>#A12AA04 &quot;calcium carbonate&quot;)</span></p><p><b>form</b>: Chewable tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#10228000)</span></p><h3>Ingredients</h3><table class=\"grid\"><tr><td>-</td><td><b>Item[x]</b></td><td><b>Strength</b></td></tr><tr><td>*</td><td>calcium carbonate <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#H0G9379FGK &quot;Calcium carbonate&quot;)</span></td><td>500 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mg = 'mg')</span>/1 tablet<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code tablet = 'tablet')</span></td></tr></table></div>"
+      },
+      "code" : {
+        "coding" : [{
+          "system" : "https://www.gravitatehealth.eu/sid/man",
+          "code" : "16028/0049",
+          "display" : "Calcium carbonate 500 mg"
+        },
+        {
+          "system" : "https://www.who-umc.org/phpid",
+          "code" : "0xF79CABF272B6A7EEF104DDDA44E82716",
+          "display" : "Calcium carbonate 500 mg"
+        },
+        {
+          "system" : "http://www.whocc.no/atc",
+          "code" : "A12AA04",
+          "display" : "calcium carbonate"
+        }]
+      },
+      "form" : {
+        "coding" : [{
+          "system" : "http://standardterms.edqm.eu",
+          "code" : "10228000",
+          "display" : "Chewable tablet"
+        }],
+        "text" : "Chewable tablet"
+      },
+      "ingredient" : [{
+        "itemCodeableConcept" : {
+          "coding" : [{
+            "system" : "http://fdasis.nlm.nih.gov",
+            "code" : "H0G9379FGK",
+            "display" : "Calcium carbonate"
+          }],
+          "text" : "calcium carbonate"
+        },
+        "strength" : {
+          "numerator" : {
+            "value" : 500,
+            "system" : "http://unitsofmeasure.org",
+            "code" : "mg"
+          },
+          "denominator" : {
+            "value" : 1,
+            "system" : "http://unitsofmeasure.org",
+            "code" : "tablet"
+          }
+        }
+      }]
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda77854",
+    "resource" : {
+      "resourceType" : "Medication",
+      "id" : "6f4151e9-91f6-4f1e-adc3-fb94dda77854",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Medication</b><a name=\"6f4151e9-91f6-4f1e-adc3-fb94dda77854\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Medication &quot;6f4151e9-91f6-4f1e-adc3-fb94dda77854&quot; </p></div><p><b>code</b>: Boots Decongestant 0.05% w/v Nasal spray <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (man#16028/0049; phpid#0xF79CABF272B6A7EEF104DDDA44E82716 &quot;Oxymetazoline hydrochloride, 0.5 mg/ 1 ml, Nasal spray, solution&quot;; <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html\">WHO ATC</a>#A03FA08 &quot;Cinitapride&quot;)</span></p><p><b>form</b>: Chewable tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#10228000)</span></p><h3>Ingredients</h3><table class=\"grid\"><tr><td>-</td><td><b>Item[x]</b></td><td><b>Strength</b></td></tr><tr><td>*</td><td>CINITAPRIDE <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#R8I97I2L24)</span></td><td>1 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mg = 'mg')</span>/1 tablet<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code tablet = 'tablet')</span></td></tr></table></div>"
+      },
+      "code" : {
+        "coding" : [{
+          "system" : "https://www.gravitatehealth.eu/sid/man",
+          "code" : "16028/0049",
+          "display" : "Boots Decongestant 0.05% w/v Nasal spray"
+        },
+        {
+          "system" : "https://www.who-umc.org/phpid",
+          "code" : "0xF79CABF272B6A7EEF104DDDA44E82716",
+          "display" : "Oxymetazoline hydrochloride, 0.5 mg/ 1 ml, Nasal spray, solution"
+        },
+        {
+          "system" : "http://www.whocc.no/atc",
+          "code" : "A03FA08",
+          "display" : "Cinitapride"
+        }]
+      },
+      "form" : {
+        "coding" : [{
+          "system" : "http://standardterms.edqm.eu",
+          "code" : "10228000",
+          "display" : "Chewable tablet"
+        }],
+        "text" : "Chewable tablet"
+      },
+      "ingredient" : [{
+        "itemCodeableConcept" : {
+          "coding" : [{
+            "system" : "http://fdasis.nlm.nih.gov",
+            "code" : "R8I97I2L24",
+            "display" : "CINITAPRIDE"
+          }],
+          "text" : "CINITAPRIDE"
+        },
+        "strength" : {
+          "numerator" : {
+            "value" : 1,
+            "system" : "http://unitsofmeasure.org",
+            "code" : "mg"
+          },
+          "denominator" : {
+            "value" : 1,
+            "system" : "http://unitsofmeasure.org",
+            "code" : "tablet"
+          }
+        }
+      }]
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda77855",
+    "resource" : {
+      "resourceType" : "Medication",
+      "id" : "6f4151e9-91f6-4f1e-adc3-fb94dda77855",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Medication</b><a name=\"6f4151e9-91f6-4f1e-adc3-fb94dda77855\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Medication &quot;6f4151e9-91f6-4f1e-adc3-fb94dda77855&quot; </p></div><p><b>code</b>: Boots Decongestant 0.05% w/v Nasal spray <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (man#16028/0049; phpid#0xF79CABF272B6A7EEF104DDDA44E82716 &quot;Oxymetazoline hydrochloride, 0.5 mg/ 1 ml, Nasal spray, solution&quot;; <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html\">WHO ATC</a>#R01AA05 &quot;oxymetazoline&quot;)</span></p><p><b>form</b>: Nasal spray, solution <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#10808000)</span></p><h3>Ingredients</h3><table class=\"grid\"><tr><td>-</td><td><b>Item[x]</b></td><td><b>Strength</b></td></tr><tr><td>*</td><td>oxymetazoline hydrochloride <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#K89MJ0S5VY)</span></td><td>0.05 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mg = 'mg')</span>/1 ml<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code ml = 'ml')</span></td></tr></table></div>"
+      },
+      "code" : {
+        "coding" : [{
+          "system" : "https://www.gravitatehealth.eu/sid/man",
+          "code" : "16028/0049",
+          "display" : "Boots Decongestant 0.05% w/v Nasal spray"
+        },
+        {
+          "system" : "https://www.who-umc.org/phpid",
+          "code" : "0xF79CABF272B6A7EEF104DDDA44E82716",
+          "display" : "Oxymetazoline hydrochloride, 0.5 mg/ 1 ml, Nasal spray, solution"
+        },
+        {
+          "system" : "http://www.whocc.no/atc",
+          "code" : "R01AA05",
+          "display" : "oxymetazoline"
+        }]
+      },
+      "form" : {
+        "coding" : [{
+          "system" : "http://standardterms.edqm.eu",
+          "code" : "10808000",
+          "display" : "Nasal spray, solution"
+        }],
+        "text" : "Nasal spray, solution"
+      },
+      "ingredient" : [{
+        "itemCodeableConcept" : {
+          "coding" : [{
+            "system" : "http://fdasis.nlm.nih.gov",
+            "code" : "K89MJ0S5VY",
+            "display" : "oxymetazoline hydrochloride"
+          }],
+          "text" : "oxymetazoline hydrochloride"
+        },
+        "strength" : {
+          "numerator" : {
+            "value" : 0.05,
+            "system" : "http://unitsofmeasure.org",
+            "code" : "mg"
+          },
+          "denominator" : {
+            "value" : 1,
+            "system" : "http://unitsofmeasure.org",
+            "code" : "ml"
+          }
+        }
+      }]
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda77856",
+    "resource" : {
+      "resourceType" : "Medication",
+      "id" : "6f4151e9-91f6-4f1e-adc3-fb94dda77856",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Medication</b><a name=\"6f4151e9-91f6-4f1e-adc3-fb94dda77856\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Medication &quot;6f4151e9-91f6-4f1e-adc3-fb94dda77856&quot; </p></div><p><b>code</b>: Boots Decongestant 0.05% w/v Nasal spray <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (man#16028/0049; phpid#0xF79CABF272B6A7EEF104DDDA44E82716 &quot;Oxymetazoline hydrochloride, 0.5 mg/ 1 ml, Nasal spray, solution&quot;; <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html\">WHO ATC</a>#R01AA05 &quot;oxymetazoline&quot;)</span></p><p><b>form</b>: Nasal spray, solution <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#10808000)</span></p><h3>Ingredients</h3><table class=\"grid\"><tr><td>-</td><td><b>Item[x]</b></td><td><b>Strength</b></td></tr><tr><td>*</td><td>oxymetazoline hydrochloride <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#K89MJ0S5VY)</span></td><td>0.05 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mg = 'mg')</span>/1 ml<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code ml = 'ml')</span></td></tr></table></div>"
+      },
+      "code" : {
+        "coding" : [{
+          "system" : "https://www.gravitatehealth.eu/sid/man",
+          "code" : "16028/0049",
+          "display" : "Boots Decongestant 0.05% w/v Nasal spray"
+        },
+        {
+          "system" : "https://www.who-umc.org/phpid",
+          "code" : "0xF79CABF272B6A7EEF104DDDA44E82716",
+          "display" : "Oxymetazoline hydrochloride, 0.5 mg/ 1 ml, Nasal spray, solution"
+        },
+        {
+          "system" : "http://www.whocc.no/atc",
+          "code" : "R01AA05",
+          "display" : "oxymetazoline"
+        }]
+      },
+      "form" : {
+        "coding" : [{
+          "system" : "http://standardterms.edqm.eu",
+          "code" : "10808000",
+          "display" : "Nasal spray, solution"
+        }],
+        "text" : "Nasal spray, solution"
+      },
+      "ingredient" : [{
+        "itemCodeableConcept" : {
+          "coding" : [{
+            "system" : "http://fdasis.nlm.nih.gov",
+            "code" : "K89MJ0S5VY",
+            "display" : "oxymetazoline hydrochloride"
+          }],
+          "text" : "oxymetazoline hydrochloride"
+        },
+        "strength" : {
+          "numerator" : {
+            "value" : 0.05,
+            "system" : "http://unitsofmeasure.org",
+            "code" : "mg"
+          },
+          "denominator" : {
+            "value" : 1,
+            "system" : "http://unitsofmeasure.org",
+            "code" : "ml"
+          }
+        }
+      }]
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda77857",
+    "resource" : {
+      "resourceType" : "Medication",
+      "id" : "6f4151e9-91f6-4f1e-adc3-fb94dda77857",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Medication</b><a name=\"6f4151e9-91f6-4f1e-adc3-fb94dda77857\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Medication &quot;6f4151e9-91f6-4f1e-adc3-fb94dda77857&quot; </p></div><p><b>code</b>: Boots Decongestant 0.05% w/v Nasal spray <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (man#16028/0049; phpid#0xF79CABF272B6A7EEF104DDDA44E82716 &quot;Oxymetazoline hydrochloride, 0.5 mg/ 1 ml, Nasal spray, solution&quot;; <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html\">WHO ATC</a>#R01AA05 &quot;oxymetazoline&quot;)</span></p><p><b>form</b>: Nasal spray, solution <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#10808000)</span></p><h3>Ingredients</h3><table class=\"grid\"><tr><td>-</td><td><b>Item[x]</b></td><td><b>Strength</b></td></tr><tr><td>*</td><td>oxymetazoline hydrochloride <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#K89MJ0S5VY)</span></td><td>0.05 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mg = 'mg')</span>/1 ml<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code ml = 'ml')</span></td></tr></table></div>"
+      },
+      "code" : {
+        "coding" : [{
+          "system" : "https://www.gravitatehealth.eu/sid/man",
+          "code" : "16028/0049",
+          "display" : "Boots Decongestant 0.05% w/v Nasal spray"
+        },
+        {
+          "system" : "https://www.who-umc.org/phpid",
+          "code" : "0xF79CABF272B6A7EEF104DDDA44E82716",
+          "display" : "Oxymetazoline hydrochloride, 0.5 mg/ 1 ml, Nasal spray, solution"
+        },
+        {
+          "system" : "http://www.whocc.no/atc",
+          "code" : "R01AA05",
+          "display" : "oxymetazoline"
+        }]
+      },
+      "form" : {
+        "coding" : [{
+          "system" : "http://standardterms.edqm.eu",
+          "code" : "10808000",
+          "display" : "Nasal spray, solution"
+        }],
+        "text" : "Nasal spray, solution"
+      },
+      "ingredient" : [{
+        "itemCodeableConcept" : {
+          "coding" : [{
+            "system" : "http://fdasis.nlm.nih.gov",
+            "code" : "K89MJ0S5VY",
+            "display" : "oxymetazoline hydrochloride"
+          }],
+          "text" : "oxymetazoline hydrochloride"
+        },
+        "strength" : {
+          "numerator" : {
+            "value" : 0.05,
+            "system" : "http://unitsofmeasure.org",
+            "code" : "mg"
+          },
+          "denominator" : {
+            "value" : 1,
+            "system" : "http://unitsofmeasure.org",
+            "code" : "ml"
           }
         }
       }]

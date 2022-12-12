@@ -156,10 +156,10 @@
   ] . # 
 
 <matilda-patient> a fhir:Patient;
-  fhir:Resource.id [ fhir:value "be61951b-44fc-4853-8822-f9d398193c50"]; # 
+  fhir:Resource.id [ fhir:value "matilda-patient"]; # 
   fhir:DomainResource.text [
-     fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Helen Gravitate, Female, 75 years old (1946-05-05)</div>"
+     fhir:Narrative.status [ fhir:value "extensions" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Patient</b><a name=\"matilda-patient\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Patient &quot;matilda-patient&quot; </p></div><blockquote><p><b>citizenship</b></p><p><b>value</b>: Spain <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-ISO3166Part1.html\">ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code</a>#ES)</span></p></blockquote><p><b>identifier</b>: id: Matilda-1</p><p><b>active</b>: true</p><p><b>name</b>: Matilda Gravitate </p><p><b>gender</b>: female</p><p><b>birthDate</b>: 1950-09-01</p></div>"
   ]; # 
   fhir:DomainResource.extension [
      fhir:index 0;
@@ -170,8 +170,8 @@
          fhir:CodeableConcept.coding [
            fhir:index 0;
            fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
-           fhir:Coding.code [ fhir:value "GB" ];
-           fhir:Coding.display [ fhir:value "United Kingdom" ]
+           fhir:Coding.code [ fhir:value "ES" ];
+           fhir:Coding.display [ fhir:value "Spain" ]
          ]
        ]
      ];
@@ -180,19 +180,19 @@
   fhir:Patient.identifier [
      fhir:index 0;
      fhir:Identifier.system [ fhir:value "https://www.gravitatehealth.eu/sid/doc" ];
-     fhir:Identifier.value [ fhir:value "helen-1" ]
+     fhir:Identifier.value [ fhir:value "Matilda-1" ]
   ]; # 
   fhir:Patient.active [ fhir:value "true"^^xsd:boolean]; # 
   fhir:Patient.name [
      fhir:index 0;
      fhir:HumanName.family [ fhir:value "Gravitate" ];
      fhir:HumanName.given [
-       fhir:value "Helen";
+       fhir:value "Matilda";
        fhir:index 0
      ]
   ]; # 
   fhir:Patient.gender [ fhir:value "female"]; # 
-  fhir:Patient.birthDate [ fhir:value "1946-05-05"^^xsd:date] . # 
+  fhir:Patient.birthDate [ fhir:value "1950-09-01"^^xsd:date] . # 
 
 <urn:uuid:45cd0bd4-f685-4117-a9f0-5c53fffb7266> a fhir:Practitioner;
   fhir:Resource.id [ fhir:value "45cd0bd4-f685-4117-a9f0-5c53fffb7266"]; # 
@@ -413,7 +413,6 @@
        ];
        fhir:Ratio.denominator [
          fhir:Quantity.value [ fhir:value "1"^^xsd:decimal ];
-         fhir:Quantity.unit [ fhir:value "ml" ];
          fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ];
          fhir:Quantity.code [ fhir:value "ml" ]
        ]
@@ -424,7 +423,7 @@
   fhir:Resource.id [ fhir:value "fdb5c97f-0a46-41ba-bc34-2efd2ef2f7et"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Medication</b><a name=\"fdb5c97f-0a46-41ba-bc34-2efd2ef2f7et\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Medication &quot;fdb5c97f-0a46-41ba-bc34-2efd2ef2f7et&quot; </p></div><p><b>code</b>: Monuril <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (marketingAuthorizationNumber#PL31654/0006; phpid#0xE857DA811B4A6F3BD57810C45D2EA1ED &quot;Fosfomycin, 3g, Granules for oral solution&quot;; <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html\">WHO ATC</a>#J01XX01 &quot;fosfomycin&quot;)</span></p><p><b>form</b>: Granules for oral solution <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#10112000)</span></p><h3>Ingredients</h3><table class=\"grid\"><tr><td>-</td><td><b>Item[x]</b></td><td><b>Strength</b></td></tr><tr><td>*</td><td>FOSFOMYCIN TROMETAMOL <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#7FXW6U30GY &quot;FOSFOMYCIN TROMETHAMINE&quot;)</span></td><td>5.631 g<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code g = 'g')</span>/1 Sachet<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code {sachet} = '{sachet}')</span></td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Medication</b><a name=\"fdb5c97f-0a46-41ba-bc34-2efd2ef2f7et\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Medication &quot;fdb5c97f-0a46-41ba-bc34-2efd2ef2f7et&quot; </p></div><p><b>code</b>: Monuril <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (marketingAuthorizationNumber#PL31654/0006; phpid#0xE857DA811B4A6F3BD57810C45D2EA1ED &quot;Fosfomycin, 3g, Granules for oral solution&quot;; <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html\">WHO ATC</a>#J01XX01 &quot;fosfomycin&quot;)</span></p><p><b>form</b>: Granules for oral solution <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#10112000)</span></p><h3>Ingredients</h3><table class=\"grid\"><tr><td>-</td><td><b>Item[x]</b></td><td><b>Strength</b></td></tr><tr><td>*</td><td>FOSFOMYCIN TROMETAMOL <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#7FXW6U30GY &quot;FOSFOMYCIN TROMETHAMINE&quot;)</span></td><td>5.631 g<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code g = 'g')</span>/1 sachet<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code sachet = 'sachet')</span></td></tr></table></div>"
   ]; # 
   fhir:Medication.code [
      fhir:CodeableConcept.coding [
@@ -466,15 +465,13 @@
      fhir:Medication.ingredient.strength [
        fhir:Ratio.numerator [
          fhir:Quantity.value [ fhir:value "5.631"^^xsd:decimal ];
-         fhir:Quantity.unit [ fhir:value "g" ];
          fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ];
          fhir:Quantity.code [ fhir:value "g" ]
        ];
        fhir:Ratio.denominator [
          fhir:Quantity.value [ fhir:value "1"^^xsd:decimal ];
-         fhir:Quantity.unit [ fhir:value "Sachet" ];
          fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ];
-         fhir:Quantity.code [ fhir:value "{sachet}" ]
+         fhir:Quantity.code [ fhir:value "sachet" ]
        ]
      ]
   ] . # 
