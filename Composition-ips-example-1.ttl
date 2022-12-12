@@ -1,0 +1,125 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix loinc: <http://loinc.org/rdf#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.eu/fhir/ig/gravitate-health-ips/Composition/ips-example-1> a fhir:Composition;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "ips-example-1"]; # 
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "extensions" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  \n    <b>Id:</b>\n    ips-example-1\n  <br/>\n  \n    <b>status:</b>\n    final\n  <br/>\n  \n    <b>Type:</b>\n    Patient summary Document\n  <br/>\n  \n    <b>Subject:</b>\n    <a>Maria Gravitate</a>\n  \n\n  <br/>\n  <b>Sections:</b>\n  <br/>\n\n  <ul>\n    \n      <li>\n\n        Allergies and Intolerances\n\n      </li>\n      <ul>\n\n        \n\n          <li>\n\n            Lactose Intolerance\n\n          </li>\n        \n      </ul>\n\n    \n      <li>\n\n        Problem List\n\n      </li>\n      <ul>\n\n        \n\n          <li>\n\n            Psoriasis\n\n          </li>\n        \n\n          <li>\n\n            Hypertension\n\n          </li>\n        \n\n          <li>\n\n            Congestive heart failure\n\n          </li>\n        \n      </ul>\n\n    \n      <li>\n\n        Medication Summary\n\n      </li>\n      <ul>\n\n        \n\n          <li>\n\n            Dimethyl fumarate 30 mg Gastro-resistant tablet\n\n          </li>\n        \n\n          <li>\n\n            Irbesartan 75 mg Tablet\n\n          </li>\n        \n\n          <li>\n\n            Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray\n\n          </li>\n        \n      </ul>\n\n    \n  </ul>\n</div>"
+  ]; # 
+  fhir:Composition.status [ fhir:value "final"]; # 
+  fhir:Composition.type [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       a loinc:60591-5;
+       fhir:Coding.system [ fhir:value "http://loinc.org" ];
+       fhir:Coding.code [ fhir:value "60591-5" ];
+       fhir:Coding.display [ fhir:value "Patient summary Document" ]
+     ]
+  ]; # 
+  fhir:Composition.subject [
+     fhir:Reference.reference [ fhir:value "urn:uuid:c154158f-6a43-4ab7-8443-e7f4bf915dd6" ];
+     fhir:Reference.display [ fhir:value "Maria Gravitate" ]
+  ]; # 
+  fhir:Composition.date [ fhir:value "2018-07-10T15:22:00+02:00"^^xsd:dateTime]; # 
+  fhir:Composition.author [
+     fhir:index 0;
+     fhir:Reference.reference [ fhir:value "urn:uuid:1ece89c5-fda3-4db9-ace6-decbe6c603d5" ];
+     fhir:Reference.display [ fhir:value "Dr. Anna Karlsson" ]
+  ]; # 
+  fhir:Composition.title [ fhir:value "Patient Summary (Maria Gravitate)"]; # 
+  fhir:Composition.confidentiality [ fhir:value "N"]; # 
+  fhir:Composition.section [
+     fhir:index 0;
+     fhir:Composition.section.title [ fhir:value "Allergies and Intolerances" ];
+     fhir:Composition.section.code [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         a loinc:48765-2;
+         fhir:Coding.system [ fhir:value "http://loinc.org" ];
+         fhir:Coding.code [ fhir:value "48765-2" ];
+         fhir:Coding.display [ fhir:value "Allergies and adverse reactions Document" ]
+       ]
+     ];
+     fhir:Composition.section.text [
+       fhir:Narrative.status [ fhir:value "generated" ];
+       fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Hay fever (pollen)</li><li>Lactose Intolerance</li></ul></div>"
+     ];
+     fhir:Composition.section.entry [
+       fhir:index 0;
+       fhir:Reference.reference [ fhir:value "urn:uuid:9d18cddb-8e58-4fbb-82ec-09cc561ac805" ];
+       fhir:Reference.display [ fhir:value "Lactose Intolerance" ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:Composition.section.title [ fhir:value "Problem List" ];
+     fhir:Composition.section.code [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         a loinc:11450-4;
+         fhir:Coding.system [ fhir:value "http://loinc.org" ];
+         fhir:Coding.code [ fhir:value "11450-4" ];
+         fhir:Coding.display [ fhir:value "Problem list Reported" ]
+       ]
+     ];
+     fhir:Composition.section.text [
+       fhir:Narrative.status [ fhir:value "generated" ];
+       fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Psoriasis</li><li>Hypertension</li><li>Congestive heart failure</li></ul></div>"
+     ];
+     fhir:Composition.section.entry [
+       fhir:index 0;
+       fhir:Reference.reference [ fhir:value "urn:uuid:bcc79261-142c-48ec-b032-f3f9af49ec55" ];
+       fhir:Reference.display [ fhir:value "Psoriasis" ]
+     ], [
+       fhir:index 1;
+       fhir:Reference.reference [ fhir:value "urn:uuid:f06b7cf8-c15c-4288-a0f9-45a1026e5135" ];
+       fhir:Reference.display [ fhir:value "Hypertension" ]
+     ], [
+       fhir:index 2;
+       fhir:Reference.reference [ fhir:value "urn:uuid:a4a9d90a-d1b0-4d60-82f0-c52343dc6255" ];
+       fhir:Reference.display [ fhir:value "Congestive heart failure" ]
+     ]
+  ], [
+     fhir:index 2;
+     fhir:Composition.section.title [ fhir:value "Medication Summary" ];
+     fhir:Composition.section.code [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         a loinc:10160-0;
+         fhir:Coding.system [ fhir:value "http://loinc.org" ];
+         fhir:Coding.code [ fhir:value "10160-0" ];
+         fhir:Coding.display [ fhir:value "Hx of Medication use" ]
+       ]
+     ];
+     fhir:Composition.section.text [
+       fhir:Narrative.status [ fhir:value "generated" ];
+       fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Brand Name</th><th>MAN</th><th>Active Substance</th><th>Common Name</th><th>ATC</th><th>Strength</th><th>Dose Form</th><th>RoA</th></tr></thead><tbody><tr><td>Skilarence</td><td>EU/1/17/1201/001</td><td>dimethyl fumarate (FO2303MNI2)</td><td>dimethyl fumarate</td><td>L04AX07</td><td>30 mg</td><td>Gastro-resistant tablet</td><td>Oral use</td></tr><tr><td>Karvea</td><td>EMEA/H/C/000142</td><td>irbesartan (J0E2756Z7N)</td><td>irbesartan</td><td>C09DA04</td><td>75 mg</td><td>Tablet</td><td>Oral use</td></tr><tr><td>Boots Decongestant 0.05% w/v Nasal spray</td><td>PL 16028/0049</td><td>oxymetazoline hydrochloride (K89MJ0S5VY)</td><td>oxymetazoline hydrochloride</td><td>R01AA05</td><td>0.05 mg / 1 ml</td><td>Nasal spray, solution</td><td>Nasal use</td></tr></tbody></table></div>"
+     ];
+     fhir:Composition.section.entry [
+       fhir:index 0;
+       fhir:Reference.reference [ fhir:value "urn:uuid:29074ca4-efcb-4ff4-8446-feed2399a895" ];
+       fhir:Reference.display [ fhir:value "Dimethyl fumarate 30 mg Gastro-resistant tablet" ]
+     ], [
+       fhir:index 1;
+       fhir:Reference.reference [ fhir:value "urn:uuid:f6cb1218-f81c-4338-80d8-3c10910f78f5" ];
+       fhir:Reference.display [ fhir:value "Irbesartan 75 mg Tablet" ]
+     ], [
+       fhir:index 2;
+       fhir:Reference.reference [ fhir:value "urn:uuid:f26084c9-b1c8-46d9-acb2-1d400ade87b5" ];
+       fhir:Reference.display [ fhir:value "Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray" ]
+     ]
+  ] . # 
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.eu/fhir/ig/gravitate-health-ips/Composition/ips-example-1.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+
