@@ -46,7 +46,7 @@
         },
         "text" : {
           "status" : "generated",
-          "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>HIV</li><li>Depression</li></ul></div>"
+          "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>HIV</li><li>Depression</li><li>IBS</li></ul></div>"
         },
         "entry" : [{
           "reference" : "Condition/pedro-cond-1",
@@ -55,6 +55,10 @@
         {
           "reference" : "Condition/pedro-cond-2",
           "display" : "Depression"
+        },
+        {
+          "reference" : "Condition/pedro-cond-3",
+          "display" : "IBS"
         }]
       },
       {
@@ -212,6 +216,35 @@
       "asserter" : {
         "reference" : "Practitioner/pedro-pract",
         "display" : "Dr. Xavier García"
+      }
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:pedro-cond-3",
+    "resource" : {
+      "resourceType" : "Condition",
+      "id" : "pedro-cond-3",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">IBS</div>"
+      },
+      "clinicalStatus" : {
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code" : "active"
+        }]
+      },
+      "code" : {
+        "coding" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "10743008",
+          "display" : "Irritable bowel syndrome"
+        }],
+        "text" : "Irritable bowel syndrome"
+      },
+      "subject" : {
+        "reference" : "Patient/pedro-patient",
+        "display" : "Pedro Gravitate"
       }
     }
   },
