@@ -3,7 +3,7 @@
   "id" : "gravitate-Pedro",
   "text" : {
     "status" : "extensions",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  \n    <b>Id:</b>\n    gravitate-Pedro\n  <br/>\n  \n    <b>status:</b>\n    final\n  <br/>\n  \n    <b>Type:</b>\n    Patient summary Document\n  <br/>\n  \n    <b>Subject:</b>\n    <a>Pedro Gravitate</a>\n  \n\n  <br/>\n  <b>Sections:</b>\n  <br/>\n\n  <ul>\n    \n      <li>\n\n        Problem List\n\n      </li>\n      <ul>\n\n        \n\n          <li>\n\n            HIV\n\n          </li>\n        \n\n          <li>\n\n            Depression\n\n          </li>\n        \n      </ul>\n\n    \n      <li>\n\n        Medication Summary\n\n      </li>\n      <ul>\n\n        \n\n          <li>\n\n            Dovato lamivudine and dolutegravir, 300 mg/50 mg\n\n          </li>\n        \n\n          <li>\n\n            Mirtazapine 15 mg\n\n          </li>\n        \n\n          <li>\n\n            Calcium carbonate 500 mg\n\n          </li>\n        \n\n          <li>\n\n            Cinitrapide 1 mg\n\n          </li>\n        \n\n          <li>\n\n            Collagen and magnesium supplements\n\n          </li>\n        \n\n          <li>\n\n            Vitamin C supplements\n\n          </li>\n        \n\n          <li>\n\n            Protein supplements\n\n          </li>\n        \n      </ul>\n\n    \n  </ul>\n</div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n  \n    <b>Id:</b>\n    gravitate-Pedro\n  <br/>\n  \n    <b>status:</b>\n    final\n  <br/>\n  \n    <b>Type:</b>\n    Patient summary Document\n  <br/>\n  \n    <b>Subject:</b>\n    <a>Pedro Gravitate</a>\n  \n\n  <br/>\n  <b>Sections:</b>\n  <br/>\n\n  <ul>\n    \n      <li>\n\n        Problem List\n\n      </li>\n      <ul>\n\n        \n\n          <li>\n\n            HIV\n\n          </li>\n        \n\n          <li>\n\n            Depression\n\n          </li>\n        \n\n          <li>\n\n            IBS\n\n          </li>\n        \n      </ul>\n\n    \n      <li>\n\n        Medication Summary\n\n      </li>\n      <ul>\n\n        \n\n          <li>\n\n            Dovato lamivudine and dolutegravir, 300 mg/50 mg\n\n          </li>\n        \n\n          <li>\n\n            Mirtazapine 15 mg\n\n          </li>\n        \n\n          <li>\n\n            Calcium carbonate 500 mg\n\n          </li>\n        \n\n          <li>\n\n            Cinitrapide 1 mg\n\n          </li>\n        \n\n          <li>\n\n            Collagen and magnesium supplements\n\n          </li>\n        \n\n          <li>\n\n            Vitamin C supplements\n\n          </li>\n        \n\n          <li>\n\n            Protein supplements\n\n          </li>\n        \n      </ul>\n\n    \n  </ul>\n</div>"
   },
   "status" : "final",
   "type" : {
@@ -35,7 +35,7 @@
     },
     "text" : {
       "status" : "generated",
-      "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>HIV</li><li>Depression</li></ul></div>"
+      "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>HIV</li><li>Depression</li><li>IBS</li></ul></div>"
     },
     "entry" : [{
       "reference" : "Condition/pedro-cond-1",
@@ -44,6 +44,10 @@
     {
       "reference" : "Condition/pedro-cond-2",
       "display" : "Depression"
+    },
+    {
+      "reference" : "Condition/pedro-cond-3",
+      "display" : "IBS"
     }]
   },
   {

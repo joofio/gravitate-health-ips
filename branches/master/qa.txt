@@ -1,13 +1,13 @@
 ﻿GhR4ImplementationGuide : Validation Results
 =========================================
 
-err = 70, warn = 50, info = 145
-IG Publisher Version: 1.2.23
-Generated Mon Dec 12 17:57:44 UTC 2022. FHIR version 4.0.1 for hl7.eu.fhir.gh-ips#0.1.0 (canonical = http://hl7.eu/fhir/ig/gravitate-health-ips)
+err = 72, warn = 50, info = 145
+IG Publisher Version: 1.2.25
+Generated Fri Dec 16 11:59:41 UTC 2022. FHIR version 4.0.1 for hl7.eu.fhir.gh-ips#0.1.0 (canonical = http://hl7.eu/fhir/ig/gravitate-health-ips)
  Build Errors : 251 / 10 / 0
  /github/workspace/fsh-generated/resources/Bundle-gravitate-Cecilia : 6 / 18 / 22
  /github/workspace/fsh-generated/resources/Bundle-gravitate-Matilda : 3 / 14 / 17
- /github/workspace/fsh-generated/resources/Bundle-gravitate-Pedro : 22 / 0 / 41
+ /github/workspace/fsh-generated/resources/Bundle-gravitate-Pedro : 23 / 0 / 42
  /github/workspace/fsh-generated/resources/Bundle-gravitate-helen : 5 / 2 / 17
  /github/workspace/fsh-generated/resources/Bundle-gravitate-ips-1 : 1 / 2 / 21
  /github/workspace/fsh-generated/resources/Bundle-gravitate-ips-2 : 0 / 0 / 20
@@ -15,7 +15,7 @@ Generated Mon Dec 12 17:57:44 UTC 2022. FHIR version 4.0.1 for hl7.eu.fhir.gh-ip
  /github/workspace/fsh-generated/resources/Bundle-gravitate-maria : 0 / 0 / 20
  /github/workspace/fsh-generated/resources/Composition-gravitate-Cecilia : 10 / 0 / 1
  /github/workspace/fsh-generated/resources/Composition-gravitate-Matilda : 6 / 0 / 1
- /github/workspace/fsh-generated/resources/Composition-gravitate-Pedro : 11 / 0 / 1
+ /github/workspace/fsh-generated/resources/Composition-gravitate-Pedro : 12 / 0 / 1
  /github/workspace/fsh-generated/resources/Composition-gravitate-helen : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Composition-gravitate-ips-1 : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/Composition-gravitate-maria : 0 / 0 / 1
@@ -353,44 +353,45 @@ ERROR: Bundle/gravitate-Pedro: Bundle.entry[2].fullUrl: UUIDs must be valid (and
 ERROR: Bundle/gravitate-Pedro: Bundle.entry[3].fullUrl: UUIDs must be valid (and lowercase)
 ERROR: Bundle/gravitate-Pedro: Bundle.entry[4].fullUrl: UUIDs must be valid (and lowercase)
 ERROR: Bundle/gravitate-Pedro: Bundle.entry[5].fullUrl: UUIDs must be valid (and lowercase)
-INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[5].resource.ofType(MedicationStatement).medication.ofType(Reference): Details for urn:uuid:9d7be868-8264-4d94-ad04-ef04ecc92e52 matching against profile http://hl7.org/fhir/StructureDefinition/Medication|4.0.1
 ERROR: Bundle/gravitate-Pedro: Bundle.entry[6].fullUrl: UUIDs must be valid (and lowercase)
-INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[6].resource.ofType(MedicationStatement).medication.ofType(Reference): Details for Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4 matching against profile http://hl7.org/fhir/StructureDefinition/Medication|4.0.1
+INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[6].resource.ofType(MedicationStatement).medication.ofType(Reference): Details for urn:uuid:9d7be868-8264-4d94-ad04-ef04ecc92e52 matching against profile http://hl7.org/fhir/StructureDefinition/Medication|4.0.1
 ERROR: Bundle/gravitate-Pedro: Bundle.entry[7].fullUrl: UUIDs must be valid (and lowercase)
-INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[7].resource.ofType(MedicationStatement).medication.ofType(Reference): Details for urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda7785g matching against profile http://hl7.org/fhir/StructureDefinition/Medication|4.0.1
+INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[7].resource.ofType(MedicationStatement).medication.ofType(Reference): Details for Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4 matching against profile http://hl7.org/fhir/StructureDefinition/Medication|4.0.1
 ERROR: Bundle/gravitate-Pedro: Bundle.entry[8].fullUrl: UUIDs must be valid (and lowercase)
 INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[8].resource.ofType(MedicationStatement).medication.ofType(Reference): Details for urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda7785g matching against profile http://hl7.org/fhir/StructureDefinition/Medication|4.0.1
 ERROR: Bundle/gravitate-Pedro: Bundle.entry[9].fullUrl: UUIDs must be valid (and lowercase)
-INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[9].resource.ofType(MedicationStatement).medication.ofType(Reference): Details for Medication/6f4151e9-91f6-4f1e-adc3-fb94dda7785g matching against profile http://hl7.org/fhir/StructureDefinition/Medication|4.0.1
+INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[9].resource.ofType(MedicationStatement).medication.ofType(Reference): Details for urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda7785g matching against profile http://hl7.org/fhir/StructureDefinition/Medication|4.0.1
 ERROR: Bundle/gravitate-Pedro: Bundle.entry[10].fullUrl: UUIDs must be valid (and lowercase)
 INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[10].resource.ofType(MedicationStatement).medication.ofType(Reference): Details for Medication/6f4151e9-91f6-4f1e-adc3-fb94dda7785g matching against profile http://hl7.org/fhir/StructureDefinition/Medication|4.0.1
 ERROR: Bundle/gravitate-Pedro: Bundle.entry[11].fullUrl: UUIDs must be valid (and lowercase)
 INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[11].resource.ofType(MedicationStatement).medication.ofType(Reference): Details for Medication/6f4151e9-91f6-4f1e-adc3-fb94dda7785g matching against profile http://hl7.org/fhir/StructureDefinition/Medication|4.0.1
-INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[12].resource.ofType(Medication).code.coding[0]: Code System URI 'http://ema.europa.eu/fhir/marketingAuthorizationNumber' is unknown so the code cannot be validated
-INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[12].resource.ofType(Medication).code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
-ERROR: Bundle/gravitate-Pedro: Bundle.entry[12].resource.ofType(Medication).code.coding[2]: Invalid System URI: http://snomed.info/sct/83821000000107
-ERROR: Bundle/gravitate-Pedro: Bundle.entry[12].resource.ofType(Medication).ingredient[0].strength.denominator: Local Error: Resolved system http://unitsofmeasure.org (v3.0.1), but the definition is not complete. Server Error: Error processing Unit: 'tablet': The unit "tablet" is unknown at character 1; The code "tablet" is not valid in the system http://unitsofmeasure.org; The code provided (http://unitsofmeasure.org#tablet) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://unitsofmeasure.org#tablet'
-ERROR: Bundle/gravitate-Pedro: Bundle.entry[12].resource.ofType(Medication).ingredient[1].strength.denominator: Local Error: Resolved system http://unitsofmeasure.org (v3.0.1), but the definition is not complete. Server Error: Error processing Unit: 'tablet': The unit "tablet" is unknown at character 1; The code "tablet" is not valid in the system http://unitsofmeasure.org; The code provided (http://unitsofmeasure.org#tablet) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://unitsofmeasure.org#tablet'
+ERROR: Bundle/gravitate-Pedro: Bundle.entry[12].fullUrl: UUIDs must be valid (and lowercase)
+INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[12].resource.ofType(MedicationStatement).medication.ofType(Reference): Details for Medication/6f4151e9-91f6-4f1e-adc3-fb94dda7785g matching against profile http://hl7.org/fhir/StructureDefinition/Medication|4.0.1
 INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[13].resource.ofType(Medication).code.coding[0]: Code System URI 'http://ema.europa.eu/fhir/marketingAuthorizationNumber' is unknown so the code cannot be validated
 INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[13].resource.ofType(Medication).code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
+ERROR: Bundle/gravitate-Pedro: Bundle.entry[13].resource.ofType(Medication).code.coding[2]: Invalid System URI: http://snomed.info/sct/83821000000107
 ERROR: Bundle/gravitate-Pedro: Bundle.entry[13].resource.ofType(Medication).ingredient[0].strength.denominator: Local Error: Resolved system http://unitsofmeasure.org (v3.0.1), but the definition is not complete. Server Error: Error processing Unit: 'tablet': The unit "tablet" is unknown at character 1; The code "tablet" is not valid in the system http://unitsofmeasure.org; The code provided (http://unitsofmeasure.org#tablet) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://unitsofmeasure.org#tablet'
-ERROR: Bundle/gravitate-Pedro: Bundle.entry[14].fullUrl: UUIDs must be valid (and lowercase)
-INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[14].resource.ofType(Medication).code.coding[0]: Code System URI 'https://www.gravitatehealth.eu/sid/man' is unknown so the code cannot be validated
+ERROR: Bundle/gravitate-Pedro: Bundle.entry[13].resource.ofType(Medication).ingredient[1].strength.denominator: Local Error: Resolved system http://unitsofmeasure.org (v3.0.1), but the definition is not complete. Server Error: Error processing Unit: 'tablet': The unit "tablet" is unknown at character 1; The code "tablet" is not valid in the system http://unitsofmeasure.org; The code provided (http://unitsofmeasure.org#tablet) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://unitsofmeasure.org#tablet'
+INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[14].resource.ofType(Medication).code.coding[0]: Code System URI 'http://ema.europa.eu/fhir/marketingAuthorizationNumber' is unknown so the code cannot be validated
 INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[14].resource.ofType(Medication).code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
 ERROR: Bundle/gravitate-Pedro: Bundle.entry[14].resource.ofType(Medication).ingredient[0].strength.denominator: Local Error: Resolved system http://unitsofmeasure.org (v3.0.1), but the definition is not complete. Server Error: Error processing Unit: 'tablet': The unit "tablet" is unknown at character 1; The code "tablet" is not valid in the system http://unitsofmeasure.org; The code provided (http://unitsofmeasure.org#tablet) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://unitsofmeasure.org#tablet'
+ERROR: Bundle/gravitate-Pedro: Bundle.entry[15].fullUrl: UUIDs must be valid (and lowercase)
 INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[15].resource.ofType(Medication).code.coding[0]: Code System URI 'https://www.gravitatehealth.eu/sid/man' is unknown so the code cannot be validated
 INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[15].resource.ofType(Medication).code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
 ERROR: Bundle/gravitate-Pedro: Bundle.entry[15].resource.ofType(Medication).ingredient[0].strength.denominator: Local Error: Resolved system http://unitsofmeasure.org (v3.0.1), but the definition is not complete. Server Error: Error processing Unit: 'tablet': The unit "tablet" is unknown at character 1; The code "tablet" is not valid in the system http://unitsofmeasure.org; The code provided (http://unitsofmeasure.org#tablet) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://unitsofmeasure.org#tablet'
 INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[16].resource.ofType(Medication).code.coding[0]: Code System URI 'https://www.gravitatehealth.eu/sid/man' is unknown so the code cannot be validated
 INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[16].resource.ofType(Medication).code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
+ERROR: Bundle/gravitate-Pedro: Bundle.entry[16].resource.ofType(Medication).ingredient[0].strength.denominator: Local Error: Resolved system http://unitsofmeasure.org (v3.0.1), but the definition is not complete. Server Error: Error processing Unit: 'tablet': The unit "tablet" is unknown at character 1; The code "tablet" is not valid in the system http://unitsofmeasure.org; The code provided (http://unitsofmeasure.org#tablet) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://unitsofmeasure.org#tablet'
 INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[17].resource.ofType(Medication).code.coding[0]: Code System URI 'https://www.gravitatehealth.eu/sid/man' is unknown so the code cannot be validated
 INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[17].resource.ofType(Medication).code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
 INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[18].resource.ofType(Medication).code.coding[0]: Code System URI 'https://www.gravitatehealth.eu/sid/man' is unknown so the code cannot be validated
 INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[18].resource.ofType(Medication).code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
-ERROR: Bundle/gravitate-Pedro: Bundle.entry[16]: Entry 'urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda77854' isn't reachable by traversing links (forward or backward) from the Composition
-ERROR: Bundle/gravitate-Pedro: Bundle.entry[17]: Entry 'urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda77855' isn't reachable by traversing links (forward or backward) from the Composition
-ERROR: Bundle/gravitate-Pedro: Bundle.entry[18]: Entry 'urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda77856' isn't reachable by traversing links (forward or backward) from the Composition
-ERROR: Bundle/gravitate-Pedro: Bundle.entry[19]: Entry 'urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda77857' isn't reachable by traversing links (forward or backward) from the Composition
+INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[19].resource.ofType(Medication).code.coding[0]: Code System URI 'https://www.gravitatehealth.eu/sid/man' is unknown so the code cannot be validated
+INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[19].resource.ofType(Medication).code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
+ERROR: Bundle/gravitate-Pedro: Bundle.entry[17]: Entry 'urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda77854' isn't reachable by traversing links (forward or backward) from the Composition
+ERROR: Bundle/gravitate-Pedro: Bundle.entry[18]: Entry 'urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda77855' isn't reachable by traversing links (forward or backward) from the Composition
+ERROR: Bundle/gravitate-Pedro: Bundle.entry[19]: Entry 'urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda77856' isn't reachable by traversing links (forward or backward) from the Composition
+ERROR: Bundle/gravitate-Pedro: Bundle.entry[20]: Entry 'urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda77857' isn't reachable by traversing links (forward or backward) from the Composition
 == fsh-generated/resources/Bundle-gravitate-helen.json ==
 WARNING: Bundle/gravitate-helen: Bundle.entry[1].resource.ofType(Patient).extension[0].extension[0].value.ofType(CodeableConcept).coding[0]: The display "United Kingdom" is not a valid display for the code {urn:iso:std:iso:3166}GB - should be one of ['United Kingdom of Great Britain and Northern Ireland'] (from http://tx.fhir.org/r4) for 'urn:iso:std:iso:3166#GB'
 INFORMATION: Bundle/gravitate-helen: Bundle.entry[5].resource.ofType(MedicationStatement).medication.ofType(Reference): Details for urn:uuid:9d7be868-8264-4d94-ad04-ef04ecc92e50 matching against profile http://hl7.org/fhir/StructureDefinition/Medication|4.0.1
@@ -460,6 +461,7 @@ ERROR: Composition/gravitate-Pedro: Composition.subject: Unable to resolve resou
 ERROR: Composition/gravitate-Pedro: Composition.author[0]: Unable to resolve resource with reference 'Practitioner/pedro-pract'
 ERROR: Composition/gravitate-Pedro: Composition.section[0].entry[0]: Unable to resolve resource with reference 'Condition/pedro-cond-1'
 ERROR: Composition/gravitate-Pedro: Composition.section[0].entry[1]: Unable to resolve resource with reference 'Condition/pedro-cond-2'
+ERROR: Composition/gravitate-Pedro: Composition.section[0].entry[2]: Unable to resolve resource with reference 'Condition/pedro-cond-3'
 ERROR: Composition/gravitate-Pedro: Composition.section[1].entry[0]: Unable to resolve resource with reference 'MedicationStatement/pedro-med-stat-1'
 ERROR: Composition/gravitate-Pedro: Composition.section[1].entry[1]: Unable to resolve resource with reference 'MedicationStatement/pedro-med-stat-2'
 ERROR: Composition/gravitate-Pedro: Composition.section[1].entry[2]: Unable to resolve resource with reference 'MedicationStatement/pedro-med-stat-3'

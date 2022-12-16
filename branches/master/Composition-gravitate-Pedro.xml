@@ -49,6 +49,13 @@
 
           </li>
         
+
+          <li>
+
+            IBS
+
+          </li>
+        
       </ul>
 
     
@@ -144,7 +151,7 @@
       </coding>
     </code>
     <text>
-      <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>HIV</li><li>Depression</li></ul></div>
+      <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>HIV</li><li>Depression</li><li>IBS</li></ul></div>
     </text>
     <entry>
       <reference value="Condition/pedro-cond-1"/>
@@ -153,6 +160,10 @@
     <entry>
       <reference value="Condition/pedro-cond-2"/>
       <display value="Depression"/>
+    </entry>
+    <entry>
+      <reference value="Condition/pedro-cond-3"/>
+      <display value="IBS"/>
     </entry>
   </section>
   <section>

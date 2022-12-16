@@ -38,58 +38,62 @@
      fhir:Bundle.entry.resource <urn:uuid:pedro-cond-2>
   ], [
      fhir:index 5;
+     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:pedro-cond-3" ];
+     fhir:Bundle.entry.resource <urn:uuid:pedro-cond-3>
+  ], [
+     fhir:index 6;
      fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:pedro-med-stat-1" ];
      fhir:Bundle.entry.resource <urn:uuid:pedro-med-stat-1>
   ], [
-     fhir:index 6;
+     fhir:index 7;
      fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:pedro-med-stat-2" ];
      fhir:Bundle.entry.resource <urn:uuid:pedro-med-stat-2>
   ], [
-     fhir:index 7;
+     fhir:index 8;
      fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:pedro-med-stat-3" ];
      fhir:Bundle.entry.resource <urn:uuid:pedro-med-stat-3>
   ], [
-     fhir:index 8;
+     fhir:index 9;
      fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:pedro-med-stat-4" ];
      fhir:Bundle.entry.resource <urn:uuid:pedro-med-stat-4>
   ], [
-     fhir:index 9;
+     fhir:index 10;
      fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:pedro-med-stat-5" ];
      fhir:Bundle.entry.resource <urn:uuid:pedro-med-stat-5>
   ], [
-     fhir:index 10;
+     fhir:index 11;
      fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:pedro-med-stat-6" ];
      fhir:Bundle.entry.resource <urn:uuid:pedro-med-stat-6>
   ], [
-     fhir:index 11;
+     fhir:index 12;
      fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:pedro-med-stat-7" ];
      fhir:Bundle.entry.resource <urn:uuid:pedro-med-stat-7>
   ], [
-     fhir:index 12;
+     fhir:index 13;
      fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:9d7be868-8264-4d94-ad04-ef04ecc92e52" ];
      fhir:Bundle.entry.resource <urn:uuid:9d7be868-8264-4d94-ad04-ef04ecc92e52>
   ], [
-     fhir:index 13;
+     fhir:index 14;
      fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4" ];
      fhir:Bundle.entry.resource <urn:uuid:fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4>
   ], [
-     fhir:index 14;
+     fhir:index 15;
      fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda7785g" ];
      fhir:Bundle.entry.resource <urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda7785g>
   ], [
-     fhir:index 15;
+     fhir:index 16;
      fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda77854" ];
      fhir:Bundle.entry.resource <urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda77854>
   ], [
-     fhir:index 16;
+     fhir:index 17;
      fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda77855" ];
      fhir:Bundle.entry.resource <urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda77855>
   ], [
-     fhir:index 17;
+     fhir:index 18;
      fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda77856" ];
      fhir:Bundle.entry.resource <urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda77856>
   ], [
-     fhir:index 18;
+     fhir:index 19;
      fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda77857" ];
      fhir:Bundle.entry.resource <urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda77857>
   ] . # 
@@ -138,7 +142,7 @@
      ];
      fhir:Composition.section.text [
        fhir:Narrative.status [ fhir:value "generated" ];
-       fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>HIV</li><li>Depression</li></ul></div>"
+       fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>HIV</li><li>Depression</li><li>IBS</li></ul></div>"
      ];
      fhir:Composition.section.entry [
        fhir:index 0;
@@ -150,6 +154,11 @@
        fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Condition/pedro-cond-2>;
        fhir:Reference.reference [ fhir:value "Condition/pedro-cond-2" ];
        fhir:Reference.display [ fhir:value "Depression" ]
+     ], [
+       fhir:index 2;
+       fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Condition/pedro-cond-3>;
+       fhir:Reference.reference [ fhir:value "Condition/pedro-cond-3" ];
+       fhir:Reference.display [ fhir:value "IBS" ]
      ]
   ], [
      fhir:index 1;
@@ -325,6 +334,35 @@
      fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Practitioner/pedro-pract>;
      fhir:Reference.reference [ fhir:value "Practitioner/pedro-pract" ];
      fhir:Reference.display [ fhir:value "Dr. Xavier García" ]
+  ] . # 
+
+<urn:uuid:pedro-cond-3> a fhir:Condition;
+  fhir:Resource.id [ fhir:value "pedro-cond-3"]; # 
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\">IBS</div>"
+  ]; # 
+  fhir:Condition.clinicalStatus [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/condition-clinical" ];
+       fhir:Coding.code [ fhir:value "active" ]
+     ]
+  ]; # 
+  fhir:Condition.code [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       a sct:10743008;
+       fhir:Coding.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:Coding.code [ fhir:value "10743008" ];
+       fhir:Coding.display [ fhir:value "Irritable bowel syndrome" ]
+     ];
+     fhir:CodeableConcept.text [ fhir:value "Irritable bowel syndrome" ]
+  ]; # 
+  fhir:Condition.subject [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Patient/pedro-patient>;
+     fhir:Reference.reference [ fhir:value "Patient/pedro-patient" ];
+     fhir:Reference.display [ fhir:value "Pedro Gravitate" ]
   ] . # 
 
 <urn:uuid:pedro-med-stat-1> a fhir:MedicationStatement;

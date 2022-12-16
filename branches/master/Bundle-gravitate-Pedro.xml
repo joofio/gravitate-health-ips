@@ -45,7 +45,7 @@
             </coding>
           </code>
           <text>
-            <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>HIV</li><li>Depression</li></ul></div>
+            <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>HIV</li><li>Depression</li><li>IBS</li></ul></div>
           </text>
           <entry>
             <reference value="Condition/pedro-cond-1"/>
@@ -54,6 +54,10 @@
           <entry>
             <reference value="Condition/pedro-cond-2"/>
             <display value="Depression"/>
+          </entry>
+          <entry>
+            <reference value="Condition/pedro-cond-3"/>
+            <display value="IBS"/>
           </entry>
         </section>
         <section>
@@ -209,6 +213,35 @@
           <reference value="Practitioner/pedro-pract"/>
           <display value="Dr. Xavier García"/>
         </asserter>
+      </Condition>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="urn:uuid:pedro-cond-3"/>
+    <resource>
+      <Condition>
+        <id value="pedro-cond-3"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">IBS</div>
+        </text>
+        <clinicalStatus>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/condition-clinical"/>
+            <code value="active"/>
+          </coding>
+        </clinicalStatus>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="10743008"/>
+            <display value="Irritable bowel syndrome"/>
+          </coding>
+          <text value="Irritable bowel syndrome"/>
+        </code>
+        <subject>
+          <reference value="Patient/pedro-patient"/>
+          <display value="Pedro Gravitate"/>
+        </subject>
       </Condition>
     </resource>
   </entry>
