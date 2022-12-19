@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Condition xmlns="http://hl7.org/fhir">
+  <id value="matilda-cond-1"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">Crohn's disease</div>
+  </text>
+  <clinicalStatus>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/condition-clinical"/>
+      <code value="active"/>
+    </coding>
+  </clinicalStatus>
+  <code>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="34000006"/>
+      <display value="Crohn's disease"/>
+    </coding>
+    <text value="Crohn's disease"/>
+  </code>
+  <subject>
+    <reference value="Patient/matilda-patient"/>
+    <display value="Matilda Gravitate"/>
+  </subject>
+  <onsetDateTime value="2015"/>
+  <asserter>
+    <reference value="urn:uuid:45cd0bd4-f685-4117-a9f0-5c53fffb7266"/>
+    <display value="Dr. Ana Lopez"/>
+  </asserter>
+</Condition>

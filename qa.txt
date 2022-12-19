@@ -1,26 +1,31 @@
 ﻿GhR4ImplementationGuide : Validation Results
 =========================================
 
-err = 30, warn = 102, info = 150
+err = 6, warn = 123, info = 160
 IG Publisher Version: 1.2.25
-Generated Mon Dec 19 12:46:32 UTC 2022. FHIR version 4.0.1 for hl7.eu.fhir.gh-ips#0.1.0 (canonical = http://hl7.eu/fhir/ig/gravitate-health-ips)
- Build Errors : 225 / 29 / 0
+Generated Mon Dec 19 13:06:35 UTC 2022. FHIR version 4.0.1 for hl7.eu.fhir.gh-ips#0.1.0 (canonical = http://hl7.eu/fhir/ig/gravitate-health-ips)
+ Build Errors : 5 / 51 / 0
  /github/workspace/fsh-generated/resources/Bundle-gravitate-Cecilia : 0 / 24 / 21
  /github/workspace/fsh-generated/resources/Bundle-gravitate-Matilda : 0 / 14 / 17
- /github/workspace/fsh-generated/resources/Bundle-gravitate-Pedro : 1 / 30 / 35
- /github/workspace/fsh-generated/resources/Bundle-gravitate-helen : 5 / 2 / 17
- /github/workspace/fsh-generated/resources/Bundle-gravitate-ips-1 : 1 / 1 / 21
+ /github/workspace/fsh-generated/resources/Bundle-gravitate-Pedro : 0 / 30 / 35
+ /github/workspace/fsh-generated/resources/Bundle-gravitate-helen : 0 / 1 / 15
+ /github/workspace/fsh-generated/resources/Bundle-gravitate-ips-1 : 0 / 1 / 21
  /github/workspace/fsh-generated/resources/Bundle-gravitate-ips-2 : 0 / 0 / 20
  /github/workspace/fsh-generated/resources/Bundle-gravitate-ips-3 : 0 / 0 / 22
  /github/workspace/fsh-generated/resources/Bundle-gravitate-maria : 0 / 0 / 20
- /github/workspace/fsh-generated/resources/Composition-gravitate-Cecilia : 10 / 0 / 1
- /github/workspace/fsh-generated/resources/Composition-gravitate-Matilda : 6 / 0 / 1
+ /github/workspace/fsh-generated/resources/Composition-gravitate-Cecilia : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Composition-gravitate-Matilda : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Composition-gravitate-Pedro : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Composition-gravitate-helen : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Composition-gravitate-maria : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Composition-ips-example-1 : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Composition-ips-example-2 : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Composition-ips-example-3 : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Condition-cecilia-cond-1 : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Condition-cecilia-cond-2 : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Condition-cecilia-cond-3 : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Condition-cecilia-cond-4 : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Condition-matilda-cond-1 : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Condition-pedro-cond-1 : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Condition-pedro-cond-2 : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Condition-pedro-cond-3 : 0 / 0 / 1
@@ -30,8 +35,21 @@ Generated Mon Dec 19 12:46:32 UTC 2022. FHIR version 4.0.1 for hl7.eu.fhir.gh-ip
  /github/workspace/fsh-generated/resources/Medication-6f4151e9-91f6-4f1e-adc3-fb94dda77856 : 0 / 0 / 3
  /github/workspace/fsh-generated/resources/Medication-6f4151e9-91f6-4f1e-adc3-fb94dda77857 : 0 / 0 / 3
  /github/workspace/fsh-generated/resources/Medication-6f4151e9-91f6-4f1e-adc3-fb94dda7785g : 0 / 0 / 3
- /github/workspace/fsh-generated/resources/Medication-9d7be868-8264-4d94-ad04-ef04ecc92e52 : 1 / 0 / 3
+ /github/workspace/fsh-generated/resources/Medication-9ac3356c-4ea4-4814-84c3-235484f2ef19 : 0 / 0 / 3
+ /github/workspace/fsh-generated/resources/Medication-9d7be868-8264-4d94-ad04-ef04ecc92e51 : 0 / 0 / 3
+ /github/workspace/fsh-generated/resources/Medication-9d7be868-8264-4d94-ad04-ef04ecc92e52 : 0 / 0 / 3
+ /github/workspace/fsh-generated/resources/Medication-b50ae644-e0b7-4007-809f-26f493cbe36c : 0 / 0 / 3
+ /github/workspace/fsh-generated/resources/Medication-de131e15-ed13-4b31-b38c-3204a84d99c4 : 0 / 0 / 3
  /github/workspace/fsh-generated/resources/Medication-fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4 : 0 / 0 / 3
+ /github/workspace/fsh-generated/resources/Medication-fdb5c97f-0a46-41ba-bc34-2efd2ef2f7et : 0 / 0 / 3
+ /github/workspace/fsh-generated/resources/Medication-fdb5c97f-0a46-41ba-bc34-2efd2ef2f7eu : 0 / 0 / 3
+ /github/workspace/fsh-generated/resources/MedicationStatement-cecilia-med-stat-1 : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/MedicationStatement-cecilia-med-stat-2 : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/MedicationStatement-cecilia-med-stat-3 : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/MedicationStatement-cecilia-med-stat-4 : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/MedicationStatement-matilda-med-stat-1 : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/MedicationStatement-matilda-med-stat-2 : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/MedicationStatement-matilda-med-stat-3 : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/MedicationStatement-pedro-med-stat-1 : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/MedicationStatement-pedro-med-stat-2 : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/MedicationStatement-pedro-med-stat-3 : 0 / 0 / 1
@@ -39,7 +57,11 @@ Generated Mon Dec 19 12:46:32 UTC 2022. FHIR version 4.0.1 for hl7.eu.fhir.gh-ip
  /github/workspace/fsh-generated/resources/MedicationStatement-pedro-med-stat-5 : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/MedicationStatement-pedro-med-stat-6 : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/MedicationStatement-pedro-med-stat-7 : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Patient-cecilia-patient : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Patient-matilda-patient : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Patient-pedro-patient : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Practitioner-cecilia-pract : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Practitioner-matilda-pract : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Practitioner-pedro-pract : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-example : 0 / 0 / 63
  /github/workspace/fsh-generated/resources/QuestionnaireResponse-QuestionnaireResponse-example : 0 / 1 / 19
@@ -55,12 +77,34 @@ WARNING: Unable to find ImplementationGuide.definition.resource.description for 
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77856.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77857.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Medication/6f4151e9-91f6-4f1e-adc3-fb94dda7785g.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Medication/9ac3356c-4ea4-4814-84c3-235484f2ef19.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Medication/9d7be868-8264-4d94-ad04-ef04ecc92e51.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Medication/9d7be868-8264-4d94-ad04-ef04ecc92e52.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Medication/b50ae644-e0b7-4007-809f-26f493cbe36c.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Condition/cecilia-cond-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Condition/cecilia-cond-2.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Condition/cecilia-cond-3.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Condition/cecilia-cond-4.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationStatement/cecilia-med-stat-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationStatement/cecilia-med-stat-2.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationStatement/cecilia-med-stat-3.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationStatement/cecilia-med-stat-4.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Patient/cecilia-patient.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Practitioner/cecilia-pract.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Medication/de131e15-ed13-4b31-b38c-3204a84d99c4.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7et.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7eu.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Composition/gravitate-helen.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Composition/ips-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Composition/ips-example-2.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Composition/ips-example-3.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Condition/matilda-cond-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationStatement/matilda-med-stat-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationStatement/matilda-med-stat-2.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationStatement/matilda-med-stat-3.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Patient/matilda-patient.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Practitioner/matilda-pract.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Condition/pedro-cond-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Condition/pedro-cond-2.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Condition/pedro-cond-3.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
@@ -73,231 +117,11 @@ WARNING: Unable to find ImplementationGuide.definition.resource.description for 
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationStatement/pedro-med-stat-7.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Patient/pedro-patient.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Practitioner/pedro-pract.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-ERROR: /github/workspace/output/Bundle-gravitate-Cecilia.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 139, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Bundle-gravitate-Cecilia.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Bundle-gravitate-Cecilia.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Bundle-gravitate-Cecilia.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Bundle-gravitate-Cecilia.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Bundle-gravitate-Matilda.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 139, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Bundle-gravitate-Matilda.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Bundle-gravitate-Matilda.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Bundle-gravitate-Matilda.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Bundle-gravitate-Matilda.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Bundle-gravitate-Pedro.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 139, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Bundle-gravitate-Pedro.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Bundle-gravitate-Pedro.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Bundle-gravitate-Pedro.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Bundle-gravitate-Pedro.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Bundle-gravitate-helen.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 139, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Bundle-gravitate-helen.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Bundle-gravitate-helen.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Bundle-gravitate-helen.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Bundle-gravitate-helen.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Bundle-gravitate-ips-1.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 139, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Bundle-gravitate-ips-1.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Bundle-gravitate-ips-1.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Bundle-gravitate-ips-1.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Bundle-gravitate-ips-1.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Bundle-gravitate-ips-2.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 139, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Bundle-gravitate-ips-2.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Bundle-gravitate-ips-2.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Bundle-gravitate-ips-2.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Bundle-gravitate-ips-2.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Bundle-gravitate-ips-3.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 139, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Bundle-gravitate-ips-3.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Bundle-gravitate-ips-3.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Bundle-gravitate-ips-3.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Bundle-gravitate-ips-3.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Bundle-gravitate-maria.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 139, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Bundle-gravitate-maria.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Bundle-gravitate-maria.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Bundle-gravitate-maria.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Bundle-gravitate-maria.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/CapabilityStatement-capability-statement-ema.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Composition-gravitate-Cecilia.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 139, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Composition-gravitate-Cecilia.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Composition-gravitate-Cecilia.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Composition-gravitate-Cecilia.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Composition-gravitate-Cecilia.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Composition-gravitate-Matilda.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 139, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Composition-gravitate-Matilda.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Composition-gravitate-Matilda.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Composition-gravitate-Matilda.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Composition-gravitate-Matilda.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Composition-gravitate-Pedro.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 139, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Composition-gravitate-Pedro.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Composition-gravitate-Pedro.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Composition-gravitate-Pedro.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Composition-gravitate-Pedro.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Composition-gravitate-helen.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 139, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Composition-gravitate-helen.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Composition-gravitate-helen.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Composition-gravitate-helen.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Composition-gravitate-helen.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Composition-gravitate-maria.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 139, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Composition-gravitate-maria.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Composition-gravitate-maria.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Composition-gravitate-maria.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Composition-gravitate-maria.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Composition-ips-example-1.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 139, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Composition-ips-example-1.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Composition-ips-example-1.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Composition-ips-example-1.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Composition-ips-example-1.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Composition-ips-example-2.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 139, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Composition-ips-example-2.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Composition-ips-example-2.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Composition-ips-example-2.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Composition-ips-example-2.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Composition-ips-example-3.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 139, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Composition-ips-example-3.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Composition-ips-example-3.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Composition-ips-example-3.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Composition-ips-example-3.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Condition-pedro-cond-1.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 139, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Condition-pedro-cond-1.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Condition-pedro-cond-1.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Condition-pedro-cond-1.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Condition-pedro-cond-1.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Condition-pedro-cond-2.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 139, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Condition-pedro-cond-2.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Condition-pedro-cond-2.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Condition-pedro-cond-2.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Condition-pedro-cond-2.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Condition-pedro-cond-3.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 139, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Condition-pedro-cond-3.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Condition-pedro-cond-3.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Condition-pedro-cond-3.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Condition-pedro-cond-3.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Connecting-data.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Medication-6f4151e9-91f6-4f1e-adc3-fb94dda77854.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 139, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Medication-6f4151e9-91f6-4f1e-adc3-fb94dda77854.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Medication-6f4151e9-91f6-4f1e-adc3-fb94dda77854.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Medication-6f4151e9-91f6-4f1e-adc3-fb94dda77854.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Medication-6f4151e9-91f6-4f1e-adc3-fb94dda77854.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Medication-6f4151e9-91f6-4f1e-adc3-fb94dda77855.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 139, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Medication-6f4151e9-91f6-4f1e-adc3-fb94dda77855.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Medication-6f4151e9-91f6-4f1e-adc3-fb94dda77855.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Medication-6f4151e9-91f6-4f1e-adc3-fb94dda77855.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Medication-6f4151e9-91f6-4f1e-adc3-fb94dda77855.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Medication-6f4151e9-91f6-4f1e-adc3-fb94dda77856.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 139, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Medication-6f4151e9-91f6-4f1e-adc3-fb94dda77856.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Medication-6f4151e9-91f6-4f1e-adc3-fb94dda77856.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Medication-6f4151e9-91f6-4f1e-adc3-fb94dda77856.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Medication-6f4151e9-91f6-4f1e-adc3-fb94dda77856.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Medication-6f4151e9-91f6-4f1e-adc3-fb94dda77857.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 139, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Medication-6f4151e9-91f6-4f1e-adc3-fb94dda77857.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Medication-6f4151e9-91f6-4f1e-adc3-fb94dda77857.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Medication-6f4151e9-91f6-4f1e-adc3-fb94dda77857.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Medication-6f4151e9-91f6-4f1e-adc3-fb94dda77857.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Medication-6f4151e9-91f6-4f1e-adc3-fb94dda7785g.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 139, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Medication-6f4151e9-91f6-4f1e-adc3-fb94dda7785g.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Medication-6f4151e9-91f6-4f1e-adc3-fb94dda7785g.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Medication-6f4151e9-91f6-4f1e-adc3-fb94dda7785g.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Medication-6f4151e9-91f6-4f1e-adc3-fb94dda7785g.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Medication-9d7be868-8264-4d94-ad04-ef04ecc92e52.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 139, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Medication-9d7be868-8264-4d94-ad04-ef04ecc92e52.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Medication-9d7be868-8264-4d94-ad04-ef04ecc92e52.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Medication-9d7be868-8264-4d94-ad04-ef04ecc92e52.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Medication-9d7be868-8264-4d94-ad04-ef04ecc92e52.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Medication-fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 139, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Medication-fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Medication-fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Medication-fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Medication-fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-pedro-med-stat-1.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 139, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-pedro-med-stat-1.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-pedro-med-stat-1.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-pedro-med-stat-1.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-pedro-med-stat-1.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-pedro-med-stat-2.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 139, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-pedro-med-stat-2.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-pedro-med-stat-2.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-pedro-med-stat-2.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-pedro-med-stat-2.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-pedro-med-stat-3.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 139, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-pedro-med-stat-3.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-pedro-med-stat-3.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-pedro-med-stat-3.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-pedro-med-stat-3.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-pedro-med-stat-4.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 139, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-pedro-med-stat-4.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-pedro-med-stat-4.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-pedro-med-stat-4.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-pedro-med-stat-4.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-pedro-med-stat-5.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 139, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-pedro-med-stat-5.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-pedro-med-stat-5.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-pedro-med-stat-5.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-pedro-med-stat-5.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-pedro-med-stat-6.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 139, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-pedro-med-stat-6.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-pedro-med-stat-6.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-pedro-med-stat-6.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-pedro-med-stat-6.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-pedro-med-stat-7.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 139, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-pedro-med-stat-7.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-pedro-med-stat-7.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-pedro-med-stat-7.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/MedicationStatement-pedro-med-stat-7.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Patient-pedro-patient.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 139, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Patient-pedro-patient.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Patient-pedro-patient.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Patient-pedro-patient.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Patient-pedro-patient.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Practitioner-pedro-pract.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 139, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Practitioner-pedro-pract.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Practitioner-pedro-pract.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Practitioner-pedro-pract.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Practitioner-pedro-pract.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Questionnaire-Questionnaire-example-testing.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Questionnaire-Questionnaire-example.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 139, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Questionnaire-Questionnaire-example.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Questionnaire-Questionnaire-example.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Questionnaire-Questionnaire-example.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/Questionnaire-Questionnaire-example.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/QuestionnaireResponse-QuestionnaireResponse-example.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 139, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/QuestionnaireResponse-QuestionnaireResponse-example.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/QuestionnaireResponse-QuestionnaireResponse-example.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/QuestionnaireResponse-QuestionnaireResponse-example.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/QuestionnaireResponse-QuestionnaireResponse-example.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/SampleData.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/SampleData.html#/html/body/div/div/div/div/div/ul/li/a at Line 200, column 8: The link 'Composition-5702fd1d-dd26-402e-a7c0-7629a5d9bba1.html' for "Helen (GB)" cannot be resolved
-ERROR: /github/workspace/output/SampleData.html#/html/body/div/div/div/div/div/ul/li/a at Line 203, column 8: The link 'Composition-2fa5b223-ebce-4f39-9c66-5dc014f73572.html' for "Maria (NOR)" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-example-persona-profile-definitions.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 139, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-example-persona-profile-examples.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 139, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-example-persona-profile-mappings.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 139, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-example-persona-profile-testing.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 139, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-example-persona-profile.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 139, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-example-persona-profile.profile.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 139, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-example-persona-profile.profile.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 143, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-example-persona-profile.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 143, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-example-persona-profile.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 143, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/ValueSet-PDcategoryVS-testing.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/ValueSet-PDcategoryVS.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 139, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/ValueSet-PDcategoryVS.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/ValueSet-PDcategoryVS.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/ValueSet-PDcategoryVS.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/ValueSet-PDcategoryVS.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/ValueSet-PDtypeVS-testing.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/ValueSet-PDtypeVS.change.history.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 139, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/ValueSet-PDtypeVS.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/ValueSet-PDtypeVS.json.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/ValueSet-PDtypeVS.ttl.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/ValueSet-PDtypeVS.xml.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 137, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/connections.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/copyright.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
 ERROR: /github/workspace/output/copyright.html#/html/body/div/div/div/div/div/p/a at Line 237, column 14: The link 'http://build.fhir.org/ig/HL7/fhir-ips/copyrights.html' for "IPS Implementation Guide" cannot be resolved
-ERROR: /github/workspace/output/ePI-structure.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
 ERROR: /github/workspace/output/ePI-structure.html#/html/body/div/div/div/div/div/p/a at Line 242, column 121: The link 'http://build.fhir.org/ig/hl7-eu/gravitate-health/terminology.html' for "Terminology" cannot be resolved
 ERROR: /github/workspace/output/ePI-structure.html#/html/body/div/div/div/div/div/p/a at Line 288, column 106: The link 'http://build.fhir.org/ig/hl7-eu/gravitate-health/terminology.html' for "Terminology" cannot be resolved
-ERROR: /github/workspace/output/index.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
 ERROR: /github/workspace/output/index.html#/html/body/div/div/div/div/div/p/a at Line 283, column 290: The link 'http://build.fhir.org/ig/HL7/fhir-ips/index.html' for "IPS Implementation Guide" cannot be resolved
-ERROR: /github/workspace/output/terminology.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
 ERROR: /github/workspace/output/terminology.html#/html/body/div/div/div/div/div/p/a at Line 219, column 18: The link 'http://build.fhir.org/ig/HL7/fhir-ips/terminology.html' for "IPS Implementation Guide" cannot be resolved
-ERROR: /github/workspace/output/toc.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
-ERROR: /github/workspace/output/use-case-example.html#/html/body/div/div/nav/div/div/ul/li/ul/li/a at Line 135, column 10: The link 'downloads.xml' for "Downloads" cannot be resolved
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
@@ -387,7 +211,6 @@ WARNING: Bundle/gravitate-Pedro: Bundle.entry[12].resource.ofType(MedicationStat
 WARNING: Bundle/gravitate-Pedro: Bundle.entry[12].resource.ofType(MedicationStatement).subject: Entry 1 matches the reference Patient/pedro-patient by type and id but it's fullUrl pedro-patient does not match the full target URL Patient/pedro-patient by Bundle resolution rules
 INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[13].resource.ofType(Medication).code.coding[0]: Code System URI 'http://ema.europa.eu/fhir/marketingAuthorizationNumber' is unknown so the code cannot be validated
 INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[13].resource.ofType(Medication).code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
-ERROR: Bundle/gravitate-Pedro: Bundle.entry[13].resource.ofType(Medication).ingredient[1].strength: Rule rat-1: 'Numerator and denominator SHALL both be present, or both are absent. If both are absent, there SHALL be some extension present' Failed
 INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[14].resource.ofType(Medication).code.coding[0]: Code System URI 'http://ema.europa.eu/fhir/marketingAuthorizationNumber' is unknown so the code cannot be validated
 INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[14].resource.ofType(Medication).code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
 INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[15].resource.ofType(Medication).code.coding[0]: Code System URI 'https://www.gravitatehealth.eu/sid/man' is unknown so the code cannot be validated
@@ -402,18 +225,10 @@ INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[19].resource.ofType(Medication
 INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[19].resource.ofType(Medication).code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
 == fsh-generated/resources/Bundle-gravitate-helen.json ==
 WARNING: Bundle/gravitate-helen: Bundle.entry[1].resource.ofType(Patient).extension[0].extension[0].value.ofType(CodeableConcept).coding[0]: The display "United Kingdom" is not a valid display for the code {urn:iso:std:iso:3166}GB - should be one of ['United Kingdom of Great Britain and Northern Ireland'] (from http://tx.fhir.org/r4) for 'urn:iso:std:iso:3166#GB'
-INFORMATION: Bundle/gravitate-helen: Bundle.entry[5].resource.ofType(MedicationStatement).medication.ofType(Reference): Details for urn:uuid:9d7be868-8264-4d94-ad04-ef04ecc92e50 matching against profile http://hl7.org/fhir/StructureDefinition/Medication|4.0.1
-ERROR: Bundle/gravitate-helen: Bundle.entry[6].resource.ofType(MedicationStatement).basedOn[0]: Matching reference for reference MedicationStatement/c872135e-f219-4f32-8fd6-7099009abf42 has resourceType MedicationRequest
-INFORMATION: Bundle/gravitate-helen: Bundle.entry[6].resource.ofType(MedicationStatement).basedOn[0]: Details for MedicationStatement/c872135e-f219-4f32-8fd6-7099009abf42 matching against profile http://hl7.org/fhir/StructureDefinition/MedicationRequest|4.0.1
-WARNING: Bundle/gravitate-helen: Bundle.entry[7].resource.ofType(MedicationRequest).medication.ofType(Reference): URN reference is not locally contained within the bundle urn:fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e3
-ERROR: Bundle/gravitate-helen: Bundle.entry[7].resource.ofType(MedicationRequest).medication.ofType(Reference): Unable to resolve resource with reference 'urn:fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e3'
-ERROR: Bundle/gravitate-helen: Bundle.entry[7].resource.ofType(MedicationRequest).subject: Unable to resolve resource with reference 'Patient/urn:uuid:be61951b-44fc-4853-8822-f9d398193c50'
 INFORMATION: Bundle/gravitate-helen: Bundle.entry[8].resource.ofType(Medication).code.coding[0]: Code System URI 'http://ema.europa.eu/fhir/marketingAuthorizationNumber' is unknown so the code cannot be validated
 INFORMATION: Bundle/gravitate-helen: Bundle.entry[8].resource.ofType(Medication).code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
-ERROR: Bundle/gravitate-helen: Bundle.entry[8].resource.ofType(Medication).code.coding[2]: Local Error: Resolved system http://snomed.info/sct, but the definition is not complete. Server Error: Unable to find code 13884911000001102 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20220731); The code "13884911000001102" is not valid in the system http://snomed.info/sct; The code provided (http://snomed.info/sct#13884911000001102) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://snomed.info/sct#13884911000001102'
 INFORMATION: Bundle/gravitate-helen: Bundle.entry[9].resource.ofType(Medication).code.coding[0]: Code System URI 'http://ema.europa.eu/fhir/marketingAuthorizationNumber' is unknown so the code cannot be validated
 INFORMATION: Bundle/gravitate-helen: Bundle.entry[9].resource.ofType(Medication).code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
-ERROR: Bundle/gravitate-helen: Bundle.entry[8]: Entry 'urn:uuid:c872135e-f219-4f32-8fd6-7099009abf42' isn't reachable by traversing links (forward or backward) from the Composition
 == fsh-generated/resources/Bundle-gravitate-ips-1.json ==
 WARNING: Bundle/gravitate-ips-1: Bundle.entry[3].resource.ofType(AllergyIntolerance).patient: URN reference is not locally contained within the bundle urn:uuid:c154158f-6a43-4ab7-8443-e7f4bf915dd5
 INFORMATION: Bundle/gravitate-ips-1: Bundle.entry[11].resource.ofType(Medication).code.coding[0]: Code System URI 'http://ema.europa.eu/fhir/marketingAuthorizationNumber' is unknown so the code cannot be validated
@@ -422,7 +237,6 @@ INFORMATION: Bundle/gravitate-ips-1: Bundle.entry[12].resource.ofType(Medication
 INFORMATION: Bundle/gravitate-ips-1: Bundle.entry[12].resource.ofType(Medication).code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
 INFORMATION: Bundle/gravitate-ips-1: Bundle.entry[13].resource.ofType(Medication).code.coding[0]: Code System URI 'https://www.gravitatehealth.eu/sid/man' is unknown so the code cannot be validated
 INFORMATION: Bundle/gravitate-ips-1: Bundle.entry[13].resource.ofType(Medication).code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
-ERROR: Bundle/gravitate-ips-1: Bundle.entry[4]: Entry 'urn:uuid:1dff4474-fa08-4f45-8260-dbb23094bf05' isn't reachable by traversing links (forward or backward) from the Composition
 == fsh-generated/resources/Bundle-gravitate-ips-2.json ==
 INFORMATION: Bundle/gravitate-ips-2: Bundle.entry[10].resource.ofType(Medication).code.coding[0]: Code System URI 'http://ema.europa.eu/fhir/marketingAuthorizationNumber' is unknown so the code cannot be validated
 INFORMATION: Bundle/gravitate-ips-2: Bundle.entry[10].resource.ofType(Medication).code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
@@ -445,29 +259,18 @@ INFORMATION: Bundle/gravitate-maria: Bundle.entry[11].resource.ofType(Medication
 INFORMATION: Bundle/gravitate-maria: Bundle.entry[12].resource.ofType(Medication).code.coding[0]: Code System URI 'https://www.gravitatehealth.eu/sid/man' is unknown so the code cannot be validated
 INFORMATION: Bundle/gravitate-maria: Bundle.entry[12].resource.ofType(Medication).code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
 == fsh-generated/resources/Composition-gravitate-Cecilia.json ==
-ERROR: Composition/gravitate-Cecilia: Composition.subject: Unable to resolve resource with reference 'Patient/cecilia-patient'
-ERROR: Composition/gravitate-Cecilia: Composition.author[0]: Unable to resolve resource with reference 'Practitioner/cecilia-pract'
-ERROR: Composition/gravitate-Cecilia: Composition.section[0].entry[0]: Unable to resolve resource with reference 'Condition/cecilia-cond-1'
-ERROR: Composition/gravitate-Cecilia: Composition.section[0].entry[1]: Unable to resolve resource with reference 'Condition/cecilia-cond-2'
-ERROR: Composition/gravitate-Cecilia: Composition.section[0].entry[2]: Unable to resolve resource with reference 'Condition/cecilia-cond-3'
-ERROR: Composition/gravitate-Cecilia: Composition.section[0].entry[3]: Unable to resolve resource with reference 'Condition/cecilia-cond-4'
-ERROR: Composition/gravitate-Cecilia: Composition.section[1].entry[0]: Unable to resolve resource with reference 'MedicationStatement/cecilia-med-stat-1'
-ERROR: Composition/gravitate-Cecilia: Composition.section[1].entry[1]: Unable to resolve resource with reference 'MedicationStatement/cecilia-med-stat-2'
-ERROR: Composition/gravitate-Cecilia: Composition.section[1].entry[2]: Unable to resolve resource with reference 'MedicationStatement/cecilia-med-stat-3'
-ERROR: Composition/gravitate-Cecilia: Composition.section[1].entry[3]: Unable to resolve resource with reference 'MedicationStatement/cecilia-med-stat-4'
 == fsh-generated/resources/Composition-gravitate-Matilda.json ==
-ERROR: Composition/gravitate-Matilda: Composition.subject: Unable to resolve resource with reference 'Patient/matilda-patient'
-ERROR: Composition/gravitate-Matilda: Composition.author[0]: Unable to resolve resource with reference 'Practitioner/matilda-pract'
-ERROR: Composition/gravitate-Matilda: Composition.section[0].entry[0]: Unable to resolve resource with reference 'Condition/matilda-cond-1'
-ERROR: Composition/gravitate-Matilda: Composition.section[1].entry[0]: Unable to resolve resource with reference 'MedicationStatement/matilda-med-stat-1'
-ERROR: Composition/gravitate-Matilda: Composition.section[1].entry[1]: Unable to resolve resource with reference 'MedicationStatement/matilda-med-stat-2'
-ERROR: Composition/gravitate-Matilda: Composition.section[1].entry[2]: Unable to resolve resource with reference 'MedicationStatement/matilda-med-stat-3'
 == fsh-generated/resources/Composition-gravitate-Pedro.json ==
 == fsh-generated/resources/Composition-gravitate-helen.json ==
 == fsh-generated/resources/Composition-gravitate-maria.json ==
 == fsh-generated/resources/Composition-ips-example-1.json ==
 == fsh-generated/resources/Composition-ips-example-2.json ==
 == fsh-generated/resources/Composition-ips-example-3.json ==
+== fsh-generated/resources/Condition-cecilia-cond-1.json ==
+== fsh-generated/resources/Condition-cecilia-cond-2.json ==
+== fsh-generated/resources/Condition-cecilia-cond-3.json ==
+== fsh-generated/resources/Condition-cecilia-cond-4.json ==
+== fsh-generated/resources/Condition-matilda-cond-1.json ==
 == fsh-generated/resources/Condition-pedro-cond-1.json ==
 == fsh-generated/resources/Condition-pedro-cond-2.json ==
 == fsh-generated/resources/Condition-pedro-cond-3.json ==
@@ -487,13 +290,37 @@ INFORMATION: Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77857: Medication.code.co
 == fsh-generated/resources/Medication-6f4151e9-91f6-4f1e-adc3-fb94dda7785g.json ==
 INFORMATION: Medication/6f4151e9-91f6-4f1e-adc3-fb94dda7785g: Medication.code.coding[0]: Code System URI 'https://www.gravitatehealth.eu/sid/man' is unknown so the code cannot be validated
 INFORMATION: Medication/6f4151e9-91f6-4f1e-adc3-fb94dda7785g: Medication.code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
+== fsh-generated/resources/Medication-9ac3356c-4ea4-4814-84c3-235484f2ef19.json ==
+INFORMATION: Medication/9ac3356c-4ea4-4814-84c3-235484f2ef19: Medication.code.coding[0]: Code System URI 'https://www.gravitatehealth.eu/sid/man' is unknown so the code cannot be validated
+INFORMATION: Medication/9ac3356c-4ea4-4814-84c3-235484f2ef19: Medication.code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
+== fsh-generated/resources/Medication-9d7be868-8264-4d94-ad04-ef04ecc92e51.json ==
+INFORMATION: Medication/9d7be868-8264-4d94-ad04-ef04ecc92e51: Medication.code.coding[0]: Code System URI 'http://ema.europa.eu/fhir/marketingAuthorizationNumber' is unknown so the code cannot be validated
+INFORMATION: Medication/9d7be868-8264-4d94-ad04-ef04ecc92e51: Medication.code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
 == fsh-generated/resources/Medication-9d7be868-8264-4d94-ad04-ef04ecc92e52.json ==
 INFORMATION: Medication/9d7be868-8264-4d94-ad04-ef04ecc92e52: Medication.code.coding[0]: Code System URI 'http://ema.europa.eu/fhir/marketingAuthorizationNumber' is unknown so the code cannot be validated
 INFORMATION: Medication/9d7be868-8264-4d94-ad04-ef04ecc92e52: Medication.code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
-ERROR: Medication/9d7be868-8264-4d94-ad04-ef04ecc92e52: Medication.ingredient[1].strength: Rule rat-1: 'Numerator and denominator SHALL both be present, or both are absent. If both are absent, there SHALL be some extension present' Failed
+== fsh-generated/resources/Medication-b50ae644-e0b7-4007-809f-26f493cbe36c.json ==
+INFORMATION: Medication/b50ae644-e0b7-4007-809f-26f493cbe36c: Medication.code.coding[0]: Code System URI 'http://ema.europa.eu/fhir/marketingAuthorizationNumber' is unknown so the code cannot be validated
+INFORMATION: Medication/b50ae644-e0b7-4007-809f-26f493cbe36c: Medication.code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
+== fsh-generated/resources/Medication-de131e15-ed13-4b31-b38c-3204a84d99c4.json ==
+INFORMATION: Medication/de131e15-ed13-4b31-b38c-3204a84d99c4: Medication.code.coding[0]: Code System URI 'http://ema.europa.eu/fhir/marketingAuthorizationNumber' is unknown so the code cannot be validated
+INFORMATION: Medication/de131e15-ed13-4b31-b38c-3204a84d99c4: Medication.code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
 == fsh-generated/resources/Medication-fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4.json ==
 INFORMATION: Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4: Medication.code.coding[0]: Code System URI 'http://ema.europa.eu/fhir/marketingAuthorizationNumber' is unknown so the code cannot be validated
 INFORMATION: Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4: Medication.code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
+== fsh-generated/resources/Medication-fdb5c97f-0a46-41ba-bc34-2efd2ef2f7et.json ==
+INFORMATION: Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7et: Medication.code.coding[0]: Code System URI 'http://ema.europa.eu/fhir/marketingAuthorizationNumber' is unknown so the code cannot be validated
+INFORMATION: Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7et: Medication.code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
+== fsh-generated/resources/Medication-fdb5c97f-0a46-41ba-bc34-2efd2ef2f7eu.json ==
+INFORMATION: Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7eu: Medication.code.coding[0]: Code System URI 'https://www.gravitatehealth.eu/sid/man' is unknown so the code cannot be validated
+INFORMATION: Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7eu: Medication.code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
+== fsh-generated/resources/MedicationStatement-cecilia-med-stat-1.json ==
+== fsh-generated/resources/MedicationStatement-cecilia-med-stat-2.json ==
+== fsh-generated/resources/MedicationStatement-cecilia-med-stat-3.json ==
+== fsh-generated/resources/MedicationStatement-cecilia-med-stat-4.json ==
+== fsh-generated/resources/MedicationStatement-matilda-med-stat-1.json ==
+== fsh-generated/resources/MedicationStatement-matilda-med-stat-2.json ==
+== fsh-generated/resources/MedicationStatement-matilda-med-stat-3.json ==
 == fsh-generated/resources/MedicationStatement-pedro-med-stat-1.json ==
 == fsh-generated/resources/MedicationStatement-pedro-med-stat-2.json ==
 == fsh-generated/resources/MedicationStatement-pedro-med-stat-3.json ==
@@ -501,7 +328,11 @@ INFORMATION: Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4: Medication.code.co
 == fsh-generated/resources/MedicationStatement-pedro-med-stat-5.json ==
 == fsh-generated/resources/MedicationStatement-pedro-med-stat-6.json ==
 == fsh-generated/resources/MedicationStatement-pedro-med-stat-7.json ==
+== fsh-generated/resources/Patient-cecilia-patient.json ==
+== fsh-generated/resources/Patient-matilda-patient.json ==
 == fsh-generated/resources/Patient-pedro-patient.json ==
+== fsh-generated/resources/Practitioner-cecilia-pract.json ==
+== fsh-generated/resources/Practitioner-matilda-pract.json ==
 == fsh-generated/resources/Practitioner-pedro-pract.json ==
 == fsh-generated/resources/Questionnaire-Questionnaire-example.json ==
 INFORMATION: Questionnaire/Questionnaire-example: Questionnaire.item[1].answerOption[0].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated

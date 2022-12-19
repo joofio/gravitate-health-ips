@@ -10,7 +10,7 @@
   "name" : "GhR4ImplementationGuide",
   "title" : "Gravitate Health FHIR Implementation Guide (FHIR R4)",
   "status" : "active",
-  "date" : "2022-12-19T12:45:40+00:00",
+  "date" : "2022-12-19T13:05:58+00:00",
   "contact" : [{
     "name" : "Gravitate Health Project",
     "telecom" : [{
@@ -731,6 +731,28 @@
         "valueString" : "Medication"
       }],
       "reference" : {
+        "reference" : "Medication/9ac3356c-4ea4-4814-84c3-235484f2ef19"
+      },
+      "name" : "9ac3356c-4ea4-4814-84c3-235484f2ef19",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Medication"
+      }],
+      "reference" : {
+        "reference" : "Medication/9d7be868-8264-4d94-ad04-ef04ecc92e51"
+      },
+      "name" : "9d7be868-8264-4d94-ad04-ef04ecc92e51",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Medication"
+      }],
+      "reference" : {
         "reference" : "Medication/9d7be868-8264-4d94-ad04-ef04ecc92e52"
       },
       "name" : "9d7be868-8264-4d94-ad04-ef04ecc92e52",
@@ -766,9 +788,163 @@
         "valueString" : "Medication"
       }],
       "reference" : {
+        "reference" : "Medication/b50ae644-e0b7-4007-809f-26f493cbe36c"
+      },
+      "name" : "b50ae644-e0b7-4007-809f-26f493cbe36c",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Condition"
+      }],
+      "reference" : {
+        "reference" : "Condition/cecilia-cond-1"
+      },
+      "name" : "cecilia-cond-1",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Condition"
+      }],
+      "reference" : {
+        "reference" : "Condition/cecilia-cond-2"
+      },
+      "name" : "cecilia-cond-2",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Condition"
+      }],
+      "reference" : {
+        "reference" : "Condition/cecilia-cond-3"
+      },
+      "name" : "cecilia-cond-3",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Condition"
+      }],
+      "reference" : {
+        "reference" : "Condition/cecilia-cond-4"
+      },
+      "name" : "cecilia-cond-4",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "MedicationStatement"
+      }],
+      "reference" : {
+        "reference" : "MedicationStatement/cecilia-med-stat-1"
+      },
+      "name" : "cecilia-med-stat-1",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "MedicationStatement"
+      }],
+      "reference" : {
+        "reference" : "MedicationStatement/cecilia-med-stat-2"
+      },
+      "name" : "cecilia-med-stat-2",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "MedicationStatement"
+      }],
+      "reference" : {
+        "reference" : "MedicationStatement/cecilia-med-stat-3"
+      },
+      "name" : "cecilia-med-stat-3",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "MedicationStatement"
+      }],
+      "reference" : {
+        "reference" : "MedicationStatement/cecilia-med-stat-4"
+      },
+      "name" : "cecilia-med-stat-4",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Patient"
+      }],
+      "reference" : {
+        "reference" : "Patient/cecilia-patient"
+      },
+      "name" : "cecilia-patient",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Practitioner"
+      }],
+      "reference" : {
+        "reference" : "Practitioner/cecilia-pract"
+      },
+      "name" : "cecilia-pract",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Medication"
+      }],
+      "reference" : {
+        "reference" : "Medication/de131e15-ed13-4b31-b38c-3204a84d99c4"
+      },
+      "name" : "de131e15-ed13-4b31-b38c-3204a84d99c4",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Medication"
+      }],
+      "reference" : {
         "reference" : "Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4"
       },
       "name" : "fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Medication"
+      }],
+      "reference" : {
+        "reference" : "Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7et"
+      },
+      "name" : "fdb5c97f-0a46-41ba-bc34-2efd2ef2f7et",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Medication"
+      }],
+      "reference" : {
+        "reference" : "Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7eu"
+      },
+      "name" : "fdb5c97f-0a46-41ba-bc34-2efd2ef2f7eu",
       "exampleBoolean" : true
     },
     {
@@ -975,6 +1151,72 @@
         "valueString" : "Condition"
       }],
       "reference" : {
+        "reference" : "Condition/matilda-cond-1"
+      },
+      "name" : "matilda-cond-1",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "MedicationStatement"
+      }],
+      "reference" : {
+        "reference" : "MedicationStatement/matilda-med-stat-1"
+      },
+      "name" : "matilda-med-stat-1",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "MedicationStatement"
+      }],
+      "reference" : {
+        "reference" : "MedicationStatement/matilda-med-stat-2"
+      },
+      "name" : "matilda-med-stat-2",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "MedicationStatement"
+      }],
+      "reference" : {
+        "reference" : "MedicationStatement/matilda-med-stat-3"
+      },
+      "name" : "matilda-med-stat-3",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Patient"
+      }],
+      "reference" : {
+        "reference" : "Patient/matilda-patient"
+      },
+      "name" : "matilda-patient",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Practitioner"
+      }],
+      "reference" : {
+        "reference" : "Practitioner/matilda-pract"
+      },
+      "name" : "matilda-pract",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Condition"
+      }],
+      "reference" : {
         "reference" : "Condition/pedro-cond-1"
       },
       "name" : "pedro-cond-1",
@@ -1153,6 +1395,15 @@
         "nameUrl" : "copyright.html",
         "title" : "Copyright",
         "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "downloads.html"
+        }],
+        "nameUrl" : "downloads.html",
+        "title" : "Downloads",
+        "generation" : "html"
       },
       {
         "extension" : [{
