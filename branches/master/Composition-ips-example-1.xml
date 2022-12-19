@@ -38,6 +38,13 @@
 
           <li>
 
+            Hay fever (pollen)
+
+          </li>
+        
+
+          <li>
+
             Lactose Intolerance
 
           </li>
@@ -140,6 +147,10 @@
         <display value="Allergies and adverse reactions Document"/>
       </coding>
     </code>
+    <entry>
+      <reference value="urn:uuid:1dff4474-fa08-4f45-8260-dbb23094bf05"/>
+      <display value="Hay fever (pollen)"/>
+    </entry>
     <entry>
       <reference value="urn:uuid:9d18cddb-8e58-4fbb-82ec-09cc561ac805"/>
       <display value="Lactose Intolerance"/>

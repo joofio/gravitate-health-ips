@@ -1,0 +1,51 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.eu/fhir/ig/gravitate-health-ips/Condition/cecilia-cond-2> a fhir:Condition;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "cecilia-cond-2"]; # 
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Congestive heart failure (2015)</div>"
+  ]; # 
+  fhir:Condition.clinicalStatus [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/condition-clinical" ];
+       fhir:Coding.code [ fhir:value "active" ]
+     ]
+  ]; # 
+  fhir:Condition.code [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       a sct:42343007;
+       fhir:Coding.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:Coding.code [ fhir:value "42343007" ];
+       fhir:Coding.display [ fhir:value "Congestive heart failure" ]
+     ];
+     fhir:CodeableConcept.text [ fhir:value "Congestive heart failure" ]
+  ]; # 
+  fhir:Condition.subject [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Patient/cecilia-patient>;
+     fhir:Reference.reference [ fhir:value "Patient/cecilia-patient" ];
+     fhir:Reference.display [ fhir:value "Cecilia Gravitate" ]
+  ]; # 
+  fhir:Condition.onsetDateTime [ fhir:value "2015"^^xsd:gYear]; # 
+  fhir:Condition.asserter [
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Practitioner/cecilia-pract>;
+     fhir:Reference.reference [ fhir:value "Practitioner/cecilia-pract" ];
+     fhir:Reference.display [ fhir:value "Dr. Anna Karlsson" ]
+  ] . # 
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.eu/fhir/ig/gravitate-health-ips/Condition/cecilia-cond-2.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

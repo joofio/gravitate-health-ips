@@ -11,7 +11,7 @@
   <name value="GhR4ImplementationGuide"/>
   <title value="Gravitate Health FHIR Implementation Guide (FHIR R4)"/>
   <status value="active"/>
-  <date value="2022-12-19T12:45:40+00:00"/>
+  <date value="2022-12-19T13:05:58+00:00"/>
   <contact>
     <name value="Gravitate Health Project"/>
     <telecom>
@@ -559,6 +559,26 @@
         <valueString value="Medication"/>
       </extension>
       <reference>
+        <reference value="Medication/9ac3356c-4ea4-4814-84c3-235484f2ef19"/>
+      </reference>
+      <name value="9ac3356c-4ea4-4814-84c3-235484f2ef19"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Medication"/>
+      </extension>
+      <reference>
+        <reference value="Medication/9d7be868-8264-4d94-ad04-ef04ecc92e51"/>
+      </reference>
+      <name value="9d7be868-8264-4d94-ad04-ef04ecc92e51"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Medication"/>
+      </extension>
+      <reference>
         <reference value="Medication/9d7be868-8264-4d94-ad04-ef04ecc92e52"/>
       </reference>
       <name value="9d7be868-8264-4d94-ad04-ef04ecc92e52"/>
@@ -591,9 +611,149 @@
         <valueString value="Medication"/>
       </extension>
       <reference>
+        <reference value="Medication/b50ae644-e0b7-4007-809f-26f493cbe36c"/>
+      </reference>
+      <name value="b50ae644-e0b7-4007-809f-26f493cbe36c"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Condition"/>
+      </extension>
+      <reference>
+        <reference value="Condition/cecilia-cond-1"/>
+      </reference>
+      <name value="cecilia-cond-1"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Condition"/>
+      </extension>
+      <reference>
+        <reference value="Condition/cecilia-cond-2"/>
+      </reference>
+      <name value="cecilia-cond-2"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Condition"/>
+      </extension>
+      <reference>
+        <reference value="Condition/cecilia-cond-3"/>
+      </reference>
+      <name value="cecilia-cond-3"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Condition"/>
+      </extension>
+      <reference>
+        <reference value="Condition/cecilia-cond-4"/>
+      </reference>
+      <name value="cecilia-cond-4"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicationStatement"/>
+      </extension>
+      <reference>
+        <reference value="MedicationStatement/cecilia-med-stat-1"/>
+      </reference>
+      <name value="cecilia-med-stat-1"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicationStatement"/>
+      </extension>
+      <reference>
+        <reference value="MedicationStatement/cecilia-med-stat-2"/>
+      </reference>
+      <name value="cecilia-med-stat-2"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicationStatement"/>
+      </extension>
+      <reference>
+        <reference value="MedicationStatement/cecilia-med-stat-3"/>
+      </reference>
+      <name value="cecilia-med-stat-3"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicationStatement"/>
+      </extension>
+      <reference>
+        <reference value="MedicationStatement/cecilia-med-stat-4"/>
+      </reference>
+      <name value="cecilia-med-stat-4"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Patient"/>
+      </extension>
+      <reference>
+        <reference value="Patient/cecilia-patient"/>
+      </reference>
+      <name value="cecilia-patient"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <reference>
+        <reference value="Practitioner/cecilia-pract"/>
+      </reference>
+      <name value="cecilia-pract"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Medication"/>
+      </extension>
+      <reference>
+        <reference value="Medication/de131e15-ed13-4b31-b38c-3204a84d99c4"/>
+      </reference>
+      <name value="de131e15-ed13-4b31-b38c-3204a84d99c4"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Medication"/>
+      </extension>
+      <reference>
         <reference value="Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4"/>
       </reference>
       <name value="fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Medication"/>
+      </extension>
+      <reference>
+        <reference value="Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7et"/>
+      </reference>
+      <name value="fdb5c97f-0a46-41ba-bc34-2efd2ef2f7et"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Medication"/>
+      </extension>
+      <reference>
+        <reference value="Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7eu"/>
+      </reference>
+      <name value="fdb5c97f-0a46-41ba-bc34-2efd2ef2f7eu"/>
       <exampleBoolean value="true"/>
     </resource>
     <resource>
@@ -783,6 +943,66 @@
         <valueString value="Condition"/>
       </extension>
       <reference>
+        <reference value="Condition/matilda-cond-1"/>
+      </reference>
+      <name value="matilda-cond-1"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicationStatement"/>
+      </extension>
+      <reference>
+        <reference value="MedicationStatement/matilda-med-stat-1"/>
+      </reference>
+      <name value="matilda-med-stat-1"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicationStatement"/>
+      </extension>
+      <reference>
+        <reference value="MedicationStatement/matilda-med-stat-2"/>
+      </reference>
+      <name value="matilda-med-stat-2"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicationStatement"/>
+      </extension>
+      <reference>
+        <reference value="MedicationStatement/matilda-med-stat-3"/>
+      </reference>
+      <name value="matilda-med-stat-3"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Patient"/>
+      </extension>
+      <reference>
+        <reference value="Patient/matilda-patient"/>
+      </reference>
+      <name value="matilda-patient"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <reference>
+        <reference value="Practitioner/matilda-pract"/>
+      </reference>
+      <name value="matilda-pract"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Condition"/>
+      </extension>
+      <reference>
         <reference value="Condition/pedro-cond-1"/>
       </reference>
       <name value="pedro-cond-1"/>
@@ -944,6 +1164,14 @@
         <nameUrl value="copyright.html"/>
         <title value="Copyright"/>
         <generation value="markdown"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="downloads.html"/>
+        </extension>
+        <nameUrl value="downloads.html"/>
+        <title value="Downloads"/>
+        <generation value="html"/>
       </page>
       <page>
         <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">

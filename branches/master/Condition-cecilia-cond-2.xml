@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Condition xmlns="http://hl7.org/fhir">
+  <id value="cecilia-cond-2"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">Congestive heart failure (2015)</div>
+  </text>
+  <clinicalStatus>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/condition-clinical"/>
+      <code value="active"/>
+    </coding>
+  </clinicalStatus>
+  <code>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="42343007"/>
+      <display value="Congestive heart failure"/>
+    </coding>
+    <text value="Congestive heart failure"/>
+  </code>
+  <subject>
+    <reference value="Patient/cecilia-patient"/>
+    <display value="Cecilia Gravitate"/>
+  </subject>
+  <onsetDateTime value="2015"/>
+  <asserter>
+    <reference value="Practitioner/cecilia-pract"/>
+    <display value="Dr. Anna Karlsson"/>
+  </asserter>
+</Condition>

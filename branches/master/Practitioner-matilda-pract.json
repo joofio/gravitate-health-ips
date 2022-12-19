@@ -1,0 +1,13 @@
+{
+  "resourceType" : "Practitioner",
+  "id" : "matilda-pract",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Dr. Ana Lopez</div>"
+  },
+  "name" : [{
+    "family" : "Lopez",
+    "given" : ["Ana"],
+    "prefix" : ["Dr."]
+  }]
+}

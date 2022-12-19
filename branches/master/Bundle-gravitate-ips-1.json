@@ -45,6 +45,10 @@
           }]
         },
         "entry" : [{
+          "reference" : "urn:uuid:1dff4474-fa08-4f45-8260-dbb23094bf05",
+          "display" : "Hay fever (pollen)"
+        },
+        {
           "reference" : "urn:uuid:9d18cddb-8e58-4fbb-82ec-09cc561ac805",
           "display" : "Lactose Intolerance"
         }]

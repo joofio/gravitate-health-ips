@@ -1,0 +1,31 @@
+{
+  "resourceType" : "Condition",
+  "id" : "matilda-cond-1",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Crohn's disease</div>"
+  },
+  "clinicalStatus" : {
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/condition-clinical",
+      "code" : "active"
+    }]
+  },
+  "code" : {
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "34000006",
+      "display" : "Crohn's disease"
+    }],
+    "text" : "Crohn's disease"
+  },
+  "subject" : {
+    "reference" : "Patient/matilda-patient",
+    "display" : "Matilda Gravitate"
+  },
+  "onsetDateTime" : "2015",
+  "asserter" : {
+    "reference" : "urn:uuid:45cd0bd4-f685-4117-a9f0-5c53fffb7266",
+    "display" : "Dr. Ana Lopez"
+  }
+}
