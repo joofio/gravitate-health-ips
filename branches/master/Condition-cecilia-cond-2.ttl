@@ -11,7 +11,7 @@
   fhir:Resource.id [ fhir:value "cecilia-cond-2"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Congestive heart failure (2015)</div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Condition</b><a name=\"cecilia-cond-2\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Condition &quot;cecilia-cond-2&quot; </p></div><p><b>clinicalStatus</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-condition-clinical.html\">Condition Clinical Status Codes</a>#active)</span></p><p><b>code</b>: Congestive heart failure <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#42343007)</span></p><p><b>subject</b>: <a href=\"Patient-cecilia-patient.html\">Patient/cecilia-patient: Cecilia Gravitate</a> &quot; GRAVITATE&quot;</p><p><b>onset</b>: 2015</p><p><b>asserter</b>: <a href=\"Practitioner-cecilia-pract.html\">Practitioner/cecilia-pract: Dr. Anna Karlsson</a> &quot; KARLSSON&quot;</p></div>"
   ]; # 
   fhir:Condition.clinicalStatus [
      fhir:CodeableConcept.coding [
