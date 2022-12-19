@@ -3,11 +3,11 @@
 <MedicationStatement xmlns="http://hl7.org/fhir">
   <id value="pedro-med-stat-2"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: MedicationStatement</b><a name="pedro-med-stat-2"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource MedicationStatement &quot;pedro-med-stat-2&quot; </p></div><p><b>status</b>: active</p><p><b>medication</b>: <a href="Medication-6f4151e9-91f6-4f1e-adc3-fb94dda77854.html">Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77854: Monuril 3g granules for oral solution</a></p><p><b>subject</b>: <a href="Patient-pedro-patient.html">Patient/pedro-patient: Pedro Gravitate</a> &quot; GRAVITATE&quot;</p><h3>Dosages</h3><table class="grid"><tr><td>-</td><td><b>Route</b></td></tr><tr><td>*</td><td>Oral use <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (standardterms.edqm.eu#20053000)</span></td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: MedicationStatement</b><a name="pedro-med-stat-2"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource MedicationStatement &quot;pedro-med-stat-2&quot; </p></div><p><b>status</b>: active</p><p><b>medication</b>: <a href="Medication-6f4151e9-91f6-4f1e-adc3-fb94dda7785g.html">Medication/6f4151e9-91f6-4f1e-adc3-fb94dda7785g: Monuril 3g granules for oral solution</a></p><p><b>subject</b>: <a href="Patient-pedro-patient.html">Patient/pedro-patient: Pedro Gravitate</a> &quot; GRAVITATE&quot;</p><h3>Dosages</h3><table class="grid"><tr><td>-</td><td><b>Route</b></td></tr><tr><td>*</td><td>Oral use <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (standardterms.edqm.eu#20053000)</span></td></tr></table></div>
   </text>
   <status value="active"/>
   <medicationReference>
-    <reference value="Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77854"/>
+    <reference value="Medication/6f4151e9-91f6-4f1e-adc3-fb94dda7785g"/>
     <display value="Monuril 3g granules for oral solution"/>
   </medicationReference>
   <subject>
