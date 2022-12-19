@@ -10,7 +10,7 @@
   "name" : "GhR4ImplementationGuide",
   "title" : "Gravitate Health FHIR Implementation Guide (FHIR R4)",
   "status" : "active",
-  "date" : "2022-12-19T11:40:17+00:00",
+  "date" : "2022-12-19T12:04:36+00:00",
   "contact" : [{
     "name" : "Gravitate Health Project",
     "telecom" : [{
@@ -611,6 +611,16 @@
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     }],
+    "grouping" : [{
+      "id" : "Pedro",
+      "name" : "Pedro",
+      "description" : "Pedro IPS Resources"
+    },
+    {
+      "id" : "Cecilia",
+      "name" : "Cecilia",
+      "description" : "Cecilia IPS Resources"
+    }],
     "resource" : [{
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
@@ -648,6 +658,72 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Medication"
+      }],
+      "reference" : {
+        "reference" : "Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77854"
+      },
+      "name" : "6f4151e9-91f6-4f1e-adc3-fb94dda77854",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Medication"
+      }],
+      "reference" : {
+        "reference" : "Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77855"
+      },
+      "name" : "6f4151e9-91f6-4f1e-adc3-fb94dda77855",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Medication"
+      }],
+      "reference" : {
+        "reference" : "Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77856"
+      },
+      "name" : "6f4151e9-91f6-4f1e-adc3-fb94dda77856",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Medication"
+      }],
+      "reference" : {
+        "reference" : "Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77857"
+      },
+      "name" : "6f4151e9-91f6-4f1e-adc3-fb94dda77857",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Medication"
+      }],
+      "reference" : {
+        "reference" : "Medication/6f4151e9-91f6-4f1e-adc3-fb94dda7785g"
+      },
+      "name" : "6f4151e9-91f6-4f1e-adc3-fb94dda7785g",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Medication"
+      }],
+      "reference" : {
+        "reference" : "Medication/9d7be868-8264-4d94-ad04-ef04ecc92e52"
+      },
+      "name" : "9d7be868-8264-4d94-ad04-ef04ecc92e52",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Questionnaire"
       }],
       "reference" : {
@@ -672,6 +748,17 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Medication"
+      }],
+      "reference" : {
+        "reference" : "Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4"
+      },
+      "name" : "fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Composition"
       }],
       "reference" : {
@@ -679,7 +766,8 @@
       },
       "name" : "[Composition] Cecilia Gravitate's IPS",
       "description" : "Example of International Patient Summary for Cecilia Gravitate",
-      "exampleBoolean" : true
+      "exampleBoolean" : true,
+      "groupingId" : "Cecilia"
     },
     {
       "extension" : [{
@@ -691,7 +779,8 @@
       },
       "name" : "Cecilia Gravitate's IPS",
       "description" : "Example of International Patient Summary for Cecilia Gravitate",
-      "exampleBoolean" : true
+      "exampleBoolean" : true,
+      "groupingId" : "Cecilia"
     },
     {
       "extension" : [{
@@ -727,7 +816,8 @@
       },
       "name" : "Pedro Gravitate's IPS Composition",
       "description" : "Example of International Patient Summary for Pedro Gravitate",
-      "exampleBoolean" : true
+      "exampleBoolean" : true,
+      "groupingId" : "Pedro"
     },
     {
       "extension" : [{
@@ -739,7 +829,8 @@
       },
       "name" : "Pedro Gravitate's IPS",
       "description" : "Example of International Patient Summary for Pedro Gravitate",
-      "exampleBoolean" : true
+      "exampleBoolean" : true,
+      "groupingId" : "Pedro"
     },
     {
       "extension" : [{
@@ -774,17 +865,6 @@
       },
       "name" : "IPS Example 1 Document",
       "description" : "Example of International Patient Summary for Gravitate",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Composition"
-      }],
-      "reference" : {
-        "reference" : "Composition/gravitate-ips-1"
-      },
-      "name" : "IPS Example 3 Composition",
       "exampleBoolean" : true
     },
     {
@@ -855,6 +935,149 @@
         "reference" : "Composition/ips-example-2"
       },
       "name" : "[Composition] IPS Example 2 IPS",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Composition"
+      }],
+      "reference" : {
+        "reference" : "Composition/ips-example-3"
+      },
+      "name" : "IPS Example 3 Composition",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Condition"
+      }],
+      "reference" : {
+        "reference" : "Condition/pedro-cond-1"
+      },
+      "name" : "pedro-cond-1",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Condition"
+      }],
+      "reference" : {
+        "reference" : "Condition/pedro-cond-2"
+      },
+      "name" : "pedro-cond-2",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Condition"
+      }],
+      "reference" : {
+        "reference" : "Condition/pedro-cond-3"
+      },
+      "name" : "pedro-cond-3",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "MedicationStatement"
+      }],
+      "reference" : {
+        "reference" : "MedicationStatement/pedro-med-stat-1"
+      },
+      "name" : "pedro-med-stat-1",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "MedicationStatement"
+      }],
+      "reference" : {
+        "reference" : "MedicationStatement/pedro-med-stat-2"
+      },
+      "name" : "pedro-med-stat-2",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "MedicationStatement"
+      }],
+      "reference" : {
+        "reference" : "MedicationStatement/pedro-med-stat-3"
+      },
+      "name" : "pedro-med-stat-3",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "MedicationStatement"
+      }],
+      "reference" : {
+        "reference" : "MedicationStatement/pedro-med-stat-4"
+      },
+      "name" : "pedro-med-stat-4",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "MedicationStatement"
+      }],
+      "reference" : {
+        "reference" : "MedicationStatement/pedro-med-stat-5"
+      },
+      "name" : "pedro-med-stat-5",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "MedicationStatement"
+      }],
+      "reference" : {
+        "reference" : "MedicationStatement/pedro-med-stat-6"
+      },
+      "name" : "pedro-med-stat-6",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "MedicationStatement"
+      }],
+      "reference" : {
+        "reference" : "MedicationStatement/pedro-med-stat-7"
+      },
+      "name" : "pedro-med-stat-7",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Patient"
+      }],
+      "reference" : {
+        "reference" : "Patient/pedro-patient"
+      },
+      "name" : "pedro-patient",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Practitioner"
+      }],
+      "reference" : {
+        "reference" : "Practitioner/pedro-pract"
+      },
+      "name" : "pedro-pract",
       "exampleBoolean" : true
     }],
     "page" : {

@@ -1,0 +1,26 @@
+{
+  "resourceType" : "Condition",
+  "id" : "pedro-cond-1",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Depression</div>"
+  },
+  "clinicalStatus" : {
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/condition-clinical",
+      "code" : "active"
+    }]
+  },
+  "code" : {
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "35489007",
+      "display" : "Depressive disorder (disorder)"
+    }],
+    "text" : "Depressive disorder (disorder)"
+  },
+  "subject" : {
+    "reference" : "Patient/pedro-patient",
+    "display" : "Pedro Gravitate"
+  }
+}

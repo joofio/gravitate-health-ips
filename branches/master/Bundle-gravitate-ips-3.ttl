@@ -79,10 +79,10 @@
   ] . # 
 
 <urn:uuid:2fa5b223-ebce-4f39-9c66-5dc014f73571> a fhir:Composition;
-  fhir:Resource.id [ fhir:value "gravitate-ips-1"]; # 
+  fhir:Resource.id [ fhir:value "ips-example-3"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Composition</b><a name=\"gravitate-ips-1\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Composition &quot;gravitate-ips-1&quot; </p></div><p><b>status</b>: final</p><p><b>type</b>: Patient summary Document <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#60591-5)</span></p><p><b>date</b>: 2018-07-10 15:22:00+0200</p><p><b>author</b>: <a href=\"#Practitioner_1ece89c5-fda3-4db9-ace6-decbe6c603d1\">See above (urn:uuid:1ece89c5-fda3-4db9-ace6-decbe6c603d1: Dr. Anna Karlsson)</a></p><p><b>title</b>: Patient Summary (Maria Gravitate)</p><p><b>confidentiality</b>: N</p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Composition</b><a name=\"ips-example-3\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Composition &quot;ips-example-3&quot; </p></div><p><b>status</b>: final</p><p><b>type</b>: Patient summary Document <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#60591-5)</span></p><p><b>date</b>: 2018-07-10 15:22:00+0200</p><p><b>author</b>: <a href=\"#Practitioner_1ece89c5-fda3-4db9-ace6-decbe6c603d1\">See above (urn:uuid:1ece89c5-fda3-4db9-ace6-decbe6c603d1: Dr. Anna Karlsson)</a></p><p><b>title</b>: Patient Summary (Maria Gravitate)</p><p><b>confidentiality</b>: N</p></div>"
   ]; # 
   fhir:Composition.status [ fhir:value "final"]; # 
   fhir:Composition.type [
@@ -118,10 +118,6 @@
          fhir:Coding.display [ fhir:value "Allergies and adverse reactions Document" ]
        ]
      ];
-     fhir:Composition.section.text [
-       fhir:Narrative.status [ fhir:value "generated" ];
-       fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Hay fever (pollen)</li></ul></div>"
-     ];
      fhir:Composition.section.entry [
        fhir:index 0;
        fhir:Reference.reference [ fhir:value "urn:uuid:1dff4474-fa08-4f45-8260-dbb23094bf01" ];
@@ -138,10 +134,6 @@
          fhir:Coding.code [ fhir:value "11450-4" ];
          fhir:Coding.display [ fhir:value "Problem list Reported" ]
        ]
-     ];
-     fhir:Composition.section.text [
-       fhir:Narrative.status [ fhir:value "generated" ];
-       fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Psoriasis</li><li>Hypertension</li><li>Congestive heart failure</li></ul></div>"
      ];
      fhir:Composition.section.entry [
        fhir:index 0;
@@ -167,10 +159,6 @@
          fhir:Coding.code [ fhir:value "10160-0" ];
          fhir:Coding.display [ fhir:value "Hx of Medication use" ]
        ]
-     ];
-     fhir:Composition.section.text [
-       fhir:Narrative.status [ fhir:value "generated" ];
-       fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Brand Name</th><th>MAN</th><th>Active Substance</th><th>Common Name</th><th>ATC</th><th>Strength</th><th>Dose Form</th><th>RoA</th></tr></thead><tbody><tr><td>Skilarence</td><td>EU/1/17/1201/001</td><td>dimethyl fumarate (FO2303MNI2)</td><td>dimethyl fumarate</td><td>L04AX07</td><td>30 mg</td><td>Gastro-resistant tablet</td><td>Oral use</td></tr><tr><td>Karvea</td><td>EMEA/H/C/000142</td><td>irbesartan (J0E2756Z7N)</td><td>irbesartan</td><td>C09DA04</td><td>75 mg</td><td>Tablet</td><td>Oral use</td></tr><tr><td>Boots Decongestant 0.05% w/v Nasal spray</td><td>PL 16028/0049</td><td>oxymetazoline hydrochloride (K89MJ0S5VY)</td><td>oxymetazoline hydrochloride</td><td>R01AA05</td><td>0.05 mg / 1 ml</td><td>Nasal spray, solution</td><td>Nasal use</td></tr></tbody></table></div>"
      ];
      fhir:Composition.section.entry [
        fhir:index 0;
@@ -198,12 +186,8 @@
          a loinc:10162-6;
          fhir:Coding.system [ fhir:value "http://loinc.org" ];
          fhir:Coding.code [ fhir:value "10162-6" ];
-         fhir:Coding.display [ fhir:value "History of pregnancies" ]
+         fhir:Coding.display [ fhir:value "Pregnancies Hx" ]
        ]
-     ];
-     fhir:Composition.section.text [
-       fhir:Narrative.status [ fhir:value "generated" ];
-       fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Pregancy Status</li></ul></div>"
      ];
      fhir:Composition.section.entry [
        fhir:index 0;

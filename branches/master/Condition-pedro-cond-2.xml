@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Condition xmlns="http://hl7.org/fhir">
+  <id value="pedro-cond-2"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">HIV (2018)</div>
+  </text>
+  <clinicalStatus>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/condition-clinical"/>
+      <code value="active"/>
+    </coding>
+  </clinicalStatus>
+  <code>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="86406008"/>
+      <display value="Human immunodeficiency virus infection"/>
+    </coding>
+    <text value="Human immunodeficiency virus infection"/>
+  </code>
+  <subject>
+    <reference value="Patient/pedro-patient"/>
+    <display value="Pedro Gravitate"/>
+  </subject>
+  <onsetDateTime value="2018"/>
+  <asserter>
+    <reference value="Practitioner/pedro-pract"/>
+    <display value="Dr. Xavier García"/>
+  </asserter>
+</Condition>

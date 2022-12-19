@@ -1,0 +1,31 @@
+{
+  "resourceType" : "Condition",
+  "id" : "pedro-cond-2",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">HIV (2018)</div>"
+  },
+  "clinicalStatus" : {
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/condition-clinical",
+      "code" : "active"
+    }]
+  },
+  "code" : {
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "86406008",
+      "display" : "Human immunodeficiency virus infection"
+    }],
+    "text" : "Human immunodeficiency virus infection"
+  },
+  "subject" : {
+    "reference" : "Patient/pedro-patient",
+    "display" : "Pedro Gravitate"
+  },
+  "onsetDateTime" : "2018",
+  "asserter" : {
+    "reference" : "Practitioner/pedro-pract",
+    "display" : "Dr. Xavier García"
+  }
+}
