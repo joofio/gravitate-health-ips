@@ -264,7 +264,7 @@
             <coding>
               <system value="http://snomed.info/sct"/>
               <code value="62315008"/>
-              <display value="Diarrhoea"/>
+              <display value="Diarrhea"/>
             </coding>
           </manifestation>
         </reaction>
