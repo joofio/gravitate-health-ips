@@ -3,7 +3,7 @@
   "name" : "GhR4ImplementationGuide",
   "package-id" : "hl7.eu.fhir.gh-ips",
   "ig-ver" : "0.1.0",
-  "date" : "Mon, 19 Dec, 2022 13:05:58 +0000",
+  "date" : "Mon, 19 Dec, 2022 13:47:37 +0000",
   "errs" : 6,
   "warnings" : 123,
   "hints" : 160,
