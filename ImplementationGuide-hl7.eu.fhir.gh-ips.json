@@ -10,7 +10,7 @@
   "name" : "GhR4ImplementationGuide",
   "title" : "Gravitate Health FHIR Implementation Guide (FHIR R4)",
   "status" : "active",
-  "date" : "2022-12-19T12:04:36+00:00",
+  "date" : "2022-12-19T12:18:39+00:00",
   "contact" : [{
     "name" : "Gravitate Health Project",
     "telecom" : [{
@@ -620,6 +620,21 @@
       "id" : "Cecilia",
       "name" : "Cecilia",
       "description" : "Cecilia IPS Resources"
+    },
+    {
+      "id" : "Helen",
+      "name" : "Helen",
+      "description" : "Cecilia IPS Resources"
+    },
+    {
+      "id" : "Matilda",
+      "name" : "Matilda",
+      "description" : "Matilda IPS Resources"
+    },
+    {
+      "id" : "Maria",
+      "name" : "Maria",
+      "description" : "Maria IPS Resources"
     }],
     "resource" : [{
       "extension" : [{
@@ -792,7 +807,8 @@
       },
       "name" : "[Composition] Matilda Gravitate's IPS",
       "description" : "Example of International Patient Summary Composition for Matilda Gravitate",
-      "exampleBoolean" : true
+      "exampleBoolean" : true,
+      "groupingId" : "Matilda"
     },
     {
       "extension" : [{
@@ -804,7 +820,8 @@
       },
       "name" : "Matilda Gravitate's IPS",
       "description" : "Example of International Patient Summary for Matilda Gravitate",
-      "exampleBoolean" : true
+      "exampleBoolean" : true,
+      "groupingId" : "Matilda"
     },
     {
       "extension" : [{
@@ -841,7 +858,8 @@
         "reference" : "Composition/gravitate-helen"
       },
       "name" : "[Composition] Helen Gravitate's IPS",
-      "exampleBoolean" : true
+      "exampleBoolean" : true,
+      "groupingId" : "Helen"
     },
     {
       "extension" : [{
@@ -853,7 +871,8 @@
       },
       "name" : "Helen Gravitate's IPS",
       "description" : "Example of International Patient Summary for Helen Gravitate",
-      "exampleBoolean" : true
+      "exampleBoolean" : true,
+      "groupingId" : "Helen"
     },
     {
       "extension" : [{
@@ -901,7 +920,8 @@
       },
       "name" : "[Composition] Maria Gravitate's IPS",
       "description" : "Example of International Patient Summary Composition for Maria Gravitate",
-      "exampleBoolean" : true
+      "exampleBoolean" : true,
+      "groupingId" : "Maria"
     },
     {
       "extension" : [{
@@ -913,7 +933,8 @@
       },
       "name" : "Maria Gravitate's IPS",
       "description" : "Example of International Patient Summary for Maria Gravitate",
-      "exampleBoolean" : true
+      "exampleBoolean" : true,
+      "groupingId" : "Maria"
     },
     {
       "extension" : [{
