@@ -149,13 +149,13 @@
     }
   },
   {
-    "fullUrl" : "urn:uuid:7b69285e-bf3a-4b8d-a30f-8effd6059a4f",
+    "fullUrl" : "cecilia-cond-1",
     "resource" : {
       "resourceType" : "Condition",
       "id" : "cecilia-cond-1",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Condition</b><a name=\"cecilia-cond-1\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Condition &quot;cecilia-cond-1&quot; </p></div><p><b>clinicalStatus</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-condition-clinical.html\">Condition Clinical Status Codes</a>#active)</span></p><p><b>code</b>: Psoriasis <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#9014002)</span></p><p><b>subject</b>: <a href=\"#Patient_cecilia-patient\">See above (Patient/cecilia-patient: Cecilia Gravitate)</a></p><p><b>asserter</b>: <a href=\"urn:uuid:2153a841-3c69-47cb-948d-1d97ce20eb61\">urn:uuid:2153a841-3c69-47cb-948d-1d97ce20eb61: Dr. Anna Karlsson</a></p></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Condition</b><a name=\"cecilia-cond-1\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Condition &quot;cecilia-cond-1&quot; </p></div><p><b>clinicalStatus</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-condition-clinical.html\">Condition Clinical Status Codes</a>#active)</span></p><p><b>code</b>: Psoriasis <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#9014002)</span></p><p><b>subject</b>: <a href=\"#Patient_cecilia-patient\">See above (Patient/cecilia-patient: Cecilia Gravitate)</a></p><p><b>asserter</b>: <a href=\"#Practitioner_cecilia-pract\">See above (Practitioner/cecilia-pract: Dr. Anna Karlsson)</a></p></div>"
       },
       "clinicalStatus" : {
         "coding" : [{
@@ -176,13 +176,13 @@
         "display" : "Cecilia Gravitate"
       },
       "asserter" : {
-        "reference" : "urn:uuid:2153a841-3c69-47cb-948d-1d97ce20eb61",
+        "reference" : "Practitioner/cecilia-pract",
         "display" : "Dr. Anna Karlsson"
       }
     }
   },
   {
-    "fullUrl" : "urn:uuid:ebb1a59f-a249-40dd-9868-25879bc9bb71",
+    "fullUrl" : "cecilia-cond-2",
     "resource" : {
       "resourceType" : "Condition",
       "id" : "cecilia-cond-2",
@@ -210,13 +210,13 @@
       },
       "onsetDateTime" : "2015",
       "asserter" : {
-        "reference" : "urn:uuid:2153a841-3c69-47cb-948d-1d97ce20eb61",
+        "reference" : "Practitioner/cecilia-pract",
         "display" : "Dr. Anna Karlsson"
       }
     }
   },
   {
-    "fullUrl" : "urn:uuid:0d4addd6-c3ee-468c-9202-026a24293f32",
+    "fullUrl" : "cecilia-cond-3",
     "resource" : {
       "resourceType" : "Condition",
       "id" : "cecilia-cond-3",
@@ -246,7 +246,7 @@
     }
   },
   {
-    "fullUrl" : "urn:uuid:c2a8ea98-cf92-4f57-933c-7d857fb20b1d",
+    "fullUrl" : "cecilia-cond-4",
     "resource" : {
       "resourceType" : "Condition",
       "id" : "cecilia-cond-4",
@@ -276,7 +276,7 @@
     }
   },
   {
-    "fullUrl" : "urn:uuid:29074ca4-efcb-4ff4-8446-feed2399a899",
+    "fullUrl" : "cecilia-med-stat-1",
     "resource" : {
       "resourceType" : "MedicationStatement",
       "id" : "cecilia-med-stat-1",
@@ -305,7 +305,7 @@
     }
   },
   {
-    "fullUrl" : "urn:uuid:f6cb1218-f81c-4338-80d8-3c10910f78fd",
+    "fullUrl" : "cecilia-med-stat-2",
     "resource" : {
       "resourceType" : "MedicationStatement",
       "id" : "cecilia-med-stat-2",
@@ -334,13 +334,42 @@
     }
   },
   {
-    "fullUrl" : "urn:uuid:f26084c9-b1c8-46d9-acb2-1d400ade87ba",
+    "fullUrl" : "cecilia-med-stat-3",
     "resource" : {
       "resourceType" : "MedicationStatement",
       "id" : "cecilia-med-stat-3",
       "text" : {
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicationStatement</b><a name=\"cecilia-med-stat-3\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicationStatement &quot;cecilia-med-stat-3&quot; </p></div><p><b>status</b>: active</p><p><b>medication</b>: <a href=\"#Medication_9ac3356c-4ea4-4814-84c3-235484f2ef19\">See above (urn:uuid:9ac3356c-4ea4-4814-84c3-235484f2ef19: Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray)</a></p><p><b>subject</b>: <a href=\"#Patient_cecilia-patient\">See above (Patient/cecilia-patient: Cecilia Gravitate)</a></p><h3>Dosages</h3><table class=\"grid\"><tr><td>-</td><td><b>Route</b></td></tr><tr><td>*</td><td>Nasal use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#20049000)</span></td></tr></table></div>"
+      },
+      "status" : "active",
+      "medicationReference" : {
+        "reference" : "urn:uuid:9ac3356c-4ea4-4814-84c3-235484f2ef19",
+        "display" : "Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray"
+      },
+      "subject" : {
+        "reference" : "Patient/cecilia-patient",
+        "display" : "Cecilia Gravitate"
+      },
+      "dosage" : [{
+        "route" : {
+          "coding" : [{
+            "system" : "http://standardterms.edqm.eu",
+            "code" : "20049000",
+            "display" : "Nasal use"
+          }]
+        }
+      }]
+    }
+  },
+  {
+    "fullUrl" : "cecilia-med-stat-4",
+    "resource" : {
+      "resourceType" : "MedicationStatement",
+      "id" : "cecilia-med-stat-4",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicationStatement</b><a name=\"cecilia-med-stat-4\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicationStatement &quot;cecilia-med-stat-4&quot; </p></div><p><b>status</b>: active</p><p><b>medication</b>: <a href=\"#Medication_9ac3356c-4ea4-4814-84c3-235484f2ef19\">See above (urn:uuid:9ac3356c-4ea4-4814-84c3-235484f2ef19: Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray)</a></p><p><b>subject</b>: <a href=\"#Patient_cecilia-patient\">See above (Patient/cecilia-patient: Cecilia Gravitate)</a></p><h3>Dosages</h3><table class=\"grid\"><tr><td>-</td><td><b>Route</b></td></tr><tr><td>*</td><td>Nasal use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#20049000)</span></td></tr></table></div>"
       },
       "status" : "active",
       "medicationReference" : {

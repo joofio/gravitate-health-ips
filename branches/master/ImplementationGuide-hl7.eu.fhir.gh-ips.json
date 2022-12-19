@@ -10,7 +10,7 @@
   "name" : "GhR4ImplementationGuide",
   "title" : "Gravitate Health FHIR Implementation Guide (FHIR R4)",
   "status" : "active",
-  "date" : "2022-12-16T11:59:02+00:00",
+  "date" : "2022-12-19T11:15:45+00:00",
   "contact" : [{
     "name" : "Gravitate Health Project",
     "telecom" : [{
@@ -872,6 +872,15 @@
         }],
         "nameUrl" : "index.html",
         "title" : "Home",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "CapabilityStatement-capability-statement-ema.html"
+        }],
+        "nameUrl" : "CapabilityStatement-capability-statement-ema.html",
+        "title" : "Capability Statement Capability Statement Ema",
         "generation" : "markdown"
       },
       {
