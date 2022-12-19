@@ -144,12 +144,12 @@
        fhir:index 0;
        fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Condition/pedro-cond-1>;
        fhir:Reference.reference [ fhir:value "Condition/pedro-cond-1" ];
-       fhir:Reference.display [ fhir:value "HIV" ]
+       fhir:Reference.display [ fhir:value "Depression" ]
      ], [
        fhir:index 1;
        fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Condition/pedro-cond-2>;
        fhir:Reference.reference [ fhir:value "Condition/pedro-cond-2" ];
-       fhir:Reference.display [ fhir:value "Depression" ]
+       fhir:Reference.display [ fhir:value "HIV" ]
      ], [
        fhir:index 2;
        fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Condition/pedro-cond-3>;
@@ -390,13 +390,13 @@
   fhir:Resource.id [ fhir:value "pedro-med-stat-2"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicationStatement</b><a name=\"pedro-med-stat-2\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicationStatement &quot;pedro-med-stat-2&quot; </p></div><p><b>status</b>: active</p><p><b>medication</b>: <a href=\"#Medication_6f4151e9-91f6-4f1e-adc3-fb94dda7785g\">See above (Medication/6f4151e9-91f6-4f1e-adc3-fb94dda7785g: Monuril 3g granules for oral solution)</a></p><p><b>subject</b>: <a href=\"#Patient_pedro-patient\">See above (Patient/pedro-patient: Pedro Gravitate)</a></p><h3>Dosages</h3><table class=\"grid\"><tr><td>-</td><td><b>Route</b></td></tr><tr><td>*</td><td>Oral use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#20053000)</span></td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicationStatement</b><a name=\"pedro-med-stat-2\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicationStatement &quot;pedro-med-stat-2&quot; </p></div><p><b>status</b>: active</p><p><b>medication</b>: <a href=\"#Medication_6f4151e9-91f6-4f1e-adc3-fb94dda7785g\">See above (Medication/6f4151e9-91f6-4f1e-adc3-fb94dda7785g: Mirtazapine 30 mg Coated Tablet)</a></p><p><b>subject</b>: <a href=\"#Patient_pedro-patient\">See above (Patient/pedro-patient: Pedro Gravitate)</a></p><h3>Dosages</h3><table class=\"grid\"><tr><td>-</td><td><b>Route</b></td></tr><tr><td>*</td><td>Oral use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#20053000)</span></td></tr></table></div>"
   ]; # 
   fhir:MedicationStatement.status [ fhir:value "active"]; # 
   fhir:MedicationStatement.medicationReference [
      fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Medication/6f4151e9-91f6-4f1e-adc3-fb94dda7785g>;
      fhir:Reference.reference [ fhir:value "Medication/6f4151e9-91f6-4f1e-adc3-fb94dda7785g" ];
-     fhir:Reference.display [ fhir:value "Monuril 3g granules for oral solution" ]
+     fhir:Reference.display [ fhir:value "Mirtazapine 30 mg Coated Tablet" ]
   ]; # 
   fhir:MedicationStatement.subject [
      fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Patient/pedro-patient>;
@@ -419,13 +419,13 @@
   fhir:Resource.id [ fhir:value "pedro-med-stat-3"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicationStatement</b><a name=\"pedro-med-stat-3\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicationStatement &quot;pedro-med-stat-3&quot; </p></div><p><b>status</b>: active</p><p><b>medication</b>: <a href=\"#Medication_fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4\">See above (Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4: Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray)</a></p><p><b>subject</b>: <a href=\"#Patient_pedro-patient\">See above (Patient/pedro-patient: Pedro Gravitate)</a></p><h3>Dosages</h3><table class=\"grid\"><tr><td>-</td><td><b>Route</b></td></tr><tr><td>*</td><td>Oral use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#20053000)</span></td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicationStatement</b><a name=\"pedro-med-stat-3\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicationStatement &quot;pedro-med-stat-3&quot; </p></div><p><b>status</b>: active</p><p><b>medication</b>: <a href=\"#Medication_fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4\">See above (Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4: Calcium Carbonate 500 mg)</a></p><p><b>subject</b>: <a href=\"#Patient_pedro-patient\">See above (Patient/pedro-patient: Pedro Gravitate)</a></p><h3>Dosages</h3><table class=\"grid\"><tr><td>-</td><td><b>Route</b></td></tr><tr><td>*</td><td>Oral use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#20053000)</span></td></tr></table></div>"
   ]; # 
   fhir:MedicationStatement.status [ fhir:value "active"]; # 
   fhir:MedicationStatement.medicationReference [
      fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4>;
      fhir:Reference.reference [ fhir:value "Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4" ];
-     fhir:Reference.display [ fhir:value "Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray" ]
+     fhir:Reference.display [ fhir:value "Calcium Carbonate 500 mg" ]
   ]; # 
   fhir:MedicationStatement.subject [
      fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Patient/pedro-patient>;
@@ -448,13 +448,13 @@
   fhir:Resource.id [ fhir:value "pedro-med-stat-4"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicationStatement</b><a name=\"pedro-med-stat-4\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicationStatement &quot;pedro-med-stat-4&quot; </p></div><p><b>status</b>: active</p><p><b>medication</b>: <a href=\"#Medication_6f4151e9-91f6-4f1e-adc3-fb94dda77854\">See above (Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77854: Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray)</a></p><p><b>subject</b>: <a href=\"#Patient_pedro-patient\">See above (Patient/pedro-patient: Pedro Gravitate)</a></p><h3>Dosages</h3><table class=\"grid\"><tr><td>-</td><td><b>Route</b></td></tr><tr><td>*</td><td>Oral use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#20053000)</span></td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicationStatement</b><a name=\"pedro-med-stat-4\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicationStatement &quot;pedro-med-stat-4&quot; </p></div><p><b>status</b>: active</p><p><b>medication</b>: <a href=\"#Medication_6f4151e9-91f6-4f1e-adc3-fb94dda77854\">See above (Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77854: cinitrapide 1 mg)</a></p><p><b>subject</b>: <a href=\"#Patient_pedro-patient\">See above (Patient/pedro-patient: Pedro Gravitate)</a></p><h3>Dosages</h3><table class=\"grid\"><tr><td>-</td><td><b>Route</b></td></tr><tr><td>*</td><td>Oral use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#20053000)</span></td></tr></table></div>"
   ]; # 
   fhir:MedicationStatement.status [ fhir:value "active"]; # 
   fhir:MedicationStatement.medicationReference [
      fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77854>;
      fhir:Reference.reference [ fhir:value "Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77854" ];
-     fhir:Reference.display [ fhir:value "Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray" ]
+     fhir:Reference.display [ fhir:value "cinitrapide 1 mg" ]
   ]; # 
   fhir:MedicationStatement.subject [
      fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Patient/pedro-patient>;
@@ -477,13 +477,13 @@
   fhir:Resource.id [ fhir:value "pedro-med-stat-5"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicationStatement</b><a name=\"pedro-med-stat-5\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicationStatement &quot;pedro-med-stat-5&quot; </p></div><p><b>status</b>: active</p><p><b>medication</b>: <a href=\"#Medication_6f4151e9-91f6-4f1e-adc3-fb94dda77855\">See above (Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77855: Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray)</a></p><p><b>subject</b>: <a href=\"#Patient_pedro-patient\">See above (Patient/pedro-patient: Pedro Gravitate)</a></p><h3>Dosages</h3><table class=\"grid\"><tr><td>-</td><td><b>Route</b></td></tr><tr><td>*</td><td>Oral use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#20053000)</span></td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicationStatement</b><a name=\"pedro-med-stat-5\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicationStatement &quot;pedro-med-stat-5&quot; </p></div><p><b>status</b>: active</p><p><b>medication</b>: <a href=\"#Medication_6f4151e9-91f6-4f1e-adc3-fb94dda77855\">See above (Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77855: Collagen and magnesium supplements)</a></p><p><b>subject</b>: <a href=\"#Patient_pedro-patient\">See above (Patient/pedro-patient: Pedro Gravitate)</a></p><h3>Dosages</h3><table class=\"grid\"><tr><td>-</td><td><b>Route</b></td></tr><tr><td>*</td><td>Oral use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#20053000)</span></td></tr></table></div>"
   ]; # 
   fhir:MedicationStatement.status [ fhir:value "active"]; # 
   fhir:MedicationStatement.medicationReference [
      fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77855>;
      fhir:Reference.reference [ fhir:value "Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77855" ];
-     fhir:Reference.display [ fhir:value "Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray" ]
+     fhir:Reference.display [ fhir:value "Collagen and magnesium supplements" ]
   ]; # 
   fhir:MedicationStatement.subject [
      fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Patient/pedro-patient>;
@@ -506,13 +506,13 @@
   fhir:Resource.id [ fhir:value "pedro-med-stat-6"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicationStatement</b><a name=\"pedro-med-stat-6\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicationStatement &quot;pedro-med-stat-6&quot; </p></div><p><b>status</b>: active</p><p><b>medication</b>: <a href=\"#Medication_6f4151e9-91f6-4f1e-adc3-fb94dda77856\">See above (Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77856: Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray)</a></p><p><b>subject</b>: <a href=\"#Patient_pedro-patient\">See above (Patient/pedro-patient: Pedro Gravitate)</a></p><h3>Dosages</h3><table class=\"grid\"><tr><td>-</td><td><b>Route</b></td></tr><tr><td>*</td><td>Oral use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#20053000)</span></td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicationStatement</b><a name=\"pedro-med-stat-6\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicationStatement &quot;pedro-med-stat-6&quot; </p></div><p><b>status</b>: active</p><p><b>medication</b>: <a href=\"#Medication_6f4151e9-91f6-4f1e-adc3-fb94dda77856\">See above (Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77856: Vitaminc C supplement)</a></p><p><b>subject</b>: <a href=\"#Patient_pedro-patient\">See above (Patient/pedro-patient: Pedro Gravitate)</a></p><h3>Dosages</h3><table class=\"grid\"><tr><td>-</td><td><b>Route</b></td></tr><tr><td>*</td><td>Oral use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#20053000)</span></td></tr></table></div>"
   ]; # 
   fhir:MedicationStatement.status [ fhir:value "active"]; # 
   fhir:MedicationStatement.medicationReference [
      fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77856>;
      fhir:Reference.reference [ fhir:value "Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77856" ];
-     fhir:Reference.display [ fhir:value "Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray" ]
+     fhir:Reference.display [ fhir:value "Vitaminc C supplement" ]
   ]; # 
   fhir:MedicationStatement.subject [
      fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Patient/pedro-patient>;
@@ -535,13 +535,13 @@
   fhir:Resource.id [ fhir:value "pedro-med-stat-7"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicationStatement</b><a name=\"pedro-med-stat-7\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicationStatement &quot;pedro-med-stat-7&quot; </p></div><p><b>status</b>: active</p><p><b>medication</b>: <a href=\"#Medication_6f4151e9-91f6-4f1e-adc3-fb94dda77857\">See above (Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77857: Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray)</a></p><p><b>subject</b>: <a href=\"#Patient_pedro-patient\">See above (Patient/pedro-patient: Pedro Gravitate)</a></p><h3>Dosages</h3><table class=\"grid\"><tr><td>-</td><td><b>Route</b></td></tr><tr><td>*</td><td>Oral use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#20053000)</span></td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicationStatement</b><a name=\"pedro-med-stat-7\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicationStatement &quot;pedro-med-stat-7&quot; </p></div><p><b>status</b>: active</p><p><b>medication</b>: <a href=\"#Medication_6f4151e9-91f6-4f1e-adc3-fb94dda77857\">See above (Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77857: Protein supplements)</a></p><p><b>subject</b>: <a href=\"#Patient_pedro-patient\">See above (Patient/pedro-patient: Pedro Gravitate)</a></p><h3>Dosages</h3><table class=\"grid\"><tr><td>-</td><td><b>Route</b></td></tr><tr><td>*</td><td>Oral use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#20053000)</span></td></tr></table></div>"
   ]; # 
   fhir:MedicationStatement.status [ fhir:value "active"]; # 
   fhir:MedicationStatement.medicationReference [
      fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77857>;
      fhir:Reference.reference [ fhir:value "Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77857" ];
-     fhir:Reference.display [ fhir:value "Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray" ]
+     fhir:Reference.display [ fhir:value "Protein supplements" ]
   ]; # 
   fhir:MedicationStatement.subject [
      fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Patient/pedro-patient>;
@@ -652,19 +652,16 @@
   fhir:Resource.id [ fhir:value "fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Medication</b><a name=\"fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Medication &quot;fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4&quot; </p></div><p><b>code</b>: mirtazapine <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (marketingAuthorizationNumber#PL31654/0006; phpid#0xE857DA811B4A6F3BD57810C45D2EA1ED; <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html\">WHO ATC</a>#N06AX11)</span></p><p><b>form</b>: Coated tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#10220000)</span></p><h3>Ingredients</h3><table class=\"grid\"><tr><td>-</td><td><b>Item[x]</b></td><td><b>Strength</b></td></tr><tr><td>*</td><td>Mirtazapine <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#A051Q2099Q)</span></td><td>15 g<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code g = 'g')</span>/1 Tablet<span style=\"background: LightGoldenRodYellow\"> (Details: http://standardterms.edqm.eu code 15054000 = 'Tablet')</span></td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Medication</b><a name=\"fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Medication &quot;fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4&quot; </p></div><p><b>code</b>: MIRTAZAPINA CINFA 15 mg Coated Tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (marketingAuthorizationNumber#PL31654/0006; <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html\">WHO ATC</a>#N06AX11 &quot;mirtazapine&quot;)</span></p><p><b>form</b>: Coated tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#10220000)</span></p><h3>Ingredients</h3><table class=\"grid\"><tr><td>-</td><td><b>Item[x]</b></td><td><b>Strength</b></td></tr><tr><td>*</td><td>Mirtazapine <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#A051Q2099Q)</span></td><td>15 g<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code g = 'g')</span>/1 Tablet<span style=\"background: LightGoldenRodYellow\"> (Details: http://standardterms.edqm.eu code 15054000 = 'Tablet')</span></td></tr></table></div>"
   ]; # 
   fhir:Medication.code [
      fhir:CodeableConcept.coding [
        fhir:index 0;
        fhir:Coding.system [ fhir:value "http://ema.europa.eu/fhir/marketingAuthorizationNumber" ];
-       fhir:Coding.code [ fhir:value "PL31654/0006" ]
+       fhir:Coding.code [ fhir:value "PL31654/0006" ];
+       fhir:Coding.display [ fhir:value "MIRTAZAPINA CINFA 15 mg Coated Tablet" ]
      ], [
        fhir:index 1;
-       fhir:Coding.system [ fhir:value "https://www.who-umc.org/phpid" ];
-       fhir:Coding.code [ fhir:value "0xE857DA811B4A6F3BD57810C45D2EA1ED" ]
-     ], [
-       fhir:index 2;
        fhir:Coding.system [ fhir:value "http://www.whocc.no/atc" ];
        fhir:Coding.code [ fhir:value "N06AX11" ];
        fhir:Coding.display [ fhir:value "mirtazapine" ]
@@ -708,7 +705,7 @@
   fhir:Resource.id [ fhir:value "6f4151e9-91f6-4f1e-adc3-fb94dda7785g"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Medication</b><a name=\"6f4151e9-91f6-4f1e-adc3-fb94dda7785g\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Medication &quot;6f4151e9-91f6-4f1e-adc3-fb94dda7785g&quot; </p></div><p><b>code</b>: Calcium carbonate 500 mg <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (man#16028/0049; phpid#0xF79CABF272B6A7EEF104DDDA44E82716; <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html\">WHO ATC</a>#A12AA04 &quot;calcium carbonate&quot;)</span></p><p><b>form</b>: Chewable tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#10228000)</span></p><h3>Ingredients</h3><table class=\"grid\"><tr><td>-</td><td><b>Item[x]</b></td><td><b>Strength</b></td></tr><tr><td>*</td><td>calcium carbonate <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#H0G9379FGK &quot;Calcium carbonate&quot;)</span></td><td>500 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mg = 'mg')</span>/1 Tablet<span style=\"background: LightGoldenRodYellow\"> (Details: http://standardterms.edqm.eu code 15054000 = 'Tablet')</span></td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Medication</b><a name=\"6f4151e9-91f6-4f1e-adc3-fb94dda7785g\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Medication &quot;6f4151e9-91f6-4f1e-adc3-fb94dda7785g&quot; </p></div><p><b>code</b>: Calcium carbonate 500 mg <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (man#16028/0049; <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html\">WHO ATC</a>#A12AA04 &quot;calcium carbonate&quot;)</span></p><p><b>form</b>: Chewable tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#10228000)</span></p><h3>Ingredients</h3><table class=\"grid\"><tr><td>-</td><td><b>Item[x]</b></td><td><b>Strength</b></td></tr><tr><td>*</td><td>calcium carbonate <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#H0G9379FGK &quot;Calcium carbonate&quot;)</span></td><td>500 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mg = 'mg')</span>/1 Tablet<span style=\"background: LightGoldenRodYellow\"> (Details: http://standardterms.edqm.eu code 15054000 = 'Tablet')</span></td></tr></table></div>"
   ]; # 
   fhir:Medication.code [
      fhir:CodeableConcept.coding [
@@ -718,11 +715,6 @@
        fhir:Coding.display [ fhir:value "Calcium carbonate 500 mg" ]
      ], [
        fhir:index 1;
-       fhir:Coding.system [ fhir:value "https://www.who-umc.org/phpid" ];
-       fhir:Coding.code [ fhir:value "0xF79CABF272B6A7EEF104DDDA44E82716" ];
-       fhir:Coding.display [ fhir:value "Calcium carbonate 500 mg" ]
-     ], [
-       fhir:index 2;
        fhir:Coding.system [ fhir:value "http://www.whocc.no/atc" ];
        fhir:Coding.code [ fhir:value "A12AA04" ];
        fhir:Coding.display [ fhir:value "calcium carbonate" ]
@@ -767,7 +759,7 @@
   fhir:Resource.id [ fhir:value "6f4151e9-91f6-4f1e-adc3-fb94dda77854"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Medication</b><a name=\"6f4151e9-91f6-4f1e-adc3-fb94dda77854\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Medication &quot;6f4151e9-91f6-4f1e-adc3-fb94dda77854&quot; </p></div><p><b>code</b>: Boots Decongestant 0.05% w/v Nasal spray <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (man#16028/0049; phpid#0xF79CABF272B6A7EEF104DDDA44E82716 &quot;Oxymetazoline hydrochloride, 0.5 mg/ 1 ml, Nasal spray, solution&quot;; <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html\">WHO ATC</a>#A03FA08 &quot;Cinitapride&quot;)</span></p><p><b>form</b>: Chewable tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#10228000)</span></p><h3>Ingredients</h3><table class=\"grid\"><tr><td>-</td><td><b>Item[x]</b></td><td><b>Strength</b></td></tr><tr><td>*</td><td>CINITAPRIDE <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#R8I97I2L24)</span></td><td>1 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mg = 'mg')</span>/1 Tablet<span style=\"background: LightGoldenRodYellow\"> (Details: http://standardterms.edqm.eu code 15054000 = 'Tablet')</span></td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Medication</b><a name=\"6f4151e9-91f6-4f1e-adc3-fb94dda77854\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Medication &quot;6f4151e9-91f6-4f1e-adc3-fb94dda77854&quot; </p></div><p><b>code</b>: Boots Decongestant 0.05% w/v Nasal spray <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (man#16028/0049; <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html\">WHO ATC</a>#A03FA08 &quot;Cinitapride&quot;)</span></p><p><b>form</b>: Chewable tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#10228000)</span></p><h3>Ingredients</h3><table class=\"grid\"><tr><td>-</td><td><b>Item[x]</b></td><td><b>Strength</b></td></tr><tr><td>*</td><td>CINITAPRIDE <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#R8I97I2L24)</span></td><td>1 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mg = 'mg')</span>/1 Tablet<span style=\"background: LightGoldenRodYellow\"> (Details: http://standardterms.edqm.eu code 15054000 = 'Tablet')</span></td></tr></table></div>"
   ]; # 
   fhir:Medication.code [
      fhir:CodeableConcept.coding [
@@ -777,11 +769,6 @@
        fhir:Coding.display [ fhir:value "Boots Decongestant 0.05% w/v Nasal spray" ]
      ], [
        fhir:index 1;
-       fhir:Coding.system [ fhir:value "https://www.who-umc.org/phpid" ];
-       fhir:Coding.code [ fhir:value "0xF79CABF272B6A7EEF104DDDA44E82716" ];
-       fhir:Coding.display [ fhir:value "Oxymetazoline hydrochloride, 0.5 mg/ 1 ml, Nasal spray, solution" ]
-     ], [
-       fhir:index 2;
        fhir:Coding.system [ fhir:value "http://www.whocc.no/atc" ];
        fhir:Coding.code [ fhir:value "A03FA08" ];
        fhir:Coding.display [ fhir:value "Cinitapride" ]
@@ -826,7 +813,7 @@
   fhir:Resource.id [ fhir:value "6f4151e9-91f6-4f1e-adc3-fb94dda77855"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Medication</b><a name=\"6f4151e9-91f6-4f1e-adc3-fb94dda77855\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Medication &quot;6f4151e9-91f6-4f1e-adc3-fb94dda77855&quot; </p></div><p><b>code</b>: Boots Decongestant 0.05% w/v Nasal spray <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (man#16028/0049; phpid#0xF79CABF272B6A7EEF104DDDA44E82716 &quot;Oxymetazoline hydrochloride, 0.5 mg/ 1 ml, Nasal spray, solution&quot;; <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html\">WHO ATC</a>#R01AA05 &quot;oxymetazoline&quot;)</span></p><p><b>form</b>: Nasal spray, solution <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#10808000)</span></p><h3>Ingredients</h3><table class=\"grid\"><tr><td>-</td><td><b>Item[x]</b></td><td><b>Strength</b></td></tr><tr><td>*</td><td>oxymetazoline hydrochloride <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#K89MJ0S5VY)</span></td><td>0.05 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mg = 'mg')</span>/1 ml<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code ml = 'ml')</span></td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Medication</b><a name=\"6f4151e9-91f6-4f1e-adc3-fb94dda77855\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Medication &quot;6f4151e9-91f6-4f1e-adc3-fb94dda77855&quot; </p></div><p><b>code</b>: Boots Decongestant 0.05% w/v Nasal spray <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (man#16028/0049; <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html\">WHO ATC</a>#R01AA05 &quot;oxymetazoline&quot;)</span></p><p><b>form</b>: Nasal spray, solution <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#10808000)</span></p><h3>Ingredients</h3><table class=\"grid\"><tr><td>-</td><td><b>Item[x]</b></td><td><b>Strength</b></td></tr><tr><td>*</td><td>oxymetazoline hydrochloride <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#K89MJ0S5VY)</span></td><td>0.05 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mg = 'mg')</span>/1 ml<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code ml = 'ml')</span></td></tr></table></div>"
   ]; # 
   fhir:Medication.code [
      fhir:CodeableConcept.coding [
@@ -836,11 +823,6 @@
        fhir:Coding.display [ fhir:value "Boots Decongestant 0.05% w/v Nasal spray" ]
      ], [
        fhir:index 1;
-       fhir:Coding.system [ fhir:value "https://www.who-umc.org/phpid" ];
-       fhir:Coding.code [ fhir:value "0xF79CABF272B6A7EEF104DDDA44E82716" ];
-       fhir:Coding.display [ fhir:value "Oxymetazoline hydrochloride, 0.5 mg/ 1 ml, Nasal spray, solution" ]
-     ], [
-       fhir:index 2;
        fhir:Coding.system [ fhir:value "http://www.whocc.no/atc" ];
        fhir:Coding.code [ fhir:value "R01AA05" ];
        fhir:Coding.display [ fhir:value "oxymetazoline" ]
@@ -884,7 +866,7 @@
   fhir:Resource.id [ fhir:value "6f4151e9-91f6-4f1e-adc3-fb94dda77856"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Medication</b><a name=\"6f4151e9-91f6-4f1e-adc3-fb94dda77856\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Medication &quot;6f4151e9-91f6-4f1e-adc3-fb94dda77856&quot; </p></div><p><b>code</b>: Boots Decongestant 0.05% w/v Nasal spray <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (man#16028/0049; phpid#0xF79CABF272B6A7EEF104DDDA44E82716 &quot;Oxymetazoline hydrochloride, 0.5 mg/ 1 ml, Nasal spray, solution&quot;; <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html\">WHO ATC</a>#R01AA05 &quot;oxymetazoline&quot;)</span></p><p><b>form</b>: Nasal spray, solution <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#10808000)</span></p><h3>Ingredients</h3><table class=\"grid\"><tr><td>-</td><td><b>Item[x]</b></td><td><b>Strength</b></td></tr><tr><td>*</td><td>oxymetazoline hydrochloride <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#K89MJ0S5VY)</span></td><td>0.05 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mg = 'mg')</span>/1 ml<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code ml = 'ml')</span></td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Medication</b><a name=\"6f4151e9-91f6-4f1e-adc3-fb94dda77856\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Medication &quot;6f4151e9-91f6-4f1e-adc3-fb94dda77856&quot; </p></div><p><b>code</b>: Boots Decongestant 0.05% w/v Nasal spray <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (man#16028/0049; <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html\">WHO ATC</a>#R01AA05 &quot;oxymetazoline&quot;)</span></p><p><b>form</b>: Nasal spray, solution <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#10808000)</span></p><h3>Ingredients</h3><table class=\"grid\"><tr><td>-</td><td><b>Item[x]</b></td><td><b>Strength</b></td></tr><tr><td>*</td><td>Vitamin C <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#PQ6CK8PD0R &quot;ASCORBIC ACID&quot;)</span></td><td>0.05 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mg = 'mg')</span>/1 ml<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code ml = 'ml')</span></td></tr></table></div>"
   ]; # 
   fhir:Medication.code [
      fhir:CodeableConcept.coding [
@@ -894,11 +876,6 @@
        fhir:Coding.display [ fhir:value "Boots Decongestant 0.05% w/v Nasal spray" ]
      ], [
        fhir:index 1;
-       fhir:Coding.system [ fhir:value "https://www.who-umc.org/phpid" ];
-       fhir:Coding.code [ fhir:value "0xF79CABF272B6A7EEF104DDDA44E82716" ];
-       fhir:Coding.display [ fhir:value "Oxymetazoline hydrochloride, 0.5 mg/ 1 ml, Nasal spray, solution" ]
-     ], [
-       fhir:index 2;
        fhir:Coding.system [ fhir:value "http://www.whocc.no/atc" ];
        fhir:Coding.code [ fhir:value "R01AA05" ];
        fhir:Coding.display [ fhir:value "oxymetazoline" ]
@@ -919,10 +896,10 @@
        fhir:CodeableConcept.coding [
          fhir:index 0;
          fhir:Coding.system [ fhir:value "http://fdasis.nlm.nih.gov" ];
-         fhir:Coding.code [ fhir:value "K89MJ0S5VY" ];
-         fhir:Coding.display [ fhir:value "oxymetazoline hydrochloride" ]
+         fhir:Coding.code [ fhir:value "PQ6CK8PD0R" ];
+         fhir:Coding.display [ fhir:value "ASCORBIC ACID" ]
        ];
-       fhir:CodeableConcept.text [ fhir:value "oxymetazoline hydrochloride" ]
+       fhir:CodeableConcept.text [ fhir:value "Vitamin C" ]
      ];
      fhir:Medication.ingredient.strength [
        fhir:Ratio.numerator [
@@ -942,7 +919,7 @@
   fhir:Resource.id [ fhir:value "6f4151e9-91f6-4f1e-adc3-fb94dda77857"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Medication</b><a name=\"6f4151e9-91f6-4f1e-adc3-fb94dda77857\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Medication &quot;6f4151e9-91f6-4f1e-adc3-fb94dda77857&quot; </p></div><p><b>code</b>: Boots Decongestant 0.05% w/v Nasal spray <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (man#16028/0049; phpid#0xF79CABF272B6A7EEF104DDDA44E82716 &quot;Oxymetazoline hydrochloride, 0.5 mg/ 1 ml, Nasal spray, solution&quot;; <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html\">WHO ATC</a>#R01AA05 &quot;oxymetazoline&quot;)</span></p><p><b>form</b>: Nasal spray, solution <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#10808000)</span></p><h3>Ingredients</h3><table class=\"grid\"><tr><td>-</td><td><b>Item[x]</b></td><td><b>Strength</b></td></tr><tr><td>*</td><td>oxymetazoline hydrochloride <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#K89MJ0S5VY)</span></td><td>0.05 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mg = 'mg')</span>/1 ml<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code ml = 'ml')</span></td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Medication</b><a name=\"6f4151e9-91f6-4f1e-adc3-fb94dda77857\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Medication &quot;6f4151e9-91f6-4f1e-adc3-fb94dda77857&quot; </p></div><p><b>code</b>: Boots Decongestant 0.05% w/v Nasal spray <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (man#16028/0049; <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html\">WHO ATC</a>#R01AA05 &quot;oxymetazoline&quot;)</span></p><p><b>form</b>: Nasal spray, solution <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#10808000)</span></p><h3>Ingredients</h3><table class=\"grid\"><tr><td>-</td><td><b>Item[x]</b></td><td><b>Strength</b></td></tr><tr><td>*</td><td>oxymetazoline hydrochloride <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#K89MJ0S5VY)</span></td><td>0.05 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mg = 'mg')</span>/1 ml<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code ml = 'ml')</span></td></tr></table></div>"
   ]; # 
   fhir:Medication.code [
      fhir:CodeableConcept.coding [
@@ -952,11 +929,6 @@
        fhir:Coding.display [ fhir:value "Boots Decongestant 0.05% w/v Nasal spray" ]
      ], [
        fhir:index 1;
-       fhir:Coding.system [ fhir:value "https://www.who-umc.org/phpid" ];
-       fhir:Coding.code [ fhir:value "0xF79CABF272B6A7EEF104DDDA44E82716" ];
-       fhir:Coding.display [ fhir:value "Oxymetazoline hydrochloride, 0.5 mg/ 1 ml, Nasal spray, solution" ]
-     ], [
-       fhir:index 2;
        fhir:Coding.system [ fhir:value "http://www.whocc.no/atc" ];
        fhir:Coding.code [ fhir:value "R01AA05" ];
        fhir:Coding.display [ fhir:value "oxymetazoline" ]

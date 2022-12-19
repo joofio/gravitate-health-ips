@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "GhR4ImplementationGuide"]; # 
   fhir:ImplementationGuide.title [ fhir:value "Gravitate Health FHIR Implementation Guide (FHIR R4)"]; # 
   fhir:ImplementationGuide.status [ fhir:value "active"]; # 
-  fhir:ImplementationGuide.date [ fhir:value "2022-12-19T13:53:43+00:00"^^xsd:dateTime]; # 
+  fhir:ImplementationGuide.date [ fhir:value "2022-12-19T15:00:29+00:00"^^xsd:dateTime]; # 
   fhir:ImplementationGuide.contact [
      fhir:index 0;
      fhir:ContactDetail.name [ fhir:value "Gravitate Health Project" ];

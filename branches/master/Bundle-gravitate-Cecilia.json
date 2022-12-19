@@ -147,7 +147,7 @@
       "id" : "cecilia-cond-1",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Condition</b><a name=\"cecilia-cond-1\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Condition &quot;cecilia-cond-1&quot; </p></div><p><b>clinicalStatus</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-condition-clinical.html\">Condition Clinical Status Codes</a>#active)</span></p><p><b>code</b>: Psoriasis <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#9014002)</span></p><p><b>subject</b>: <a href=\"#Patient_cecilia-patient\">See above (Patient/cecilia-patient: Cecilia Gravitate)</a></p><p><b>asserter</b>: <a href=\"#Practitioner_cecilia-pract\">See above (Practitioner/cecilia-pract: Dr. Anna Karlsson)</a></p></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Condition</b><a name=\"cecilia-cond-1\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Condition &quot;cecilia-cond-1&quot; </p></div><p><b>clinicalStatus</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-condition-clinical.html\">Condition Clinical Status Codes</a>#active)</span></p><p><b>code</b>: COPD - Chronic obstructive pulmonary disease <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#42343007 &quot;Chronic obstructive lung disease&quot;)</span></p><p><b>subject</b>: <a href=\"#Patient_cecilia-patient\">See above (Patient/cecilia-patient: Cecilia Gravitate)</a></p><p><b>asserter</b>: <a href=\"#Practitioner_cecilia-pract\">See above (Practitioner/cecilia-pract: Dr. Anna Karlsson)</a></p></div>"
       },
       "clinicalStatus" : {
         "coding" : [{
@@ -158,10 +158,10 @@
       "code" : {
         "coding" : [{
           "system" : "http://snomed.info/sct",
-          "code" : "9014002",
-          "display" : "Psoriasis"
+          "code" : "42343007",
+          "display" : "Chronic obstructive lung disease"
         }],
-        "text" : "Psoriasis"
+        "text" : "COPD - Chronic obstructive pulmonary disease"
       },
       "subject" : {
         "reference" : "Patient/cecilia-patient",
@@ -214,7 +214,7 @@
       "id" : "cecilia-cond-3",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Condition</b><a name=\"cecilia-cond-3\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Condition &quot;cecilia-cond-3&quot; </p></div><p><b>clinicalStatus</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-condition-clinical.html\">Condition Clinical Status Codes</a>#active)</span></p><p><b>code</b>: Hypertension <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#38341003 &quot;HT - Hypertension&quot;)</span></p><p><b>subject</b>: <a href=\"#Patient_cecilia-patient\">See above (Patient/cecilia-patient: Cecilia Gravitate)</a></p><p><b>onset</b>: 1993</p></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Condition</b><a name=\"cecilia-cond-3\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Condition &quot;cecilia-cond-3&quot; </p></div><p><b>clinicalStatus</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-condition-clinical.html\">Condition Clinical Status Codes</a>#active)</span></p><p><b>code</b>: Osteoporosis <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#64859006)</span></p><p><b>subject</b>: <a href=\"#Patient_cecilia-patient\">See above (Patient/cecilia-patient: Cecilia Gravitate)</a></p><p><b>onset</b>: 1993</p></div>"
       },
       "clinicalStatus" : {
         "coding" : [{
@@ -225,10 +225,10 @@
       "code" : {
         "coding" : [{
           "system" : "http://snomed.info/sct",
-          "code" : "38341003",
-          "display" : "HT - Hypertension"
+          "code" : "64859006",
+          "display" : "Osteoporosis"
         }],
-        "text" : "Hypertension"
+        "text" : "Osteoporosis"
       },
       "subject" : {
         "reference" : "Patient/cecilia-patient",
@@ -244,7 +244,7 @@
       "id" : "cecilia-cond-4",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Condition</b><a name=\"cecilia-cond-4\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Condition &quot;cecilia-cond-4&quot; </p></div><p><b>clinicalStatus</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-condition-clinical.html\">Condition Clinical Status Codes</a>#active)</span></p><p><b>code</b>: Hypertension <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#38341003 &quot;HT - Hypertension&quot;)</span></p><p><b>subject</b>: <a href=\"#Patient_cecilia-patient\">See above (Patient/cecilia-patient: Cecilia Gravitate)</a></p><p><b>onset</b>: 1993</p></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Condition</b><a name=\"cecilia-cond-4\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Condition &quot;cecilia-cond-4&quot; </p></div><p><b>clinicalStatus</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-condition-clinical.html\">Condition Clinical Status Codes</a>#active)</span></p><p><b>code</b>: Diabetes mellitus type 2 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#44054006)</span></p><p><b>subject</b>: <a href=\"#Patient_cecilia-patient\">See above (Patient/cecilia-patient: Cecilia Gravitate)</a></p></div>"
       },
       "clinicalStatus" : {
         "coding" : [{
@@ -255,16 +255,15 @@
       "code" : {
         "coding" : [{
           "system" : "http://snomed.info/sct",
-          "code" : "38341003",
-          "display" : "HT - Hypertension"
+          "code" : "44054006",
+          "display" : "Diabetes mellitus type 2"
         }],
-        "text" : "Hypertension"
+        "text" : "Diabetes mellitus type 2"
       },
       "subject" : {
         "reference" : "Patient/cecilia-patient",
         "display" : "Cecilia Gravitate"
-      },
-      "onsetDateTime" : "1993"
+      }
     }
   },
   {

@@ -10,13 +10,13 @@
   fhir:Resource.id [ fhir:value "matilda-med-stat-3"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicationStatement</b><a name=\"matilda-med-stat-3\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicationStatement &quot;matilda-med-stat-3&quot; </p></div><p><b>status</b>: active</p><p><b>medication</b>: <a href=\"Medication-9d7be868-8264-4d94-ad04-ef04ecc92e51.html\">Medication/9d7be868-8264-4d94-ad04-ef04ecc92e51: Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray</a></p><p><b>subject</b>: <a href=\"Patient-matilda-patient.html\">Patient/matilda-patient: Matilda Gravitate</a> &quot; GRAVITATE&quot;</p><h3>Dosages</h3><table class=\"grid\"><tr><td>-</td><td><b>Route</b></td></tr><tr><td>*</td><td>Nasal use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#20049000)</span></td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicationStatement</b><a name=\"matilda-med-stat-3\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicationStatement &quot;matilda-med-stat-3&quot; </p></div><p><b>status</b>: active</p><p><b>medication</b>: <a href=\"Medication-9d7be868-8264-4d94-ad04-ef04ecc92e51.html\">Medication/9d7be868-8264-4d94-ad04-ef04ecc92e51: Pentasa 1g mesalazine</a></p><p><b>subject</b>: <a href=\"Patient-matilda-patient.html\">Patient/matilda-patient: Matilda Gravitate</a> &quot; GRAVITATE&quot;</p><h3>Dosages</h3><table class=\"grid\"><tr><td>-</td><td><b>Route</b></td></tr><tr><td>*</td><td>Oral use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#20053000)</span></td></tr></table></div>"
   ]; # 
   fhir:MedicationStatement.status [ fhir:value "active"]; # 
   fhir:MedicationStatement.medicationReference [
      fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Medication/9d7be868-8264-4d94-ad04-ef04ecc92e51>;
      fhir:Reference.reference [ fhir:value "Medication/9d7be868-8264-4d94-ad04-ef04ecc92e51" ];
-     fhir:Reference.display [ fhir:value "Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray" ]
+     fhir:Reference.display [ fhir:value "Pentasa 1g mesalazine" ]
   ]; # 
   fhir:MedicationStatement.subject [
      fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Patient/matilda-patient>;
@@ -29,8 +29,8 @@
        fhir:CodeableConcept.coding [
          fhir:index 0;
          fhir:Coding.system [ fhir:value "http://standardterms.edqm.eu" ];
-         fhir:Coding.code [ fhir:value "20049000" ];
-         fhir:Coding.display [ fhir:value "Nasal use" ]
+         fhir:Coding.code [ fhir:value "20053000" ];
+         fhir:Coding.display [ fhir:value "Oral use" ]
        ]
      ]
   ] . # 

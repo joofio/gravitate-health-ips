@@ -53,12 +53,12 @@
        fhir:index 0;
        fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Condition/pedro-cond-1>;
        fhir:Reference.reference [ fhir:value "Condition/pedro-cond-1" ];
-       fhir:Reference.display [ fhir:value "HIV" ]
+       fhir:Reference.display [ fhir:value "Depression" ]
      ], [
        fhir:index 1;
        fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Condition/pedro-cond-2>;
        fhir:Reference.reference [ fhir:value "Condition/pedro-cond-2" ];
-       fhir:Reference.display [ fhir:value "Depression" ]
+       fhir:Reference.display [ fhir:value "HIV" ]
      ], [
        fhir:index 2;
        fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Condition/pedro-cond-3>;
