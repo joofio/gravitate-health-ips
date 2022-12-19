@@ -62,7 +62,7 @@
   fhir:Resource.id [ fhir:value "gravitate-Matilda"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><b>Id:</b> gravitate-Matilda<br/><b>status:</b> final<br/><b>Type:</b> Patient summary Document<br/><b>Subject:</b> Matilda Gravitate<br/><b>Sections:</b><br/><ul><li><b>Title:</b> Problem List<br/><b>Code:</b> Problem list Reported (11450-4)</li><br/><ul><li><b>Entry:</b> <a href=\"Condition/matilda-cond-1\">Crohn's disease</a></li><br/></ul><li><b>Title:</b> Medication Summary<br/><b>Code:</b> Hx of Medication use (10160-0)</li><br/><ul><li><b>Entry:</b> <a href=\"MedicationStatement/matilda-med-stat-1\">Humira 40 mg</a></li><br/><li><b>Entry:</b> <a href=\"MedicationStatement/matilda-med-stat-2\">Paracetamol 500 mg</a></li><br/><li><b>Entry:</b> <a href=\"MedicationStatement/matilda-med-stat-3\">Pentasa 1g mesalazine</a></li><br/></ul></ul></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><b>Id:</b> gravitate-Matilda<br/><b>status:</b> final<br/><b>Type:</b> Patient summary Document<br/><b>Subject:</b> Matilda Gravitate<br/><b>Sections:</b><br/><ul><li><b>Title:</b> Problem List<br/><b>Code:</b> Problem list Reported (11450-4)</li><br/><ul><li><b>Entry:</b> <a href=\"Condition-matilda-cond-1.html\">Crohn's disease</a></li><br/></ul><li><b>Title:</b> Medication Summary<br/><b>Code:</b> Hx of Medication use (10160-0)</li><br/><ul><li><b>Entry:</b> <a href=\"MedicationStatement-matilda-med-stat-1.html\">Humira 40 mg</a></li><br/><li><b>Entry:</b> <a href=\"MedicationStatement-matilda-med-stat-2.html\">Paracetamol 500 mg</a></li><br/><li><b>Entry:</b> <a href=\"MedicationStatement-matilda-med-stat-3.html\">Pentasa 1g mesalazine</a></li><br/></ul></ul></div>"
   ]; # 
   fhir:Composition.status [ fhir:value "final"]; # 
   fhir:Composition.type [
@@ -179,7 +179,7 @@
   fhir:Resource.id [ fhir:value "matilda-pract"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Dr. Ana Lopez</div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Practitioner</b><a name=\"matilda-pract\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Practitioner &quot;matilda-pract&quot; </p></div><p><b>name</b>: Ana Lopez </p></div>"
   ]; # 
   fhir:Practitioner.name [
      fhir:index 0;
@@ -198,7 +198,7 @@
   fhir:Resource.id [ fhir:value "matilda-cond-1"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Crohn's disease</div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Condition</b><a name=\"matilda-cond-1\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Condition &quot;matilda-cond-1&quot; </p></div><p><b>clinicalStatus</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-condition-clinical.html\">Condition Clinical Status Codes</a>#active)</span></p><p><b>code</b>: Crohn's disease <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#34000006)</span></p><p><b>subject</b>: <a href=\"#Patient_matilda-patient\">See above (Patient/matilda-patient: Matilda Gravitate)</a></p><p><b>onset</b>: 2015</p><p><b>asserter</b>: <a href=\"Bundle-gravitate-helen.html#urn-uuid-45cd0bd4-f685-4117-a9f0-5c53fffb7266\">urn:uuid:45cd0bd4-f685-4117-a9f0-5c53fffb7266: Dr. Ana Lopez</a></p></div>"
   ]; # 
   fhir:Condition.clinicalStatus [
      fhir:CodeableConcept.coding [
