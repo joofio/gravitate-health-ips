@@ -370,7 +370,7 @@
          a sct:62315008;
          fhir:Coding.system [ fhir:value "http://snomed.info/sct" ];
          fhir:Coding.code [ fhir:value "62315008" ];
-         fhir:Coding.display [ fhir:value "Diarrhoea" ]
+         fhir:Coding.display [ fhir:value "Diarrhea" ]
        ]
      ]
   ] . # 

@@ -269,7 +269,7 @@
           "coding" : [{
             "system" : "http://snomed.info/sct",
             "code" : "62315008",
-            "display" : "Diarrhoea"
+            "display" : "Diarrhea"
           }]
         }]
       }]
