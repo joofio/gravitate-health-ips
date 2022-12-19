@@ -46,11 +46,11 @@
           </code>
           <entry>
             <reference value="Condition/pedro-cond-1"/>
-            <display value="HIV"/>
+            <display value="Depression"/>
           </entry>
           <entry>
             <reference value="Condition/pedro-cond-2"/>
-            <display value="Depression"/>
+            <display value="HIV"/>
           </entry>
           <entry>
             <reference value="Condition/pedro-cond-3"/>
@@ -274,12 +274,12 @@
       <MedicationStatement>
         <id value="pedro-med-stat-2"/>
         <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: MedicationStatement</b><a name="pedro-med-stat-2"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource MedicationStatement &quot;pedro-med-stat-2&quot; </p></div><p><b>status</b>: active</p><p><b>medication</b>: <a href="#Medication_6f4151e9-91f6-4f1e-adc3-fb94dda7785g">See above (Medication/6f4151e9-91f6-4f1e-adc3-fb94dda7785g: Monuril 3g granules for oral solution)</a></p><p><b>subject</b>: <a href="#Patient_pedro-patient">See above (Patient/pedro-patient: Pedro Gravitate)</a></p><h3>Dosages</h3><table class="grid"><tr><td>-</td><td><b>Route</b></td></tr><tr><td>*</td><td>Oral use <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (standardterms.edqm.eu#20053000)</span></td></tr></table></div>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: MedicationStatement</b><a name="pedro-med-stat-2"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource MedicationStatement &quot;pedro-med-stat-2&quot; </p></div><p><b>status</b>: active</p><p><b>medication</b>: <a href="#Medication_6f4151e9-91f6-4f1e-adc3-fb94dda7785g">See above (Medication/6f4151e9-91f6-4f1e-adc3-fb94dda7785g: Mirtazapine 30 mg Coated Tablet)</a></p><p><b>subject</b>: <a href="#Patient_pedro-patient">See above (Patient/pedro-patient: Pedro Gravitate)</a></p><h3>Dosages</h3><table class="grid"><tr><td>-</td><td><b>Route</b></td></tr><tr><td>*</td><td>Oral use <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (standardterms.edqm.eu#20053000)</span></td></tr></table></div>
         </text>
         <status value="active"/>
         <medicationReference>
           <reference value="Medication/6f4151e9-91f6-4f1e-adc3-fb94dda7785g"/>
-          <display value="Monuril 3g granules for oral solution"/>
+          <display value="Mirtazapine 30 mg Coated Tablet"/>
         </medicationReference>
         <subject>
           <reference value="Patient/pedro-patient"/>
@@ -303,12 +303,12 @@
       <MedicationStatement>
         <id value="pedro-med-stat-3"/>
         <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: MedicationStatement</b><a name="pedro-med-stat-3"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource MedicationStatement &quot;pedro-med-stat-3&quot; </p></div><p><b>status</b>: active</p><p><b>medication</b>: <a href="#Medication_fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4">See above (Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4: Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray)</a></p><p><b>subject</b>: <a href="#Patient_pedro-patient">See above (Patient/pedro-patient: Pedro Gravitate)</a></p><h3>Dosages</h3><table class="grid"><tr><td>-</td><td><b>Route</b></td></tr><tr><td>*</td><td>Oral use <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (standardterms.edqm.eu#20053000)</span></td></tr></table></div>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: MedicationStatement</b><a name="pedro-med-stat-3"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource MedicationStatement &quot;pedro-med-stat-3&quot; </p></div><p><b>status</b>: active</p><p><b>medication</b>: <a href="#Medication_fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4">See above (Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4: Calcium Carbonate 500 mg)</a></p><p><b>subject</b>: <a href="#Patient_pedro-patient">See above (Patient/pedro-patient: Pedro Gravitate)</a></p><h3>Dosages</h3><table class="grid"><tr><td>-</td><td><b>Route</b></td></tr><tr><td>*</td><td>Oral use <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (standardterms.edqm.eu#20053000)</span></td></tr></table></div>
         </text>
         <status value="active"/>
         <medicationReference>
           <reference value="Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4"/>
-          <display value="Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray"/>
+          <display value="Calcium Carbonate 500 mg"/>
         </medicationReference>
         <subject>
           <reference value="Patient/pedro-patient"/>
@@ -332,12 +332,12 @@
       <MedicationStatement>
         <id value="pedro-med-stat-4"/>
         <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: MedicationStatement</b><a name="pedro-med-stat-4"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource MedicationStatement &quot;pedro-med-stat-4&quot; </p></div><p><b>status</b>: active</p><p><b>medication</b>: <a href="#Medication_6f4151e9-91f6-4f1e-adc3-fb94dda77854">See above (Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77854: Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray)</a></p><p><b>subject</b>: <a href="#Patient_pedro-patient">See above (Patient/pedro-patient: Pedro Gravitate)</a></p><h3>Dosages</h3><table class="grid"><tr><td>-</td><td><b>Route</b></td></tr><tr><td>*</td><td>Oral use <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (standardterms.edqm.eu#20053000)</span></td></tr></table></div>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: MedicationStatement</b><a name="pedro-med-stat-4"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource MedicationStatement &quot;pedro-med-stat-4&quot; </p></div><p><b>status</b>: active</p><p><b>medication</b>: <a href="#Medication_6f4151e9-91f6-4f1e-adc3-fb94dda77854">See above (Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77854: cinitrapide 1 mg)</a></p><p><b>subject</b>: <a href="#Patient_pedro-patient">See above (Patient/pedro-patient: Pedro Gravitate)</a></p><h3>Dosages</h3><table class="grid"><tr><td>-</td><td><b>Route</b></td></tr><tr><td>*</td><td>Oral use <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (standardterms.edqm.eu#20053000)</span></td></tr></table></div>
         </text>
         <status value="active"/>
         <medicationReference>
           <reference value="Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77854"/>
-          <display value="Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray"/>
+          <display value="cinitrapide 1 mg"/>
         </medicationReference>
         <subject>
           <reference value="Patient/pedro-patient"/>
@@ -361,12 +361,12 @@
       <MedicationStatement>
         <id value="pedro-med-stat-5"/>
         <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: MedicationStatement</b><a name="pedro-med-stat-5"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource MedicationStatement &quot;pedro-med-stat-5&quot; </p></div><p><b>status</b>: active</p><p><b>medication</b>: <a href="#Medication_6f4151e9-91f6-4f1e-adc3-fb94dda77855">See above (Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77855: Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray)</a></p><p><b>subject</b>: <a href="#Patient_pedro-patient">See above (Patient/pedro-patient: Pedro Gravitate)</a></p><h3>Dosages</h3><table class="grid"><tr><td>-</td><td><b>Route</b></td></tr><tr><td>*</td><td>Oral use <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (standardterms.edqm.eu#20053000)</span></td></tr></table></div>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: MedicationStatement</b><a name="pedro-med-stat-5"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource MedicationStatement &quot;pedro-med-stat-5&quot; </p></div><p><b>status</b>: active</p><p><b>medication</b>: <a href="#Medication_6f4151e9-91f6-4f1e-adc3-fb94dda77855">See above (Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77855: Collagen and magnesium supplements)</a></p><p><b>subject</b>: <a href="#Patient_pedro-patient">See above (Patient/pedro-patient: Pedro Gravitate)</a></p><h3>Dosages</h3><table class="grid"><tr><td>-</td><td><b>Route</b></td></tr><tr><td>*</td><td>Oral use <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (standardterms.edqm.eu#20053000)</span></td></tr></table></div>
         </text>
         <status value="active"/>
         <medicationReference>
           <reference value="Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77855"/>
-          <display value="Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray"/>
+          <display value="Collagen and magnesium supplements"/>
         </medicationReference>
         <subject>
           <reference value="Patient/pedro-patient"/>
@@ -390,12 +390,12 @@
       <MedicationStatement>
         <id value="pedro-med-stat-6"/>
         <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: MedicationStatement</b><a name="pedro-med-stat-6"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource MedicationStatement &quot;pedro-med-stat-6&quot; </p></div><p><b>status</b>: active</p><p><b>medication</b>: <a href="#Medication_6f4151e9-91f6-4f1e-adc3-fb94dda77856">See above (Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77856: Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray)</a></p><p><b>subject</b>: <a href="#Patient_pedro-patient">See above (Patient/pedro-patient: Pedro Gravitate)</a></p><h3>Dosages</h3><table class="grid"><tr><td>-</td><td><b>Route</b></td></tr><tr><td>*</td><td>Oral use <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (standardterms.edqm.eu#20053000)</span></td></tr></table></div>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: MedicationStatement</b><a name="pedro-med-stat-6"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource MedicationStatement &quot;pedro-med-stat-6&quot; </p></div><p><b>status</b>: active</p><p><b>medication</b>: <a href="#Medication_6f4151e9-91f6-4f1e-adc3-fb94dda77856">See above (Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77856: Vitaminc C supplement)</a></p><p><b>subject</b>: <a href="#Patient_pedro-patient">See above (Patient/pedro-patient: Pedro Gravitate)</a></p><h3>Dosages</h3><table class="grid"><tr><td>-</td><td><b>Route</b></td></tr><tr><td>*</td><td>Oral use <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (standardterms.edqm.eu#20053000)</span></td></tr></table></div>
         </text>
         <status value="active"/>
         <medicationReference>
           <reference value="Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77856"/>
-          <display value="Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray"/>
+          <display value="Vitaminc C supplement"/>
         </medicationReference>
         <subject>
           <reference value="Patient/pedro-patient"/>
@@ -419,12 +419,12 @@
       <MedicationStatement>
         <id value="pedro-med-stat-7"/>
         <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: MedicationStatement</b><a name="pedro-med-stat-7"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource MedicationStatement &quot;pedro-med-stat-7&quot; </p></div><p><b>status</b>: active</p><p><b>medication</b>: <a href="#Medication_6f4151e9-91f6-4f1e-adc3-fb94dda77857">See above (Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77857: Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray)</a></p><p><b>subject</b>: <a href="#Patient_pedro-patient">See above (Patient/pedro-patient: Pedro Gravitate)</a></p><h3>Dosages</h3><table class="grid"><tr><td>-</td><td><b>Route</b></td></tr><tr><td>*</td><td>Oral use <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (standardterms.edqm.eu#20053000)</span></td></tr></table></div>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: MedicationStatement</b><a name="pedro-med-stat-7"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource MedicationStatement &quot;pedro-med-stat-7&quot; </p></div><p><b>status</b>: active</p><p><b>medication</b>: <a href="#Medication_6f4151e9-91f6-4f1e-adc3-fb94dda77857">See above (Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77857: Protein supplements)</a></p><p><b>subject</b>: <a href="#Patient_pedro-patient">See above (Patient/pedro-patient: Pedro Gravitate)</a></p><h3>Dosages</h3><table class="grid"><tr><td>-</td><td><b>Route</b></td></tr><tr><td>*</td><td>Oral use <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (standardterms.edqm.eu#20053000)</span></td></tr></table></div>
         </text>
         <status value="active"/>
         <medicationReference>
           <reference value="Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77857"/>
-          <display value="Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray"/>
+          <display value="Protein supplements"/>
         </medicationReference>
         <subject>
           <reference value="Patient/pedro-patient"/>
@@ -534,16 +534,13 @@
       <Medication>
         <id value="fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4"/>
         <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Medication</b><a name="fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Medication &quot;fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4&quot; </p></div><p><b>code</b>: mirtazapine <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (marketingAuthorizationNumber#PL31654/0006; phpid#0xE857DA811B4A6F3BD57810C45D2EA1ED; <a href="http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html">WHO ATC</a>#N06AX11)</span></p><p><b>form</b>: Coated tablet <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (standardterms.edqm.eu#10220000)</span></p><h3>Ingredients</h3><table class="grid"><tr><td>-</td><td><b>Item[x]</b></td><td><b>Strength</b></td></tr><tr><td>*</td><td>Mirtazapine <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html">Unique Ingredient Identifier (UNII)</a>#A051Q2099Q)</span></td><td>15 g<span style="background: LightGoldenRodYellow"> (Details: UCUM code g = 'g')</span>/1 Tablet<span style="background: LightGoldenRodYellow"> (Details: http://standardterms.edqm.eu code 15054000 = 'Tablet')</span></td></tr></table></div>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Medication</b><a name="fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Medication &quot;fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4&quot; </p></div><p><b>code</b>: MIRTAZAPINA CINFA 15 mg Coated Tablet <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (marketingAuthorizationNumber#PL31654/0006; <a href="http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html">WHO ATC</a>#N06AX11 &quot;mirtazapine&quot;)</span></p><p><b>form</b>: Coated tablet <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (standardterms.edqm.eu#10220000)</span></p><h3>Ingredients</h3><table class="grid"><tr><td>-</td><td><b>Item[x]</b></td><td><b>Strength</b></td></tr><tr><td>*</td><td>Mirtazapine <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html">Unique Ingredient Identifier (UNII)</a>#A051Q2099Q)</span></td><td>15 g<span style="background: LightGoldenRodYellow"> (Details: UCUM code g = 'g')</span>/1 Tablet<span style="background: LightGoldenRodYellow"> (Details: http://standardterms.edqm.eu code 15054000 = 'Tablet')</span></td></tr></table></div>
         </text>
         <code>
           <coding>
             <system value="http://ema.europa.eu/fhir/marketingAuthorizationNumber"/>
             <code value="PL31654/0006"/>
-          </coding>
-          <coding>
-            <system value="https://www.who-umc.org/phpid"/>
-            <code value="0xE857DA811B4A6F3BD57810C45D2EA1ED"/>
+            <display value="MIRTAZAPINA CINFA 15 mg Coated Tablet"/>
           </coding>
           <coding>
             <system value="http://www.whocc.no/atc"/>
@@ -590,17 +587,12 @@
       <Medication>
         <id value="6f4151e9-91f6-4f1e-adc3-fb94dda7785g"/>
         <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Medication</b><a name="6f4151e9-91f6-4f1e-adc3-fb94dda7785g"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Medication &quot;6f4151e9-91f6-4f1e-adc3-fb94dda7785g&quot; </p></div><p><b>code</b>: Calcium carbonate 500 mg <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (man#16028/0049; phpid#0xF79CABF272B6A7EEF104DDDA44E82716; <a href="http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html">WHO ATC</a>#A12AA04 &quot;calcium carbonate&quot;)</span></p><p><b>form</b>: Chewable tablet <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (standardterms.edqm.eu#10228000)</span></p><h3>Ingredients</h3><table class="grid"><tr><td>-</td><td><b>Item[x]</b></td><td><b>Strength</b></td></tr><tr><td>*</td><td>calcium carbonate <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html">Unique Ingredient Identifier (UNII)</a>#H0G9379FGK &quot;Calcium carbonate&quot;)</span></td><td>500 mg<span style="background: LightGoldenRodYellow"> (Details: UCUM code mg = 'mg')</span>/1 Tablet<span style="background: LightGoldenRodYellow"> (Details: http://standardterms.edqm.eu code 15054000 = 'Tablet')</span></td></tr></table></div>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Medication</b><a name="6f4151e9-91f6-4f1e-adc3-fb94dda7785g"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Medication &quot;6f4151e9-91f6-4f1e-adc3-fb94dda7785g&quot; </p></div><p><b>code</b>: Calcium carbonate 500 mg <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (man#16028/0049; <a href="http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html">WHO ATC</a>#A12AA04 &quot;calcium carbonate&quot;)</span></p><p><b>form</b>: Chewable tablet <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (standardterms.edqm.eu#10228000)</span></p><h3>Ingredients</h3><table class="grid"><tr><td>-</td><td><b>Item[x]</b></td><td><b>Strength</b></td></tr><tr><td>*</td><td>calcium carbonate <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html">Unique Ingredient Identifier (UNII)</a>#H0G9379FGK &quot;Calcium carbonate&quot;)</span></td><td>500 mg<span style="background: LightGoldenRodYellow"> (Details: UCUM code mg = 'mg')</span>/1 Tablet<span style="background: LightGoldenRodYellow"> (Details: http://standardterms.edqm.eu code 15054000 = 'Tablet')</span></td></tr></table></div>
         </text>
         <code>
           <coding>
             <system value="https://www.gravitatehealth.eu/sid/man"/>
             <code value="16028/0049"/>
-            <display value="Calcium carbonate 500 mg"/>
-          </coding>
-          <coding>
-            <system value="https://www.who-umc.org/phpid"/>
-            <code value="0xF79CABF272B6A7EEF104DDDA44E82716"/>
             <display value="Calcium carbonate 500 mg"/>
           </coding>
           <coding>
@@ -649,18 +641,13 @@
       <Medication>
         <id value="6f4151e9-91f6-4f1e-adc3-fb94dda77854"/>
         <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Medication</b><a name="6f4151e9-91f6-4f1e-adc3-fb94dda77854"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Medication &quot;6f4151e9-91f6-4f1e-adc3-fb94dda77854&quot; </p></div><p><b>code</b>: Boots Decongestant 0.05% w/v Nasal spray <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (man#16028/0049; phpid#0xF79CABF272B6A7EEF104DDDA44E82716 &quot;Oxymetazoline hydrochloride, 0.5 mg/ 1 ml, Nasal spray, solution&quot;; <a href="http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html">WHO ATC</a>#A03FA08 &quot;Cinitapride&quot;)</span></p><p><b>form</b>: Chewable tablet <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (standardterms.edqm.eu#10228000)</span></p><h3>Ingredients</h3><table class="grid"><tr><td>-</td><td><b>Item[x]</b></td><td><b>Strength</b></td></tr><tr><td>*</td><td>CINITAPRIDE <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html">Unique Ingredient Identifier (UNII)</a>#R8I97I2L24)</span></td><td>1 mg<span style="background: LightGoldenRodYellow"> (Details: UCUM code mg = 'mg')</span>/1 Tablet<span style="background: LightGoldenRodYellow"> (Details: http://standardterms.edqm.eu code 15054000 = 'Tablet')</span></td></tr></table></div>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Medication</b><a name="6f4151e9-91f6-4f1e-adc3-fb94dda77854"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Medication &quot;6f4151e9-91f6-4f1e-adc3-fb94dda77854&quot; </p></div><p><b>code</b>: Boots Decongestant 0.05% w/v Nasal spray <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (man#16028/0049; <a href="http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html">WHO ATC</a>#A03FA08 &quot;Cinitapride&quot;)</span></p><p><b>form</b>: Chewable tablet <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (standardterms.edqm.eu#10228000)</span></p><h3>Ingredients</h3><table class="grid"><tr><td>-</td><td><b>Item[x]</b></td><td><b>Strength</b></td></tr><tr><td>*</td><td>CINITAPRIDE <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html">Unique Ingredient Identifier (UNII)</a>#R8I97I2L24)</span></td><td>1 mg<span style="background: LightGoldenRodYellow"> (Details: UCUM code mg = 'mg')</span>/1 Tablet<span style="background: LightGoldenRodYellow"> (Details: http://standardterms.edqm.eu code 15054000 = 'Tablet')</span></td></tr></table></div>
         </text>
         <code>
           <coding>
             <system value="https://www.gravitatehealth.eu/sid/man"/>
             <code value="16028/0049"/>
             <display value="Boots Decongestant 0.05% w/v Nasal spray"/>
-          </coding>
-          <coding>
-            <system value="https://www.who-umc.org/phpid"/>
-            <code value="0xF79CABF272B6A7EEF104DDDA44E82716"/>
-            <display value="Oxymetazoline hydrochloride, 0.5 mg/ 1 ml, Nasal spray, solution"/>
           </coding>
           <coding>
             <system value="http://www.whocc.no/atc"/>
@@ -708,18 +695,13 @@
       <Medication>
         <id value="6f4151e9-91f6-4f1e-adc3-fb94dda77855"/>
         <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Medication</b><a name="6f4151e9-91f6-4f1e-adc3-fb94dda77855"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Medication &quot;6f4151e9-91f6-4f1e-adc3-fb94dda77855&quot; </p></div><p><b>code</b>: Boots Decongestant 0.05% w/v Nasal spray <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (man#16028/0049; phpid#0xF79CABF272B6A7EEF104DDDA44E82716 &quot;Oxymetazoline hydrochloride, 0.5 mg/ 1 ml, Nasal spray, solution&quot;; <a href="http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html">WHO ATC</a>#R01AA05 &quot;oxymetazoline&quot;)</span></p><p><b>form</b>: Nasal spray, solution <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (standardterms.edqm.eu#10808000)</span></p><h3>Ingredients</h3><table class="grid"><tr><td>-</td><td><b>Item[x]</b></td><td><b>Strength</b></td></tr><tr><td>*</td><td>oxymetazoline hydrochloride <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html">Unique Ingredient Identifier (UNII)</a>#K89MJ0S5VY)</span></td><td>0.05 mg<span style="background: LightGoldenRodYellow"> (Details: UCUM code mg = 'mg')</span>/1 ml<span style="background: LightGoldenRodYellow"> (Details: UCUM code ml = 'ml')</span></td></tr></table></div>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Medication</b><a name="6f4151e9-91f6-4f1e-adc3-fb94dda77855"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Medication &quot;6f4151e9-91f6-4f1e-adc3-fb94dda77855&quot; </p></div><p><b>code</b>: Boots Decongestant 0.05% w/v Nasal spray <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (man#16028/0049; <a href="http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html">WHO ATC</a>#R01AA05 &quot;oxymetazoline&quot;)</span></p><p><b>form</b>: Nasal spray, solution <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (standardterms.edqm.eu#10808000)</span></p><h3>Ingredients</h3><table class="grid"><tr><td>-</td><td><b>Item[x]</b></td><td><b>Strength</b></td></tr><tr><td>*</td><td>oxymetazoline hydrochloride <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html">Unique Ingredient Identifier (UNII)</a>#K89MJ0S5VY)</span></td><td>0.05 mg<span style="background: LightGoldenRodYellow"> (Details: UCUM code mg = 'mg')</span>/1 ml<span style="background: LightGoldenRodYellow"> (Details: UCUM code ml = 'ml')</span></td></tr></table></div>
         </text>
         <code>
           <coding>
             <system value="https://www.gravitatehealth.eu/sid/man"/>
             <code value="16028/0049"/>
             <display value="Boots Decongestant 0.05% w/v Nasal spray"/>
-          </coding>
-          <coding>
-            <system value="https://www.who-umc.org/phpid"/>
-            <code value="0xF79CABF272B6A7EEF104DDDA44E82716"/>
-            <display value="Oxymetazoline hydrochloride, 0.5 mg/ 1 ml, Nasal spray, solution"/>
           </coding>
           <coding>
             <system value="http://www.whocc.no/atc"/>
@@ -766,18 +748,13 @@
       <Medication>
         <id value="6f4151e9-91f6-4f1e-adc3-fb94dda77856"/>
         <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Medication</b><a name="6f4151e9-91f6-4f1e-adc3-fb94dda77856"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Medication &quot;6f4151e9-91f6-4f1e-adc3-fb94dda77856&quot; </p></div><p><b>code</b>: Boots Decongestant 0.05% w/v Nasal spray <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (man#16028/0049; phpid#0xF79CABF272B6A7EEF104DDDA44E82716 &quot;Oxymetazoline hydrochloride, 0.5 mg/ 1 ml, Nasal spray, solution&quot;; <a href="http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html">WHO ATC</a>#R01AA05 &quot;oxymetazoline&quot;)</span></p><p><b>form</b>: Nasal spray, solution <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (standardterms.edqm.eu#10808000)</span></p><h3>Ingredients</h3><table class="grid"><tr><td>-</td><td><b>Item[x]</b></td><td><b>Strength</b></td></tr><tr><td>*</td><td>oxymetazoline hydrochloride <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html">Unique Ingredient Identifier (UNII)</a>#K89MJ0S5VY)</span></td><td>0.05 mg<span style="background: LightGoldenRodYellow"> (Details: UCUM code mg = 'mg')</span>/1 ml<span style="background: LightGoldenRodYellow"> (Details: UCUM code ml = 'ml')</span></td></tr></table></div>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Medication</b><a name="6f4151e9-91f6-4f1e-adc3-fb94dda77856"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Medication &quot;6f4151e9-91f6-4f1e-adc3-fb94dda77856&quot; </p></div><p><b>code</b>: Boots Decongestant 0.05% w/v Nasal spray <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (man#16028/0049; <a href="http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html">WHO ATC</a>#R01AA05 &quot;oxymetazoline&quot;)</span></p><p><b>form</b>: Nasal spray, solution <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (standardterms.edqm.eu#10808000)</span></p><h3>Ingredients</h3><table class="grid"><tr><td>-</td><td><b>Item[x]</b></td><td><b>Strength</b></td></tr><tr><td>*</td><td>Vitamin C <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html">Unique Ingredient Identifier (UNII)</a>#PQ6CK8PD0R &quot;ASCORBIC ACID&quot;)</span></td><td>0.05 mg<span style="background: LightGoldenRodYellow"> (Details: UCUM code mg = 'mg')</span>/1 ml<span style="background: LightGoldenRodYellow"> (Details: UCUM code ml = 'ml')</span></td></tr></table></div>
         </text>
         <code>
           <coding>
             <system value="https://www.gravitatehealth.eu/sid/man"/>
             <code value="16028/0049"/>
             <display value="Boots Decongestant 0.05% w/v Nasal spray"/>
-          </coding>
-          <coding>
-            <system value="https://www.who-umc.org/phpid"/>
-            <code value="0xF79CABF272B6A7EEF104DDDA44E82716"/>
-            <display value="Oxymetazoline hydrochloride, 0.5 mg/ 1 ml, Nasal spray, solution"/>
           </coding>
           <coding>
             <system value="http://www.whocc.no/atc"/>
@@ -797,10 +774,10 @@
           <itemCodeableConcept>
             <coding>
               <system value="http://fdasis.nlm.nih.gov"/>
-              <code value="K89MJ0S5VY"/>
-              <display value="oxymetazoline hydrochloride"/>
+              <code value="PQ6CK8PD0R"/>
+              <display value="ASCORBIC ACID"/>
             </coding>
-            <text value="oxymetazoline hydrochloride"/>
+            <text value="Vitamin C"/>
           </itemCodeableConcept>
           <strength>
             <numerator>
@@ -824,18 +801,13 @@
       <Medication>
         <id value="6f4151e9-91f6-4f1e-adc3-fb94dda77857"/>
         <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Medication</b><a name="6f4151e9-91f6-4f1e-adc3-fb94dda77857"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Medication &quot;6f4151e9-91f6-4f1e-adc3-fb94dda77857&quot; </p></div><p><b>code</b>: Boots Decongestant 0.05% w/v Nasal spray <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (man#16028/0049; phpid#0xF79CABF272B6A7EEF104DDDA44E82716 &quot;Oxymetazoline hydrochloride, 0.5 mg/ 1 ml, Nasal spray, solution&quot;; <a href="http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html">WHO ATC</a>#R01AA05 &quot;oxymetazoline&quot;)</span></p><p><b>form</b>: Nasal spray, solution <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (standardterms.edqm.eu#10808000)</span></p><h3>Ingredients</h3><table class="grid"><tr><td>-</td><td><b>Item[x]</b></td><td><b>Strength</b></td></tr><tr><td>*</td><td>oxymetazoline hydrochloride <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html">Unique Ingredient Identifier (UNII)</a>#K89MJ0S5VY)</span></td><td>0.05 mg<span style="background: LightGoldenRodYellow"> (Details: UCUM code mg = 'mg')</span>/1 ml<span style="background: LightGoldenRodYellow"> (Details: UCUM code ml = 'ml')</span></td></tr></table></div>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Medication</b><a name="6f4151e9-91f6-4f1e-adc3-fb94dda77857"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Medication &quot;6f4151e9-91f6-4f1e-adc3-fb94dda77857&quot; </p></div><p><b>code</b>: Boots Decongestant 0.05% w/v Nasal spray <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (man#16028/0049; <a href="http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html">WHO ATC</a>#R01AA05 &quot;oxymetazoline&quot;)</span></p><p><b>form</b>: Nasal spray, solution <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (standardterms.edqm.eu#10808000)</span></p><h3>Ingredients</h3><table class="grid"><tr><td>-</td><td><b>Item[x]</b></td><td><b>Strength</b></td></tr><tr><td>*</td><td>oxymetazoline hydrochloride <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html">Unique Ingredient Identifier (UNII)</a>#K89MJ0S5VY)</span></td><td>0.05 mg<span style="background: LightGoldenRodYellow"> (Details: UCUM code mg = 'mg')</span>/1 ml<span style="background: LightGoldenRodYellow"> (Details: UCUM code ml = 'ml')</span></td></tr></table></div>
         </text>
         <code>
           <coding>
             <system value="https://www.gravitatehealth.eu/sid/man"/>
             <code value="16028/0049"/>
             <display value="Boots Decongestant 0.05% w/v Nasal spray"/>
-          </coding>
-          <coding>
-            <system value="https://www.who-umc.org/phpid"/>
-            <code value="0xF79CABF272B6A7EEF104DDDA44E82716"/>
-            <display value="Oxymetazoline hydrochloride, 0.5 mg/ 1 ml, Nasal spray, solution"/>
           </coding>
           <coding>
             <system value="http://www.whocc.no/atc"/>

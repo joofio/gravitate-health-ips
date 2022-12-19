@@ -35,11 +35,11 @@
     </code>
     <entry>
       <reference value="Condition/pedro-cond-1"/>
-      <display value="HIV"/>
+      <display value="Depression"/>
     </entry>
     <entry>
       <reference value="Condition/pedro-cond-2"/>
-      <display value="Depression"/>
+      <display value="HIV"/>
     </entry>
     <entry>
       <reference value="Condition/pedro-cond-3"/>

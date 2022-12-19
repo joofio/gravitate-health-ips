@@ -11,7 +11,7 @@
   fhir:Resource.id [ fhir:value "cecilia-cond-1"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Condition</b><a name=\"cecilia-cond-1\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Condition &quot;cecilia-cond-1&quot; </p></div><p><b>clinicalStatus</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-condition-clinical.html\">Condition Clinical Status Codes</a>#active)</span></p><p><b>code</b>: Psoriasis <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#9014002)</span></p><p><b>subject</b>: <a href=\"Patient-cecilia-patient.html\">Patient/cecilia-patient: Cecilia Gravitate</a> &quot; GRAVITATE&quot;</p><p><b>asserter</b>: <a href=\"Practitioner-cecilia-pract.html\">Practitioner/cecilia-pract: Dr. Anna Karlsson</a> &quot; KARLSSON&quot;</p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Condition</b><a name=\"cecilia-cond-1\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Condition &quot;cecilia-cond-1&quot; </p></div><p><b>clinicalStatus</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-condition-clinical.html\">Condition Clinical Status Codes</a>#active)</span></p><p><b>code</b>: COPD - Chronic obstructive pulmonary disease <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#42343007 &quot;Chronic obstructive lung disease&quot;)</span></p><p><b>subject</b>: <a href=\"Patient-cecilia-patient.html\">Patient/cecilia-patient: Cecilia Gravitate</a> &quot; GRAVITATE&quot;</p><p><b>asserter</b>: <a href=\"Practitioner-cecilia-pract.html\">Practitioner/cecilia-pract: Dr. Anna Karlsson</a> &quot; KARLSSON&quot;</p></div>"
   ]; # 
   fhir:Condition.clinicalStatus [
      fhir:CodeableConcept.coding [
@@ -23,12 +23,12 @@
   fhir:Condition.code [
      fhir:CodeableConcept.coding [
        fhir:index 0;
-       a sct:9014002;
+       a sct:42343007;
        fhir:Coding.system [ fhir:value "http://snomed.info/sct" ];
-       fhir:Coding.code [ fhir:value "9014002" ];
-       fhir:Coding.display [ fhir:value "Psoriasis" ]
+       fhir:Coding.code [ fhir:value "42343007" ];
+       fhir:Coding.display [ fhir:value "Chronic obstructive lung disease" ]
      ];
-     fhir:CodeableConcept.text [ fhir:value "Psoriasis" ]
+     fhir:CodeableConcept.text [ fhir:value "COPD - Chronic obstructive pulmonary disease" ]
   ]; # 
   fhir:Condition.subject [
      fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Patient/cecilia-patient>;

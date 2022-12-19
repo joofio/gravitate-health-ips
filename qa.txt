@@ -1,13 +1,13 @@
 ﻿GhR4ImplementationGuide : Validation Results
 =========================================
 
-err = 6, warn = 123, info = 160
+err = 6, warn = 125, info = 138
 IG Publisher Version: 1.2.25
-Generated Mon Dec 19 13:54:26 UTC 2022. FHIR version 4.0.1 for hl7.eu.fhir.gh-ips#0.1.0 (canonical = http://hl7.eu/fhir/ig/gravitate-health-ips)
- Build Errors : 11 / 51 / 0
- /github/workspace/fsh-generated/resources/Bundle-gravitate-Cecilia : 0 / 24 / 21
- /github/workspace/fsh-generated/resources/Bundle-gravitate-Matilda : 0 / 14 / 17
- /github/workspace/fsh-generated/resources/Bundle-gravitate-Pedro : 0 / 30 / 35
+Generated Mon Dec 19 15:01:09 UTC 2022. FHIR version 4.0.1 for hl7.eu.fhir.gh-ips#0.1.0 (canonical = http://hl7.eu/fhir/ig/gravitate-health-ips)
+ Build Errors : 5 / 51 / 0
+ /github/workspace/fsh-generated/resources/Bundle-gravitate-Cecilia : 0 / 25 / 21
+ /github/workspace/fsh-generated/resources/Bundle-gravitate-Matilda : 0 / 14 / 12
+ /github/workspace/fsh-generated/resources/Bundle-gravitate-Pedro : 0 / 30 / 29
  /github/workspace/fsh-generated/resources/Bundle-gravitate-helen : 0 / 1 / 15
  /github/workspace/fsh-generated/resources/Bundle-gravitate-ips-1 : 0 / 1 / 21
  /github/workspace/fsh-generated/resources/Bundle-gravitate-ips-2 : 0 / 0 / 20
@@ -21,7 +21,7 @@ Generated Mon Dec 19 13:54:26 UTC 2022. FHIR version 4.0.1 for hl7.eu.fhir.gh-ip
  /github/workspace/fsh-generated/resources/Composition-ips-example-1 : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Composition-ips-example-2 : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Composition-ips-example-3 : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/Condition-cecilia-cond-1 : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Condition-cecilia-cond-1 : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/Condition-cecilia-cond-2 : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Condition-cecilia-cond-3 : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Condition-cecilia-cond-4 : 0 / 0 / 1
@@ -30,19 +30,19 @@ Generated Mon Dec 19 13:54:26 UTC 2022. FHIR version 4.0.1 for hl7.eu.fhir.gh-ip
  /github/workspace/fsh-generated/resources/Condition-pedro-cond-2 : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Condition-pedro-cond-3 : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ImplementationGuide-hl7.eu.fhir.gh-ips : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/Medication-6f4151e9-91f6-4f1e-adc3-fb94dda77854 : 0 / 0 / 3
- /github/workspace/fsh-generated/resources/Medication-6f4151e9-91f6-4f1e-adc3-fb94dda77855 : 0 / 0 / 3
- /github/workspace/fsh-generated/resources/Medication-6f4151e9-91f6-4f1e-adc3-fb94dda77856 : 0 / 0 / 3
- /github/workspace/fsh-generated/resources/Medication-6f4151e9-91f6-4f1e-adc3-fb94dda77857 : 0 / 0 / 3
- /github/workspace/fsh-generated/resources/Medication-6f4151e9-91f6-4f1e-adc3-fb94dda7785g : 0 / 0 / 3
+ /github/workspace/fsh-generated/resources/Medication-6f4151e9-91f6-4f1e-adc3-fb94dda77854 : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/Medication-6f4151e9-91f6-4f1e-adc3-fb94dda77855 : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/Medication-6f4151e9-91f6-4f1e-adc3-fb94dda77856 : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/Medication-6f4151e9-91f6-4f1e-adc3-fb94dda77857 : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/Medication-6f4151e9-91f6-4f1e-adc3-fb94dda7785g : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/Medication-9ac3356c-4ea4-4814-84c3-235484f2ef19 : 0 / 0 / 3
- /github/workspace/fsh-generated/resources/Medication-9d7be868-8264-4d94-ad04-ef04ecc92e51 : 0 / 0 / 3
+ /github/workspace/fsh-generated/resources/Medication-9d7be868-8264-4d94-ad04-ef04ecc92e51 : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/Medication-9d7be868-8264-4d94-ad04-ef04ecc92e52 : 0 / 0 / 3
  /github/workspace/fsh-generated/resources/Medication-b50ae644-e0b7-4007-809f-26f493cbe36c : 0 / 0 / 3
  /github/workspace/fsh-generated/resources/Medication-de131e15-ed13-4b31-b38c-3204a84d99c4 : 0 / 0 / 3
- /github/workspace/fsh-generated/resources/Medication-fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4 : 0 / 0 / 3
- /github/workspace/fsh-generated/resources/Medication-fdb5c97f-0a46-41ba-bc34-2efd2ef2f7et : 0 / 0 / 3
- /github/workspace/fsh-generated/resources/Medication-fdb5c97f-0a46-41ba-bc34-2efd2ef2f7eu : 0 / 0 / 3
+ /github/workspace/fsh-generated/resources/Medication-fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4 : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/Medication-fdb5c97f-0a46-41ba-bc34-2efd2ef2f7et : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Medication-fdb5c97f-0a46-41ba-bc34-2efd2ef2f7eu : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/MedicationStatement-cecilia-med-stat-1 : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/MedicationStatement-cecilia-med-stat-2 : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/MedicationStatement-cecilia-med-stat-3 : 0 / 0 / 1
@@ -117,12 +117,6 @@ WARNING: Unable to find ImplementationGuide.definition.resource.description for 
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationStatement/pedro-med-stat-7.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Patient/pedro-patient.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Practitioner/pedro-pract.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-ERROR: /github/workspace/output/Composition-gravitate-helen.html#/html/body/div/div/div/div/div/div/p/a at Line 236, column 641: The link 'Bundle-gravitate-helen.html#urn-uuid-45cd0bd4-f685-4117-a9f0-5c53fffb7266' for "urn:uuid:45cd0bd4-f685-4117-a9f0-5c53fffb7266: Dr. Anna Karlsson" cannot be resolved (valid targets: [example-bundle-helen-gravitate-s-ips, segment-header, publish-box, bottom, hl7-logo, segment-post-footer, hl7-search, hl7-search-lnk, ig-status, top, root, container width=100% style="display:block;" , stripe, segment-footer, hl7-nav, segment-navbar, segment-content, segment-breadcrumb])
-ERROR: /github/workspace/output/Composition-gravitate-maria.html#/html/body/div/div/div/div/div/div/p/a at Line 236, column 641: The link 'Bundle-gravitate-maria.html#urn-uuid-1ece89c5-fda3-4db9-ace6-decbe6c603d8' for "urn:uuid:1ece89c5-fda3-4db9-ace6-decbe6c603d8: Dr. Anna Karlsson" cannot be resolved (valid targets: [segment-header, example-bundle-maria-gravitate-s-ips, publish-box, bottom, hl7-logo, segment-post-footer, hl7-search, hl7-search-lnk, ig-status, top, root, container width=100% style="display:block;" , stripe, segment-footer, hl7-nav, segment-navbar, segment-content, segment-breadcrumb])
-ERROR: /github/workspace/output/Composition-ips-example-1.html#/html/body/div/div/div/div/div/div/p/a at Line 236, column 637: The link 'Bundle-gravitate-ips-1.html#urn-uuid-1ece89c5-fda3-4db9-ace6-decbe6c603d5' for "urn:uuid:1ece89c5-fda3-4db9-ace6-decbe6c603d5: Dr. Anna Karlsson" cannot be resolved (valid targets: [segment-header, publish-box, bottom, hl7-logo, segment-post-footer, hl7-search, hl7-search-lnk, ig-status, example-bundle-ips-example-1-document, top, root, container width=100% style="display:block;" , stripe, segment-footer, hl7-nav, segment-navbar, segment-content, segment-breadcrumb])
-ERROR: /github/workspace/output/Composition-ips-example-2.html#/html/body/div/div/div/div/div/div/p/a at Line 236, column 637: The link 'Bundle-gravitate-ips-2.html#urn-uuid-1ece89c5-fda3-4db9-ace6-decbe6c603d3' for "urn:uuid:1ece89c5-fda3-4db9-ace6-decbe6c603d3: Dr. Anna Karlsson" cannot be resolved (valid targets: [segment-header, publish-box, bottom, hl7-logo, segment-post-footer, hl7-search, hl7-search-lnk, ig-status, top, root, container width=100% style="display:block;" , stripe, segment-footer, hl7-nav, example-bundle-ips-example-2-document, segment-navbar, segment-content, segment-breadcrumb])
-ERROR: /github/workspace/output/Composition-ips-example-3.html#/html/body/div/div/div/div/div/div/p/a at Line 236, column 637: The link 'Bundle-gravitate-ips-3.html#urn-uuid-1ece89c5-fda3-4db9-ace6-decbe6c603d1' for "urn:uuid:1ece89c5-fda3-4db9-ace6-decbe6c603d1: Dr. Anna Karlsson" cannot be resolved (valid targets: [segment-header, example-bundle-ips-example-3-document, publish-box, bottom, hl7-logo, segment-post-footer, hl7-search, hl7-search-lnk, ig-status, top, root, container width=100% style="display:block;" , stripe, segment-footer, hl7-nav, segment-navbar, segment-content, segment-breadcrumb])
-ERROR: /github/workspace/output/Condition-matilda-cond-1.html#/html/body/div/div/div/div/div/div/p/a at Line 236, column 984: The link 'Bundle-gravitate-helen.html#urn-uuid-45cd0bd4-f685-4117-a9f0-5c53fffb7266' for "urn:uuid:45cd0bd4-f685-4117-a9f0-5c53fffb7266: Dr. Ana Lopez" cannot be resolved (valid targets: [example-bundle-helen-gravitate-s-ips, segment-header, publish-box, bottom, hl7-logo, segment-post-footer, hl7-search, hl7-search-lnk, ig-status, top, root, container width=100% style="display:block;" , stripe, segment-footer, hl7-nav, segment-navbar, segment-content, segment-breadcrumb])
 ERROR: /github/workspace/output/copyright.html#/html/body/div/div/div/div/div/p/a at Line 237, column 14: The link 'http://build.fhir.org/ig/HL7/fhir-ips/copyrights.html' for "IPS Implementation Guide" cannot be resolved
 ERROR: /github/workspace/output/ePI-structure.html#/html/body/div/div/div/div/div/p/a at Line 242, column 121: The link 'http://build.fhir.org/ig/hl7-eu/gravitate-health/terminology.html' for "Terminology" cannot be resolved
 ERROR: /github/workspace/output/ePI-structure.html#/html/body/div/div/div/div/div/p/a at Line 288, column 106: The link 'http://build.fhir.org/ig/hl7-eu/gravitate-health/terminology.html' for "Terminology" cannot be resolved
@@ -143,6 +137,7 @@ WARNING: Bundle/gravitate-Cecilia: Bundle.entry[0].resource.ofType(Composition).
 WARNING: Bundle/gravitate-Cecilia: Bundle.entry[0].resource.ofType(Composition).section[1].entry[1]: Entry 8 matches the reference MedicationStatement/cecilia-med-stat-2 by type and id but it's fullUrl cecilia-med-stat-2 does not match the full target URL MedicationStatement/cecilia-med-stat-2 by Bundle resolution rules
 WARNING: Bundle/gravitate-Cecilia: Bundle.entry[0].resource.ofType(Composition).section[1].entry[2]: Entry 9 matches the reference MedicationStatement/cecilia-med-stat-3 by type and id but it's fullUrl cecilia-med-stat-3 does not match the full target URL MedicationStatement/cecilia-med-stat-3 by Bundle resolution rules
 WARNING: Bundle/gravitate-Cecilia: Bundle.entry[0].resource.ofType(Composition).section[1].entry[3]: Entry 10 matches the reference MedicationStatement/cecilia-med-stat-4 by type and id but it's fullUrl cecilia-med-stat-4 does not match the full target URL MedicationStatement/cecilia-med-stat-4 by Bundle resolution rules
+WARNING: Bundle/gravitate-Cecilia: Bundle.entry[3].resource.ofType(Condition).code.coding[0]: The display "Chronic obstructive lung disease" is not a valid display for the code {http://snomed.info/sct}42343007 - should be one of ['Congestive heart failure', 'Congestive heart disease', 'Congestive cardiac failure', 'CCF - Congestive cardiac failure', 'CHF - Congestive heart failure', 'Congestive heart failure (disorder)'] (from http://tx.fhir.org/r4) for 'http://snomed.info/sct#42343007'
 WARNING: Bundle/gravitate-Cecilia: Bundle.entry[3].resource.ofType(Condition).subject: Entry 1 matches the reference Patient/cecilia-patient by type and id but it's fullUrl cecilia-patient does not match the full target URL Patient/cecilia-patient by Bundle resolution rules
 WARNING: Bundle/gravitate-Cecilia: Bundle.entry[3].resource.ofType(Condition).asserter: Entry 2 matches the reference Practitioner/cecilia-pract by type and id but it's fullUrl cecilia-pract does not match the full target URL Practitioner/cecilia-pract by Bundle resolution rules
 WARNING: Bundle/gravitate-Cecilia: Bundle.entry[4].resource.ofType(Condition).subject: Entry 1 matches the reference Patient/cecilia-patient by type and id but it's fullUrl cecilia-patient does not match the full target URL Patient/cecilia-patient by Bundle resolution rules
@@ -171,7 +166,7 @@ WARNING: Bundle/gravitate-Matilda: Bundle.entry[0].resource.ofType(Composition).
 WARNING: Bundle/gravitate-Matilda: Bundle.entry[0].resource.ofType(Composition).section[1].entry[1]: Entry 5 matches the reference MedicationStatement/matilda-med-stat-2 by type and id but it's fullUrl matilda-med-stat-2 does not match the full target URL MedicationStatement/matilda-med-stat-2 by Bundle resolution rules
 WARNING: Bundle/gravitate-Matilda: Bundle.entry[0].resource.ofType(Composition).section[1].entry[2]: Entry 6 matches the reference MedicationStatement/matilda-med-stat-3 by type and id but it's fullUrl matilda-med-stat-3 does not match the full target URL MedicationStatement/matilda-med-stat-3 by Bundle resolution rules
 WARNING: Bundle/gravitate-Matilda: Bundle.entry[3].resource.ofType(Condition).subject: Entry 1 matches the reference Patient/matilda-patient by type and id but it's fullUrl matilda-patient does not match the full target URL Patient/matilda-patient by Bundle resolution rules
-WARNING: Bundle/gravitate-Matilda: Bundle.entry[3].resource.ofType(Condition).asserter: URN reference is not locally contained within the bundle urn:uuid:45cd0bd4-f685-4117-a9f0-5c53fffb7266
+WARNING: Bundle/gravitate-Matilda: Bundle.entry[3].resource.ofType(Condition).asserter: Entry 2 matches the reference Practitioner/matilda-pract by type and id but it's fullUrl matilda-pract does not match the full target URL Practitioner/matilda-pract by Bundle resolution rules
 WARNING: Bundle/gravitate-Matilda: Bundle.entry[4].resource.ofType(MedicationStatement).medication.ofType(Reference): Entry 8 matches the reference Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7et by type and id but it's fullUrl fdb5c97f-0a46-41ba-bc34-2efd2ef2f7et does not match the full target URL Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7et by Bundle resolution rules
 WARNING: Bundle/gravitate-Matilda: Bundle.entry[4].resource.ofType(MedicationStatement).subject: Entry 1 matches the reference Patient/matilda-patient by type and id but it's fullUrl matilda-patient does not match the full target URL Patient/matilda-patient by Bundle resolution rules
 WARNING: Bundle/gravitate-Matilda: Bundle.entry[5].resource.ofType(MedicationStatement).medication.ofType(Reference): Entry 9 matches the reference Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7eu by type and id but it's fullUrl fdb5c97f-0a46-41ba-bc34-2efd2ef2f7eu does not match the full target URL Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7eu by Bundle resolution rules
@@ -179,11 +174,6 @@ WARNING: Bundle/gravitate-Matilda: Bundle.entry[5].resource.ofType(MedicationSta
 WARNING: Bundle/gravitate-Matilda: Bundle.entry[6].resource.ofType(MedicationStatement).medication.ofType(Reference): Entry 7 matches the reference Medication/9d7be868-8264-4d94-ad04-ef04ecc92e51 by type and id but it's fullUrl 9d7be868-8264-4d94-ad04-ef04ecc92e51 does not match the full target URL Medication/9d7be868-8264-4d94-ad04-ef04ecc92e51 by Bundle resolution rules
 WARNING: Bundle/gravitate-Matilda: Bundle.entry[6].resource.ofType(MedicationStatement).subject: Entry 1 matches the reference Patient/matilda-patient by type and id but it's fullUrl matilda-patient does not match the full target URL Patient/matilda-patient by Bundle resolution rules
 INFORMATION: Bundle/gravitate-Matilda: Bundle.entry[7].resource.ofType(Medication).code.coding[0]: Code System URI 'http://ema.europa.eu/fhir/marketingAuthorizationNumber' is unknown so the code cannot be validated
-INFORMATION: Bundle/gravitate-Matilda: Bundle.entry[7].resource.ofType(Medication).code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
-INFORMATION: Bundle/gravitate-Matilda: Bundle.entry[8].resource.ofType(Medication).code.coding[0]: Code System URI 'http://ema.europa.eu/fhir/marketingAuthorizationNumber' is unknown so the code cannot be validated
-INFORMATION: Bundle/gravitate-Matilda: Bundle.entry[8].resource.ofType(Medication).code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
-INFORMATION: Bundle/gravitate-Matilda: Bundle.entry[9].resource.ofType(Medication).code.coding[0]: Code System URI 'https://www.gravitatehealth.eu/sid/man' is unknown so the code cannot be validated
-INFORMATION: Bundle/gravitate-Matilda: Bundle.entry[9].resource.ofType(Medication).code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
 == fsh-generated/resources/Bundle-gravitate-Pedro.json ==
 WARNING: Bundle/gravitate-Pedro: Bundle.entry[0].resource.ofType(Composition).subject: Entry 1 matches the reference Patient/pedro-patient by type and id but it's fullUrl pedro-patient does not match the full target URL Patient/pedro-patient by Bundle resolution rules
 WARNING: Bundle/gravitate-Pedro: Bundle.entry[0].resource.ofType(Composition).author[0]: Entry 2 matches the reference Practitioner/pedro-pract by type and id but it's fullUrl pedro-pract does not match the full target URL Practitioner/pedro-pract by Bundle resolution rules
@@ -218,17 +208,11 @@ WARNING: Bundle/gravitate-Pedro: Bundle.entry[12].resource.ofType(MedicationStat
 INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[13].resource.ofType(Medication).code.coding[0]: Code System URI 'http://ema.europa.eu/fhir/marketingAuthorizationNumber' is unknown so the code cannot be validated
 INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[13].resource.ofType(Medication).code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
 INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[14].resource.ofType(Medication).code.coding[0]: Code System URI 'http://ema.europa.eu/fhir/marketingAuthorizationNumber' is unknown so the code cannot be validated
-INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[14].resource.ofType(Medication).code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
 INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[15].resource.ofType(Medication).code.coding[0]: Code System URI 'https://www.gravitatehealth.eu/sid/man' is unknown so the code cannot be validated
-INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[15].resource.ofType(Medication).code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
 INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[16].resource.ofType(Medication).code.coding[0]: Code System URI 'https://www.gravitatehealth.eu/sid/man' is unknown so the code cannot be validated
-INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[16].resource.ofType(Medication).code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
 INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[17].resource.ofType(Medication).code.coding[0]: Code System URI 'https://www.gravitatehealth.eu/sid/man' is unknown so the code cannot be validated
-INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[17].resource.ofType(Medication).code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
 INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[18].resource.ofType(Medication).code.coding[0]: Code System URI 'https://www.gravitatehealth.eu/sid/man' is unknown so the code cannot be validated
-INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[18].resource.ofType(Medication).code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
 INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[19].resource.ofType(Medication).code.coding[0]: Code System URI 'https://www.gravitatehealth.eu/sid/man' is unknown so the code cannot be validated
-INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[19].resource.ofType(Medication).code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
 == fsh-generated/resources/Bundle-gravitate-helen.json ==
 WARNING: Bundle/gravitate-helen: Bundle.entry[1].resource.ofType(Patient).extension[0].extension[0].value.ofType(CodeableConcept).coding[0]: The display "United Kingdom" is not a valid display for the code {urn:iso:std:iso:3166}GB - should be one of ['United Kingdom of Great Britain and Northern Ireland'] (from http://tx.fhir.org/r4) for 'urn:iso:std:iso:3166#GB'
 INFORMATION: Bundle/gravitate-helen: Bundle.entry[8].resource.ofType(Medication).code.coding[0]: Code System URI 'http://ema.europa.eu/fhir/marketingAuthorizationNumber' is unknown so the code cannot be validated
@@ -273,6 +257,7 @@ INFORMATION: Bundle/gravitate-maria: Bundle.entry[12].resource.ofType(Medication
 == fsh-generated/resources/Composition-ips-example-2.json ==
 == fsh-generated/resources/Composition-ips-example-3.json ==
 == fsh-generated/resources/Condition-cecilia-cond-1.json ==
+WARNING: Condition/cecilia-cond-1: Condition.code.coding[0]: The display "Chronic obstructive lung disease" is not a valid display for the code {http://snomed.info/sct}42343007 - should be one of ['Congestive heart failure', 'Congestive heart disease', 'Congestive cardiac failure', 'CCF - Congestive cardiac failure', 'CHF - Congestive heart failure', 'Congestive heart failure (disorder)'] (from http://tx.fhir.org/r4) for 'http://snomed.info/sct#42343007'
 == fsh-generated/resources/Condition-cecilia-cond-2.json ==
 == fsh-generated/resources/Condition-cecilia-cond-3.json ==
 == fsh-generated/resources/Condition-cecilia-cond-4.json ==
@@ -283,25 +268,19 @@ INFORMATION: Bundle/gravitate-maria: Bundle.entry[12].resource.ofType(Medication
 == fsh-generated/resources/ImplementationGuide-hl7.eu.fhir.gh-ips.json ==
 == fsh-generated/resources/Medication-6f4151e9-91f6-4f1e-adc3-fb94dda77854.json ==
 INFORMATION: Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77854: Medication.code.coding[0]: Code System URI 'https://www.gravitatehealth.eu/sid/man' is unknown so the code cannot be validated
-INFORMATION: Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77854: Medication.code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
 == fsh-generated/resources/Medication-6f4151e9-91f6-4f1e-adc3-fb94dda77855.json ==
 INFORMATION: Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77855: Medication.code.coding[0]: Code System URI 'https://www.gravitatehealth.eu/sid/man' is unknown so the code cannot be validated
-INFORMATION: Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77855: Medication.code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
 == fsh-generated/resources/Medication-6f4151e9-91f6-4f1e-adc3-fb94dda77856.json ==
 INFORMATION: Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77856: Medication.code.coding[0]: Code System URI 'https://www.gravitatehealth.eu/sid/man' is unknown so the code cannot be validated
-INFORMATION: Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77856: Medication.code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
 == fsh-generated/resources/Medication-6f4151e9-91f6-4f1e-adc3-fb94dda77857.json ==
 INFORMATION: Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77857: Medication.code.coding[0]: Code System URI 'https://www.gravitatehealth.eu/sid/man' is unknown so the code cannot be validated
-INFORMATION: Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77857: Medication.code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
 == fsh-generated/resources/Medication-6f4151e9-91f6-4f1e-adc3-fb94dda7785g.json ==
 INFORMATION: Medication/6f4151e9-91f6-4f1e-adc3-fb94dda7785g: Medication.code.coding[0]: Code System URI 'https://www.gravitatehealth.eu/sid/man' is unknown so the code cannot be validated
-INFORMATION: Medication/6f4151e9-91f6-4f1e-adc3-fb94dda7785g: Medication.code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
 == fsh-generated/resources/Medication-9ac3356c-4ea4-4814-84c3-235484f2ef19.json ==
 INFORMATION: Medication/9ac3356c-4ea4-4814-84c3-235484f2ef19: Medication.code.coding[0]: Code System URI 'https://www.gravitatehealth.eu/sid/man' is unknown so the code cannot be validated
 INFORMATION: Medication/9ac3356c-4ea4-4814-84c3-235484f2ef19: Medication.code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
 == fsh-generated/resources/Medication-9d7be868-8264-4d94-ad04-ef04ecc92e51.json ==
 INFORMATION: Medication/9d7be868-8264-4d94-ad04-ef04ecc92e51: Medication.code.coding[0]: Code System URI 'http://ema.europa.eu/fhir/marketingAuthorizationNumber' is unknown so the code cannot be validated
-INFORMATION: Medication/9d7be868-8264-4d94-ad04-ef04ecc92e51: Medication.code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
 == fsh-generated/resources/Medication-9d7be868-8264-4d94-ad04-ef04ecc92e52.json ==
 INFORMATION: Medication/9d7be868-8264-4d94-ad04-ef04ecc92e52: Medication.code.coding[0]: Code System URI 'http://ema.europa.eu/fhir/marketingAuthorizationNumber' is unknown so the code cannot be validated
 INFORMATION: Medication/9d7be868-8264-4d94-ad04-ef04ecc92e52: Medication.code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
@@ -313,13 +292,8 @@ INFORMATION: Medication/de131e15-ed13-4b31-b38c-3204a84d99c4: Medication.code.co
 INFORMATION: Medication/de131e15-ed13-4b31-b38c-3204a84d99c4: Medication.code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
 == fsh-generated/resources/Medication-fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4.json ==
 INFORMATION: Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4: Medication.code.coding[0]: Code System URI 'http://ema.europa.eu/fhir/marketingAuthorizationNumber' is unknown so the code cannot be validated
-INFORMATION: Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4: Medication.code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
 == fsh-generated/resources/Medication-fdb5c97f-0a46-41ba-bc34-2efd2ef2f7et.json ==
-INFORMATION: Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7et: Medication.code.coding[0]: Code System URI 'http://ema.europa.eu/fhir/marketingAuthorizationNumber' is unknown so the code cannot be validated
-INFORMATION: Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7et: Medication.code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
 == fsh-generated/resources/Medication-fdb5c97f-0a46-41ba-bc34-2efd2ef2f7eu.json ==
-INFORMATION: Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7eu: Medication.code.coding[0]: Code System URI 'https://www.gravitatehealth.eu/sid/man' is unknown so the code cannot be validated
-INFORMATION: Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7eu: Medication.code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
 == fsh-generated/resources/MedicationStatement-cecilia-med-stat-1.json ==
 == fsh-generated/resources/MedicationStatement-cecilia-med-stat-2.json ==
 == fsh-generated/resources/MedicationStatement-cecilia-med-stat-3.json ==

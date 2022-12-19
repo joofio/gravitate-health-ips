@@ -10,32 +10,22 @@
   fhir:Resource.id [ fhir:value "fdb5c97f-0a46-41ba-bc34-2efd2ef2f7et"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Medication</b><a name=\"fdb5c97f-0a46-41ba-bc34-2efd2ef2f7et\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Medication &quot;fdb5c97f-0a46-41ba-bc34-2efd2ef2f7et&quot; </p></div><p><b>code</b>: Monuril <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (marketingAuthorizationNumber#PL31654/0006; phpid#0xE857DA811B4A6F3BD57810C45D2EA1ED &quot;Fosfomycin, 3g, Granules for oral solution&quot;; <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html\">WHO ATC</a>#J01XX01 &quot;fosfomycin&quot;)</span></p><p><b>form</b>: Granules for oral solution <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#10112000)</span></p><h3>Ingredients</h3><table class=\"grid\"><tr><td>-</td><td><b>Item[x]</b></td><td><b>Strength</b></td></tr><tr><td>*</td><td>FOSFOMYCIN TROMETAMOL <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#7FXW6U30GY &quot;FOSFOMYCIN TROMETHAMINE&quot;)</span></td><td>5.631 g<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code g = 'g')</span>/1 {sachet}<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code {sachet} = '{sachet}')</span></td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Medication</b><a name=\"fdb5c97f-0a46-41ba-bc34-2efd2ef2f7et\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Medication &quot;fdb5c97f-0a46-41ba-bc34-2efd2ef2f7et&quot; </p></div><p><b>code</b>: paracetamol <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html\">WHO ATC</a>#N02BE01)</span></p><p><b>form</b>: Coated tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#10220000)</span></p><h3>Ingredients</h3><table class=\"grid\"><tr><td>-</td><td><b>Item[x]</b></td><td><b>Strength</b></td></tr><tr><td>*</td><td>ACETAMINOPHEN <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#362O9ITL9D)</span></td><td>500 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mg = 'mg')</span>/1 Tablet<span style=\"background: LightGoldenRodYellow\"> (Details: http://standardterms.edqm.eu code 15054000 = 'Tablet')</span></td></tr></table></div>"
   ]; # 
   fhir:Medication.code [
      fhir:CodeableConcept.coding [
        fhir:index 0;
-       fhir:Coding.system [ fhir:value "http://ema.europa.eu/fhir/marketingAuthorizationNumber" ];
-       fhir:Coding.code [ fhir:value "PL31654/0006" ];
-       fhir:Coding.display [ fhir:value "Monuril" ]
-     ], [
-       fhir:index 1;
-       fhir:Coding.system [ fhir:value "https://www.who-umc.org/phpid" ];
-       fhir:Coding.code [ fhir:value "0xE857DA811B4A6F3BD57810C45D2EA1ED" ];
-       fhir:Coding.display [ fhir:value "Fosfomycin, 3g, Granules for oral solution" ]
-     ], [
-       fhir:index 2;
        fhir:Coding.system [ fhir:value "http://www.whocc.no/atc" ];
-       fhir:Coding.code [ fhir:value "J01XX01" ];
-       fhir:Coding.display [ fhir:value "fosfomycin" ]
+       fhir:Coding.code [ fhir:value "N02BE01" ];
+       fhir:Coding.display [ fhir:value "paracetamol" ]
      ]
   ]; # 
   fhir:Medication.form [
      fhir:CodeableConcept.coding [
        fhir:index 0;
        fhir:Coding.system [ fhir:value "http://standardterms.edqm.eu" ];
-       fhir:Coding.code [ fhir:value "10112000" ];
-       fhir:Coding.display [ fhir:value "Granules for oral solution" ]
+       fhir:Coding.code [ fhir:value "10220000" ];
+       fhir:Coding.display [ fhir:value "Coated tablet" ]
      ]
   ]; # 
   fhir:Medication.ingredient [
@@ -44,21 +34,22 @@
        fhir:CodeableConcept.coding [
          fhir:index 0;
          fhir:Coding.system [ fhir:value "http://fdasis.nlm.nih.gov" ];
-         fhir:Coding.code [ fhir:value "7FXW6U30GY" ];
-         fhir:Coding.display [ fhir:value "FOSFOMYCIN TROMETHAMINE" ]
+         fhir:Coding.code [ fhir:value "362O9ITL9D" ];
+         fhir:Coding.display [ fhir:value "ACETAMINOPHEN" ]
        ];
-       fhir:CodeableConcept.text [ fhir:value "FOSFOMYCIN TROMETAMOL" ]
+       fhir:CodeableConcept.text [ fhir:value "ACETAMINOPHEN" ]
      ];
      fhir:Medication.ingredient.strength [
        fhir:Ratio.numerator [
-         fhir:Quantity.value [ fhir:value "5.631"^^xsd:decimal ];
+         fhir:Quantity.value [ fhir:value "500"^^xsd:decimal ];
          fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ];
-         fhir:Quantity.code [ fhir:value "g" ]
+         fhir:Quantity.code [ fhir:value "mg" ]
        ];
        fhir:Ratio.denominator [
          fhir:Quantity.value [ fhir:value "1"^^xsd:decimal ];
-         fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ];
-         fhir:Quantity.code [ fhir:value "{sachet}" ]
+         fhir:Quantity.unit [ fhir:value "Tablet" ];
+         fhir:Quantity.system [ fhir:value "http://standardterms.edqm.eu" ];
+         fhir:Quantity.code [ fhir:value "15054000" ]
        ]
      ]
   ] . # 
