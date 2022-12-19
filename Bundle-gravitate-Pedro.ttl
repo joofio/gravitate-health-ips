@@ -18,87 +18,87 @@
   fhir:Bundle.timestamp [ fhir:value "2021-04-18T09:22:00+02:00"^^xsd:dateTime]; # 
   fhir:Bundle.entry [
      fhir:index 0;
-     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:5702fd1d-dd26-402e-a7c0-7629a5d9bba1" ];
-     fhir:Bundle.entry.resource <urn:uuid:5702fd1d-dd26-402e-a7c0-7629a5d9bba1>
+     fhir:Bundle.entry.fullUrl [ fhir:value "5702fd1d-dd26-402e-a7c0-7629a5d9bba1" ];
+     fhir:Bundle.entry.resource <5702fd1d-dd26-402e-a7c0-7629a5d9bba1>
   ], [
      fhir:index 1;
-     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:pedro-patient" ];
-     fhir:Bundle.entry.resource <urn:uuid:pedro-patient>
+     fhir:Bundle.entry.fullUrl [ fhir:value "pedro-patient" ];
+     fhir:Bundle.entry.resource <pedro-patient>
   ], [
      fhir:index 2;
-     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:pedro-pract" ];
-     fhir:Bundle.entry.resource <urn:uuid:pedro-pract>
+     fhir:Bundle.entry.fullUrl [ fhir:value "pedro-pract" ];
+     fhir:Bundle.entry.resource <pedro-pract>
   ], [
      fhir:index 3;
-     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:pedro-cond-1" ];
-     fhir:Bundle.entry.resource <urn:uuid:pedro-cond-1>
+     fhir:Bundle.entry.fullUrl [ fhir:value "pedro-cond-1" ];
+     fhir:Bundle.entry.resource <pedro-cond-1>
   ], [
      fhir:index 4;
-     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:pedro-cond-2" ];
-     fhir:Bundle.entry.resource <urn:uuid:pedro-cond-2>
+     fhir:Bundle.entry.fullUrl [ fhir:value "pedro-cond-2" ];
+     fhir:Bundle.entry.resource <pedro-cond-2>
   ], [
      fhir:index 5;
-     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:pedro-cond-3" ];
-     fhir:Bundle.entry.resource <urn:uuid:pedro-cond-3>
+     fhir:Bundle.entry.fullUrl [ fhir:value "pedro-cond-3" ];
+     fhir:Bundle.entry.resource <pedro-cond-3>
   ], [
      fhir:index 6;
-     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:pedro-med-stat-1" ];
-     fhir:Bundle.entry.resource <urn:uuid:pedro-med-stat-1>
+     fhir:Bundle.entry.fullUrl [ fhir:value "pedro-med-stat-1" ];
+     fhir:Bundle.entry.resource <pedro-med-stat-1>
   ], [
      fhir:index 7;
-     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:pedro-med-stat-2" ];
-     fhir:Bundle.entry.resource <urn:uuid:pedro-med-stat-2>
+     fhir:Bundle.entry.fullUrl [ fhir:value "pedro-med-stat-2" ];
+     fhir:Bundle.entry.resource <pedro-med-stat-2>
   ], [
      fhir:index 8;
-     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:pedro-med-stat-3" ];
-     fhir:Bundle.entry.resource <urn:uuid:pedro-med-stat-3>
+     fhir:Bundle.entry.fullUrl [ fhir:value "pedro-med-stat-3" ];
+     fhir:Bundle.entry.resource <pedro-med-stat-3>
   ], [
      fhir:index 9;
-     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:pedro-med-stat-4" ];
-     fhir:Bundle.entry.resource <urn:uuid:pedro-med-stat-4>
+     fhir:Bundle.entry.fullUrl [ fhir:value "pedro-med-stat-4" ];
+     fhir:Bundle.entry.resource <pedro-med-stat-4>
   ], [
      fhir:index 10;
-     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:pedro-med-stat-5" ];
-     fhir:Bundle.entry.resource <urn:uuid:pedro-med-stat-5>
+     fhir:Bundle.entry.fullUrl [ fhir:value "pedro-med-stat-5" ];
+     fhir:Bundle.entry.resource <pedro-med-stat-5>
   ], [
      fhir:index 11;
-     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:pedro-med-stat-6" ];
-     fhir:Bundle.entry.resource <urn:uuid:pedro-med-stat-6>
+     fhir:Bundle.entry.fullUrl [ fhir:value "pedro-med-stat-6" ];
+     fhir:Bundle.entry.resource <pedro-med-stat-6>
   ], [
      fhir:index 12;
-     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:pedro-med-stat-7" ];
-     fhir:Bundle.entry.resource <urn:uuid:pedro-med-stat-7>
+     fhir:Bundle.entry.fullUrl [ fhir:value "pedro-med-stat-7" ];
+     fhir:Bundle.entry.resource <pedro-med-stat-7>
   ], [
      fhir:index 13;
-     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:9d7be868-8264-4d94-ad04-ef04ecc92e52" ];
-     fhir:Bundle.entry.resource <urn:uuid:9d7be868-8264-4d94-ad04-ef04ecc92e52>
+     fhir:Bundle.entry.fullUrl [ fhir:value "9d7be868-8264-4d94-ad04-ef04ecc92e52" ];
+     fhir:Bundle.entry.resource <9d7be868-8264-4d94-ad04-ef04ecc92e52>
   ], [
      fhir:index 14;
-     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4" ];
-     fhir:Bundle.entry.resource <urn:uuid:fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4>
+     fhir:Bundle.entry.fullUrl [ fhir:value "fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4" ];
+     fhir:Bundle.entry.resource <fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4>
   ], [
      fhir:index 15;
-     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda7785g" ];
-     fhir:Bundle.entry.resource <urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda7785g>
+     fhir:Bundle.entry.fullUrl [ fhir:value "6f4151e9-91f6-4f1e-adc3-fb94dda7785g" ];
+     fhir:Bundle.entry.resource <6f4151e9-91f6-4f1e-adc3-fb94dda7785g>
   ], [
      fhir:index 16;
-     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda77854" ];
-     fhir:Bundle.entry.resource <urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda77854>
+     fhir:Bundle.entry.fullUrl [ fhir:value "6f4151e9-91f6-4f1e-adc3-fb94dda77854" ];
+     fhir:Bundle.entry.resource <6f4151e9-91f6-4f1e-adc3-fb94dda77854>
   ], [
      fhir:index 17;
-     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda77855" ];
-     fhir:Bundle.entry.resource <urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda77855>
+     fhir:Bundle.entry.fullUrl [ fhir:value "6f4151e9-91f6-4f1e-adc3-fb94dda77855" ];
+     fhir:Bundle.entry.resource <6f4151e9-91f6-4f1e-adc3-fb94dda77855>
   ], [
      fhir:index 18;
-     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda77856" ];
-     fhir:Bundle.entry.resource <urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda77856>
+     fhir:Bundle.entry.fullUrl [ fhir:value "6f4151e9-91f6-4f1e-adc3-fb94dda77856" ];
+     fhir:Bundle.entry.resource <6f4151e9-91f6-4f1e-adc3-fb94dda77856>
   ], [
      fhir:index 19;
-     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda77857" ];
-     fhir:Bundle.entry.resource <urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda77857>
+     fhir:Bundle.entry.fullUrl [ fhir:value "6f4151e9-91f6-4f1e-adc3-fb94dda77857" ];
+     fhir:Bundle.entry.resource <6f4151e9-91f6-4f1e-adc3-fb94dda77857>
   ] . # 
 
-<urn:uuid:5702fd1d-dd26-402e-a7c0-7629a5d9bba1> a fhir:Composition;
+<5702fd1d-dd26-402e-a7c0-7629a5d9bba1> a fhir:Composition;
   fhir:Resource.id [ fhir:value "gravitate-Pedro"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
@@ -206,7 +206,7 @@
      ]
   ] . # 
 
-<urn:uuid:pedro-patient> a fhir:Patient;
+<pedro-patient> a fhir:Patient;
   fhir:Resource.id [ fhir:value "pedro-patient"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
@@ -245,7 +245,7 @@
   fhir:Patient.gender [ fhir:value "male"]; # 
   fhir:Patient.birthDate [ fhir:value "1980-10-05"^^xsd:date] . # 
 
-<urn:uuid:pedro-pract> a fhir:Practitioner;
+<pedro-pract> a fhir:Practitioner;
   fhir:Resource.id [ fhir:value "pedro-pract"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
@@ -264,7 +264,7 @@
      ]
   ] . # 
 
-<urn:uuid:pedro-cond-1> a fhir:Condition;
+<pedro-cond-1> a fhir:Condition;
   fhir:Resource.id [ fhir:value "pedro-cond-1"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
@@ -293,7 +293,7 @@
      fhir:Reference.display [ fhir:value "Pedro Gravitate" ]
   ] . # 
 
-<urn:uuid:pedro-cond-2> a fhir:Condition;
+<pedro-cond-2> a fhir:Condition;
   fhir:Resource.id [ fhir:value "pedro-cond-2"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
@@ -328,7 +328,7 @@
      fhir:Reference.display [ fhir:value "Dr. Xavier García" ]
   ] . # 
 
-<urn:uuid:pedro-cond-3> a fhir:Condition;
+<pedro-cond-3> a fhir:Condition;
   fhir:Resource.id [ fhir:value "pedro-cond-3"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
@@ -357,15 +357,16 @@
      fhir:Reference.display [ fhir:value "Pedro Gravitate" ]
   ] . # 
 
-<urn:uuid:pedro-med-stat-1> a fhir:MedicationStatement;
+<pedro-med-stat-1> a fhir:MedicationStatement;
   fhir:Resource.id [ fhir:value "pedro-med-stat-1"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicationStatement</b><a name=\"pedro-med-stat-1\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicationStatement &quot;pedro-med-stat-1&quot; </p></div><p><b>status</b>: active</p><p><b>medication</b>: <a href=\"#Medication_9d7be868-8264-4d94-ad04-ef04ecc92e52\">See above (urn:uuid:9d7be868-8264-4d94-ad04-ef04ecc92e52: Dovato 50 mg/300 mg (Dolutegravir/ Lamivudine) tablets)</a></p><p><b>subject</b>: <a href=\"#Patient_pedro-patient\">See above (Patient/pedro-patient: Pedro Gravitate)</a></p><h3>Dosages</h3><table class=\"grid\"><tr><td>-</td><td><b>Route</b></td></tr><tr><td>*</td><td>Oral use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#20053000)</span></td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicationStatement</b><a name=\"pedro-med-stat-1\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicationStatement &quot;pedro-med-stat-1&quot; </p></div><p><b>status</b>: active</p><p><b>medication</b>: <a href=\"#Medication_9d7be868-8264-4d94-ad04-ef04ecc92e52\">See above (Medication/9d7be868-8264-4d94-ad04-ef04ecc92e52: Dovato 50 mg/300 mg (Dolutegravir/ Lamivudine) tablets)</a></p><p><b>subject</b>: <a href=\"#Patient_pedro-patient\">See above (Patient/pedro-patient: Pedro Gravitate)</a></p><h3>Dosages</h3><table class=\"grid\"><tr><td>-</td><td><b>Route</b></td></tr><tr><td>*</td><td>Oral use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#20053000)</span></td></tr></table></div>"
   ]; # 
   fhir:MedicationStatement.status [ fhir:value "active"]; # 
   fhir:MedicationStatement.medicationReference [
-     fhir:Reference.reference [ fhir:value "urn:uuid:9d7be868-8264-4d94-ad04-ef04ecc92e52" ];
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Medication/9d7be868-8264-4d94-ad04-ef04ecc92e52>;
+     fhir:Reference.reference [ fhir:value "Medication/9d7be868-8264-4d94-ad04-ef04ecc92e52" ];
      fhir:Reference.display [ fhir:value "Dovato 50 mg/300 mg (Dolutegravir/ Lamivudine) tablets" ]
   ]; # 
   fhir:MedicationStatement.subject [
@@ -385,7 +386,7 @@
      ]
   ] . # 
 
-<urn:uuid:pedro-med-stat-2> a fhir:MedicationStatement;
+<pedro-med-stat-2> a fhir:MedicationStatement;
   fhir:Resource.id [ fhir:value "pedro-med-stat-2"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
@@ -414,7 +415,7 @@
      ]
   ] . # 
 
-<urn:uuid:pedro-med-stat-3> a fhir:MedicationStatement;
+<pedro-med-stat-3> a fhir:MedicationStatement;
   fhir:Resource.id [ fhir:value "pedro-med-stat-3"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
@@ -443,7 +444,7 @@
      ]
   ] . # 
 
-<urn:uuid:pedro-med-stat-4> a fhir:MedicationStatement;
+<pedro-med-stat-4> a fhir:MedicationStatement;
   fhir:Resource.id [ fhir:value "pedro-med-stat-4"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
@@ -472,7 +473,7 @@
      ]
   ] . # 
 
-<urn:uuid:pedro-med-stat-5> a fhir:MedicationStatement;
+<pedro-med-stat-5> a fhir:MedicationStatement;
   fhir:Resource.id [ fhir:value "pedro-med-stat-5"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
@@ -501,7 +502,7 @@
      ]
   ] . # 
 
-<urn:uuid:pedro-med-stat-6> a fhir:MedicationStatement;
+<pedro-med-stat-6> a fhir:MedicationStatement;
   fhir:Resource.id [ fhir:value "pedro-med-stat-6"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
@@ -530,7 +531,7 @@
      ]
   ] . # 
 
-<urn:uuid:pedro-med-stat-7> a fhir:MedicationStatement;
+<pedro-med-stat-7> a fhir:MedicationStatement;
   fhir:Resource.id [ fhir:value "pedro-med-stat-7"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
@@ -559,11 +560,11 @@
      ]
   ] . # 
 
-<urn:uuid:9d7be868-8264-4d94-ad04-ef04ecc92e52> a fhir:Medication;
+<9d7be868-8264-4d94-ad04-ef04ecc92e52> a fhir:Medication;
   fhir:Resource.id [ fhir:value "9d7be868-8264-4d94-ad04-ef04ecc92e52"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Medication</b><a name=\"9d7be868-8264-4d94-ad04-ef04ecc92e52\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Medication &quot;9d7be868-8264-4d94-ad04-ef04ecc92e52&quot; </p></div><p><b>code</b>: Dovato 50 mg/300 mg 30 tablets <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (marketingAuthorizationNumber#EU/1/19/1370/001; phpid#0x073AF2E5B92AE19E8B67635AFFB3D6CA &quot;lamivudine and dolutegravir, 300 mg/50 mg, tablets&quot;; <a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#13884911000001102 &quot;Dovato 50 mg/300 mg tablet&quot;; <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html\">WHO ATC</a>#J05AR25 &quot;lamivudine and dolutegravir&quot;)</span></p><p><b>form</b>: Coated tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#10220000)</span></p><blockquote><p><b>ingredient</b></p><p><b>item</b>: lamivudine <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#2T8Q726O95)</span></p><p><b>strength</b>: 300 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mg = 'mg')</span>/1 tablet<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code tablet = 'tablet')</span></p></blockquote><blockquote><p><b>ingredient</b></p><p><b>item</b>: dolutegravir <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#DKO1W9H7M1)</span></p><p><b>strength</b>: 50 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mg = 'mg')</span>/1 {tablet}<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code {tablet} = '{tablet}')</span></p></blockquote></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Medication</b><a name=\"9d7be868-8264-4d94-ad04-ef04ecc92e52\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Medication &quot;9d7be868-8264-4d94-ad04-ef04ecc92e52&quot; </p></div><p><b>code</b>: Dovato 50 mg/300 mg 30 tablets <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (marketingAuthorizationNumber#EU/1/19/1370/001; phpid#0x073AF2E5B92AE19E8B67635AFFB3D6CA &quot;lamivudine and dolutegravir, 300 mg/50 mg, tablets&quot;; <a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#787165000 &quot;Dolutegravir- and lamivudine-containing product in oral dose form&quot;; <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html\">WHO ATC</a>#J05AR25 &quot;lamivudine and dolutegravir&quot;)</span></p><p><b>form</b>: Coated tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#10220000)</span></p><blockquote><p><b>ingredient</b></p><p><b>item</b>: lamivudine <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#2T8Q726O95)</span></p><p><b>strength</b>: 300 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mg = 'mg')</span>/1 tablet<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code tablet = 'tablet')</span></p></blockquote><blockquote><p><b>ingredient</b></p><p><b>item</b>: dolutegravir <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#DKO1W9H7M1)</span></p><p><b>strength</b>: 50 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mg = 'mg')</span>/1 {tablet}<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code {tablet} = '{tablet}')</span></p></blockquote></div>"
   ]; # 
   fhir:Medication.code [
      fhir:CodeableConcept.coding [
@@ -578,10 +579,10 @@
        fhir:Coding.display [ fhir:value "lamivudine and dolutegravir, 300 mg/50 mg, tablets" ]
      ], [
        fhir:index 2;
-       a sct:13884911000001102;
+       a sct:787165000;
        fhir:Coding.system [ fhir:value "http://snomed.info/sct" ];
-       fhir:Coding.code [ fhir:value "13884911000001102" ];
-       fhir:Coding.display [ fhir:value "Dovato 50 mg/300 mg tablet" ]
+       fhir:Coding.code [ fhir:value "787165000" ];
+       fhir:Coding.display [ fhir:value "Dolutegravir- and lamivudine-containing product in oral dose form" ]
      ], [
        fhir:index 3;
        fhir:Coding.system [ fhir:value "http://www.whocc.no/atc" ];
@@ -645,11 +646,11 @@
      ]
   ] . # 
 
-<urn:uuid:fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4> a fhir:Medication;
+<fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4> a fhir:Medication;
   fhir:Resource.id [ fhir:value "fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Medication</b><a name=\"fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Medication &quot;fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4&quot; </p></div><p><b>code</b>: mirtazapine <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (marketingAuthorizationNumber#PL31654/0006; phpid#0xE857DA811B4A6F3BD57810C45D2EA1ED; <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html\">WHO ATC</a>#N06AX11)</span></p><p><b>form</b>: Coated tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#10220000)</span></p><h3>Ingredients</h3><table class=\"grid\"><tr><td>-</td><td><b>Item[x]</b></td><td><b>Strength</b></td></tr><tr><td>*</td><td>Mirtazapine <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#A051Q2099Q)</span></td><td>15 g<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code g = 'g')</span>/1 {tablet}<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code {tablet} = '{tablet}')</span></td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Medication</b><a name=\"fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Medication &quot;fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4&quot; </p></div><p><b>code</b>: mirtazapine <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (marketingAuthorizationNumber#PL31654/0006; phpid#0xE857DA811B4A6F3BD57810C45D2EA1ED; <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html\">WHO ATC</a>#N06AX11)</span></p><p><b>form</b>: Coated tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#10220000)</span></p><h3>Ingredients</h3><table class=\"grid\"><tr><td>-</td><td><b>Item[x]</b></td><td><b>Strength</b></td></tr><tr><td>*</td><td>Mirtazapine <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#A051Q2099Q)</span></td><td>15 g<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code g = 'g')</span>/1 Tablet<span style=\"background: LightGoldenRodYellow\"> (Details: http://standardterms.edqm.eu code 15054000 = 'Tablet')</span></td></tr></table></div>"
   ]; # 
   fhir:Medication.code [
      fhir:CodeableConcept.coding [
@@ -694,17 +695,18 @@
        ];
        fhir:Ratio.denominator [
          fhir:Quantity.value [ fhir:value "1"^^xsd:decimal ];
-         fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ];
-         fhir:Quantity.code [ fhir:value "{tablet}" ]
+         fhir:Quantity.unit [ fhir:value "Tablet" ];
+         fhir:Quantity.system [ fhir:value "http://standardterms.edqm.eu" ];
+         fhir:Quantity.code [ fhir:value "15054000" ]
        ]
      ]
   ] . # 
 
-<urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda7785g> a fhir:Medication;
+<6f4151e9-91f6-4f1e-adc3-fb94dda7785g> a fhir:Medication;
   fhir:Resource.id [ fhir:value "6f4151e9-91f6-4f1e-adc3-fb94dda7785g"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Medication</b><a name=\"6f4151e9-91f6-4f1e-adc3-fb94dda7785g\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Medication &quot;6f4151e9-91f6-4f1e-adc3-fb94dda7785g&quot; </p></div><p><b>code</b>: Calcium carbonate 500 mg <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (man#16028/0049; phpid#0xF79CABF272B6A7EEF104DDDA44E82716; <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html\">WHO ATC</a>#A12AA04 &quot;calcium carbonate&quot;)</span></p><p><b>form</b>: Chewable tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#10228000)</span></p><h3>Ingredients</h3><table class=\"grid\"><tr><td>-</td><td><b>Item[x]</b></td><td><b>Strength</b></td></tr><tr><td>*</td><td>calcium carbonate <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#H0G9379FGK &quot;Calcium carbonate&quot;)</span></td><td>500 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mg = 'mg')</span>/1 {tablet}<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code {tablet} = '{tablet}')</span></td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Medication</b><a name=\"6f4151e9-91f6-4f1e-adc3-fb94dda7785g\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Medication &quot;6f4151e9-91f6-4f1e-adc3-fb94dda7785g&quot; </p></div><p><b>code</b>: Calcium carbonate 500 mg <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (man#16028/0049; phpid#0xF79CABF272B6A7EEF104DDDA44E82716; <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html\">WHO ATC</a>#A12AA04 &quot;calcium carbonate&quot;)</span></p><p><b>form</b>: Chewable tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#10228000)</span></p><h3>Ingredients</h3><table class=\"grid\"><tr><td>-</td><td><b>Item[x]</b></td><td><b>Strength</b></td></tr><tr><td>*</td><td>calcium carbonate <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#H0G9379FGK &quot;Calcium carbonate&quot;)</span></td><td>500 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mg = 'mg')</span>/1 Tablet<span style=\"background: LightGoldenRodYellow\"> (Details: http://standardterms.edqm.eu code 15054000 = 'Tablet')</span></td></tr></table></div>"
   ]; # 
   fhir:Medication.code [
      fhir:CodeableConcept.coding [
@@ -752,17 +754,18 @@
        ];
        fhir:Ratio.denominator [
          fhir:Quantity.value [ fhir:value "1"^^xsd:decimal ];
-         fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ];
-         fhir:Quantity.code [ fhir:value "{tablet}" ]
+         fhir:Quantity.unit [ fhir:value "Tablet" ];
+         fhir:Quantity.system [ fhir:value "http://standardterms.edqm.eu" ];
+         fhir:Quantity.code [ fhir:value "15054000" ]
        ]
      ]
   ] . # 
 
-<urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda77854> a fhir:Medication;
+<6f4151e9-91f6-4f1e-adc3-fb94dda77854> a fhir:Medication;
   fhir:Resource.id [ fhir:value "6f4151e9-91f6-4f1e-adc3-fb94dda77854"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Medication</b><a name=\"6f4151e9-91f6-4f1e-adc3-fb94dda77854\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Medication &quot;6f4151e9-91f6-4f1e-adc3-fb94dda77854&quot; </p></div><p><b>code</b>: Boots Decongestant 0.05% w/v Nasal spray <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (man#16028/0049; phpid#0xF79CABF272B6A7EEF104DDDA44E82716 &quot;Oxymetazoline hydrochloride, 0.5 mg/ 1 ml, Nasal spray, solution&quot;; <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html\">WHO ATC</a>#A03FA08 &quot;Cinitapride&quot;)</span></p><p><b>form</b>: Chewable tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#10228000)</span></p><h3>Ingredients</h3><table class=\"grid\"><tr><td>-</td><td><b>Item[x]</b></td><td><b>Strength</b></td></tr><tr><td>*</td><td>CINITAPRIDE <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#R8I97I2L24)</span></td><td>1 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mg = 'mg')</span>/1 {tablet}<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code {tablet} = '{tablet}')</span></td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Medication</b><a name=\"6f4151e9-91f6-4f1e-adc3-fb94dda77854\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Medication &quot;6f4151e9-91f6-4f1e-adc3-fb94dda77854&quot; </p></div><p><b>code</b>: Boots Decongestant 0.05% w/v Nasal spray <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (man#16028/0049; phpid#0xF79CABF272B6A7EEF104DDDA44E82716 &quot;Oxymetazoline hydrochloride, 0.5 mg/ 1 ml, Nasal spray, solution&quot;; <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html\">WHO ATC</a>#A03FA08 &quot;Cinitapride&quot;)</span></p><p><b>form</b>: Chewable tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#10228000)</span></p><h3>Ingredients</h3><table class=\"grid\"><tr><td>-</td><td><b>Item[x]</b></td><td><b>Strength</b></td></tr><tr><td>*</td><td>CINITAPRIDE <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#R8I97I2L24)</span></td><td>1 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mg = 'mg')</span>/1 Tablet<span style=\"background: LightGoldenRodYellow\"> (Details: http://standardterms.edqm.eu code 15054000 = 'Tablet')</span></td></tr></table></div>"
   ]; # 
   fhir:Medication.code [
      fhir:CodeableConcept.coding [
@@ -810,13 +813,14 @@
        ];
        fhir:Ratio.denominator [
          fhir:Quantity.value [ fhir:value "1"^^xsd:decimal ];
-         fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ];
-         fhir:Quantity.code [ fhir:value "{tablet}" ]
+         fhir:Quantity.unit [ fhir:value "Tablet" ];
+         fhir:Quantity.system [ fhir:value "http://standardterms.edqm.eu" ];
+         fhir:Quantity.code [ fhir:value "15054000" ]
        ]
      ]
   ] . # 
 
-<urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda77855> a fhir:Medication;
+<6f4151e9-91f6-4f1e-adc3-fb94dda77855> a fhir:Medication;
   fhir:Resource.id [ fhir:value "6f4151e9-91f6-4f1e-adc3-fb94dda77855"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
@@ -874,7 +878,7 @@
      ]
   ] . # 
 
-<urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda77856> a fhir:Medication;
+<6f4151e9-91f6-4f1e-adc3-fb94dda77856> a fhir:Medication;
   fhir:Resource.id [ fhir:value "6f4151e9-91f6-4f1e-adc3-fb94dda77856"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
@@ -932,7 +936,7 @@
      ]
   ] . # 
 
-<urn:uuid:6f4151e9-91f6-4f1e-adc3-fb94dda77857> a fhir:Medication;
+<6f4151e9-91f6-4f1e-adc3-fb94dda77857> a fhir:Medication;
   fhir:Resource.id [ fhir:value "6f4151e9-91f6-4f1e-adc3-fb94dda77857"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
