@@ -12,9 +12,9 @@
     <fullUrl value="urn:uuid:2fa5b223-ebce-4f39-9c66-5dc014f73571"/>
     <resource>
       <Composition>
-        <id value="gravitate-ips-1"/>
+        <id value="ips-example-3"/>
         <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Composition</b><a name="gravitate-ips-1"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Composition &quot;gravitate-ips-1&quot; </p></div><p><b>status</b>: final</p><p><b>type</b>: Patient summary Document <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#60591-5)</span></p><p><b>date</b>: 2018-07-10 15:22:00+0200</p><p><b>author</b>: <a href="#Practitioner_1ece89c5-fda3-4db9-ace6-decbe6c603d1">See above (urn:uuid:1ece89c5-fda3-4db9-ace6-decbe6c603d1: Dr. Anna Karlsson)</a></p><p><b>title</b>: Patient Summary (Maria Gravitate)</p><p><b>confidentiality</b>: N</p></div>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Composition</b><a name="ips-example-3"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Composition &quot;ips-example-3&quot; </p></div><p><b>status</b>: final</p><p><b>type</b>: Patient summary Document <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#60591-5)</span></p><p><b>date</b>: 2018-07-10 15:22:00+0200</p><p><b>author</b>: <a href="#Practitioner_1ece89c5-fda3-4db9-ace6-decbe6c603d1">See above (urn:uuid:1ece89c5-fda3-4db9-ace6-decbe6c603d1: Dr. Anna Karlsson)</a></p><p><b>title</b>: Patient Summary (Maria Gravitate)</p><p><b>confidentiality</b>: N</p></div>
         </text>
         <status value="final"/>
         <type>
@@ -44,9 +44,6 @@
               <display value="Allergies and adverse reactions Document"/>
             </coding>
           </code>
-          <text>
-            <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Hay fever (pollen)</li></ul></div>
-          </text>
           <entry>
             <reference value="urn:uuid:1dff4474-fa08-4f45-8260-dbb23094bf01"/>
             <display value="Hay fever (pollen)"/>
@@ -61,9 +58,6 @@
               <display value="Problem list Reported"/>
             </coding>
           </code>
-          <text>
-            <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Psoriasis</li><li>Hypertension</li><li>Congestive heart failure</li></ul></div>
-          </text>
           <entry>
             <reference value="urn:uuid:bcc79261-142c-48ec-b032-f3f9af49ec51"/>
             <display value="Psoriasis"/>
@@ -86,9 +80,6 @@
               <display value="Hx of Medication use"/>
             </coding>
           </code>
-          <text>
-            <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><table><thead><tr><th>Brand Name</th><th>MAN</th><th>Active Substance</th><th>Common Name</th><th>ATC</th><th>Strength</th><th>Dose Form</th><th>RoA</th></tr></thead><tbody><tr><td>Skilarence</td><td>EU/1/17/1201/001</td><td>dimethyl fumarate (FO2303MNI2)</td><td>dimethyl fumarate</td><td>L04AX07</td><td>30 mg</td><td>Gastro-resistant tablet</td><td>Oral use</td></tr><tr><td>Karvea</td><td>EMEA/H/C/000142</td><td>irbesartan (J0E2756Z7N)</td><td>irbesartan</td><td>C09DA04</td><td>75 mg</td><td>Tablet</td><td>Oral use</td></tr><tr><td>Boots Decongestant 0.05% w/v Nasal spray</td><td>PL 16028/0049</td><td>oxymetazoline hydrochloride (K89MJ0S5VY)</td><td>oxymetazoline hydrochloride</td><td>R01AA05</td><td>0.05 mg / 1 ml</td><td>Nasal spray, solution</td><td>Nasal use</td></tr></tbody></table></div>
-          </text>
           <entry>
             <reference value="urn:uuid:29074ca4-efcb-4ff4-8446-feed2399a891"/>
             <display value="Dimethyl fumarate 30 mg Gastro-resistant tablet"/>
@@ -112,12 +103,9 @@
             <coding>
               <system value="http://loinc.org"/>
               <code value="10162-6"/>
-              <display value="History of pregnancies"/>
+              <display value="Pregnancies Hx"/>
             </coding>
           </code>
-          <text>
-            <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Pregancy Status</li></ul></div>
-          </text>
           <entry>
             <reference value="urn:uuid:e06e43a1-38d4-468f-8c35-f7f12da91061"/>
             <display value="Pregrancy Status"/>

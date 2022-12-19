@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patient xmlns="http://hl7.org/fhir">
+  <id value="pedro-patient"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">Age: 42 years. I live alone, single. Electronics store salesperson Smoker since the age of 20 Interests: cultural events and concerts. I enjoy mountain activities, skiing in winter and hiking the rest of the year. Health Conditions HIV (diagnosed with 38 years) Depression</div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/patient-citizenship">
+    <extension url="code">
+      <valueCodeableConcept>
+        <coding>
+          <system value="urn:iso:std:iso:3166"/>
+          <code value="ES"/>
+          <display value="Spain"/>
+        </coding>
+      </valueCodeableConcept>
+    </extension>
+  </extension>
+  <identifier>
+    <system value="https://www.gravitatehealth.eu/sid/doc"/>
+    <value value="Pedro-1"/>
+  </identifier>
+  <active value="true"/>
+  <name>
+    <family value="Gravitate"/>
+    <given value="Pedro"/>
+  </name>
+  <gender value="male"/>
+  <birthDate value="1980-10-05"/>
+</Patient>

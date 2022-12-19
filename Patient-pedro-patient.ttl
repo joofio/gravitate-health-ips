@@ -1,0 +1,54 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.eu/fhir/ig/gravitate-health-ips/Patient/pedro-patient> a fhir:Patient;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "pedro-patient"]; # 
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Age: 42 years. I live alone, single. Electronics store salesperson Smoker since the age of 20 Interests: cultural events and concerts. I enjoy mountain activities, skiing in winter and hiking the rest of the year. Health Conditions HIV (diagnosed with 38 years) Depression</div>"
+  ]; # 
+  fhir:DomainResource.extension [
+     fhir:index 0;
+     fhir:Element.extension [
+       fhir:index 0;
+       fhir:Extension.url [ fhir:value "code" ];
+       fhir:Extension.valueCodeableConcept [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
+           fhir:Coding.code [ fhir:value "ES" ];
+           fhir:Coding.display [ fhir:value "Spain" ]
+         ]
+       ]
+     ];
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/patient-citizenship" ]
+  ]; # 
+  fhir:Patient.identifier [
+     fhir:index 0;
+     fhir:Identifier.system [ fhir:value "https://www.gravitatehealth.eu/sid/doc" ];
+     fhir:Identifier.value [ fhir:value "Pedro-1" ]
+  ]; # 
+  fhir:Patient.active [ fhir:value "true"^^xsd:boolean]; # 
+  fhir:Patient.name [
+     fhir:index 0;
+     fhir:HumanName.family [ fhir:value "Gravitate" ];
+     fhir:HumanName.given [
+       fhir:value "Pedro";
+       fhir:index 0
+     ]
+  ]; # 
+  fhir:Patient.gender [ fhir:value "male"]; # 
+  fhir:Patient.birthDate [ fhir:value "1980-10-05"^^xsd:date] . # 
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.eu/fhir/ig/gravitate-health-ips/Patient/pedro-patient.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

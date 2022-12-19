@@ -1,0 +1,26 @@
+{
+  "resourceType" : "Condition",
+  "id" : "pedro-cond-3",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">IBS</div>"
+  },
+  "clinicalStatus" : {
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/condition-clinical",
+      "code" : "active"
+    }]
+  },
+  "code" : {
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "10743008",
+      "display" : "Irritable bowel syndrome"
+    }],
+    "text" : "Irritable bowel syndrome"
+  },
+  "subject" : {
+    "reference" : "Patient/pedro-patient",
+    "display" : "Pedro Gravitate"
+  }
+}

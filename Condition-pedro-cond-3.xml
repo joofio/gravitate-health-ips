@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Condition xmlns="http://hl7.org/fhir">
+  <id value="pedro-cond-3"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">IBS</div>
+  </text>
+  <clinicalStatus>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/condition-clinical"/>
+      <code value="active"/>
+    </coding>
+  </clinicalStatus>
+  <code>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="10743008"/>
+      <display value="Irritable bowel syndrome"/>
+    </coding>
+    <text value="Irritable bowel syndrome"/>
+  </code>
+  <subject>
+    <reference value="Patient/pedro-patient"/>
+    <display value="Pedro Gravitate"/>
+  </subject>
+</Condition>

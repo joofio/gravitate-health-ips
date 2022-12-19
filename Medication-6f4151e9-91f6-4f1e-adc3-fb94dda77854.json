@@ -1,0 +1,55 @@
+{
+  "resourceType" : "Medication",
+  "id" : "6f4151e9-91f6-4f1e-adc3-fb94dda77854",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Medication</b><a name=\"6f4151e9-91f6-4f1e-adc3-fb94dda77854\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Medication &quot;6f4151e9-91f6-4f1e-adc3-fb94dda77854&quot; </p></div><p><b>code</b>: Boots Decongestant 0.05% w/v Nasal spray <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (man#16028/0049; phpid#0xF79CABF272B6A7EEF104DDDA44E82716 &quot;Oxymetazoline hydrochloride, 0.5 mg/ 1 ml, Nasal spray, solution&quot;; <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html\">WHO ATC</a>#A03FA08 &quot;Cinitapride&quot;)</span></p><p><b>form</b>: Chewable tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#10228000)</span></p><h3>Ingredients</h3><table class=\"grid\"><tr><td>-</td><td><b>Item[x]</b></td><td><b>Strength</b></td></tr><tr><td>*</td><td>CINITAPRIDE <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#R8I97I2L24)</span></td><td>1 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mg = 'mg')</span>/1 {tablet}<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code {tablet} = '{tablet}')</span></td></tr></table></div>"
+  },
+  "code" : {
+    "coding" : [{
+      "system" : "https://www.gravitatehealth.eu/sid/man",
+      "code" : "16028/0049",
+      "display" : "Boots Decongestant 0.05% w/v Nasal spray"
+    },
+    {
+      "system" : "https://www.who-umc.org/phpid",
+      "code" : "0xF79CABF272B6A7EEF104DDDA44E82716",
+      "display" : "Oxymetazoline hydrochloride, 0.5 mg/ 1 ml, Nasal spray, solution"
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "code" : "A03FA08",
+      "display" : "Cinitapride"
+    }]
+  },
+  "form" : {
+    "coding" : [{
+      "system" : "http://standardterms.edqm.eu",
+      "code" : "10228000",
+      "display" : "Chewable tablet"
+    }],
+    "text" : "Chewable tablet"
+  },
+  "ingredient" : [{
+    "itemCodeableConcept" : {
+      "coding" : [{
+        "system" : "http://fdasis.nlm.nih.gov",
+        "code" : "R8I97I2L24",
+        "display" : "CINITAPRIDE"
+      }],
+      "text" : "CINITAPRIDE"
+    },
+    "strength" : {
+      "numerator" : {
+        "value" : 1,
+        "system" : "http://unitsofmeasure.org",
+        "code" : "mg"
+      },
+      "denominator" : {
+        "value" : 1,
+        "system" : "http://unitsofmeasure.org",
+        "code" : "{tablet}"
+      }
+    }
+  }]
+}

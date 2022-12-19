@@ -47,10 +47,6 @@
          fhir:Coding.display [ fhir:value "Allergies and adverse reactions Document" ]
        ]
      ];
-     fhir:Composition.section.text [
-       fhir:Narrative.status [ fhir:value "generated" ];
-       fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Hay fever (pollen)</li><li>Lactose Intolerance</li></ul></div>"
-     ];
      fhir:Composition.section.entry [
        fhir:index 0;
        fhir:Reference.reference [ fhir:value "urn:uuid:9d18cddb-8e58-4fbb-82ec-09cc561ac805" ];
@@ -67,10 +63,6 @@
          fhir:Coding.code [ fhir:value "11450-4" ];
          fhir:Coding.display [ fhir:value "Problem list Reported" ]
        ]
-     ];
-     fhir:Composition.section.text [
-       fhir:Narrative.status [ fhir:value "generated" ];
-       fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Psoriasis</li><li>Hypertension</li><li>Congestive heart failure</li></ul></div>"
      ];
      fhir:Composition.section.entry [
        fhir:index 0;
@@ -96,10 +88,6 @@
          fhir:Coding.code [ fhir:value "10160-0" ];
          fhir:Coding.display [ fhir:value "Hx of Medication use" ]
        ]
-     ];
-     fhir:Composition.section.text [
-       fhir:Narrative.status [ fhir:value "generated" ];
-       fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Brand Name</th><th>MAN</th><th>Active Substance</th><th>Common Name</th><th>ATC</th><th>Strength</th><th>Dose Form</th><th>RoA</th></tr></thead><tbody><tr><td>Skilarence</td><td>EU/1/17/1201/001</td><td>dimethyl fumarate (FO2303MNI2)</td><td>dimethyl fumarate</td><td>L04AX07</td><td>30 mg</td><td>Gastro-resistant tablet</td><td>Oral use</td></tr><tr><td>Karvea</td><td>EMEA/H/C/000142</td><td>irbesartan (J0E2756Z7N)</td><td>irbesartan</td><td>C09DA04</td><td>75 mg</td><td>Tablet</td><td>Oral use</td></tr><tr><td>Boots Decongestant 0.05% w/v Nasal spray</td><td>PL 16028/0049</td><td>oxymetazoline hydrochloride (K89MJ0S5VY)</td><td>oxymetazoline hydrochloride</td><td>R01AA05</td><td>0.05 mg / 1 ml</td><td>Nasal spray, solution</td><td>Nasal use</td></tr></tbody></table></div>"
      ];
      fhir:Composition.section.entry [
        fhir:index 0;
