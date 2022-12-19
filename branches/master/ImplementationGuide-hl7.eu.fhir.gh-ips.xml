@@ -11,7 +11,7 @@
   <name value="GhR4ImplementationGuide"/>
   <title value="Gravitate Health FHIR Implementation Guide (FHIR R4)"/>
   <status value="active"/>
-  <date value="2022-12-19T12:04:36+00:00"/>
+  <date value="2022-12-19T12:18:39+00:00"/>
   <contact>
     <name value="Gravitate Health Project"/>
     <telecom>
@@ -461,6 +461,18 @@
       <name value="Cecilia"/>
       <description value="Cecilia IPS Resources"/>
     </grouping>
+    <grouping id="Helen">
+      <name value="Helen"/>
+      <description value="Cecilia IPS Resources"/>
+    </grouping>
+    <grouping id="Matilda">
+      <name value="Matilda"/>
+      <description value="Matilda IPS Resources"/>
+    </grouping>
+    <grouping id="Maria">
+      <name value="Maria"/>
+      <description value="Maria IPS Resources"/>
+    </grouping>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:resource"/>
@@ -618,6 +630,7 @@
       <name value="[Composition] Matilda Gravitate's IPS"/>
       <description value="Example of International Patient Summary Composition for Matilda Gravitate"/>
       <exampleBoolean value="true"/>
+      <groupingId value="Matilda"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -629,6 +642,7 @@
       <name value="Matilda Gravitate's IPS"/>
       <description value="Example of International Patient Summary for Matilda Gravitate"/>
       <exampleBoolean value="true"/>
+      <groupingId value="Matilda"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -663,6 +677,7 @@
       </reference>
       <name value="[Composition] Helen Gravitate's IPS"/>
       <exampleBoolean value="true"/>
+      <groupingId value="Helen"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -674,6 +689,7 @@
       <name value="Helen Gravitate's IPS"/>
       <description value="Example of International Patient Summary for Helen Gravitate"/>
       <exampleBoolean value="true"/>
+      <groupingId value="Helen"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -718,6 +734,7 @@
       <name value="[Composition] Maria Gravitate's IPS"/>
       <description value="Example of International Patient Summary Composition for Maria Gravitate"/>
       <exampleBoolean value="true"/>
+      <groupingId value="Maria"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -729,6 +746,7 @@
       <name value="Maria Gravitate's IPS"/>
       <description value="Example of International Patient Summary for Maria Gravitate"/>
       <exampleBoolean value="true"/>
+      <groupingId value="Maria"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

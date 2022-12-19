@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "GhR4ImplementationGuide"]; # 
   fhir:ImplementationGuide.title [ fhir:value "Gravitate Health FHIR Implementation Guide (FHIR R4)"]; # 
   fhir:ImplementationGuide.status [ fhir:value "active"]; # 
-  fhir:ImplementationGuide.date [ fhir:value "2022-12-19T12:04:36+00:00"^^xsd:dateTime]; # 
+  fhir:ImplementationGuide.date [ fhir:value "2022-12-19T12:18:39+00:00"^^xsd:dateTime]; # 
   fhir:ImplementationGuide.contact [
      fhir:index 0;
      fhir:ContactDetail.name [ fhir:value "Gravitate Health Project" ];
@@ -694,6 +694,21 @@
        fhir:Element.id [ fhir:value "Cecilia" ];
        fhir:ImplementationGuide.definition.grouping.name [ fhir:value "Cecilia" ];
        fhir:ImplementationGuide.definition.grouping.description [ fhir:value "Cecilia IPS Resources" ]
+     ], [
+       fhir:index 2;
+       fhir:Element.id [ fhir:value "Helen" ];
+       fhir:ImplementationGuide.definition.grouping.name [ fhir:value "Helen" ];
+       fhir:ImplementationGuide.definition.grouping.description [ fhir:value "Cecilia IPS Resources" ]
+     ], [
+       fhir:index 3;
+       fhir:Element.id [ fhir:value "Matilda" ];
+       fhir:ImplementationGuide.definition.grouping.name [ fhir:value "Matilda" ];
+       fhir:ImplementationGuide.definition.grouping.description [ fhir:value "Matilda IPS Resources" ]
+     ], [
+       fhir:index 4;
+       fhir:Element.id [ fhir:value "Maria" ];
+       fhir:ImplementationGuide.definition.grouping.name [ fhir:value "Maria" ];
+       fhir:ImplementationGuide.definition.grouping.description [ fhir:value "Maria IPS Resources" ]
      ];
      fhir:ImplementationGuide.definition.resource [
        fhir:index 0;
@@ -897,7 +912,8 @@
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "[Composition] Matilda Gravitate's IPS" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example of International Patient Summary Composition for Matilda Gravitate" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ];
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Matilda" ]
      ], [
        fhir:index 15;
        fhir:Element.extension [
@@ -911,7 +927,8 @@
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Matilda Gravitate's IPS" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example of International Patient Summary for Matilda Gravitate" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ];
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Matilda" ]
      ], [
        fhir:index 16;
        fhir:Element.extension [
@@ -954,7 +971,8 @@
          fhir:Reference.reference [ fhir:value "Composition/gravitate-helen" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "[Composition] Helen Gravitate's IPS" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ];
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Helen" ]
      ], [
        fhir:index 19;
        fhir:Element.extension [
@@ -968,7 +986,8 @@
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Helen Gravitate's IPS" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example of International Patient Summary for Helen Gravitate" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ];
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Helen" ]
      ], [
        fhir:index 20;
        fhir:Element.extension [
@@ -1024,7 +1043,8 @@
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "[Composition] Maria Gravitate's IPS" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example of International Patient Summary Composition for Maria Gravitate" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ];
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Maria" ]
      ], [
        fhir:index 24;
        fhir:Element.extension [
@@ -1038,7 +1058,8 @@
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Maria Gravitate's IPS" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Example of International Patient Summary for Maria Gravitate" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ];
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "Maria" ]
      ], [
        fhir:index 25;
        fhir:Element.extension [
