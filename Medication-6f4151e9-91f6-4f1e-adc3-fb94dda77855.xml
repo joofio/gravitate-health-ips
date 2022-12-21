@@ -3,48 +3,51 @@
 <Medication xmlns="http://hl7.org/fhir">
   <id value="6f4151e9-91f6-4f1e-adc3-fb94dda77855"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Medication</b><a name="6f4151e9-91f6-4f1e-adc3-fb94dda77855"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Medication &quot;6f4151e9-91f6-4f1e-adc3-fb94dda77855&quot; </p></div><p><b>code</b>: Collagen and magnesium supplements <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (man#16028/0049; <a href="http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html">WHO ATC</a>#R01AA05 &quot;oxymetazoline&quot;)</span></p><p><b>form</b>: Nasal spray, solution <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (standardterms.edqm.eu#10808000)</span></p><h3>Ingredients</h3><table class="grid"><tr><td>-</td><td><b>Item[x]</b></td><td><b>Strength</b></td></tr><tr><td>*</td><td>oxymetazoline hydrochloride <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html">Unique Ingredient Identifier (UNII)</a>#K89MJ0S5VY)</span></td><td>0.05 mg<span style="background: LightGoldenRodYellow"> (Details: UCUM code mg = 'mg')</span>/1 ml<span style="background: LightGoldenRodYellow"> (Details: UCUM code ml = 'ml')</span></td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Medication</b><a name="6f4151e9-91f6-4f1e-adc3-fb94dda77855"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Medication &quot;6f4151e9-91f6-4f1e-adc3-fb94dda77855&quot; </p></div><p><b>code</b>: AQUILEA ARTICULACIONES COLAGENO Y MAGNESIO 375GR <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (man#yyy)</span></p><p><b>form</b>: Oral powder <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (standardterms.edqm.eu#10201000)</span></p><blockquote><p><b>ingredient</b></p><p><b>item</b>: MAGNESIUM <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html">Unique Ingredient Identifier (UNII)</a>#I38ZP9992A)</span></p></blockquote><blockquote><p><b>ingredient</b></p><p><b>item</b>: HYALURONIC ACID <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html">Unique Ingredient Identifier (UNII)</a>#S270N0TRQY)</span></p></blockquote><blockquote><p><b>ingredient</b></p><p><b>item</b>: HUMAN TYPE I COLLAGEN <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html">Unique Ingredient Identifier (UNII)</a>#PT3TGI7OIP)</span></p></blockquote></div>
   </text>
   <code>
     <coding>
       <system value="https://www.gravitatehealth.eu/sid/man"/>
-      <code value="16028/0049"/>
-      <display value="Collagen and magnesium supplements"/>
-    </coding>
-    <coding>
-      <system value="http://www.whocc.no/atc"/>
-      <code value="R01AA05"/>
-      <display value="oxymetazoline"/>
+      <code value="yyy"/>
+      <display value="AQUILEA ARTICULACIONES COLAGENO Y MAGNESIO 375GR"/>
     </coding>
   </code>
   <form>
     <coding>
       <system value="http://standardterms.edqm.eu"/>
-      <code value="10808000"/>
-      <display value="Nasal spray, solution"/>
+      <code value="10201000"/>
+      <display value="Oral powder"/>
     </coding>
-    <text value="Nasal spray, solution"/>
+    <text value="Oral powder"/>
   </form>
   <ingredient>
     <itemCodeableConcept>
       <coding>
         <system value="http://fdasis.nlm.nih.gov"/>
-        <code value="K89MJ0S5VY"/>
-        <display value="oxymetazoline hydrochloride"/>
+        <code value="I38ZP9992A"/>
+        <display value="MAGNESIUM"/>
       </coding>
-      <text value="oxymetazoline hydrochloride"/>
+      <text value="MAGNESIUM"/>
     </itemCodeableConcept>
-    <strength>
-      <numerator>
-        <value value="0.05"/>
-        <system value="http://unitsofmeasure.org"/>
-        <code value="mg"/>
-      </numerator>
-      <denominator>
-        <value value="1"/>
-        <system value="http://unitsofmeasure.org"/>
-        <code value="ml"/>
-      </denominator>
-    </strength>
+  </ingredient>
+  <ingredient>
+    <itemCodeableConcept>
+      <coding>
+        <system value="http://fdasis.nlm.nih.gov"/>
+        <code value="S270N0TRQY"/>
+        <display value="HYALURONIC ACID"/>
+      </coding>
+      <text value="HYALURONIC ACID"/>
+    </itemCodeableConcept>
+  </ingredient>
+  <ingredient>
+    <itemCodeableConcept>
+      <coding>
+        <system value="http://fdasis.nlm.nih.gov"/>
+        <code value="PT3TGI7OIP"/>
+        <display value="HUMAN TYPE I COLLAGEN"/>
+      </coding>
+      <text value="HUMAN TYPE I COLLAGEN"/>
+    </itemCodeableConcept>
   </ingredient>
 </Medication>

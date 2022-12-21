@@ -1,13 +1,13 @@
 ﻿GhR4ImplementationGuide : Validation Results
 =========================================
 
-err = 6, warn = 125, info = 142
+err = 8, warn = 125, info = 142
 IG Publisher Version: 1.2.25
-Generated Wed Dec 21 15:24:43 UTC 2022. FHIR version 4.0.1 for hl7.eu.fhir.gh-ips#0.1.0 (canonical = http://hl7.eu/fhir/ig/gravitate-health-ips)
+Generated Wed Dec 21 16:15:04 UTC 2022. FHIR version 4.0.1 for hl7.eu.fhir.gh-ips#0.1.0 (canonical = http://hl7.eu/fhir/ig/gravitate-health-ips)
  Build Errors : 5 / 51 / 0
  /github/workspace/fsh-generated/resources/Bundle-gravitate-Cecilia : 0 / 25 / 21
  /github/workspace/fsh-generated/resources/Bundle-gravitate-Matilda : 0 / 14 / 14
- /github/workspace/fsh-generated/resources/Bundle-gravitate-Pedro : 0 / 30 / 29
+ /github/workspace/fsh-generated/resources/Bundle-gravitate-Pedro : 1 / 30 / 29
  /github/workspace/fsh-generated/resources/Bundle-gravitate-helen : 0 / 1 / 15
  /github/workspace/fsh-generated/resources/Bundle-gravitate-ips-1 : 0 / 1 / 21
  /github/workspace/fsh-generated/resources/Bundle-gravitate-ips-2 : 0 / 0 / 20
@@ -34,7 +34,7 @@ Generated Wed Dec 21 15:24:43 UTC 2022. FHIR version 4.0.1 for hl7.eu.fhir.gh-ip
  /github/workspace/fsh-generated/resources/Medication-6f4151e9-91f6-4f1e-adc3-fb94dda77855 : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/Medication-6f4151e9-91f6-4f1e-adc3-fb94dda77856 : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/Medication-6f4151e9-91f6-4f1e-adc3-fb94dda77857 : 0 / 0 / 2
- /github/workspace/fsh-generated/resources/Medication-6f4151e9-91f6-4f1e-adc3-fb94dda7785g : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/Medication-6f4151e9-91f6-4f1e-adc3-fb94dda7785g : 1 / 0 / 2
  /github/workspace/fsh-generated/resources/Medication-9ac3356c-4ea4-4814-84c3-235484f2ef19 : 0 / 0 / 3
  /github/workspace/fsh-generated/resources/Medication-9d7be868-8264-4d94-ad04-ef04ecc92e51 : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/Medication-9d7be868-8264-4d94-ad04-ef04ecc92e52 : 0 / 0 / 3
@@ -211,6 +211,7 @@ INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[13].resource.ofType(Medication
 INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[13].resource.ofType(Medication).code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
 INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[14].resource.ofType(Medication).code.coding[0]: Code System URI 'http://ema.europa.eu/fhir/marketingAuthorizationNumber' is unknown so the code cannot be validated
 INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[15].resource.ofType(Medication).code.coding[0]: Code System URI 'https://www.gravitatehealth.eu/sid/man' is unknown so the code cannot be validated
+ERROR: Bundle/gravitate-Pedro: Bundle.entry[15].resource.ofType(Medication).ingredient[1].strength.numerator: Local Error: Resolved system http://unitsofmeasure.org (v3.0.1), but the definition is not complete. Server Error: Error processing Unit: 'UI': The unit "UI" is unknown at character 1; The code "UI" is not valid in the system http://unitsofmeasure.org; The code provided (http://unitsofmeasure.org#UI) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://unitsofmeasure.org#UI'
 INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[16].resource.ofType(Medication).code.coding[0]: Code System URI 'https://www.gravitatehealth.eu/sid/man' is unknown so the code cannot be validated
 INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[17].resource.ofType(Medication).code.coding[0]: Code System URI 'https://www.gravitatehealth.eu/sid/man' is unknown so the code cannot be validated
 INFORMATION: Bundle/gravitate-Pedro: Bundle.entry[18].resource.ofType(Medication).code.coding[0]: Code System URI 'https://www.gravitatehealth.eu/sid/man' is unknown so the code cannot be validated
@@ -278,6 +279,7 @@ INFORMATION: Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77856: Medication.code.co
 INFORMATION: Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77857: Medication.code.coding[0]: Code System URI 'https://www.gravitatehealth.eu/sid/man' is unknown so the code cannot be validated
 == fsh-generated/resources/Medication-6f4151e9-91f6-4f1e-adc3-fb94dda7785g.json ==
 INFORMATION: Medication/6f4151e9-91f6-4f1e-adc3-fb94dda7785g: Medication.code.coding[0]: Code System URI 'https://www.gravitatehealth.eu/sid/man' is unknown so the code cannot be validated
+ERROR: Medication/6f4151e9-91f6-4f1e-adc3-fb94dda7785g: Medication.ingredient[1].strength.numerator: Local Error: Resolved system http://unitsofmeasure.org (v3.0.1), but the definition is not complete. Server Error: Error processing Unit: 'UI': The unit "UI" is unknown at character 1; The code "UI" is not valid in the system http://unitsofmeasure.org; The code provided (http://unitsofmeasure.org#UI) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://unitsofmeasure.org#UI'
 == fsh-generated/resources/Medication-9ac3356c-4ea4-4814-84c3-235484f2ef19.json ==
 INFORMATION: Medication/9ac3356c-4ea4-4814-84c3-235484f2ef19: Medication.code.coding[0]: Code System URI 'https://www.gravitatehealth.eu/sid/man' is unknown so the code cannot be validated
 INFORMATION: Medication/9ac3356c-4ea4-4814-84c3-235484f2ef19: Medication.code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
