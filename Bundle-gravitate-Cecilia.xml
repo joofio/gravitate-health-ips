@@ -50,7 +50,7 @@
           </entry>
           <entry>
             <reference value="Condition/cecilia-cond-2"/>
-            <display value="Diabetese Type 2"/>
+            <display value="Congestive Heart Failure"/>
           </entry>
           <entry>
             <reference value="Condition/cecilia-cond-3"/>
@@ -58,7 +58,7 @@
           </entry>
           <entry>
             <reference value="Condition/cecilia-cond-4"/>
-            <display value="Congestive Heart Failure"/>
+            <display value="Diabetese Type 2"/>
           </entry>
         </section>
         <section>
