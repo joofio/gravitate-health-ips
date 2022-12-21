@@ -50,7 +50,7 @@
         },
         {
           "reference" : "Condition/cecilia-cond-2",
-          "display" : "Diabetese Type 2"
+          "display" : "Congestive Heart Failure"
         },
         {
           "reference" : "Condition/cecilia-cond-3",
@@ -58,7 +58,7 @@
         },
         {
           "reference" : "Condition/cecilia-cond-4",
-          "display" : "Congestive Heart Failure"
+          "display" : "Diabetese Type 2"
         }]
       },
       {

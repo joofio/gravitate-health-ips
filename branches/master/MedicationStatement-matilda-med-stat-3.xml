@@ -3,11 +3,11 @@
 <MedicationStatement xmlns="http://hl7.org/fhir">
   <id value="matilda-med-stat-3"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: MedicationStatement</b><a name="matilda-med-stat-3"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource MedicationStatement &quot;matilda-med-stat-3&quot; </p></div><p><b>status</b>: active</p><p><b>medication</b>: <a href="Medication-9d7be868-8264-4d94-ad04-ef04ecc92e51.html">Medication/9d7be868-8264-4d94-ad04-ef04ecc92e51: Pentasa 1g mesalazine</a></p><p><b>subject</b>: <a href="Patient-matilda-patient.html">Patient/matilda-patient: Matilda Gravitate</a> &quot; GRAVITATE&quot;</p><h3>Dosages</h3><table class="grid"><tr><td>-</td><td><b>Route</b></td></tr><tr><td>*</td><td>Oral use <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (standardterms.edqm.eu#20053000)</span></td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: MedicationStatement</b><a name="matilda-med-stat-3"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource MedicationStatement &quot;matilda-med-stat-3&quot; </p></div><p><b>status</b>: active</p><p><b>medication</b>: <a href="Medication-fdb5c97f-0a46-41ba-bc34-2efd2ef2f7eu.html">Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7eu: Pentasa 1g mesalazine</a></p><p><b>subject</b>: <a href="Patient-matilda-patient.html">Patient/matilda-patient: Matilda Gravitate</a> &quot; GRAVITATE&quot;</p><h3>Dosages</h3><table class="grid"><tr><td>-</td><td><b>Route</b></td></tr><tr><td>*</td><td>Oral use <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (standardterms.edqm.eu#20053000)</span></td></tr></table></div>
   </text>
   <status value="active"/>
   <medicationReference>
-    <reference value="Medication/9d7be868-8264-4d94-ad04-ef04ecc92e51"/>
+    <reference value="Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7eu"/>
     <display value="Pentasa 1g mesalazine"/>
   </medicationReference>
   <subject>

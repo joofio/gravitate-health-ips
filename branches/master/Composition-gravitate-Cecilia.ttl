@@ -58,7 +58,7 @@
        fhir:index 1;
        fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Condition/cecilia-cond-2>;
        fhir:Reference.reference [ fhir:value "Condition/cecilia-cond-2" ];
-       fhir:Reference.display [ fhir:value "Diabetese Type 2" ]
+       fhir:Reference.display [ fhir:value "Congestive Heart Failure" ]
      ], [
        fhir:index 2;
        fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Condition/cecilia-cond-3>;
@@ -68,7 +68,7 @@
        fhir:index 3;
        fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Condition/cecilia-cond-4>;
        fhir:Reference.reference [ fhir:value "Condition/cecilia-cond-4" ];
-       fhir:Reference.display [ fhir:value "Congestive Heart Failure" ]
+       fhir:Reference.display [ fhir:value "Diabetese Type 2" ]
      ]
   ], [
      fhir:index 1;

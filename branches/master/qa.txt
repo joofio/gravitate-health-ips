@@ -1,12 +1,12 @@
 ﻿GhR4ImplementationGuide : Validation Results
 =========================================
 
-err = 6, warn = 125, info = 138
+err = 6, warn = 125, info = 142
 IG Publisher Version: 1.2.25
-Generated Mon Dec 19 15:01:09 UTC 2022. FHIR version 4.0.1 for hl7.eu.fhir.gh-ips#0.1.0 (canonical = http://hl7.eu/fhir/ig/gravitate-health-ips)
+Generated Wed Dec 21 15:24:43 UTC 2022. FHIR version 4.0.1 for hl7.eu.fhir.gh-ips#0.1.0 (canonical = http://hl7.eu/fhir/ig/gravitate-health-ips)
  Build Errors : 5 / 51 / 0
  /github/workspace/fsh-generated/resources/Bundle-gravitate-Cecilia : 0 / 25 / 21
- /github/workspace/fsh-generated/resources/Bundle-gravitate-Matilda : 0 / 14 / 12
+ /github/workspace/fsh-generated/resources/Bundle-gravitate-Matilda : 0 / 14 / 14
  /github/workspace/fsh-generated/resources/Bundle-gravitate-Pedro : 0 / 30 / 29
  /github/workspace/fsh-generated/resources/Bundle-gravitate-helen : 0 / 1 / 15
  /github/workspace/fsh-generated/resources/Bundle-gravitate-ips-1 : 0 / 1 / 21
@@ -41,8 +41,8 @@ Generated Mon Dec 19 15:01:09 UTC 2022. FHIR version 4.0.1 for hl7.eu.fhir.gh-ip
  /github/workspace/fsh-generated/resources/Medication-b50ae644-e0b7-4007-809f-26f493cbe36c : 0 / 0 / 3
  /github/workspace/fsh-generated/resources/Medication-de131e15-ed13-4b31-b38c-3204a84d99c4 : 0 / 0 / 3
  /github/workspace/fsh-generated/resources/Medication-fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4 : 0 / 0 / 2
- /github/workspace/fsh-generated/resources/Medication-fdb5c97f-0a46-41ba-bc34-2efd2ef2f7et : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/Medication-fdb5c97f-0a46-41ba-bc34-2efd2ef2f7eu : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Medication-fdb5c97f-0a46-41ba-bc34-2efd2ef2f7et : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/Medication-fdb5c97f-0a46-41ba-bc34-2efd2ef2f7eu : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/MedicationStatement-cecilia-med-stat-1 : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/MedicationStatement-cecilia-med-stat-2 : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/MedicationStatement-cecilia-med-stat-3 : 0 / 0 / 1
@@ -167,13 +167,15 @@ WARNING: Bundle/gravitate-Matilda: Bundle.entry[0].resource.ofType(Composition).
 WARNING: Bundle/gravitate-Matilda: Bundle.entry[0].resource.ofType(Composition).section[1].entry[2]: Entry 6 matches the reference MedicationStatement/matilda-med-stat-3 by type and id but it's fullUrl matilda-med-stat-3 does not match the full target URL MedicationStatement/matilda-med-stat-3 by Bundle resolution rules
 WARNING: Bundle/gravitate-Matilda: Bundle.entry[3].resource.ofType(Condition).subject: Entry 1 matches the reference Patient/matilda-patient by type and id but it's fullUrl matilda-patient does not match the full target URL Patient/matilda-patient by Bundle resolution rules
 WARNING: Bundle/gravitate-Matilda: Bundle.entry[3].resource.ofType(Condition).asserter: Entry 2 matches the reference Practitioner/matilda-pract by type and id but it's fullUrl matilda-pract does not match the full target URL Practitioner/matilda-pract by Bundle resolution rules
-WARNING: Bundle/gravitate-Matilda: Bundle.entry[4].resource.ofType(MedicationStatement).medication.ofType(Reference): Entry 8 matches the reference Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7et by type and id but it's fullUrl fdb5c97f-0a46-41ba-bc34-2efd2ef2f7et does not match the full target URL Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7et by Bundle resolution rules
+WARNING: Bundle/gravitate-Matilda: Bundle.entry[4].resource.ofType(MedicationStatement).medication.ofType(Reference): Entry 7 matches the reference Medication/9d7be868-8264-4d94-ad04-ef04ecc92e51 by type and id but it's fullUrl 9d7be868-8264-4d94-ad04-ef04ecc92e51 does not match the full target URL Medication/9d7be868-8264-4d94-ad04-ef04ecc92e51 by Bundle resolution rules
 WARNING: Bundle/gravitate-Matilda: Bundle.entry[4].resource.ofType(MedicationStatement).subject: Entry 1 matches the reference Patient/matilda-patient by type and id but it's fullUrl matilda-patient does not match the full target URL Patient/matilda-patient by Bundle resolution rules
-WARNING: Bundle/gravitate-Matilda: Bundle.entry[5].resource.ofType(MedicationStatement).medication.ofType(Reference): Entry 9 matches the reference Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7eu by type and id but it's fullUrl fdb5c97f-0a46-41ba-bc34-2efd2ef2f7eu does not match the full target URL Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7eu by Bundle resolution rules
+WARNING: Bundle/gravitate-Matilda: Bundle.entry[5].resource.ofType(MedicationStatement).medication.ofType(Reference): Entry 8 matches the reference Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7et by type and id but it's fullUrl fdb5c97f-0a46-41ba-bc34-2efd2ef2f7et does not match the full target URL Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7et by Bundle resolution rules
 WARNING: Bundle/gravitate-Matilda: Bundle.entry[5].resource.ofType(MedicationStatement).subject: Entry 1 matches the reference Patient/matilda-patient by type and id but it's fullUrl matilda-patient does not match the full target URL Patient/matilda-patient by Bundle resolution rules
-WARNING: Bundle/gravitate-Matilda: Bundle.entry[6].resource.ofType(MedicationStatement).medication.ofType(Reference): Entry 7 matches the reference Medication/9d7be868-8264-4d94-ad04-ef04ecc92e51 by type and id but it's fullUrl 9d7be868-8264-4d94-ad04-ef04ecc92e51 does not match the full target URL Medication/9d7be868-8264-4d94-ad04-ef04ecc92e51 by Bundle resolution rules
+WARNING: Bundle/gravitate-Matilda: Bundle.entry[6].resource.ofType(MedicationStatement).medication.ofType(Reference): Entry 9 matches the reference Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7eu by type and id but it's fullUrl fdb5c97f-0a46-41ba-bc34-2efd2ef2f7eu does not match the full target URL Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7eu by Bundle resolution rules
 WARNING: Bundle/gravitate-Matilda: Bundle.entry[6].resource.ofType(MedicationStatement).subject: Entry 1 matches the reference Patient/matilda-patient by type and id but it's fullUrl matilda-patient does not match the full target URL Patient/matilda-patient by Bundle resolution rules
 INFORMATION: Bundle/gravitate-Matilda: Bundle.entry[7].resource.ofType(Medication).code.coding[0]: Code System URI 'http://ema.europa.eu/fhir/marketingAuthorizationNumber' is unknown so the code cannot be validated
+INFORMATION: Bundle/gravitate-Matilda: Bundle.entry[8].resource.ofType(Medication).code.coding[0]: Code System URI 'http://ema.europa.eu/fhir/marketingAuthorizationNumber' is unknown so the code cannot be validated
+INFORMATION: Bundle/gravitate-Matilda: Bundle.entry[9].resource.ofType(Medication).code.coding[0]: Code System URI 'https://www.gravitatehealth.eu/sid/man' is unknown so the code cannot be validated
 == fsh-generated/resources/Bundle-gravitate-Pedro.json ==
 WARNING: Bundle/gravitate-Pedro: Bundle.entry[0].resource.ofType(Composition).subject: Entry 1 matches the reference Patient/pedro-patient by type and id but it's fullUrl pedro-patient does not match the full target URL Patient/pedro-patient by Bundle resolution rules
 WARNING: Bundle/gravitate-Pedro: Bundle.entry[0].resource.ofType(Composition).author[0]: Entry 2 matches the reference Practitioner/pedro-pract by type and id but it's fullUrl pedro-pract does not match the full target URL Practitioner/pedro-pract by Bundle resolution rules
@@ -193,9 +195,9 @@ WARNING: Bundle/gravitate-Pedro: Bundle.entry[4].resource.ofType(Condition).asse
 WARNING: Bundle/gravitate-Pedro: Bundle.entry[5].resource.ofType(Condition).subject: Entry 1 matches the reference Patient/pedro-patient by type and id but it's fullUrl pedro-patient does not match the full target URL Patient/pedro-patient by Bundle resolution rules
 WARNING: Bundle/gravitate-Pedro: Bundle.entry[6].resource.ofType(MedicationStatement).medication.ofType(Reference): Entry 13 matches the reference Medication/9d7be868-8264-4d94-ad04-ef04ecc92e52 by type and id but it's fullUrl 9d7be868-8264-4d94-ad04-ef04ecc92e52 does not match the full target URL Medication/9d7be868-8264-4d94-ad04-ef04ecc92e52 by Bundle resolution rules
 WARNING: Bundle/gravitate-Pedro: Bundle.entry[6].resource.ofType(MedicationStatement).subject: Entry 1 matches the reference Patient/pedro-patient by type and id but it's fullUrl pedro-patient does not match the full target URL Patient/pedro-patient by Bundle resolution rules
-WARNING: Bundle/gravitate-Pedro: Bundle.entry[7].resource.ofType(MedicationStatement).medication.ofType(Reference): Entry 15 matches the reference Medication/6f4151e9-91f6-4f1e-adc3-fb94dda7785g by type and id but it's fullUrl 6f4151e9-91f6-4f1e-adc3-fb94dda7785g does not match the full target URL Medication/6f4151e9-91f6-4f1e-adc3-fb94dda7785g by Bundle resolution rules
+WARNING: Bundle/gravitate-Pedro: Bundle.entry[7].resource.ofType(MedicationStatement).medication.ofType(Reference): Entry 14 matches the reference Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4 by type and id but it's fullUrl fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4 does not match the full target URL Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4 by Bundle resolution rules
 WARNING: Bundle/gravitate-Pedro: Bundle.entry[7].resource.ofType(MedicationStatement).subject: Entry 1 matches the reference Patient/pedro-patient by type and id but it's fullUrl pedro-patient does not match the full target URL Patient/pedro-patient by Bundle resolution rules
-WARNING: Bundle/gravitate-Pedro: Bundle.entry[8].resource.ofType(MedicationStatement).medication.ofType(Reference): Entry 14 matches the reference Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4 by type and id but it's fullUrl fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4 does not match the full target URL Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4 by Bundle resolution rules
+WARNING: Bundle/gravitate-Pedro: Bundle.entry[8].resource.ofType(MedicationStatement).medication.ofType(Reference): Entry 15 matches the reference Medication/6f4151e9-91f6-4f1e-adc3-fb94dda7785g by type and id but it's fullUrl 6f4151e9-91f6-4f1e-adc3-fb94dda7785g does not match the full target URL Medication/6f4151e9-91f6-4f1e-adc3-fb94dda7785g by Bundle resolution rules
 WARNING: Bundle/gravitate-Pedro: Bundle.entry[8].resource.ofType(MedicationStatement).subject: Entry 1 matches the reference Patient/pedro-patient by type and id but it's fullUrl pedro-patient does not match the full target URL Patient/pedro-patient by Bundle resolution rules
 WARNING: Bundle/gravitate-Pedro: Bundle.entry[9].resource.ofType(MedicationStatement).medication.ofType(Reference): Entry 16 matches the reference Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77854 by type and id but it's fullUrl 6f4151e9-91f6-4f1e-adc3-fb94dda77854 does not match the full target URL Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77854 by Bundle resolution rules
 WARNING: Bundle/gravitate-Pedro: Bundle.entry[9].resource.ofType(MedicationStatement).subject: Entry 1 matches the reference Patient/pedro-patient by type and id but it's fullUrl pedro-patient does not match the full target URL Patient/pedro-patient by Bundle resolution rules
@@ -293,7 +295,9 @@ INFORMATION: Medication/de131e15-ed13-4b31-b38c-3204a84d99c4: Medication.code.co
 == fsh-generated/resources/Medication-fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4.json ==
 INFORMATION: Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4: Medication.code.coding[0]: Code System URI 'http://ema.europa.eu/fhir/marketingAuthorizationNumber' is unknown so the code cannot be validated
 == fsh-generated/resources/Medication-fdb5c97f-0a46-41ba-bc34-2efd2ef2f7et.json ==
+INFORMATION: Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7et: Medication.code.coding[0]: Code System URI 'http://ema.europa.eu/fhir/marketingAuthorizationNumber' is unknown so the code cannot be validated
 == fsh-generated/resources/Medication-fdb5c97f-0a46-41ba-bc34-2efd2ef2f7eu.json ==
+INFORMATION: Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7eu: Medication.code.coding[0]: Code System URI 'https://www.gravitatehealth.eu/sid/man' is unknown so the code cannot be validated
 == fsh-generated/resources/MedicationStatement-cecilia-med-stat-1.json ==
 == fsh-generated/resources/MedicationStatement-cecilia-med-stat-2.json ==
 == fsh-generated/resources/MedicationStatement-cecilia-med-stat-3.json ==
