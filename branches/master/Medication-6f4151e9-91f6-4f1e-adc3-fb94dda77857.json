@@ -3,48 +3,31 @@
   "id" : "6f4151e9-91f6-4f1e-adc3-fb94dda77857",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Medication</b><a name=\"6f4151e9-91f6-4f1e-adc3-fb94dda77857\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Medication &quot;6f4151e9-91f6-4f1e-adc3-fb94dda77857&quot; </p></div><p><b>code</b>: Protein supplements <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (man#16028/0049; <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html\">WHO ATC</a>#R01AA05 &quot;oxymetazoline&quot;)</span></p><p><b>form</b>: Nasal spray, solution <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#10808000)</span></p><h3>Ingredients</h3><table class=\"grid\"><tr><td>-</td><td><b>Item[x]</b></td><td><b>Strength</b></td></tr><tr><td>*</td><td>oxymetazoline hydrochloride <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#K89MJ0S5VY)</span></td><td>0.05 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mg = 'mg')</span>/1 ml<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code ml = 'ml')</span></td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Medication</b><a name=\"6f4151e9-91f6-4f1e-adc3-fb94dda77857\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Medication &quot;6f4151e9-91f6-4f1e-adc3-fb94dda77857&quot; </p></div><p><b>code</b>: NATURES PLUS SPIRU-TEIN BATIDO PROTEINA SABOR COOKIES 525GR <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (man#zzzz)</span></p><p><b>form</b>: Oral powder <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#10201000)</span></p><h3>Ingredients</h3><table class=\"grid\"><tr><td>-</td><td><b>Item[x]</b></td></tr><tr><td>*</td><td>SOY PROTEIN <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#R44IWB3RN5)</span></td></tr></table></div>"
   },
   "code" : {
     "coding" : [{
       "system" : "https://www.gravitatehealth.eu/sid/man",
-      "code" : "16028/0049",
-      "display" : "Protein supplements"
-    },
-    {
-      "system" : "http://www.whocc.no/atc",
-      "code" : "R01AA05",
-      "display" : "oxymetazoline"
+      "code" : "zzzz",
+      "display" : "NATURES PLUS SPIRU-TEIN BATIDO PROTEINA SABOR COOKIES 525GR"
     }]
   },
   "form" : {
     "coding" : [{
       "system" : "http://standardterms.edqm.eu",
-      "code" : "10808000",
-      "display" : "Nasal spray, solution"
+      "code" : "10201000",
+      "display" : "Oral powder"
     }],
-    "text" : "Nasal spray, solution"
+    "text" : "Oral powder"
   },
   "ingredient" : [{
     "itemCodeableConcept" : {
       "coding" : [{
         "system" : "http://fdasis.nlm.nih.gov",
-        "code" : "K89MJ0S5VY",
-        "display" : "oxymetazoline hydrochloride"
+        "code" : "R44IWB3RN5",
+        "display" : "SOY PROTEIN"
       }],
-      "text" : "oxymetazoline hydrochloride"
-    },
-    "strength" : {
-      "numerator" : {
-        "value" : 0.05,
-        "system" : "http://unitsofmeasure.org",
-        "code" : "mg"
-      },
-      "denominator" : {
-        "value" : 1,
-        "system" : "http://unitsofmeasure.org",
-        "code" : "ml"
-      }
+      "text" : "SOY PROTEIN"
     }
   }]
 }

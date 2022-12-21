@@ -705,29 +705,24 @@
   fhir:Resource.id [ fhir:value "6f4151e9-91f6-4f1e-adc3-fb94dda7785g"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Medication</b><a name=\"6f4151e9-91f6-4f1e-adc3-fb94dda7785g\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Medication &quot;6f4151e9-91f6-4f1e-adc3-fb94dda7785g&quot; </p></div><p><b>code</b>: Calcium carbonate 500 mg <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (man#16028/0049; <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html\">WHO ATC</a>#A12AA04 &quot;calcium carbonate&quot;)</span></p><p><b>form</b>: Chewable tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#10228000)</span></p><h3>Ingredients</h3><table class=\"grid\"><tr><td>-</td><td><b>Item[x]</b></td><td><b>Strength</b></td></tr><tr><td>*</td><td>calcium carbonate <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#H0G9379FGK &quot;Calcium carbonate&quot;)</span></td><td>500 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mg = 'mg')</span>/1 Tablet<span style=\"background: LightGoldenRodYellow\"> (Details: http://standardterms.edqm.eu code 15054000 = 'Tablet')</span></td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Medication</b><a name=\"6f4151e9-91f6-4f1e-adc3-fb94dda7785g\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Medication &quot;6f4151e9-91f6-4f1e-adc3-fb94dda7785g&quot; </p></div><p><b>code</b>: CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (man#16028/0049)</span></p><p><b>form</b>: Effervescent tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#10222000)</span></p><blockquote><p><b>ingredient</b></p><p><b>item</b>: calcium carbonate <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#H0G9379FGK &quot;Calcium carbonate&quot;)</span></p><p><b>strength</b>: 1000 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mg = 'mg')</span>/1 Tablet<span style=\"background: LightGoldenRodYellow\"> (Details: http://standardterms.edqm.eu code 15054000 = 'Tablet')</span></p></blockquote><blockquote><p><b>ingredient</b></p><p><b>item</b>: cholecalciferol <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#1C6V77QF41)</span></p><p><b>strength</b>: 880 UI<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code UI = 'UI')</span>/1 Tablet<span style=\"background: LightGoldenRodYellow\"> (Details: http://standardterms.edqm.eu code 15054000 = 'Tablet')</span></p></blockquote></div>"
   ]; # 
   fhir:Medication.code [
      fhir:CodeableConcept.coding [
        fhir:index 0;
        fhir:Coding.system [ fhir:value "https://www.gravitatehealth.eu/sid/man" ];
        fhir:Coding.code [ fhir:value "16028/0049" ];
-       fhir:Coding.display [ fhir:value "Calcium carbonate 500 mg" ]
-     ], [
-       fhir:index 1;
-       fhir:Coding.system [ fhir:value "http://www.whocc.no/atc" ];
-       fhir:Coding.code [ fhir:value "A12AA04" ];
-       fhir:Coding.display [ fhir:value "calcium carbonate" ]
+       fhir:Coding.display [ fhir:value "CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES" ]
      ]
   ]; # 
   fhir:Medication.form [
      fhir:CodeableConcept.coding [
        fhir:index 0;
        fhir:Coding.system [ fhir:value "http://standardterms.edqm.eu" ];
-       fhir:Coding.code [ fhir:value "10228000" ];
-       fhir:Coding.display [ fhir:value "Chewable tablet" ]
+       fhir:Coding.code [ fhir:value "10222000" ];
+       fhir:Coding.display [ fhir:value "Effervescent tablet" ]
      ];
-     fhir:CodeableConcept.text [ fhir:value "Chewable tablet" ]
+     fhir:CodeableConcept.text [ fhir:value "Effervescent tablet" ]
   ]; # 
   fhir:Medication.ingredient [
      fhir:index 0;
@@ -742,9 +737,33 @@
      ];
      fhir:Medication.ingredient.strength [
        fhir:Ratio.numerator [
-         fhir:Quantity.value [ fhir:value "500"^^xsd:decimal ];
+         fhir:Quantity.value [ fhir:value "1000"^^xsd:decimal ];
          fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ];
          fhir:Quantity.code [ fhir:value "mg" ]
+       ];
+       fhir:Ratio.denominator [
+         fhir:Quantity.value [ fhir:value "1"^^xsd:decimal ];
+         fhir:Quantity.unit [ fhir:value "Tablet" ];
+         fhir:Quantity.system [ fhir:value "http://standardterms.edqm.eu" ];
+         fhir:Quantity.code [ fhir:value "15054000" ]
+       ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:Medication.ingredient.itemCodeableConcept [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://fdasis.nlm.nih.gov" ];
+         fhir:Coding.code [ fhir:value "1C6V77QF41" ];
+         fhir:Coding.display [ fhir:value "cholecalciferol" ]
+       ];
+       fhir:CodeableConcept.text [ fhir:value "cholecalciferol" ]
+     ];
+     fhir:Medication.ingredient.strength [
+       fhir:Ratio.numerator [
+         fhir:Quantity.value [ fhir:value "880"^^xsd:decimal ];
+         fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ];
+         fhir:Quantity.code [ fhir:value "UI" ]
        ];
        fhir:Ratio.denominator [
          fhir:Quantity.value [ fhir:value "1"^^xsd:decimal ];
@@ -759,7 +778,7 @@
   fhir:Resource.id [ fhir:value "6f4151e9-91f6-4f1e-adc3-fb94dda77854"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Medication</b><a name=\"6f4151e9-91f6-4f1e-adc3-fb94dda77854\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Medication &quot;6f4151e9-91f6-4f1e-adc3-fb94dda77854&quot; </p></div><p><b>code</b>: BLASTON 1 mg tablets <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (man#xxxxxx; <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html\">WHO ATC</a>#A03FA08 &quot;Cinitapride&quot;)</span></p><p><b>form</b>: Chewable tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#10228000)</span></p><h3>Ingredients</h3><table class=\"grid\"><tr><td>-</td><td><b>Item[x]</b></td><td><b>Strength</b></td></tr><tr><td>*</td><td>CINITAPRIDE <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#R8I97I2L24)</span></td><td>1 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mg = 'mg')</span>/1 Tablet<span style=\"background: LightGoldenRodYellow\"> (Details: http://standardterms.edqm.eu code 15054000 = 'Tablet')</span></td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Medication</b><a name=\"6f4151e9-91f6-4f1e-adc3-fb94dda77854\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Medication &quot;6f4151e9-91f6-4f1e-adc3-fb94dda77854&quot; </p></div><p><b>code</b>: BLASTON 1 mg tablets <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (man#xxxxxx; <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html\">WHO ATC</a>#A03FA08 &quot;Cinitapride&quot;)</span></p><p><b>form</b>: Tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#10219000)</span></p><h3>Ingredients</h3><table class=\"grid\"><tr><td>-</td><td><b>Item[x]</b></td><td><b>Strength</b></td></tr><tr><td>*</td><td>CINITAPRIDE <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#R8I97I2L24)</span></td><td>1 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mg = 'mg')</span>/1 Tablet<span style=\"background: LightGoldenRodYellow\"> (Details: http://standardterms.edqm.eu code 15054000 = 'Tablet')</span></td></tr></table></div>"
   ]; # 
   fhir:Medication.code [
      fhir:CodeableConcept.coding [
@@ -778,10 +797,10 @@
      fhir:CodeableConcept.coding [
        fhir:index 0;
        fhir:Coding.system [ fhir:value "http://standardterms.edqm.eu" ];
-       fhir:Coding.code [ fhir:value "10228000" ];
-       fhir:Coding.display [ fhir:value "Chewable tablet" ]
+       fhir:Coding.code [ fhir:value "10219000" ];
+       fhir:Coding.display [ fhir:value "Tablet" ]
      ];
-     fhir:CodeableConcept.text [ fhir:value "Chewable tablet" ]
+     fhir:CodeableConcept.text [ fhir:value "Tablet" ]
   ]; # 
   fhir:Medication.ingredient [
      fhir:index 0;
@@ -813,29 +832,24 @@
   fhir:Resource.id [ fhir:value "6f4151e9-91f6-4f1e-adc3-fb94dda77855"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Medication</b><a name=\"6f4151e9-91f6-4f1e-adc3-fb94dda77855\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Medication &quot;6f4151e9-91f6-4f1e-adc3-fb94dda77855&quot; </p></div><p><b>code</b>: Collagen and magnesium supplements <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (man#16028/0049; <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html\">WHO ATC</a>#R01AA05 &quot;oxymetazoline&quot;)</span></p><p><b>form</b>: Nasal spray, solution <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#10808000)</span></p><h3>Ingredients</h3><table class=\"grid\"><tr><td>-</td><td><b>Item[x]</b></td><td><b>Strength</b></td></tr><tr><td>*</td><td>oxymetazoline hydrochloride <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#K89MJ0S5VY)</span></td><td>0.05 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mg = 'mg')</span>/1 ml<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code ml = 'ml')</span></td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Medication</b><a name=\"6f4151e9-91f6-4f1e-adc3-fb94dda77855\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Medication &quot;6f4151e9-91f6-4f1e-adc3-fb94dda77855&quot; </p></div><p><b>code</b>: AQUILEA ARTICULACIONES COLAGENO Y MAGNESIO 375GR <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (man#yyy)</span></p><p><b>form</b>: Oral powder <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#10201000)</span></p><blockquote><p><b>ingredient</b></p><p><b>item</b>: MAGNESIUM <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#I38ZP9992A)</span></p></blockquote><blockquote><p><b>ingredient</b></p><p><b>item</b>: HYALURONIC ACID <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#S270N0TRQY)</span></p></blockquote><blockquote><p><b>ingredient</b></p><p><b>item</b>: HUMAN TYPE I COLLAGEN <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#PT3TGI7OIP)</span></p></blockquote></div>"
   ]; # 
   fhir:Medication.code [
      fhir:CodeableConcept.coding [
        fhir:index 0;
        fhir:Coding.system [ fhir:value "https://www.gravitatehealth.eu/sid/man" ];
-       fhir:Coding.code [ fhir:value "16028/0049" ];
-       fhir:Coding.display [ fhir:value "Collagen and magnesium supplements" ]
-     ], [
-       fhir:index 1;
-       fhir:Coding.system [ fhir:value "http://www.whocc.no/atc" ];
-       fhir:Coding.code [ fhir:value "R01AA05" ];
-       fhir:Coding.display [ fhir:value "oxymetazoline" ]
+       fhir:Coding.code [ fhir:value "yyy" ];
+       fhir:Coding.display [ fhir:value "AQUILEA ARTICULACIONES COLAGENO Y MAGNESIO 375GR" ]
      ]
   ]; # 
   fhir:Medication.form [
      fhir:CodeableConcept.coding [
        fhir:index 0;
        fhir:Coding.system [ fhir:value "http://standardterms.edqm.eu" ];
-       fhir:Coding.code [ fhir:value "10808000" ];
-       fhir:Coding.display [ fhir:value "Nasal spray, solution" ]
+       fhir:Coding.code [ fhir:value "10201000" ];
+       fhir:Coding.display [ fhir:value "Oral powder" ]
      ];
-     fhir:CodeableConcept.text [ fhir:value "Nasal spray, solution" ]
+     fhir:CodeableConcept.text [ fhir:value "Oral powder" ]
   ]; # 
   fhir:Medication.ingredient [
      fhir:index 0;
@@ -843,22 +857,32 @@
        fhir:CodeableConcept.coding [
          fhir:index 0;
          fhir:Coding.system [ fhir:value "http://fdasis.nlm.nih.gov" ];
-         fhir:Coding.code [ fhir:value "K89MJ0S5VY" ];
-         fhir:Coding.display [ fhir:value "oxymetazoline hydrochloride" ]
+         fhir:Coding.code [ fhir:value "I38ZP9992A" ];
+         fhir:Coding.display [ fhir:value "MAGNESIUM" ]
        ];
-       fhir:CodeableConcept.text [ fhir:value "oxymetazoline hydrochloride" ]
-     ];
-     fhir:Medication.ingredient.strength [
-       fhir:Ratio.numerator [
-         fhir:Quantity.value [ fhir:value "0.05"^^xsd:decimal ];
-         fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ];
-         fhir:Quantity.code [ fhir:value "mg" ]
+       fhir:CodeableConcept.text [ fhir:value "MAGNESIUM" ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:Medication.ingredient.itemCodeableConcept [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://fdasis.nlm.nih.gov" ];
+         fhir:Coding.code [ fhir:value "S270N0TRQY" ];
+         fhir:Coding.display [ fhir:value "HYALURONIC ACID" ]
        ];
-       fhir:Ratio.denominator [
-         fhir:Quantity.value [ fhir:value "1"^^xsd:decimal ];
-         fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ];
-         fhir:Quantity.code [ fhir:value "ml" ]
-       ]
+       fhir:CodeableConcept.text [ fhir:value "HYALURONIC ACID" ]
+     ]
+  ], [
+     fhir:index 2;
+     fhir:Medication.ingredient.itemCodeableConcept [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://fdasis.nlm.nih.gov" ];
+         fhir:Coding.code [ fhir:value "PT3TGI7OIP" ];
+         fhir:Coding.display [ fhir:value "HUMAN TYPE I COLLAGEN" ]
+       ];
+       fhir:CodeableConcept.text [ fhir:value "HUMAN TYPE I COLLAGEN" ]
      ]
   ] . # 
 
@@ -866,14 +890,14 @@
   fhir:Resource.id [ fhir:value "6f4151e9-91f6-4f1e-adc3-fb94dda77856"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Medication</b><a name=\"6f4151e9-91f6-4f1e-adc3-fb94dda77856\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Medication &quot;6f4151e9-91f6-4f1e-adc3-fb94dda77856&quot; </p></div><p><b>code</b>: Vitamin c supplements <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (man#16028/0049; <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html\">WHO ATC</a>#R01AA05 &quot;oxymetazoline&quot;)</span></p><p><b>form</b>: Nasal spray, solution <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#10808000)</span></p><h3>Ingredients</h3><table class=\"grid\"><tr><td>-</td><td><b>Item[x]</b></td><td><b>Strength</b></td></tr><tr><td>*</td><td>Vitamin C <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#PQ6CK8PD0R &quot;ASCORBIC ACID&quot;)</span></td><td>0.05 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mg = 'mg')</span>/1 ml<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code ml = 'ml')</span></td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Medication</b><a name=\"6f4151e9-91f6-4f1e-adc3-fb94dda77856\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Medication &quot;6f4151e9-91f6-4f1e-adc3-fb94dda77856&quot; </p></div><p><b>code</b>: SORIA NATURAL VITAMINA C 36 COMPRIMIDOS <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (man#kkk; <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html\">WHO ATC</a>#R01AA05 &quot;oxymetazoline&quot;)</span></p><p><b>form</b>: Modified-release tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#10227000)</span></p><h3>Ingredients</h3><table class=\"grid\"><tr><td>-</td><td><b>Item[x]</b></td></tr><tr><td>*</td><td>Vitamin C <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#PQ6CK8PD0R &quot;ASCORBIC ACID&quot;)</span></td></tr></table></div>"
   ]; # 
   fhir:Medication.code [
      fhir:CodeableConcept.coding [
        fhir:index 0;
        fhir:Coding.system [ fhir:value "https://www.gravitatehealth.eu/sid/man" ];
-       fhir:Coding.code [ fhir:value "16028/0049" ];
-       fhir:Coding.display [ fhir:value "Vitamin c supplements" ]
+       fhir:Coding.code [ fhir:value "kkk" ];
+       fhir:Coding.display [ fhir:value "SORIA NATURAL VITAMINA C 36 COMPRIMIDOS" ]
      ], [
        fhir:index 1;
        fhir:Coding.system [ fhir:value "http://www.whocc.no/atc" ];
@@ -885,10 +909,10 @@
      fhir:CodeableConcept.coding [
        fhir:index 0;
        fhir:Coding.system [ fhir:value "http://standardterms.edqm.eu" ];
-       fhir:Coding.code [ fhir:value "10808000" ];
-       fhir:Coding.display [ fhir:value "Nasal spray, solution" ]
+       fhir:Coding.code [ fhir:value "10227000" ];
+       fhir:Coding.display [ fhir:value "Modified-release tablet" ]
      ];
-     fhir:CodeableConcept.text [ fhir:value "Nasal spray, solution" ]
+     fhir:CodeableConcept.text [ fhir:value "Modified-release tablet" ]
   ]; # 
   fhir:Medication.ingredient [
      fhir:index 0;
@@ -900,18 +924,6 @@
          fhir:Coding.display [ fhir:value "ASCORBIC ACID" ]
        ];
        fhir:CodeableConcept.text [ fhir:value "Vitamin C" ]
-     ];
-     fhir:Medication.ingredient.strength [
-       fhir:Ratio.numerator [
-         fhir:Quantity.value [ fhir:value "0.05"^^xsd:decimal ];
-         fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ];
-         fhir:Quantity.code [ fhir:value "mg" ]
-       ];
-       fhir:Ratio.denominator [
-         fhir:Quantity.value [ fhir:value "1"^^xsd:decimal ];
-         fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ];
-         fhir:Quantity.code [ fhir:value "ml" ]
-       ]
      ]
   ] . # 
 
@@ -919,29 +931,24 @@
   fhir:Resource.id [ fhir:value "6f4151e9-91f6-4f1e-adc3-fb94dda77857"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Medication</b><a name=\"6f4151e9-91f6-4f1e-adc3-fb94dda77857\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Medication &quot;6f4151e9-91f6-4f1e-adc3-fb94dda77857&quot; </p></div><p><b>code</b>: Protein supplements <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (man#16028/0049; <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html\">WHO ATC</a>#R01AA05 &quot;oxymetazoline&quot;)</span></p><p><b>form</b>: Nasal spray, solution <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#10808000)</span></p><h3>Ingredients</h3><table class=\"grid\"><tr><td>-</td><td><b>Item[x]</b></td><td><b>Strength</b></td></tr><tr><td>*</td><td>oxymetazoline hydrochloride <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#K89MJ0S5VY)</span></td><td>0.05 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mg = 'mg')</span>/1 ml<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code ml = 'ml')</span></td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Medication</b><a name=\"6f4151e9-91f6-4f1e-adc3-fb94dda77857\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Medication &quot;6f4151e9-91f6-4f1e-adc3-fb94dda77857&quot; </p></div><p><b>code</b>: NATURES PLUS SPIRU-TEIN BATIDO PROTEINA SABOR COOKIES 525GR <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (man#zzzz)</span></p><p><b>form</b>: Oral powder <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#10201000)</span></p><h3>Ingredients</h3><table class=\"grid\"><tr><td>-</td><td><b>Item[x]</b></td></tr><tr><td>*</td><td>SOY PROTEIN <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#R44IWB3RN5)</span></td></tr></table></div>"
   ]; # 
   fhir:Medication.code [
      fhir:CodeableConcept.coding [
        fhir:index 0;
        fhir:Coding.system [ fhir:value "https://www.gravitatehealth.eu/sid/man" ];
-       fhir:Coding.code [ fhir:value "16028/0049" ];
-       fhir:Coding.display [ fhir:value "Protein supplements" ]
-     ], [
-       fhir:index 1;
-       fhir:Coding.system [ fhir:value "http://www.whocc.no/atc" ];
-       fhir:Coding.code [ fhir:value "R01AA05" ];
-       fhir:Coding.display [ fhir:value "oxymetazoline" ]
+       fhir:Coding.code [ fhir:value "zzzz" ];
+       fhir:Coding.display [ fhir:value "NATURES PLUS SPIRU-TEIN BATIDO PROTEINA SABOR COOKIES 525GR" ]
      ]
   ]; # 
   fhir:Medication.form [
      fhir:CodeableConcept.coding [
        fhir:index 0;
        fhir:Coding.system [ fhir:value "http://standardterms.edqm.eu" ];
-       fhir:Coding.code [ fhir:value "10808000" ];
-       fhir:Coding.display [ fhir:value "Nasal spray, solution" ]
+       fhir:Coding.code [ fhir:value "10201000" ];
+       fhir:Coding.display [ fhir:value "Oral powder" ]
      ];
-     fhir:CodeableConcept.text [ fhir:value "Nasal spray, solution" ]
+     fhir:CodeableConcept.text [ fhir:value "Oral powder" ]
   ]; # 
   fhir:Medication.ingredient [
      fhir:index 0;
@@ -949,22 +956,10 @@
        fhir:CodeableConcept.coding [
          fhir:index 0;
          fhir:Coding.system [ fhir:value "http://fdasis.nlm.nih.gov" ];
-         fhir:Coding.code [ fhir:value "K89MJ0S5VY" ];
-         fhir:Coding.display [ fhir:value "oxymetazoline hydrochloride" ]
+         fhir:Coding.code [ fhir:value "R44IWB3RN5" ];
+         fhir:Coding.display [ fhir:value "SOY PROTEIN" ]
        ];
-       fhir:CodeableConcept.text [ fhir:value "oxymetazoline hydrochloride" ]
-     ];
-     fhir:Medication.ingredient.strength [
-       fhir:Ratio.numerator [
-         fhir:Quantity.value [ fhir:value "0.05"^^xsd:decimal ];
-         fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ];
-         fhir:Quantity.code [ fhir:value "mg" ]
-       ];
-       fhir:Ratio.denominator [
-         fhir:Quantity.value [ fhir:value "1"^^xsd:decimal ];
-         fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ];
-         fhir:Quantity.code [ fhir:value "ml" ]
-       ]
+       fhir:CodeableConcept.text [ fhir:value "SOY PROTEIN" ]
      ]
   ] . # 
 
