@@ -305,12 +305,12 @@
       "id" : "pedro-med-stat-3",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicationStatement</b><a name=\"pedro-med-stat-3\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicationStatement &quot;pedro-med-stat-3&quot; </p></div><p><b>status</b>: active</p><p><b>medication</b>: <a href=\"#Medication_6f4151e9-91f6-4f1e-adc3-fb94dda7785g\">See above (Medication/6f4151e9-91f6-4f1e-adc3-fb94dda7785g: Calcium Carbonate 500 mg)</a></p><p><b>subject</b>: <a href=\"#Patient_pedro-patient\">See above (Patient/pedro-patient: Pedro Gravitate)</a></p><h3>Dosages</h3><table class=\"grid\"><tr><td>-</td><td><b>Route</b></td></tr><tr><td>*</td><td>Oral use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#20053000)</span></td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicationStatement</b><a name=\"pedro-med-stat-3\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicationStatement &quot;pedro-med-stat-3&quot; </p></div><p><b>status</b>: active</p><p><b>medication</b>: <a href=\"#Medication_6f4151e9-91f6-4f1e-adc3-fb94dda7785g\">See above (Medication/6f4151e9-91f6-4f1e-adc3-fb94dda7785g: CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES)</a></p><p><b>subject</b>: <a href=\"#Patient_pedro-patient\">See above (Patient/pedro-patient: Pedro Gravitate)</a></p><h3>Dosages</h3><table class=\"grid\"><tr><td>-</td><td><b>Route</b></td></tr><tr><td>*</td><td>Oral use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#20053000)</span></td></tr></table></div>"
       },
       "status" : "active",
       "medicationReference" : {
         "reference" : "Medication/6f4151e9-91f6-4f1e-adc3-fb94dda7785g",
-        "display" : "Calcium Carbonate 500 mg"
+        "display" : "CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES"
       },
       "subject" : {
         "reference" : "Patient/pedro-patient",
@@ -771,7 +771,7 @@
       "id" : "6f4151e9-91f6-4f1e-adc3-fb94dda77856",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Medication</b><a name=\"6f4151e9-91f6-4f1e-adc3-fb94dda77856\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Medication &quot;6f4151e9-91f6-4f1e-adc3-fb94dda77856&quot; </p></div><p><b>code</b>: SORIA NATURAL VITAMINA C 36 COMPRIMIDOS <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (man#kkk; <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html\">WHO ATC</a>#R01AA05 &quot;oxymetazoline&quot;)</span></p><p><b>form</b>: Modified-release tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#10227000)</span></p><h3>Ingredients</h3><table class=\"grid\"><tr><td>-</td><td><b>Item[x]</b></td></tr><tr><td>*</td><td>Vitamin C <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#PQ6CK8PD0R &quot;ASCORBIC ACID&quot;)</span></td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Medication</b><a name=\"6f4151e9-91f6-4f1e-adc3-fb94dda77856\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Medication &quot;6f4151e9-91f6-4f1e-adc3-fb94dda77856&quot; </p></div><p><b>code</b>: SORIA NATURAL VITAMINA C 36 COMPRIMIDOS <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (man#kkk; <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html\">WHO ATC</a>#A11GA01 &quot;ascorbic acid (vit C)&quot;)</span></p><p><b>form</b>: Modified-release tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#10227000)</span></p><h3>Ingredients</h3><table class=\"grid\"><tr><td>-</td><td><b>Item[x]</b></td></tr><tr><td>*</td><td>Vitamin C <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#PQ6CK8PD0R &quot;ASCORBIC ACID&quot;)</span></td></tr></table></div>"
       },
       "code" : {
         "coding" : [{
@@ -781,8 +781,8 @@
         },
         {
           "system" : "http://www.whocc.no/atc",
-          "code" : "R01AA05",
-          "display" : "oxymetazoline"
+          "code" : "A11GA01",
+          "display" : "ascorbic acid (vit C)"
         }]
       },
       "form" : {

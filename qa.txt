@@ -2,8 +2,8 @@
 =========================================
 
 err = 8, warn = 125, info = 142
-IG Publisher Version: 1.2.25
-Generated Thu Dec 22 14:29:12 UTC 2022. FHIR version 4.0.1 for hl7.eu.fhir.gh-ips#0.1.0 (canonical = http://hl7.eu/fhir/ig/gravitate-health-ips)
+IG Publisher Version: 1.2.26
+Generated Mon Jan 09 16:28:50 UTC 2023. FHIR version 4.0.1 for hl7.eu.fhir.gh-ips#0.1.0 (canonical = http://hl7.eu/fhir/ig/gravitate-health-ips)
  Build Errors : 5 / 51 / 0
  /github/workspace/fsh-generated/resources/Bundle-gravitate-Cecilia : 0 / 25 / 21
  /github/workspace/fsh-generated/resources/Bundle-gravitate-Matilda : 0 / 14 / 14
@@ -117,11 +117,11 @@ WARNING: Unable to find ImplementationGuide.definition.resource.description for 
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationStatement/pedro-med-stat-7.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Patient/pedro-patient.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Practitioner/pedro-pract.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-ERROR: /github/workspace/output/copyright.html#/html/body/div/div/div/div/div/p/a at Line 237, column 14: The link 'http://build.fhir.org/ig/HL7/fhir-ips/copyrights.html' for "IPS Implementation Guide" cannot be resolved
-ERROR: /github/workspace/output/ePI-structure.html#/html/body/div/div/div/div/div/p/a at Line 242, column 121: The link 'http://build.fhir.org/ig/hl7-eu/gravitate-health/terminology.html' for "Terminology" cannot be resolved
-ERROR: /github/workspace/output/ePI-structure.html#/html/body/div/div/div/div/div/p/a at Line 288, column 106: The link 'http://build.fhir.org/ig/hl7-eu/gravitate-health/terminology.html' for "Terminology" cannot be resolved
-ERROR: /github/workspace/output/index.html#/html/body/div/div/div/div/div/p/a at Line 283, column 290: The link 'http://build.fhir.org/ig/HL7/fhir-ips/index.html' for "IPS Implementation Guide" cannot be resolved
-ERROR: /github/workspace/output/terminology.html#/html/body/div/div/div/div/div/p/a at Line 219, column 18: The link 'http://build.fhir.org/ig/HL7/fhir-ips/terminology.html' for "IPS Implementation Guide" cannot be resolved
+ERROR: /github/workspace/output/copyright.html#/html/body/div/div/div/div/div/p/a at Line 239, column 14: The link 'http://build.fhir.org/ig/HL7/fhir-ips/copyrights.html' for "IPS Implementation Guide" cannot be resolved
+ERROR: /github/workspace/output/ePI-structure.html#/html/body/div/div/div/div/div/p/a at Line 244, column 121: The link 'http://build.fhir.org/ig/hl7-eu/gravitate-health/terminology.html' for "Terminology" cannot be resolved
+ERROR: /github/workspace/output/ePI-structure.html#/html/body/div/div/div/div/div/p/a at Line 290, column 106: The link 'http://build.fhir.org/ig/hl7-eu/gravitate-health/terminology.html' for "Terminology" cannot be resolved
+ERROR: /github/workspace/output/index.html#/html/body/div/div/div/div/div/p/a at Line 285, column 290: The link 'http://build.fhir.org/ig/HL7/fhir-ips/index.html' for "IPS Implementation Guide" cannot be resolved
+ERROR: /github/workspace/output/terminology.html#/html/body/div/div/div/div/div/p/a at Line 221, column 18: The link 'http://build.fhir.org/ig/HL7/fhir-ips/terminology.html' for "IPS Implementation Guide" cannot be resolved
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide

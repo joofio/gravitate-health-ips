@@ -24,6 +24,8 @@
   	<link href="assets/css/prism.css" rel="stylesheet" />
     <!-- Placeholder for child template CSS declarations -->
     <link href="assets/css/pcsp.css" rel="stylesheet"/>
+    <link href="assets/css/ips-viewer.css" rel="stylesheet"/>
+
 
     <script type="text/javascript" src="fhir-table-scripts.js"> </script>
 
@@ -264,7 +266,7 @@
         
           Active
           
-            as of 2022-12-22
+            as of 2023-01-09
           
         
       </td>
@@ -603,7 +605,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       "<a href="StructureDefinition-example-persona-profile.html#Observation.component.valuePeriod" title="The information determined as a result of making the observation, if the information has a simple value" class="dict"><span style="text-decoration: underline">valuePeriod</span></a>" : {<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#Period">Period</a></span>}, <span style="color: Gray">//</span> <span style="color: brown" title=""><b>C?</b></span> <span style="color: navy; opacity: 0.8">Actual component result</span>
       "<a href="StructureDefinition-example-persona-profile.html#Observation.component.dataAbsentReason" title="Provides a reason why the expected value in the element Observation.component.value[x] is missing" class="dict"><span style="text-decoration: underline">dataAbsentReason</span></a>" : {<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></span>}, <span style="color: Gray">//</span> <span style="color: brown" title=""><b>C?</b></span> <span style="color: navy; opacity: 0.8"><a href="http://hl7.org/fhir/R4/null.html" style="color: navy">Why the component result is missing</a></span>
       "<a href="StructureDefinition-example-persona-profile.html#Observation.component.interpretation" title="A categorical assessment of an observation value.  For example, high, low, normal" class="dict"><span style="text-decoration: underline">interpretation</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></span>}], <span style="color: Gray">//</span> <span style="color: brown" title=""><b>C?</b></span> <span style="color: navy; opacity: 0.8"><a href="http://hl7.org/fhir/R4/null.html" style="color: navy">High, low, normal, etc.</a></span>
-<span style="color: Gray">// value[x]: <span style="color: navy; opacity: 0.8">Provides guide for interpretation of component result</span>. One of these 0:</span>
+      "<a href="StructureDefinition-example-persona-profile.html#Observation.component.referenceRange" title="Guidance on how to interpret the value by comparison to a normal or recommended range" class="dict"><span style="text-decoration: underline">referenceRange</span></a>" : [&lt;<span style="color: darkgreen">n/a</span>&gt;], <span style="color: Gray">//</span> <span style="color: brown" title=""><b>C?</b></span> <span style="color: navy; opacity: 0.8">Provides guide for interpretation of component result</span>
     }],
   }
 
@@ -906,7 +908,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       "<a href="StructureDefinition-example-persona-profile.html#Observation.component.valuePeriod" title="The information determined as a result of making the observation, if the information has a simple value" class="dict"><span style="text-decoration: underline">valuePeriod</span></a>" : {<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#Period">Period</a></span>}, <span style="color: Gray">//</span> <span style="color: brown" title=""><b>C?</b></span> <span style="color: navy; opacity: 0.8">Actual component result</span>
       "<a href="StructureDefinition-example-persona-profile.html#Observation.component.dataAbsentReason" title="Provides a reason why the expected value in the element Observation.component.value[x] is missing" class="dict"><span style="text-decoration: underline">dataAbsentReason</span></a>" : {<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></span>}, <span style="color: Gray">//</span> <span style="color: brown" title=""><b>C?</b></span> <span style="color: navy; opacity: 0.8"><a href="http://hl7.org/fhir/R4/null.html" style="color: navy">Why the component result is missing</a></span>
       "<a href="StructureDefinition-example-persona-profile.html#Observation.component.interpretation" title="A categorical assessment of an observation value.  For example, high, low, normal" class="dict"><span style="text-decoration: underline">interpretation</span></a>" : [{<span style="color: darkgreen"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></span>}], <span style="color: Gray">//</span> <span style="color: brown" title=""><b>C?</b></span> <span style="color: navy; opacity: 0.8"><a href="http://hl7.org/fhir/R4/null.html" style="color: navy">High, low, normal, etc.</a></span>
-<span style="color: Gray">// value[x]: <span style="color: navy; opacity: 0.8">Provides guide for interpretation of component result</span>. One of these 0:</span>
+      "<a href="StructureDefinition-example-persona-profile.html#Observation.component.referenceRange" title="Guidance on how to interpret the value by comparison to a normal or recommended range" class="dict"><span style="text-decoration: underline">referenceRange</span></a>" : [&lt;<span style="color: darkgreen">n/a</span>&gt;], <span style="color: Gray">//</span> <span style="color: brown" title=""><b>C?</b></span> <span style="color: navy; opacity: 0.8">Provides guide for interpretation of component result</span>
     }],
   }
 
@@ -995,7 +997,7 @@ Summary
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.gravitatehealth.eu/"></a>.  Package hl7.eu.fhir.gh-ips#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Dec 22, 2022 14:28+0000">2022-12-22</span>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.gravitatehealth.eu/"></a>.  Package hl7.eu.fhir.gh-ips#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Jan 9, 2023 16:27+0000">2023-01-09</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
             <div style="color: #33333" >
