@@ -11,7 +11,7 @@
   <name value="GhR4ImplementationGuide"/>
   <title value="Gravitate Health FHIR Implementation Guide (FHIR R4)"/>
   <status value="active"/>
-  <date value="2023-01-09T16:42:52+00:00"/>
+  <date value="2023-01-09T16:59:54+00:00"/>
   <contact>
     <name value="Gravitate Health Project"/>
     <telecom>
@@ -557,7 +557,7 @@
       <reference>
         <reference value="Bundle/gravitate-ips-1"/>
       </reference>
-      <name value="IPS Example 1 Document"/>
+      <name value="IPS Example 1"/>
       <description value="Example of International Patient Summary for Gravitate"/>
       <exampleBoolean value="true"/>
     </resource>
@@ -568,7 +568,7 @@
       <reference>
         <reference value="Bundle/gravitate-ips-2"/>
       </reference>
-      <name value="IPS Example 2 Document"/>
+      <name value="IPS Example 2"/>
       <description value="Example of International Patient Summary for Gravitate"/>
       <exampleBoolean value="true"/>
     </resource>
@@ -579,19 +579,8 @@
       <reference>
         <reference value="Bundle/gravitate-ips-3"/>
       </reference>
-      <name value="IPS Example 3 Document"/>
+      <name value="IPS Example 3"/>
       <description value="Example of International Patient Summary for Gravitate"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Composition"/>
-      </extension>
-      <reference>
-        <reference value="Composition/gravitate-maria"/>
-      </reference>
-      <name value="[Composition] Maria Gravitate's IPS"/>
-      <description value="Example of International Patient Summary Composition for Maria Gravitate"/>
       <exampleBoolean value="true"/>
     </resource>
     <resource>
@@ -603,36 +592,6 @@
       </reference>
       <name value="Maria Gravitate's IPS"/>
       <description value="Example of International Patient Summary for Maria Gravitate"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Composition"/>
-      </extension>
-      <reference>
-        <reference value="Composition/ips-example-1"/>
-      </reference>
-      <name value="[Composition] IPS Example 1 IPS"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Composition"/>
-      </extension>
-      <reference>
-        <reference value="Composition/ips-example-2"/>
-      </reference>
-      <name value="[Composition] IPS Example 2 IPS"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Composition"/>
-      </extension>
-      <reference>
-        <reference value="Composition/ips-example-3"/>
-      </reference>
-      <name value="IPS Example 3 Composition"/>
       <exampleBoolean value="true"/>
     </resource>
     <page>

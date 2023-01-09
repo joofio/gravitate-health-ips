@@ -10,7 +10,7 @@
   "name" : "GhR4ImplementationGuide",
   "title" : "Gravitate Health FHIR Implementation Guide (FHIR R4)",
   "status" : "active",
-  "date" : "2023-01-09T16:42:52+00:00",
+  "date" : "2023-01-09T16:59:54+00:00",
   "contact" : [{
     "name" : "Gravitate Health Project",
     "telecom" : [{
@@ -725,7 +725,7 @@
       "reference" : {
         "reference" : "Bundle/gravitate-ips-1"
       },
-      "name" : "IPS Example 1 Document",
+      "name" : "IPS Example 1",
       "description" : "Example of International Patient Summary for Gravitate",
       "exampleBoolean" : true
     },
@@ -737,7 +737,7 @@
       "reference" : {
         "reference" : "Bundle/gravitate-ips-2"
       },
-      "name" : "IPS Example 2 Document",
+      "name" : "IPS Example 2",
       "description" : "Example of International Patient Summary for Gravitate",
       "exampleBoolean" : true
     },
@@ -749,20 +749,8 @@
       "reference" : {
         "reference" : "Bundle/gravitate-ips-3"
       },
-      "name" : "IPS Example 3 Document",
+      "name" : "IPS Example 3",
       "description" : "Example of International Patient Summary for Gravitate",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Composition"
-      }],
-      "reference" : {
-        "reference" : "Composition/gravitate-maria"
-      },
-      "name" : "[Composition] Maria Gravitate's IPS",
-      "description" : "Example of International Patient Summary Composition for Maria Gravitate",
       "exampleBoolean" : true
     },
     {
@@ -775,39 +763,6 @@
       },
       "name" : "Maria Gravitate's IPS",
       "description" : "Example of International Patient Summary for Maria Gravitate",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Composition"
-      }],
-      "reference" : {
-        "reference" : "Composition/ips-example-1"
-      },
-      "name" : "[Composition] IPS Example 1 IPS",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Composition"
-      }],
-      "reference" : {
-        "reference" : "Composition/ips-example-2"
-      },
-      "name" : "[Composition] IPS Example 2 IPS",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Composition"
-      }],
-      "reference" : {
-        "reference" : "Composition/ips-example-3"
-      },
-      "name" : "IPS Example 3 Composition",
       "exampleBoolean" : true
     }],
     "page" : {
