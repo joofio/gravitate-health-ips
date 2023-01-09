@@ -1,10 +1,10 @@
 ﻿GhR4ImplementationGuide : Validation Results
 =========================================
 
-err = 8, warn = 125, info = 142
+err = 7, warn = 82, info = 125
 IG Publisher Version: 1.2.26
-Generated Mon Jan 09 16:28:50 UTC 2023. FHIR version 4.0.1 for hl7.eu.fhir.gh-ips#0.1.0 (canonical = http://hl7.eu/fhir/ig/gravitate-health-ips)
- Build Errors : 5 / 51 / 0
+Generated Mon Jan 09 16:43:42 UTC 2023. FHIR version 4.0.1 for hl7.eu.fhir.gh-ips#0.1.0 (canonical = http://hl7.eu/fhir/ig/gravitate-health-ips)
+ Build Errors : 9 / 9 / 0
  /github/workspace/fsh-generated/resources/Bundle-gravitate-Cecilia : 0 / 25 / 21
  /github/workspace/fsh-generated/resources/Bundle-gravitate-Matilda : 0 / 14 / 14
  /github/workspace/fsh-generated/resources/Bundle-gravitate-Pedro : 1 / 30 / 29
@@ -13,56 +13,11 @@ Generated Mon Jan 09 16:28:50 UTC 2023. FHIR version 4.0.1 for hl7.eu.fhir.gh-ip
  /github/workspace/fsh-generated/resources/Bundle-gravitate-ips-2 : 0 / 0 / 20
  /github/workspace/fsh-generated/resources/Bundle-gravitate-ips-3 : 0 / 0 / 22
  /github/workspace/fsh-generated/resources/Bundle-gravitate-maria : 0 / 0 / 20
- /github/workspace/fsh-generated/resources/Composition-gravitate-Cecilia : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/Composition-gravitate-Matilda : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/Composition-gravitate-Pedro : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/Composition-gravitate-helen : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Composition-gravitate-maria : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Composition-ips-example-1 : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Composition-ips-example-2 : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Composition-ips-example-3 : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/Condition-cecilia-cond-1 : 0 / 1 / 1
- /github/workspace/fsh-generated/resources/Condition-cecilia-cond-2 : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/Condition-cecilia-cond-3 : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/Condition-cecilia-cond-4 : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/Condition-matilda-cond-1 : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/Condition-pedro-cond-1 : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/Condition-pedro-cond-2 : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/Condition-pedro-cond-3 : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ImplementationGuide-hl7.eu.fhir.gh-ips : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/Medication-6f4151e9-91f6-4f1e-adc3-fb94dda77854 : 0 / 0 / 2
- /github/workspace/fsh-generated/resources/Medication-6f4151e9-91f6-4f1e-adc3-fb94dda77855 : 0 / 0 / 2
- /github/workspace/fsh-generated/resources/Medication-6f4151e9-91f6-4f1e-adc3-fb94dda77856 : 0 / 0 / 2
- /github/workspace/fsh-generated/resources/Medication-6f4151e9-91f6-4f1e-adc3-fb94dda77857 : 0 / 0 / 2
- /github/workspace/fsh-generated/resources/Medication-6f4151e9-91f6-4f1e-adc3-fb94dda7785g : 1 / 0 / 2
- /github/workspace/fsh-generated/resources/Medication-9ac3356c-4ea4-4814-84c3-235484f2ef19 : 0 / 0 / 3
- /github/workspace/fsh-generated/resources/Medication-9d7be868-8264-4d94-ad04-ef04ecc92e51 : 0 / 0 / 2
- /github/workspace/fsh-generated/resources/Medication-9d7be868-8264-4d94-ad04-ef04ecc92e52 : 0 / 0 / 3
- /github/workspace/fsh-generated/resources/Medication-b50ae644-e0b7-4007-809f-26f493cbe36c : 0 / 0 / 3
- /github/workspace/fsh-generated/resources/Medication-de131e15-ed13-4b31-b38c-3204a84d99c4 : 0 / 0 / 3
- /github/workspace/fsh-generated/resources/Medication-fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4 : 0 / 0 / 2
- /github/workspace/fsh-generated/resources/Medication-fdb5c97f-0a46-41ba-bc34-2efd2ef2f7et : 0 / 0 / 2
- /github/workspace/fsh-generated/resources/Medication-fdb5c97f-0a46-41ba-bc34-2efd2ef2f7eu : 0 / 0 / 2
- /github/workspace/fsh-generated/resources/MedicationStatement-cecilia-med-stat-1 : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/MedicationStatement-cecilia-med-stat-2 : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/MedicationStatement-cecilia-med-stat-3 : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/MedicationStatement-cecilia-med-stat-4 : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/MedicationStatement-matilda-med-stat-1 : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/MedicationStatement-matilda-med-stat-2 : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/MedicationStatement-matilda-med-stat-3 : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/MedicationStatement-pedro-med-stat-1 : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/MedicationStatement-pedro-med-stat-2 : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/MedicationStatement-pedro-med-stat-3 : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/MedicationStatement-pedro-med-stat-4 : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/MedicationStatement-pedro-med-stat-5 : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/MedicationStatement-pedro-med-stat-6 : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/MedicationStatement-pedro-med-stat-7 : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/Patient-cecilia-patient : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/Patient-matilda-patient : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/Patient-pedro-patient : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/Practitioner-cecilia-pract : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/Practitioner-matilda-pract : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/Practitioner-pedro-pract : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-example : 0 / 0 / 63
  /github/workspace/fsh-generated/resources/QuestionnaireResponse-QuestionnaireResponse-example : 0 / 1 / 19
  /github/workspace/fsh-generated/resources/StructureDefinition-example-persona-profile : 0 / 1 / 1
@@ -72,51 +27,13 @@ Generated Mon Jan 09 16:28:50 UTC 2023. FHIR version 4.0.1 for hl7.eu.fhir.gh-ip
 == n/a ==
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/PDcategoryVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/PDtypeVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77854.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77855.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77856.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77857.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Medication/6f4151e9-91f6-4f1e-adc3-fb94dda7785g.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Medication/9ac3356c-4ea4-4814-84c3-235484f2ef19.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Medication/9d7be868-8264-4d94-ad04-ef04ecc92e51.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Medication/9d7be868-8264-4d94-ad04-ef04ecc92e52.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Medication/b50ae644-e0b7-4007-809f-26f493cbe36c.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Condition/cecilia-cond-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Condition/cecilia-cond-2.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Condition/cecilia-cond-3.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Condition/cecilia-cond-4.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationStatement/cecilia-med-stat-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationStatement/cecilia-med-stat-2.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationStatement/cecilia-med-stat-3.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationStatement/cecilia-med-stat-4.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Patient/cecilia-patient.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Practitioner/cecilia-pract.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Medication/de131e15-ed13-4b31-b38c-3204a84d99c4.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7et.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7eu.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Composition/gravitate-helen.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Composition/ips-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Composition/ips-example-2.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Composition/ips-example-3.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Condition/matilda-cond-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationStatement/matilda-med-stat-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationStatement/matilda-med-stat-2.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationStatement/matilda-med-stat-3.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Patient/matilda-patient.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Practitioner/matilda-pract.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Condition/pedro-cond-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Condition/pedro-cond-2.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Condition/pedro-cond-3.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationStatement/pedro-med-stat-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationStatement/pedro-med-stat-2.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationStatement/pedro-med-stat-3.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationStatement/pedro-med-stat-4.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationStatement/pedro-med-stat-5.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationStatement/pedro-med-stat-6.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationStatement/pedro-med-stat-7.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Patient/pedro-patient.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Practitioner/pedro-pract.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: /github/workspace/output/SampleData.html#/html/body/div/div/div/div/div/ul/li/a at Line 201, column 8: The link 'Composition-gravitate-Cecilia.html' for "Cecilia (SWE)" cannot be resolved
+ERROR: /github/workspace/output/SampleData.html#/html/body/div/div/div/div/div/ul/li/a at Line 202, column 8: The link 'Composition-gravitate-helen.html' for "Helen (GB)" cannot be resolved
+ERROR: /github/workspace/output/SampleData.html#/html/body/div/div/div/div/div/ul/li/a at Line 203, column 8: The link 'Composition-gravitate-Pedro.html' for "Pedro (ES)" cannot be resolved
+ERROR: /github/workspace/output/SampleData.html#/html/body/div/div/div/div/div/ul/li/a at Line 204, column 8: The link 'Composition-gravitate-Matilda.html' for "Matilda (ES)" cannot be resolved
 ERROR: /github/workspace/output/copyright.html#/html/body/div/div/div/div/div/p/a at Line 239, column 14: The link 'http://build.fhir.org/ig/HL7/fhir-ips/copyrights.html' for "IPS Implementation Guide" cannot be resolved
 ERROR: /github/workspace/output/ePI-structure.html#/html/body/div/div/div/div/div/p/a at Line 244, column 121: The link 'http://build.fhir.org/ig/hl7-eu/gravitate-health/terminology.html' for "Terminology" cannot be resolved
 ERROR: /github/workspace/output/ePI-structure.html#/html/body/div/div/div/div/div/p/a at Line 290, column 106: The link 'http://build.fhir.org/ig/hl7-eu/gravitate-health/terminology.html' for "Terminology" cannot be resolved
@@ -251,75 +168,11 @@ INFORMATION: Bundle/gravitate-maria: Bundle.entry[11].resource.ofType(Medication
 INFORMATION: Bundle/gravitate-maria: Bundle.entry[11].resource.ofType(Medication).code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
 INFORMATION: Bundle/gravitate-maria: Bundle.entry[12].resource.ofType(Medication).code.coding[0]: Code System URI 'https://www.gravitatehealth.eu/sid/man' is unknown so the code cannot be validated
 INFORMATION: Bundle/gravitate-maria: Bundle.entry[12].resource.ofType(Medication).code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
-== fsh-generated/resources/Composition-gravitate-Cecilia.json ==
-== fsh-generated/resources/Composition-gravitate-Matilda.json ==
-== fsh-generated/resources/Composition-gravitate-Pedro.json ==
-== fsh-generated/resources/Composition-gravitate-helen.json ==
 == fsh-generated/resources/Composition-gravitate-maria.json ==
 == fsh-generated/resources/Composition-ips-example-1.json ==
 == fsh-generated/resources/Composition-ips-example-2.json ==
 == fsh-generated/resources/Composition-ips-example-3.json ==
-== fsh-generated/resources/Condition-cecilia-cond-1.json ==
-WARNING: Condition/cecilia-cond-1: Condition.code.coding[0]: The display "Chronic obstructive lung disease" is not a valid display for the code {http://snomed.info/sct}42343007 - should be one of ['Congestive heart failure', 'Congestive heart disease', 'Congestive cardiac failure', 'CCF - Congestive cardiac failure', 'CHF - Congestive heart failure', 'Congestive heart failure (disorder)'] (from http://tx.fhir.org/r4) for 'http://snomed.info/sct#42343007'
-== fsh-generated/resources/Condition-cecilia-cond-2.json ==
-== fsh-generated/resources/Condition-cecilia-cond-3.json ==
-== fsh-generated/resources/Condition-cecilia-cond-4.json ==
-== fsh-generated/resources/Condition-matilda-cond-1.json ==
-== fsh-generated/resources/Condition-pedro-cond-1.json ==
-== fsh-generated/resources/Condition-pedro-cond-2.json ==
-== fsh-generated/resources/Condition-pedro-cond-3.json ==
 == fsh-generated/resources/ImplementationGuide-hl7.eu.fhir.gh-ips.json ==
-== fsh-generated/resources/Medication-6f4151e9-91f6-4f1e-adc3-fb94dda77854.json ==
-INFORMATION: Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77854: Medication.code.coding[0]: Code System URI 'https://www.gravitatehealth.eu/sid/man' is unknown so the code cannot be validated
-== fsh-generated/resources/Medication-6f4151e9-91f6-4f1e-adc3-fb94dda77855.json ==
-INFORMATION: Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77855: Medication.code.coding[0]: Code System URI 'https://www.gravitatehealth.eu/sid/man' is unknown so the code cannot be validated
-== fsh-generated/resources/Medication-6f4151e9-91f6-4f1e-adc3-fb94dda77856.json ==
-INFORMATION: Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77856: Medication.code.coding[0]: Code System URI 'https://www.gravitatehealth.eu/sid/man' is unknown so the code cannot be validated
-== fsh-generated/resources/Medication-6f4151e9-91f6-4f1e-adc3-fb94dda77857.json ==
-INFORMATION: Medication/6f4151e9-91f6-4f1e-adc3-fb94dda77857: Medication.code.coding[0]: Code System URI 'https://www.gravitatehealth.eu/sid/man' is unknown so the code cannot be validated
-== fsh-generated/resources/Medication-6f4151e9-91f6-4f1e-adc3-fb94dda7785g.json ==
-INFORMATION: Medication/6f4151e9-91f6-4f1e-adc3-fb94dda7785g: Medication.code.coding[0]: Code System URI 'https://www.gravitatehealth.eu/sid/man' is unknown so the code cannot be validated
-ERROR: Medication/6f4151e9-91f6-4f1e-adc3-fb94dda7785g: Medication.ingredient[1].strength.numerator: Local Error: Resolved system http://unitsofmeasure.org (v3.0.1), but the definition is not complete. Server Error: Error processing Unit: 'UI': The unit "UI" is unknown at character 1; The code "UI" is not valid in the system http://unitsofmeasure.org; The code provided (http://unitsofmeasure.org#UI) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://unitsofmeasure.org#UI'
-== fsh-generated/resources/Medication-9ac3356c-4ea4-4814-84c3-235484f2ef19.json ==
-INFORMATION: Medication/9ac3356c-4ea4-4814-84c3-235484f2ef19: Medication.code.coding[0]: Code System URI 'https://www.gravitatehealth.eu/sid/man' is unknown so the code cannot be validated
-INFORMATION: Medication/9ac3356c-4ea4-4814-84c3-235484f2ef19: Medication.code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
-== fsh-generated/resources/Medication-9d7be868-8264-4d94-ad04-ef04ecc92e51.json ==
-INFORMATION: Medication/9d7be868-8264-4d94-ad04-ef04ecc92e51: Medication.code.coding[0]: Code System URI 'http://ema.europa.eu/fhir/marketingAuthorizationNumber' is unknown so the code cannot be validated
-== fsh-generated/resources/Medication-9d7be868-8264-4d94-ad04-ef04ecc92e52.json ==
-INFORMATION: Medication/9d7be868-8264-4d94-ad04-ef04ecc92e52: Medication.code.coding[0]: Code System URI 'http://ema.europa.eu/fhir/marketingAuthorizationNumber' is unknown so the code cannot be validated
-INFORMATION: Medication/9d7be868-8264-4d94-ad04-ef04ecc92e52: Medication.code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
-== fsh-generated/resources/Medication-b50ae644-e0b7-4007-809f-26f493cbe36c.json ==
-INFORMATION: Medication/b50ae644-e0b7-4007-809f-26f493cbe36c: Medication.code.coding[0]: Code System URI 'http://ema.europa.eu/fhir/marketingAuthorizationNumber' is unknown so the code cannot be validated
-INFORMATION: Medication/b50ae644-e0b7-4007-809f-26f493cbe36c: Medication.code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
-== fsh-generated/resources/Medication-de131e15-ed13-4b31-b38c-3204a84d99c4.json ==
-INFORMATION: Medication/de131e15-ed13-4b31-b38c-3204a84d99c4: Medication.code.coding[0]: Code System URI 'http://ema.europa.eu/fhir/marketingAuthorizationNumber' is unknown so the code cannot be validated
-INFORMATION: Medication/de131e15-ed13-4b31-b38c-3204a84d99c4: Medication.code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
-== fsh-generated/resources/Medication-fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4.json ==
-INFORMATION: Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e4: Medication.code.coding[0]: Code System URI 'http://ema.europa.eu/fhir/marketingAuthorizationNumber' is unknown so the code cannot be validated
-== fsh-generated/resources/Medication-fdb5c97f-0a46-41ba-bc34-2efd2ef2f7et.json ==
-INFORMATION: Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7et: Medication.code.coding[0]: Code System URI 'http://ema.europa.eu/fhir/marketingAuthorizationNumber' is unknown so the code cannot be validated
-== fsh-generated/resources/Medication-fdb5c97f-0a46-41ba-bc34-2efd2ef2f7eu.json ==
-INFORMATION: Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7eu: Medication.code.coding[0]: Code System URI 'https://www.gravitatehealth.eu/sid/man' is unknown so the code cannot be validated
-== fsh-generated/resources/MedicationStatement-cecilia-med-stat-1.json ==
-== fsh-generated/resources/MedicationStatement-cecilia-med-stat-2.json ==
-== fsh-generated/resources/MedicationStatement-cecilia-med-stat-3.json ==
-== fsh-generated/resources/MedicationStatement-cecilia-med-stat-4.json ==
-== fsh-generated/resources/MedicationStatement-matilda-med-stat-1.json ==
-== fsh-generated/resources/MedicationStatement-matilda-med-stat-2.json ==
-== fsh-generated/resources/MedicationStatement-matilda-med-stat-3.json ==
-== fsh-generated/resources/MedicationStatement-pedro-med-stat-1.json ==
-== fsh-generated/resources/MedicationStatement-pedro-med-stat-2.json ==
-== fsh-generated/resources/MedicationStatement-pedro-med-stat-3.json ==
-== fsh-generated/resources/MedicationStatement-pedro-med-stat-4.json ==
-== fsh-generated/resources/MedicationStatement-pedro-med-stat-5.json ==
-== fsh-generated/resources/MedicationStatement-pedro-med-stat-6.json ==
-== fsh-generated/resources/MedicationStatement-pedro-med-stat-7.json ==
-== fsh-generated/resources/Patient-cecilia-patient.json ==
-== fsh-generated/resources/Patient-matilda-patient.json ==
-== fsh-generated/resources/Patient-pedro-patient.json ==
-== fsh-generated/resources/Practitioner-cecilia-pract.json ==
-== fsh-generated/resources/Practitioner-matilda-pract.json ==
-== fsh-generated/resources/Practitioner-pedro-pract.json ==
 == fsh-generated/resources/Questionnaire-Questionnaire-example.json ==
 INFORMATION: Questionnaire/Questionnaire-example: Questionnaire.item[1].answerOption[0].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
 INFORMATION: Questionnaire/Questionnaire-example: Questionnaire.item[1].answerOption[1].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated

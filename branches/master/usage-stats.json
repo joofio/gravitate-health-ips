@@ -28,8 +28,7 @@
       "StructureDefinition.snapshot.element.binding"
     ],
     "http://hl7.org/fhir/StructureDefinition/patient-citizenship": [
-      "Bundle.entry.resource",
-      "Patient"
+      "Bundle.entry.resource"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-category": [
       "StructureDefinition"
