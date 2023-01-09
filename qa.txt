@@ -1,10 +1,10 @@
 ﻿GhR4ImplementationGuide : Validation Results
 =========================================
 
-err = 7, warn = 82, info = 125
+err = 7, warn = 79, info = 125
 IG Publisher Version: 1.2.26
-Generated Mon Jan 09 16:43:42 UTC 2023. FHIR version 4.0.1 for hl7.eu.fhir.gh-ips#0.1.0 (canonical = http://hl7.eu/fhir/ig/gravitate-health-ips)
- Build Errors : 9 / 9 / 0
+Generated Mon Jan 09 17:00:53 UTC 2023. FHIR version 4.0.1 for hl7.eu.fhir.gh-ips#0.1.0 (canonical = http://hl7.eu/fhir/ig/gravitate-health-ips)
+ Build Errors : 10 / 6 / 0
  /github/workspace/fsh-generated/resources/Bundle-gravitate-Cecilia : 0 / 25 / 21
  /github/workspace/fsh-generated/resources/Bundle-gravitate-Matilda : 0 / 14 / 14
  /github/workspace/fsh-generated/resources/Bundle-gravitate-Pedro : 1 / 30 / 29
@@ -13,10 +13,6 @@ Generated Mon Jan 09 16:43:42 UTC 2023. FHIR version 4.0.1 for hl7.eu.fhir.gh-ip
  /github/workspace/fsh-generated/resources/Bundle-gravitate-ips-2 : 0 / 0 / 20
  /github/workspace/fsh-generated/resources/Bundle-gravitate-ips-3 : 0 / 0 / 22
  /github/workspace/fsh-generated/resources/Bundle-gravitate-maria : 0 / 0 / 20
- /github/workspace/fsh-generated/resources/Composition-gravitate-maria : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/Composition-ips-example-1 : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/Composition-ips-example-2 : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/Composition-ips-example-3 : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ImplementationGuide-hl7.eu.fhir.gh-ips : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-example : 0 / 0 / 63
  /github/workspace/fsh-generated/resources/QuestionnaireResponse-QuestionnaireResponse-example : 0 / 1 / 19
@@ -27,13 +23,11 @@ Generated Mon Jan 09 16:43:42 UTC 2023. FHIR version 4.0.1 for hl7.eu.fhir.gh-ip
 == n/a ==
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/PDcategoryVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/PDtypeVS.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Composition/ips-example-1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Composition/ips-example-2.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Composition/ips-example-3.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 ERROR: /github/workspace/output/SampleData.html#/html/body/div/div/div/div/div/ul/li/a at Line 201, column 8: The link 'Composition-gravitate-Cecilia.html' for "Cecilia (SWE)" cannot be resolved
 ERROR: /github/workspace/output/SampleData.html#/html/body/div/div/div/div/div/ul/li/a at Line 202, column 8: The link 'Composition-gravitate-helen.html' for "Helen (GB)" cannot be resolved
 ERROR: /github/workspace/output/SampleData.html#/html/body/div/div/div/div/div/ul/li/a at Line 203, column 8: The link 'Composition-gravitate-Pedro.html' for "Pedro (ES)" cannot be resolved
 ERROR: /github/workspace/output/SampleData.html#/html/body/div/div/div/div/div/ul/li/a at Line 204, column 8: The link 'Composition-gravitate-Matilda.html' for "Matilda (ES)" cannot be resolved
+ERROR: /github/workspace/output/SampleData.html#/html/body/div/div/div/div/div/ul/li/a at Line 205, column 8: The link 'Composition-gravitate-maria.html' for "Maria (NOR)" cannot be resolved
 ERROR: /github/workspace/output/copyright.html#/html/body/div/div/div/div/div/p/a at Line 239, column 14: The link 'http://build.fhir.org/ig/HL7/fhir-ips/copyrights.html' for "IPS Implementation Guide" cannot be resolved
 ERROR: /github/workspace/output/ePI-structure.html#/html/body/div/div/div/div/div/p/a at Line 244, column 121: The link 'http://build.fhir.org/ig/hl7-eu/gravitate-health/terminology.html' for "Terminology" cannot be resolved
 ERROR: /github/workspace/output/ePI-structure.html#/html/body/div/div/div/div/div/p/a at Line 290, column 106: The link 'http://build.fhir.org/ig/hl7-eu/gravitate-health/terminology.html' for "Terminology" cannot be resolved
@@ -168,10 +162,6 @@ INFORMATION: Bundle/gravitate-maria: Bundle.entry[11].resource.ofType(Medication
 INFORMATION: Bundle/gravitate-maria: Bundle.entry[11].resource.ofType(Medication).code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
 INFORMATION: Bundle/gravitate-maria: Bundle.entry[12].resource.ofType(Medication).code.coding[0]: Code System URI 'https://www.gravitatehealth.eu/sid/man' is unknown so the code cannot be validated
 INFORMATION: Bundle/gravitate-maria: Bundle.entry[12].resource.ofType(Medication).code.coding[1]: Code System URI 'https://www.who-umc.org/phpid' is unknown so the code cannot be validated
-== fsh-generated/resources/Composition-gravitate-maria.json ==
-== fsh-generated/resources/Composition-ips-example-1.json ==
-== fsh-generated/resources/Composition-ips-example-2.json ==
-== fsh-generated/resources/Composition-ips-example-3.json ==
 == fsh-generated/resources/ImplementationGuide-hl7.eu.fhir.gh-ips.json ==
 == fsh-generated/resources/Questionnaire-Questionnaire-example.json ==
 INFORMATION: Questionnaire/Questionnaire-example: Questionnaire.item[1].answerOption[0].value.ofType(Coding): Code System URI 'https://system-so-and-so' is unknown so the code cannot be validated
