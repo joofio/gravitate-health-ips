@@ -199,8 +199,8 @@
 <urn:uuid:c154158f-6a43-4ab7-8443-e7f4bf915dd1> a fhir:Patient;
   fhir:Resource.id [ fhir:value "c154158f-6a43-4ab7-8443-e7f4bf915dd1"]; # 
   fhir:DomainResource.text [
-     fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Maria Gravitate, Female, 75 years old (1946-05-05)</div>"
+     fhir:Narrative.status [ fhir:value "extensions" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Patient</b><a name=\"c154158f-6a43-4ab7-8443-e7f4bf915dd1\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Patient &quot;c154158f-6a43-4ab7-8443-e7f4bf915dd1&quot; </p></div><blockquote><p><b>citizenship</b></p><p><b>value</b>: Norway <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-ISO3166Part1.html\">ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code</a>#NO)</span></p></blockquote><p><b>identifier</b>: id: ips-3</p><p><b>active</b>: true</p><p><b>name</b>: IPS 3 example Gravitate </p><p><b>gender</b>: female</p><p><b>birthDate</b>: 1978-05-05</p></div>"
   ]; # 
   fhir:DomainResource.extension [
      fhir:index 0;
@@ -228,12 +228,12 @@
      fhir:index 0;
      fhir:HumanName.family [ fhir:value "Gravitate" ];
      fhir:HumanName.given [
-       fhir:value "Maria";
+       fhir:value "IPS 3 example";
        fhir:index 0
      ]
   ]; # 
   fhir:Patient.gender [ fhir:value "female"]; # 
-  fhir:Patient.birthDate [ fhir:value "1946-05-05"^^xsd:date] . # 
+  fhir:Patient.birthDate [ fhir:value "1978-05-05"^^xsd:date] . # 
 
 <urn:uuid:1ece89c5-fda3-4db9-ace6-decbe6c603d1> a fhir:Practitioner;
   fhir:Resource.id [ fhir:value "1ece89c5-fda3-4db9-ace6-decbe6c603d1"]; # 
@@ -697,7 +697,7 @@
   fhir:Resource.id [ fhir:value "e06e43a1-38d4-468f-8c35-f7f12da91061"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"e06e43a1-38d4-468f-8c35-f7f12da91061\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;e06e43a1-38d4-468f-8c35-f7f12da91061&quot; </p></div><p><b>status</b>: final</p><p><b>code</b>: Pregnancy status <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#82810-3)</span></p><p><b>subject</b>: <a href=\"Patient-patient-example-female.html\">Patient/patient-example-female</a></p><p><b>effective</b>: 2020-01-10</p><p><b>value</b>: Pregnant <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#LA15173-0)</span></p><p><b>hasMember</b>: <a href=\"Observation-pregnancy-edd-example.html\">Observation/pregnancy-edd-example</a></p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"e06e43a1-38d4-468f-8c35-f7f12da91061\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;e06e43a1-38d4-468f-8c35-f7f12da91061&quot; </p></div><p><b>status</b>: final</p><p><b>code</b>: Pregnancy status <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#82810-3)</span></p><p><b>subject</b>: <a href=\"#Patient_c154158f-6a43-4ab7-8443-e7f4bf915dd1\">See above (Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd1)</a></p><p><b>effective</b>: 2020-01-10</p><p><b>value</b>: Pregnant <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#LA15173-0)</span></p></div>"
   ]; # 
   fhir:Observation.status [ fhir:value "final"]; # 
   fhir:Observation.code [
@@ -710,8 +710,8 @@
      ]
   ]; # 
   fhir:Observation.subject [
-     fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Patient/patient-example-female>;
-     fhir:Reference.reference [ fhir:value "Patient/patient-example-female" ]
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd1>;
+     fhir:Reference.reference [ fhir:value "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd1" ]
   ]; # 
   fhir:Observation.effectiveDateTime [ fhir:value "2020-01-10"^^xsd:date]; # 
   fhir:Observation.valueCodeableConcept [
@@ -722,11 +722,6 @@
        fhir:Coding.code [ fhir:value "LA15173-0" ];
        fhir:Coding.display [ fhir:value "Pregnant" ]
      ]
-  ]; # 
-  fhir:Observation.hasMember [
-     fhir:index 0;
-     fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Observation/pregnancy-edd-example>;
-     fhir:Reference.reference [ fhir:value "Observation/pregnancy-edd-example" ]
   ] . # 
 
 # - ontology header ------------------------------------------------------------

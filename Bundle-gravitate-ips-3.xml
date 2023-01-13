@@ -120,7 +120,7 @@
       <Patient>
         <id value="c154158f-6a43-4ab7-8443-e7f4bf915dd1"/>
         <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">Maria Gravitate, Female, 75 years old (1946-05-05)</div>
+          <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Patient</b><a name="c154158f-6a43-4ab7-8443-e7f4bf915dd1"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Patient &quot;c154158f-6a43-4ab7-8443-e7f4bf915dd1&quot; </p></div><blockquote><p><b>citizenship</b></p><p><b>value</b>: Norway <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.0.0/CodeSystem-ISO3166Part1.html">ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code</a>#NO)</span></p></blockquote><p><b>identifier</b>: id: ips-3</p><p><b>active</b>: true</p><p><b>name</b>: IPS 3 example Gravitate </p><p><b>gender</b>: female</p><p><b>birthDate</b>: 1978-05-05</p></div>
         </text>
         <extension url="http://hl7.org/fhir/StructureDefinition/patient-citizenship">
           <extension url="code">
@@ -140,10 +140,10 @@
         <active value="true"/>
         <name>
           <family value="Gravitate"/>
-          <given value="Maria"/>
+          <given value="IPS 3 example"/>
         </name>
         <gender value="female"/>
-        <birthDate value="1946-05-05"/>
+        <birthDate value="1978-05-05"/>
       </Patient>
     </resource>
   </entry>
@@ -615,7 +615,7 @@
       <Observation>
         <id value="e06e43a1-38d4-468f-8c35-f7f12da91061"/>
         <text>
-          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Observation</b><a name="e06e43a1-38d4-468f-8c35-f7f12da91061"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Observation &quot;e06e43a1-38d4-468f-8c35-f7f12da91061&quot; </p></div><p><b>status</b>: final</p><p><b>code</b>: Pregnancy status <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#82810-3)</span></p><p><b>subject</b>: <a href="Patient-patient-example-female.html">Patient/patient-example-female</a></p><p><b>effective</b>: 2020-01-10</p><p><b>value</b>: Pregnant <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#LA15173-0)</span></p><p><b>hasMember</b>: <a href="Observation-pregnancy-edd-example.html">Observation/pregnancy-edd-example</a></p></div>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Observation</b><a name="e06e43a1-38d4-468f-8c35-f7f12da91061"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Observation &quot;e06e43a1-38d4-468f-8c35-f7f12da91061&quot; </p></div><p><b>status</b>: final</p><p><b>code</b>: Pregnancy status <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#82810-3)</span></p><p><b>subject</b>: <a href="#Patient_c154158f-6a43-4ab7-8443-e7f4bf915dd1">See above (Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd1)</a></p><p><b>effective</b>: 2020-01-10</p><p><b>value</b>: Pregnant <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#LA15173-0)</span></p></div>
         </text>
         <status value="final"/>
         <code>
@@ -626,7 +626,7 @@
           </coding>
         </code>
         <subject>
-          <reference value="Patient/patient-example-female"/>
+          <reference value="Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd1"/>
         </subject>
         <effectiveDateTime value="2020-01-10"/>
         <valueCodeableConcept>
@@ -636,9 +636,6 @@
             <display value="Pregnant"/>
           </coding>
         </valueCodeableConcept>
-        <hasMember>
-          <reference value="Observation/pregnancy-edd-example"/>
-        </hasMember>
       </Observation>
     </resource>
   </entry>
