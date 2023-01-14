@@ -18,51 +18,51 @@
   fhir:Bundle.timestamp [ fhir:value "2021-04-18T09:22:00+02:00"^^xsd:dateTime]; # 
   fhir:Bundle.entry [
      fhir:index 0;
-     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:5702fd1d-dd26-402e-a7c0-7629a5d9bba1" ];
-     fhir:Bundle.entry.resource <urn:uuid:5702fd1d-dd26-402e-a7c0-7629a5d9bba1>
+     fhir:Bundle.entry.fullUrl [ fhir:value "5702fd1d-dd26-402e-a7c0-7629a5d9bba1" ];
+     fhir:Bundle.entry.resource <5702fd1d-dd26-402e-a7c0-7629a5d9bba1>
   ], [
      fhir:index 1;
-     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:be61951b-44fc-4853-8822-f9d398193c50" ];
-     fhir:Bundle.entry.resource <urn:uuid:be61951b-44fc-4853-8822-f9d398193c50>
+     fhir:Bundle.entry.fullUrl [ fhir:value "be61951b-44fc-4853-8822-f9d398193c50" ];
+     fhir:Bundle.entry.resource <be61951b-44fc-4853-8822-f9d398193c50>
   ], [
      fhir:index 2;
-     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:45cd0bd4-f685-4117-a9f0-5c53fffb7266" ];
-     fhir:Bundle.entry.resource <urn:uuid:45cd0bd4-f685-4117-a9f0-5c53fffb7266>
+     fhir:Bundle.entry.fullUrl [ fhir:value "45cd0bd4-f685-4117-a9f0-5c53fffb7266" ];
+     fhir:Bundle.entry.resource <45cd0bd4-f685-4117-a9f0-5c53fffb7266>
   ], [
      fhir:index 3;
-     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:cb6e84fa-4302-4569-ac1c-6b1b32507d16" ];
-     fhir:Bundle.entry.resource <urn:uuid:cb6e84fa-4302-4569-ac1c-6b1b32507d16>
+     fhir:Bundle.entry.fullUrl [ fhir:value "cb6e84fa-4302-4569-ac1c-6b1b32507d16" ];
+     fhir:Bundle.entry.resource <cb6e84fa-4302-4569-ac1c-6b1b32507d16>
   ], [
      fhir:index 4;
-     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:de06df6b-0967-4b01-822b-7cfeea970aa7" ];
-     fhir:Bundle.entry.resource <urn:uuid:de06df6b-0967-4b01-822b-7cfeea970aa7>
+     fhir:Bundle.entry.fullUrl [ fhir:value "de06df6b-0967-4b01-822b-7cfeea970aa7" ];
+     fhir:Bundle.entry.resource <de06df6b-0967-4b01-822b-7cfeea970aa7>
   ], [
      fhir:index 5;
-     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:18eb9898-dea7-4c5e-b097-e507e011747b" ];
-     fhir:Bundle.entry.resource <urn:uuid:18eb9898-dea7-4c5e-b097-e507e011747b>
+     fhir:Bundle.entry.fullUrl [ fhir:value "18eb9898-dea7-4c5e-b097-e507e011747b" ];
+     fhir:Bundle.entry.resource <18eb9898-dea7-4c5e-b097-e507e011747b>
   ], [
      fhir:index 6;
-     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:c90b943a-3d8e-4f14-b56d-5c5c208b2065" ];
-     fhir:Bundle.entry.resource <urn:uuid:c90b943a-3d8e-4f14-b56d-5c5c208b2065>
+     fhir:Bundle.entry.fullUrl [ fhir:value "c90b943a-3d8e-4f14-b56d-5c5c208b2065" ];
+     fhir:Bundle.entry.resource <c90b943a-3d8e-4f14-b56d-5c5c208b2065>
   ], [
      fhir:index 7;
-     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:c872135e-f219-4f32-8fd6-7099009abf42" ];
-     fhir:Bundle.entry.resource <urn:uuid:c872135e-f219-4f32-8fd6-7099009abf42>
+     fhir:Bundle.entry.fullUrl [ fhir:value "c872135e-f219-4f32-8fd6-7099009abf42" ];
+     fhir:Bundle.entry.resource <c872135e-f219-4f32-8fd6-7099009abf42>
   ], [
      fhir:index 8;
-     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:9d7be868-8264-4d94-ad04-ef04ecc92e50" ];
-     fhir:Bundle.entry.resource <urn:uuid:9d7be868-8264-4d94-ad04-ef04ecc92e50>
+     fhir:Bundle.entry.fullUrl [ fhir:value "9d7be868-8264-4d94-ad04-ef04ecc92e50" ];
+     fhir:Bundle.entry.resource <9d7be868-8264-4d94-ad04-ef04ecc92e50>
   ], [
      fhir:index 9;
-     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e3" ];
-     fhir:Bundle.entry.resource <urn:uuid:fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e3>
+     fhir:Bundle.entry.fullUrl [ fhir:value "fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e3" ];
+     fhir:Bundle.entry.resource <fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e3>
   ] . # 
 
-<urn:uuid:5702fd1d-dd26-402e-a7c0-7629a5d9bba1> a fhir:Composition;
+<5702fd1d-dd26-402e-a7c0-7629a5d9bba1> a fhir:Composition;
   fhir:Resource.id [ fhir:value "gravitate-helen"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Composition</b><a name=\"gravitate-helen\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Composition &quot;gravitate-helen&quot; </p></div><p><b>status</b>: final</p><p><b>type</b>: Patient summary Document <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#60591-5)</span></p><p><b>date</b>: 2018-07-10 15:22:00+0200</p><p><b>author</b>: <a href=\"#Practitioner_45cd0bd4-f685-4117-a9f0-5c53fffb7266\">See above (urn:uuid:45cd0bd4-f685-4117-a9f0-5c53fffb7266: Dr. Anna Karlsson)</a></p><p><b>title</b>: Patient Summary (Helen Gravitate)</p><p><b>confidentiality</b>: N</p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Composition</b><a name=\"gravitate-helen\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Composition &quot;gravitate-helen&quot; </p></div><p><b>status</b>: final</p><p><b>type</b>: Patient summary Document <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#60591-5)</span></p><p><b>date</b>: 2018-07-10 15:22:00+0200</p><p><b>author</b>: <a href=\"#Practitioner_45cd0bd4-f685-4117-a9f0-5c53fffb7266\">See above (Practitioner/45cd0bd4-f685-4117-a9f0-5c53fffb7266: Dr. Anna Karlsson)</a></p><p><b>title</b>: Patient Summary (Helen Gravitate)</p><p><b>confidentiality</b>: N</p></div>"
   ]; # 
   fhir:Composition.status [ fhir:value "final"]; # 
   fhir:Composition.type [
@@ -75,13 +75,15 @@
      ]
   ]; # 
   fhir:Composition.subject [
-     fhir:Reference.reference [ fhir:value "urn:uuid:be61951b-44fc-4853-8822-f9d398193c50" ];
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Patient/be61951b-44fc-4853-8822-f9d398193c50>;
+     fhir:Reference.reference [ fhir:value "Patient/be61951b-44fc-4853-8822-f9d398193c50" ];
      fhir:Reference.display [ fhir:value "Helen Gravitate" ]
   ]; # 
   fhir:Composition.date [ fhir:value "2018-07-10T15:22:00+02:00"^^xsd:dateTime]; # 
   fhir:Composition.author [
      fhir:index 0;
-     fhir:Reference.reference [ fhir:value "urn:uuid:45cd0bd4-f685-4117-a9f0-5c53fffb7266" ];
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Practitioner/45cd0bd4-f685-4117-a9f0-5c53fffb7266>;
+     fhir:Reference.reference [ fhir:value "Practitioner/45cd0bd4-f685-4117-a9f0-5c53fffb7266" ];
      fhir:Reference.display [ fhir:value "Dr. Anna Karlsson" ]
   ]; # 
   fhir:Composition.title [ fhir:value "Patient Summary (Helen Gravitate)"]; # 
@@ -104,7 +106,8 @@
      ];
      fhir:Composition.section.entry [
        fhir:index 0;
-       fhir:Reference.reference [ fhir:value "urn:uuid:cb6e84fa-4302-4569-ac1c-6b1b32507d16" ];
+       fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/AllergyIntolerance/cb6e84fa-4302-4569-ac1c-6b1b32507d16>;
+       fhir:Reference.reference [ fhir:value "AllergyIntolerance/cb6e84fa-4302-4569-ac1c-6b1b32507d16" ];
        fhir:Reference.display [ fhir:value "Lactose Intolerance" ]
      ]
   ], [
@@ -125,7 +128,8 @@
      ];
      fhir:Composition.section.entry [
        fhir:index 0;
-       fhir:Reference.reference [ fhir:value "urn:uuid:de06df6b-0967-4b01-822b-7cfeea970aa7" ];
+       fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Condition/de06df6b-0967-4b01-822b-7cfeea970aa7>;
+       fhir:Reference.reference [ fhir:value "Condition/de06df6b-0967-4b01-822b-7cfeea970aa7" ];
        fhir:Reference.display [ fhir:value "Diabetes type 1" ]
      ]
   ], [
@@ -146,16 +150,18 @@
      ];
      fhir:Composition.section.entry [
        fhir:index 0;
-       fhir:Reference.reference [ fhir:value "urn:uuid:18eb9898-dea7-4c5e-b097-e507e011747b" ];
+       fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/MedicationStatement/18eb9898-dea7-4c5e-b097-e507e011747b>;
+       fhir:Reference.reference [ fhir:value "MedicationStatement/18eb9898-dea7-4c5e-b097-e507e011747b" ];
        fhir:Reference.display [ fhir:value "Humalog Mix50 Insulin KwikPen, 3ml pre-fill" ]
      ], [
        fhir:index 1;
-       fhir:Reference.reference [ fhir:value "urn:uuid:c90b943a-3d8e-4f14-b56d-5c5c208b2065" ];
+       fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/MedicationStatement/c90b943a-3d8e-4f14-b56d-5c5c208b2065>;
+       fhir:Reference.reference [ fhir:value "MedicationStatement/c90b943a-3d8e-4f14-b56d-5c5c208b2065" ];
        fhir:Reference.display [ fhir:value "Monuril 3 g granules for oral solution" ]
      ]
   ] . # 
 
-<urn:uuid:be61951b-44fc-4853-8822-f9d398193c50> a fhir:Patient;
+<be61951b-44fc-4853-8822-f9d398193c50> a fhir:Patient;
   fhir:Resource.id [ fhir:value "be61951b-44fc-4853-8822-f9d398193c50"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
@@ -194,7 +200,7 @@
   fhir:Patient.gender [ fhir:value "female"]; # 
   fhir:Patient.birthDate [ fhir:value "1946-05-05"^^xsd:date] . # 
 
-<urn:uuid:45cd0bd4-f685-4117-a9f0-5c53fffb7266> a fhir:Practitioner;
+<45cd0bd4-f685-4117-a9f0-5c53fffb7266> a fhir:Practitioner;
   fhir:Resource.id [ fhir:value "45cd0bd4-f685-4117-a9f0-5c53fffb7266"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
@@ -213,7 +219,7 @@
      ]
   ] . # 
 
-<urn:uuid:cb6e84fa-4302-4569-ac1c-6b1b32507d16> a fhir:AllergyIntolerance;
+<cb6e84fa-4302-4569-ac1c-6b1b32507d16> a fhir:AllergyIntolerance;
   fhir:Resource.id [ fhir:value "cb6e84fa-4302-4569-ac1c-6b1b32507d16"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
@@ -243,11 +249,12 @@
      ]
   ]; # 
   fhir:AllergyIntolerance.patient [
-     fhir:Reference.reference [ fhir:value "urn:uuid:be61951b-44fc-4853-8822-f9d398193c50" ];
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Patient/be61951b-44fc-4853-8822-f9d398193c50>;
+     fhir:Reference.reference [ fhir:value "Patient/be61951b-44fc-4853-8822-f9d398193c50" ];
      fhir:Reference.display [ fhir:value "Helen Gravitate" ]
   ] . # 
 
-<urn:uuid:de06df6b-0967-4b01-822b-7cfeea970aa7> a fhir:Condition;
+<de06df6b-0967-4b01-822b-7cfeea970aa7> a fhir:Condition;
   fhir:Resource.id [ fhir:value "de06df6b-0967-4b01-822b-7cfeea970aa7"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
@@ -271,16 +278,18 @@
      fhir:CodeableConcept.text [ fhir:value "Diabetes type 1" ]
   ]; # 
   fhir:Condition.subject [
-     fhir:Reference.reference [ fhir:value "urn:uuid:be61951b-44fc-4853-8822-f9d398193c50" ];
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Patient/be61951b-44fc-4853-8822-f9d398193c50>;
+     fhir:Reference.reference [ fhir:value "Patient/be61951b-44fc-4853-8822-f9d398193c50" ];
      fhir:Reference.display [ fhir:value "Helen Gravitate" ]
   ]; # 
   fhir:Condition.onsetDateTime [ fhir:value "2015"^^xsd:gYear]; # 
   fhir:Condition.asserter [
-     fhir:Reference.reference [ fhir:value "urn:uuid:45cd0bd4-f685-4117-a9f0-5c53fffb7266" ];
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Practitioner/45cd0bd4-f685-4117-a9f0-5c53fffb7266>;
+     fhir:Reference.reference [ fhir:value "Practitioner/45cd0bd4-f685-4117-a9f0-5c53fffb7266" ];
      fhir:Reference.display [ fhir:value "Dr. Anna Karlsson" ]
   ] . # 
 
-<urn:uuid:18eb9898-dea7-4c5e-b097-e507e011747b> a fhir:MedicationStatement;
+<18eb9898-dea7-4c5e-b097-e507e011747b> a fhir:MedicationStatement;
   fhir:Resource.id [ fhir:value "18eb9898-dea7-4c5e-b097-e507e011747b"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
@@ -288,11 +297,13 @@
   ]; # 
   fhir:MedicationStatement.status [ fhir:value "active"]; # 
   fhir:MedicationStatement.medicationReference [
-     fhir:Reference.reference [ fhir:value "urn:uuid:9d7be868-8264-4d94-ad04-ef04ecc92e50" ];
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Medication/9d7be868-8264-4d94-ad04-ef04ecc92e50>;
+     fhir:Reference.reference [ fhir:value "Medication/9d7be868-8264-4d94-ad04-ef04ecc92e50" ];
      fhir:Reference.display [ fhir:value "Humalog Mix50 Insulin KwikPen, 3ml pre-fill" ]
   ]; # 
   fhir:MedicationStatement.subject [
-     fhir:Reference.reference [ fhir:value "urn:uuid:be61951b-44fc-4853-8822-f9d398193c50" ];
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Patient/be61951b-44fc-4853-8822-f9d398193c50>;
+     fhir:Reference.reference [ fhir:value "Patient/be61951b-44fc-4853-8822-f9d398193c50" ];
      fhir:Reference.display [ fhir:value "Helen Gravitate" ]
   ]; # 
   fhir:MedicationStatement.dosage [
@@ -307,7 +318,7 @@
      ]
   ] . # 
 
-<urn:uuid:c90b943a-3d8e-4f14-b56d-5c5c208b2065> a fhir:MedicationStatement;
+<c90b943a-3d8e-4f14-b56d-5c5c208b2065> a fhir:MedicationStatement;
   fhir:Resource.id [ fhir:value "c90b943a-3d8e-4f14-b56d-5c5c208b2065"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
@@ -320,11 +331,13 @@
   ]; # 
   fhir:MedicationStatement.status [ fhir:value "active"]; # 
   fhir:MedicationStatement.medicationReference [
-     fhir:Reference.reference [ fhir:value "urn:uuid:fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e3" ];
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e3>;
+     fhir:Reference.reference [ fhir:value "Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e3" ];
      fhir:Reference.display [ fhir:value "Monuril 3g granules for oral solution" ]
   ]; # 
   fhir:MedicationStatement.subject [
-     fhir:Reference.reference [ fhir:value "urn:uuid:be61951b-44fc-4853-8822-f9d398193c50" ];
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Patient/be61951b-44fc-4853-8822-f9d398193c50>;
+     fhir:Reference.reference [ fhir:value "Patient/be61951b-44fc-4853-8822-f9d398193c50" ];
      fhir:Reference.display [ fhir:value "Helen Gravitate" ]
   ]; # 
   fhir:MedicationStatement.dosage [
@@ -339,7 +352,7 @@
      ]
   ] . # 
 
-<urn:uuid:c872135e-f219-4f32-8fd6-7099009abf42> a fhir:MedicationRequest;
+<c872135e-f219-4f32-8fd6-7099009abf42> a fhir:MedicationRequest;
   fhir:Resource.id [ fhir:value "c872135e-f219-4f32-8fd6-7099009abf42"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
@@ -357,7 +370,7 @@
      fhir:Reference.reference [ fhir:value "Patient/be61951b-44fc-4853-8822-f9d398193c50" ]
   ] . # 
 
-<urn:uuid:9d7be868-8264-4d94-ad04-ef04ecc92e50> a fhir:Medication;
+<9d7be868-8264-4d94-ad04-ef04ecc92e50> a fhir:Medication;
   fhir:Resource.id [ fhir:value "9d7be868-8264-4d94-ad04-ef04ecc92e50"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
@@ -422,7 +435,7 @@
      ]
   ] . # 
 
-<urn:uuid:fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e3> a fhir:Medication;
+<fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e3> a fhir:Medication;
   fhir:Resource.id [ fhir:value "fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e3"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];

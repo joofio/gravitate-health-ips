@@ -8,13 +8,13 @@
   "type" : "document",
   "timestamp" : "2021-04-18T09:22:00+02:00",
   "entry" : [{
-    "fullUrl" : "urn:uuid:5702fd1d-dd26-402e-a7c0-7629a5d9bba1",
+    "fullUrl" : "5702fd1d-dd26-402e-a7c0-7629a5d9bba1",
     "resource" : {
       "resourceType" : "Composition",
       "id" : "gravitate-helen",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Composition</b><a name=\"gravitate-helen\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Composition &quot;gravitate-helen&quot; </p></div><p><b>status</b>: final</p><p><b>type</b>: Patient summary Document <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#60591-5)</span></p><p><b>date</b>: 2018-07-10 15:22:00+0200</p><p><b>author</b>: <a href=\"#Practitioner_45cd0bd4-f685-4117-a9f0-5c53fffb7266\">See above (urn:uuid:45cd0bd4-f685-4117-a9f0-5c53fffb7266: Dr. Anna Karlsson)</a></p><p><b>title</b>: Patient Summary (Helen Gravitate)</p><p><b>confidentiality</b>: N</p></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Composition</b><a name=\"gravitate-helen\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Composition &quot;gravitate-helen&quot; </p></div><p><b>status</b>: final</p><p><b>type</b>: Patient summary Document <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#60591-5)</span></p><p><b>date</b>: 2018-07-10 15:22:00+0200</p><p><b>author</b>: <a href=\"#Practitioner_45cd0bd4-f685-4117-a9f0-5c53fffb7266\">See above (Practitioner/45cd0bd4-f685-4117-a9f0-5c53fffb7266: Dr. Anna Karlsson)</a></p><p><b>title</b>: Patient Summary (Helen Gravitate)</p><p><b>confidentiality</b>: N</p></div>"
       },
       "status" : "final",
       "type" : {
@@ -25,12 +25,12 @@
         }]
       },
       "subject" : {
-        "reference" : "urn:uuid:be61951b-44fc-4853-8822-f9d398193c50",
+        "reference" : "Patient/be61951b-44fc-4853-8822-f9d398193c50",
         "display" : "Helen Gravitate"
       },
       "date" : "2018-07-10T15:22:00+02:00",
       "author" : [{
-        "reference" : "urn:uuid:45cd0bd4-f685-4117-a9f0-5c53fffb7266",
+        "reference" : "Practitioner/45cd0bd4-f685-4117-a9f0-5c53fffb7266",
         "display" : "Dr. Anna Karlsson"
       }],
       "title" : "Patient Summary (Helen Gravitate)",
@@ -49,7 +49,7 @@
           "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Hay fever (pollen)</li></ul></div>"
         },
         "entry" : [{
-          "reference" : "urn:uuid:cb6e84fa-4302-4569-ac1c-6b1b32507d16",
+          "reference" : "AllergyIntolerance/cb6e84fa-4302-4569-ac1c-6b1b32507d16",
           "display" : "Lactose Intolerance"
         }]
       },
@@ -67,7 +67,7 @@
           "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Diabetes type 1</li></ul></div>"
         },
         "entry" : [{
-          "reference" : "urn:uuid:de06df6b-0967-4b01-822b-7cfeea970aa7",
+          "reference" : "Condition/de06df6b-0967-4b01-822b-7cfeea970aa7",
           "display" : "Diabetes type 1"
         }]
       },
@@ -85,18 +85,18 @@
           "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Brand Name</th><th>MAN</th><th>Active Substance</th><th>Common Name</th><th>ATC</th><th>Strength</th><th>Dose Form</th><th>RoA</th></tr></thead><tbody><tr><td>Humalog Mix50 Insulin KwikPen, 3ml pre-fill</td><td>EU/1/96/007/035</td><td>insulin lispro (GFX7QIS1II)</td><td>insulin lispro</td><td>A10AD04</td><td>100 U/ml</td><td>Suspension for injection</td><td>Subcutaneous use</td></tr><tr><td>Monuril 3 g granules for oral solution</td><td>PL31654/0006</td><td>FOSFOMYCIN (2N81MY12TE)</td><td>fosfomycin</td><td>J01XX01</td><td>3 g (as trometamol: 5.631g/sachet)</td><td>Granules for oral solution</td><td>Oral use</td></tr></tbody></table></div>"
         },
         "entry" : [{
-          "reference" : "urn:uuid:18eb9898-dea7-4c5e-b097-e507e011747b",
+          "reference" : "MedicationStatement/18eb9898-dea7-4c5e-b097-e507e011747b",
           "display" : "Humalog Mix50 Insulin KwikPen, 3ml pre-fill"
         },
         {
-          "reference" : "urn:uuid:c90b943a-3d8e-4f14-b56d-5c5c208b2065",
+          "reference" : "MedicationStatement/c90b943a-3d8e-4f14-b56d-5c5c208b2065",
           "display" : "Monuril 3 g granules for oral solution"
         }]
       }]
     }
   },
   {
-    "fullUrl" : "urn:uuid:be61951b-44fc-4853-8822-f9d398193c50",
+    "fullUrl" : "be61951b-44fc-4853-8822-f9d398193c50",
     "resource" : {
       "resourceType" : "Patient",
       "id" : "be61951b-44fc-4853-8822-f9d398193c50",
@@ -131,7 +131,7 @@
     }
   },
   {
-    "fullUrl" : "urn:uuid:45cd0bd4-f685-4117-a9f0-5c53fffb7266",
+    "fullUrl" : "45cd0bd4-f685-4117-a9f0-5c53fffb7266",
     "resource" : {
       "resourceType" : "Practitioner",
       "id" : "45cd0bd4-f685-4117-a9f0-5c53fffb7266",
@@ -147,7 +147,7 @@
     }
   },
   {
-    "fullUrl" : "urn:uuid:cb6e84fa-4302-4569-ac1c-6b1b32507d16",
+    "fullUrl" : "cb6e84fa-4302-4569-ac1c-6b1b32507d16",
     "resource" : {
       "resourceType" : "AllergyIntolerance",
       "id" : "cb6e84fa-4302-4569-ac1c-6b1b32507d16",
@@ -175,13 +175,13 @@
         }]
       },
       "patient" : {
-        "reference" : "urn:uuid:be61951b-44fc-4853-8822-f9d398193c50",
+        "reference" : "Patient/be61951b-44fc-4853-8822-f9d398193c50",
         "display" : "Helen Gravitate"
       }
     }
   },
   {
-    "fullUrl" : "urn:uuid:de06df6b-0967-4b01-822b-7cfeea970aa7",
+    "fullUrl" : "de06df6b-0967-4b01-822b-7cfeea970aa7",
     "resource" : {
       "resourceType" : "Condition",
       "id" : "de06df6b-0967-4b01-822b-7cfeea970aa7",
@@ -204,18 +204,18 @@
         "text" : "Diabetes type 1"
       },
       "subject" : {
-        "reference" : "urn:uuid:be61951b-44fc-4853-8822-f9d398193c50",
+        "reference" : "Patient/be61951b-44fc-4853-8822-f9d398193c50",
         "display" : "Helen Gravitate"
       },
       "onsetDateTime" : "2015",
       "asserter" : {
-        "reference" : "urn:uuid:45cd0bd4-f685-4117-a9f0-5c53fffb7266",
+        "reference" : "Practitioner/45cd0bd4-f685-4117-a9f0-5c53fffb7266",
         "display" : "Dr. Anna Karlsson"
       }
     }
   },
   {
-    "fullUrl" : "urn:uuid:18eb9898-dea7-4c5e-b097-e507e011747b",
+    "fullUrl" : "18eb9898-dea7-4c5e-b097-e507e011747b",
     "resource" : {
       "resourceType" : "MedicationStatement",
       "id" : "18eb9898-dea7-4c5e-b097-e507e011747b",
@@ -225,11 +225,11 @@
       },
       "status" : "active",
       "medicationReference" : {
-        "reference" : "urn:uuid:9d7be868-8264-4d94-ad04-ef04ecc92e50",
+        "reference" : "Medication/9d7be868-8264-4d94-ad04-ef04ecc92e50",
         "display" : "Humalog Mix50 Insulin KwikPen, 3ml pre-fill"
       },
       "subject" : {
-        "reference" : "urn:uuid:be61951b-44fc-4853-8822-f9d398193c50",
+        "reference" : "Patient/be61951b-44fc-4853-8822-f9d398193c50",
         "display" : "Helen Gravitate"
       },
       "dosage" : [{
@@ -244,7 +244,7 @@
     }
   },
   {
-    "fullUrl" : "urn:uuid:c90b943a-3d8e-4f14-b56d-5c5c208b2065",
+    "fullUrl" : "c90b943a-3d8e-4f14-b56d-5c5c208b2065",
     "resource" : {
       "resourceType" : "MedicationStatement",
       "id" : "c90b943a-3d8e-4f14-b56d-5c5c208b2065",
@@ -257,11 +257,11 @@
       }],
       "status" : "active",
       "medicationReference" : {
-        "reference" : "urn:uuid:fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e3",
+        "reference" : "Medication/fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e3",
         "display" : "Monuril 3g granules for oral solution"
       },
       "subject" : {
-        "reference" : "urn:uuid:be61951b-44fc-4853-8822-f9d398193c50",
+        "reference" : "Patient/be61951b-44fc-4853-8822-f9d398193c50",
         "display" : "Helen Gravitate"
       },
       "dosage" : [{
@@ -276,7 +276,7 @@
     }
   },
   {
-    "fullUrl" : "urn:uuid:c872135e-f219-4f32-8fd6-7099009abf42",
+    "fullUrl" : "c872135e-f219-4f32-8fd6-7099009abf42",
     "resource" : {
       "resourceType" : "MedicationRequest",
       "id" : "c872135e-f219-4f32-8fd6-7099009abf42",
@@ -296,7 +296,7 @@
     }
   },
   {
-    "fullUrl" : "urn:uuid:9d7be868-8264-4d94-ad04-ef04ecc92e50",
+    "fullUrl" : "9d7be868-8264-4d94-ad04-ef04ecc92e50",
     "resource" : {
       "resourceType" : "Medication",
       "id" : "9d7be868-8264-4d94-ad04-ef04ecc92e50",
@@ -360,7 +360,7 @@
     }
   },
   {
-    "fullUrl" : "urn:uuid:fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e3",
+    "fullUrl" : "fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e3",
     "resource" : {
       "resourceType" : "Medication",
       "id" : "fdb5c97f-0a46-41ba-bc34-2efd2ef2f7e3",
