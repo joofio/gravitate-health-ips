@@ -264,7 +264,7 @@
   ]; # 
   fhir:AllergyIntolerance.patient [
      fhir:Reference.reference [ fhir:value "urn:uuid:c154158f-6a43-4ab7-8443-e7f4bf915dd5" ];
-     fhir:Reference.display [ fhir:value "Maria Gravitate" ]
+     fhir:Reference.display [ fhir:value "IPS 1" ]
   ]; # 
   fhir:AllergyIntolerance.reaction [
      fhir:index 0;
@@ -317,7 +317,7 @@
   ]; # 
   fhir:AllergyIntolerance.patient [
      fhir:Reference.reference [ fhir:value "urn:uuid:c154158f-6a43-4ab7-8443-e7f4bf915dd6" ];
-     fhir:Reference.display [ fhir:value "Maria Gravitate" ]
+     fhir:Reference.display [ fhir:value "IPS 1" ]
   ]; # 
   fhir:AllergyIntolerance.onsetAge [
      fhir:Quantity.value [ fhir:value "1"^^xsd:decimal ];
