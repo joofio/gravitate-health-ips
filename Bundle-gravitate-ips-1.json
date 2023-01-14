@@ -180,7 +180,7 @@
       },
       "patient" : {
         "reference" : "urn:uuid:c154158f-6a43-4ab7-8443-e7f4bf915dd5",
-        "display" : "Maria Gravitate"
+        "display" : "IPS 1"
       },
       "reaction" : [{
         "manifestation" : [{
@@ -226,7 +226,7 @@
       },
       "patient" : {
         "reference" : "urn:uuid:c154158f-6a43-4ab7-8443-e7f4bf915dd6",
-        "display" : "Maria Gravitate"
+        "display" : "IPS 1"
       },
       "onsetAge" : {
         "value" : 1,

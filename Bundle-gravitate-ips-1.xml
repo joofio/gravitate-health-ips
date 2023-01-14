@@ -178,7 +178,7 @@
         </code>
         <patient>
           <reference value="urn:uuid:c154158f-6a43-4ab7-8443-e7f4bf915dd5"/>
-          <display value="Maria Gravitate"/>
+          <display value="IPS 1"/>
         </patient>
         <reaction>
           <manifestation>
@@ -224,7 +224,7 @@
         </code>
         <patient>
           <reference value="urn:uuid:c154158f-6a43-4ab7-8443-e7f4bf915dd6"/>
-          <display value="Maria Gravitate"/>
+          <display value="IPS 1"/>
         </patient>
         <onsetAge>
           <value value="1"/>
