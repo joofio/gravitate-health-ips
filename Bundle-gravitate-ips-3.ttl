@@ -18,71 +18,71 @@
   fhir:Bundle.timestamp [ fhir:value "2021-09-03T08:38:00+02:00"^^xsd:dateTime]; # 
   fhir:Bundle.entry [
      fhir:index 0;
-     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:2fa5b223-ebce-4f39-9c66-5dc014f73571" ];
-     fhir:Bundle.entry.resource <urn:uuid:2fa5b223-ebce-4f39-9c66-5dc014f73571>
+     fhir:Bundle.entry.fullUrl [ fhir:value "2fa5b223-ebce-4f39-9c66-5dc014f73571" ];
+     fhir:Bundle.entry.resource <2fa5b223-ebce-4f39-9c66-5dc014f73571>
   ], [
      fhir:index 1;
-     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:c154158f-6a43-4ab7-8443-e7f4bf915dd1" ];
-     fhir:Bundle.entry.resource <urn:uuid:c154158f-6a43-4ab7-8443-e7f4bf915dd1>
+     fhir:Bundle.entry.fullUrl [ fhir:value "c154158f-6a43-4ab7-8443-e7f4bf915dd1" ];
+     fhir:Bundle.entry.resource <c154158f-6a43-4ab7-8443-e7f4bf915dd1>
   ], [
      fhir:index 2;
-     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:1ece89c5-fda3-4db9-ace6-decbe6c603d1" ];
-     fhir:Bundle.entry.resource <urn:uuid:1ece89c5-fda3-4db9-ace6-decbe6c603d1>
+     fhir:Bundle.entry.fullUrl [ fhir:value "1ece89c5-fda3-4db9-ace6-decbe6c603d1" ];
+     fhir:Bundle.entry.resource <1ece89c5-fda3-4db9-ace6-decbe6c603d1>
   ], [
      fhir:index 3;
-     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:1dff4474-fa08-4f45-8260-dbb23094bf01" ];
-     fhir:Bundle.entry.resource <urn:uuid:1dff4474-fa08-4f45-8260-dbb23094bf01>
+     fhir:Bundle.entry.fullUrl [ fhir:value "1dff4474-fa08-4f45-8260-dbb23094bf01" ];
+     fhir:Bundle.entry.resource <1dff4474-fa08-4f45-8260-dbb23094bf01>
   ], [
      fhir:index 4;
-     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:bcc79261-142c-48ec-b032-f3f9af49ec51" ];
-     fhir:Bundle.entry.resource <urn:uuid:bcc79261-142c-48ec-b032-f3f9af49ec51>
+     fhir:Bundle.entry.fullUrl [ fhir:value "bcc79261-142c-48ec-b032-f3f9af49ec51" ];
+     fhir:Bundle.entry.resource <bcc79261-142c-48ec-b032-f3f9af49ec51>
   ], [
      fhir:index 5;
-     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:a4a9d90a-d1b0-4d60-82f0-c52343dc6251" ];
-     fhir:Bundle.entry.resource <urn:uuid:a4a9d90a-d1b0-4d60-82f0-c52343dc6251>
+     fhir:Bundle.entry.fullUrl [ fhir:value "a4a9d90a-d1b0-4d60-82f0-c52343dc6251" ];
+     fhir:Bundle.entry.resource <a4a9d90a-d1b0-4d60-82f0-c52343dc6251>
   ], [
      fhir:index 6;
-     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:f06b7cf8-c15c-4288-a0f9-45a1026e5131" ];
-     fhir:Bundle.entry.resource <urn:uuid:f06b7cf8-c15c-4288-a0f9-45a1026e5131>
+     fhir:Bundle.entry.fullUrl [ fhir:value "f06b7cf8-c15c-4288-a0f9-45a1026e5131" ];
+     fhir:Bundle.entry.resource <f06b7cf8-c15c-4288-a0f9-45a1026e5131>
   ], [
      fhir:index 7;
-     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:29074ca4-efcb-4ff4-8446-feed2399a891" ];
-     fhir:Bundle.entry.resource <urn:uuid:29074ca4-efcb-4ff4-8446-feed2399a891>
+     fhir:Bundle.entry.fullUrl [ fhir:value "29074ca4-efcb-4ff4-8446-feed2399a891" ];
+     fhir:Bundle.entry.resource <29074ca4-efcb-4ff4-8446-feed2399a891>
   ], [
      fhir:index 8;
-     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:f6cb1218-f81c-4338-80d8-3c10910f78f1" ];
-     fhir:Bundle.entry.resource <urn:uuid:f6cb1218-f81c-4338-80d8-3c10910f78f1>
+     fhir:Bundle.entry.fullUrl [ fhir:value "f6cb1218-f81c-4338-80d8-3c10910f78f1" ];
+     fhir:Bundle.entry.resource <f6cb1218-f81c-4338-80d8-3c10910f78f1>
   ], [
      fhir:index 9;
-     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:f26084c9-b1c8-46d9-acb2-1d400ade87b1" ];
-     fhir:Bundle.entry.resource <urn:uuid:f26084c9-b1c8-46d9-acb2-1d400ade87b1>
+     fhir:Bundle.entry.fullUrl [ fhir:value "f26084c9-b1c8-46d9-acb2-1d400ade87b1" ];
+     fhir:Bundle.entry.resource <f26084c9-b1c8-46d9-acb2-1d400ade87b1>
   ], [
      fhir:index 10;
-     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:b50ae644-e0b7-4007-809f-26f493cbe361" ];
-     fhir:Bundle.entry.resource <urn:uuid:b50ae644-e0b7-4007-809f-26f493cbe361>
+     fhir:Bundle.entry.fullUrl [ fhir:value "b50ae644-e0b7-4007-809f-26f493cbe361" ];
+     fhir:Bundle.entry.resource <b50ae644-e0b7-4007-809f-26f493cbe361>
   ], [
      fhir:index 11;
-     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:de131e15-ed13-4b31-b38c-3204a84d99c1" ];
-     fhir:Bundle.entry.resource <urn:uuid:de131e15-ed13-4b31-b38c-3204a84d99c1>
+     fhir:Bundle.entry.fullUrl [ fhir:value "de131e15-ed13-4b31-b38c-3204a84d99c1" ];
+     fhir:Bundle.entry.resource <de131e15-ed13-4b31-b38c-3204a84d99c1>
   ], [
      fhir:index 12;
-     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:9ac3356c-4ea4-4814-84c3-235484f2ef11" ];
-     fhir:Bundle.entry.resource <urn:uuid:9ac3356c-4ea4-4814-84c3-235484f2ef11>
+     fhir:Bundle.entry.fullUrl [ fhir:value "9ac3356c-4ea4-4814-84c3-235484f2ef11" ];
+     fhir:Bundle.entry.resource <9ac3356c-4ea4-4814-84c3-235484f2ef11>
   ], [
      fhir:index 13;
-     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:5d129355-4b20-40d8-841f-7f93acbc3e61" ];
-     fhir:Bundle.entry.resource <urn:uuid:5d129355-4b20-40d8-841f-7f93acbc3e61>
+     fhir:Bundle.entry.fullUrl [ fhir:value "5d129355-4b20-40d8-841f-7f93acbc3e61" ];
+     fhir:Bundle.entry.resource <5d129355-4b20-40d8-841f-7f93acbc3e61>
   ], [
      fhir:index 14;
-     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:e06e43a1-38d4-468f-8c35-f7f12da91061" ];
-     fhir:Bundle.entry.resource <urn:uuid:e06e43a1-38d4-468f-8c35-f7f12da91061>
+     fhir:Bundle.entry.fullUrl [ fhir:value "e06e43a1-38d4-468f-8c35-f7f12da91061" ];
+     fhir:Bundle.entry.resource <e06e43a1-38d4-468f-8c35-f7f12da91061>
   ] . # 
 
-<urn:uuid:2fa5b223-ebce-4f39-9c66-5dc014f73571> a fhir:Composition;
+<2fa5b223-ebce-4f39-9c66-5dc014f73571> a fhir:Composition;
   fhir:Resource.id [ fhir:value "ips-example-3"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Composition</b><a name=\"ips-example-3\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Composition &quot;ips-example-3&quot; </p></div><p><b>status</b>: final</p><p><b>type</b>: Patient summary Document <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#60591-5)</span></p><p><b>date</b>: 2018-07-10 15:22:00+0200</p><p><b>author</b>: <a href=\"#Practitioner_1ece89c5-fda3-4db9-ace6-decbe6c603d1\">See above (urn:uuid:1ece89c5-fda3-4db9-ace6-decbe6c603d1: Dr. Anna Karlsson)</a></p><p><b>title</b>: Patient Summary (Maria Gravitate)</p><p><b>confidentiality</b>: N</p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Composition</b><a name=\"ips-example-3\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Composition &quot;ips-example-3&quot; </p></div><p><b>status</b>: final</p><p><b>type</b>: Patient summary Document <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#60591-5)</span></p><p><b>date</b>: 2018-07-10 15:22:00+0200</p><p><b>author</b>: <a href=\"#Practitioner_1ece89c5-fda3-4db9-ace6-decbe6c603d1\">See above (Practitioner/1ece89c5-fda3-4db9-ace6-decbe6c603d1: Dr. Anna Karlsson)</a></p><p><b>title</b>: Patient Summary (Maria Gravitate)</p><p><b>confidentiality</b>: N</p></div>"
   ]; # 
   fhir:Composition.status [ fhir:value "final"]; # 
   fhir:Composition.type [
@@ -95,13 +95,15 @@
      ]
   ]; # 
   fhir:Composition.subject [
-     fhir:Reference.reference [ fhir:value "urn:uuid:c154158f-6a43-4ab7-8443-e7f4bf915dd1" ];
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd1>;
+     fhir:Reference.reference [ fhir:value "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd1" ];
      fhir:Reference.display [ fhir:value "Example 1 Gravitate" ]
   ]; # 
   fhir:Composition.date [ fhir:value "2018-07-10T15:22:00+02:00"^^xsd:dateTime]; # 
   fhir:Composition.author [
      fhir:index 0;
-     fhir:Reference.reference [ fhir:value "urn:uuid:1ece89c5-fda3-4db9-ace6-decbe6c603d1" ];
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Practitioner/1ece89c5-fda3-4db9-ace6-decbe6c603d1>;
+     fhir:Reference.reference [ fhir:value "Practitioner/1ece89c5-fda3-4db9-ace6-decbe6c603d1" ];
      fhir:Reference.display [ fhir:value "Dr. Anna Karlsson" ]
   ]; # 
   fhir:Composition.title [ fhir:value "Patient Summary (Maria Gravitate)"]; # 
@@ -120,7 +122,8 @@
      ];
      fhir:Composition.section.entry [
        fhir:index 0;
-       fhir:Reference.reference [ fhir:value "urn:uuid:1dff4474-fa08-4f45-8260-dbb23094bf01" ];
+       fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/AllergyIntolerance/1dff4474-fa08-4f45-8260-dbb23094bf01>;
+       fhir:Reference.reference [ fhir:value "AllergyIntolerance/1dff4474-fa08-4f45-8260-dbb23094bf01" ];
        fhir:Reference.display [ fhir:value "Hay fever (pollen)" ]
      ]
   ], [
@@ -137,15 +140,18 @@
      ];
      fhir:Composition.section.entry [
        fhir:index 0;
-       fhir:Reference.reference [ fhir:value "urn:uuid:bcc79261-142c-48ec-b032-f3f9af49ec51" ];
+       fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Condition/bcc79261-142c-48ec-b032-f3f9af49ec51>;
+       fhir:Reference.reference [ fhir:value "Condition/bcc79261-142c-48ec-b032-f3f9af49ec51" ];
        fhir:Reference.display [ fhir:value "Psoriasis" ]
      ], [
        fhir:index 1;
-       fhir:Reference.reference [ fhir:value "urn:uuid:f06b7cf8-c15c-4288-a0f9-45a1026e5131" ];
+       fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Condition/f06b7cf8-c15c-4288-a0f9-45a1026e5131>;
+       fhir:Reference.reference [ fhir:value "Condition/f06b7cf8-c15c-4288-a0f9-45a1026e5131" ];
        fhir:Reference.display [ fhir:value "Hypertension" ]
      ], [
        fhir:index 2;
-       fhir:Reference.reference [ fhir:value "urn:uuid:a4a9d90a-d1b0-4d60-82f0-c52343dc6251" ];
+       fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Condition/a4a9d90a-d1b0-4d60-82f0-c52343dc6251>;
+       fhir:Reference.reference [ fhir:value "Condition/a4a9d90a-d1b0-4d60-82f0-c52343dc6251" ];
        fhir:Reference.display [ fhir:value "Congestive heart failure" ]
      ]
   ], [
@@ -162,19 +168,23 @@
      ];
      fhir:Composition.section.entry [
        fhir:index 0;
-       fhir:Reference.reference [ fhir:value "urn:uuid:29074ca4-efcb-4ff4-8446-feed2399a891" ];
+       fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/MedicationStatement/29074ca4-efcb-4ff4-8446-feed2399a891>;
+       fhir:Reference.reference [ fhir:value "MedicationStatement/29074ca4-efcb-4ff4-8446-feed2399a891" ];
        fhir:Reference.display [ fhir:value "Dimethyl fumarate 30 mg Gastro-resistant tablet" ]
      ], [
        fhir:index 1;
-       fhir:Reference.reference [ fhir:value "urn:uuid:f6cb1218-f81c-4338-80d8-3c10910f78f1" ];
+       fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/MedicationStatement/f6cb1218-f81c-4338-80d8-3c10910f78f1>;
+       fhir:Reference.reference [ fhir:value "MedicationStatement/f6cb1218-f81c-4338-80d8-3c10910f78f1" ];
        fhir:Reference.display [ fhir:value "Irbesartan 75 mg Tablet" ]
      ], [
        fhir:index 2;
-       fhir:Reference.reference [ fhir:value "urn:uuid:f26084c9-b1c8-46d9-acb2-1d400ade87b1" ];
+       fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/MedicationStatement/f26084c9-b1c8-46d9-acb2-1d400ade87b1>;
+       fhir:Reference.reference [ fhir:value "MedicationStatement/f26084c9-b1c8-46d9-acb2-1d400ade87b1" ];
        fhir:Reference.display [ fhir:value "Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray" ]
      ], [
        fhir:index 3;
-       fhir:Reference.reference [ fhir:value "urn:uuid:5d129355-4b20-40d8-841f-7f93acbc3e61" ];
+       fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Medication/5d129355-4b20-40d8-841f-7f93acbc3e61>;
+       fhir:Reference.reference [ fhir:value "Medication/5d129355-4b20-40d8-841f-7f93acbc3e61" ];
        fhir:Reference.display [ fhir:value "valproic acid" ]
      ]
   ], [
@@ -191,12 +201,13 @@
      ];
      fhir:Composition.section.entry [
        fhir:index 0;
-       fhir:Reference.reference [ fhir:value "urn:uuid:e06e43a1-38d4-468f-8c35-f7f12da91061" ];
+       fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Observation/e06e43a1-38d4-468f-8c35-f7f12da91061>;
+       fhir:Reference.reference [ fhir:value "Observation/e06e43a1-38d4-468f-8c35-f7f12da91061" ];
        fhir:Reference.display [ fhir:value "Pregrancy Status" ]
      ]
   ] . # 
 
-<urn:uuid:c154158f-6a43-4ab7-8443-e7f4bf915dd1> a fhir:Patient;
+<c154158f-6a43-4ab7-8443-e7f4bf915dd1> a fhir:Patient;
   fhir:Resource.id [ fhir:value "c154158f-6a43-4ab7-8443-e7f4bf915dd1"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
@@ -235,7 +246,7 @@
   fhir:Patient.gender [ fhir:value "female"]; # 
   fhir:Patient.birthDate [ fhir:value "1978-05-05"^^xsd:date] . # 
 
-<urn:uuid:1ece89c5-fda3-4db9-ace6-decbe6c603d1> a fhir:Practitioner;
+<1ece89c5-fda3-4db9-ace6-decbe6c603d1> a fhir:Practitioner;
   fhir:Resource.id [ fhir:value "1ece89c5-fda3-4db9-ace6-decbe6c603d1"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
@@ -254,7 +265,7 @@
      ]
   ] . # 
 
-<urn:uuid:1dff4474-fa08-4f45-8260-dbb23094bf01> a fhir:AllergyIntolerance;
+<1dff4474-fa08-4f45-8260-dbb23094bf01> a fhir:AllergyIntolerance;
   fhir:Resource.id [ fhir:value "1dff4474-fa08-4f45-8260-dbb23094bf01"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
@@ -284,7 +295,8 @@
      ]
   ]; # 
   fhir:AllergyIntolerance.patient [
-     fhir:Reference.reference [ fhir:value "urn:uuid:c154158f-6a43-4ab7-8443-e7f4bf915dd1" ];
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd1>;
+     fhir:Reference.reference [ fhir:value "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd1" ];
      fhir:Reference.display [ fhir:value "Maria Gravitate" ]
   ]; # 
   fhir:AllergyIntolerance.reaction [
@@ -302,11 +314,11 @@
      ]
   ] . # 
 
-<urn:uuid:bcc79261-142c-48ec-b032-f3f9af49ec51> a fhir:Condition;
+<bcc79261-142c-48ec-b032-f3f9af49ec51> a fhir:Condition;
   fhir:Resource.id [ fhir:value "bcc79261-142c-48ec-b032-f3f9af49ec51"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Condition</b><a name=\"bcc79261-142c-48ec-b032-f3f9af49ec51\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Condition &quot;bcc79261-142c-48ec-b032-f3f9af49ec51&quot; </p></div><p><b>clinicalStatus</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-condition-clinical.html\">Condition Clinical Status Codes</a>#active)</span></p><p><b>code</b>: Psoriasis <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#9014002)</span></p><p><b>subject</b>: <a href=\"#Patient_c154158f-6a43-4ab7-8443-e7f4bf915dd1\">See above (urn:uuid:c154158f-6a43-4ab7-8443-e7f4bf915dd1: Maria Gravitate)</a></p><p><b>asserter</b>: <a href=\"#Practitioner_1ece89c5-fda3-4db9-ace6-decbe6c603d1\">See above (urn:uuid:1ece89c5-fda3-4db9-ace6-decbe6c603d1: Dr. Anna Karlsson)</a></p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Condition</b><a name=\"bcc79261-142c-48ec-b032-f3f9af49ec51\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Condition &quot;bcc79261-142c-48ec-b032-f3f9af49ec51&quot; </p></div><p><b>clinicalStatus</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-condition-clinical.html\">Condition Clinical Status Codes</a>#active)</span></p><p><b>code</b>: Psoriasis <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#9014002)</span></p><p><b>subject</b>: <a href=\"#Patient_c154158f-6a43-4ab7-8443-e7f4bf915dd1\">See above (Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd1: Maria Gravitate)</a></p><p><b>asserter</b>: <a href=\"#Practitioner_1ece89c5-fda3-4db9-ace6-decbe6c603d1\">See above (Practitioner/1ece89c5-fda3-4db9-ace6-decbe6c603d1: Dr. Anna Karlsson)</a></p></div>"
   ]; # 
   fhir:Condition.clinicalStatus [
      fhir:CodeableConcept.coding [
@@ -326,15 +338,17 @@
      fhir:CodeableConcept.text [ fhir:value "Psoriasis" ]
   ]; # 
   fhir:Condition.subject [
-     fhir:Reference.reference [ fhir:value "urn:uuid:c154158f-6a43-4ab7-8443-e7f4bf915dd1" ];
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd1>;
+     fhir:Reference.reference [ fhir:value "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd1" ];
      fhir:Reference.display [ fhir:value "Maria Gravitate" ]
   ]; # 
   fhir:Condition.asserter [
-     fhir:Reference.reference [ fhir:value "urn:uuid:1ece89c5-fda3-4db9-ace6-decbe6c603d1" ];
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Practitioner/1ece89c5-fda3-4db9-ace6-decbe6c603d1>;
+     fhir:Reference.reference [ fhir:value "Practitioner/1ece89c5-fda3-4db9-ace6-decbe6c603d1" ];
      fhir:Reference.display [ fhir:value "Dr. Anna Karlsson" ]
   ] . # 
 
-<urn:uuid:a4a9d90a-d1b0-4d60-82f0-c52343dc6251> a fhir:Condition;
+<a4a9d90a-d1b0-4d60-82f0-c52343dc6251> a fhir:Condition;
   fhir:Resource.id [ fhir:value "a4a9d90a-d1b0-4d60-82f0-c52343dc6251"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
@@ -358,20 +372,22 @@
      fhir:CodeableConcept.text [ fhir:value "Congestive heart failure" ]
   ]; # 
   fhir:Condition.subject [
-     fhir:Reference.reference [ fhir:value "urn:uuid:c154158f-6a43-4ab7-8443-e7f4bf915dd1" ];
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd1>;
+     fhir:Reference.reference [ fhir:value "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd1" ];
      fhir:Reference.display [ fhir:value "Maria Gravitate" ]
   ]; # 
   fhir:Condition.onsetDateTime [ fhir:value "2015"^^xsd:gYear]; # 
   fhir:Condition.asserter [
-     fhir:Reference.reference [ fhir:value "urn:uuid:1ece89c5-fda3-4db9-ace6-decbe6c603d1" ];
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Practitioner/1ece89c5-fda3-4db9-ace6-decbe6c603d1>;
+     fhir:Reference.reference [ fhir:value "Practitioner/1ece89c5-fda3-4db9-ace6-decbe6c603d1" ];
      fhir:Reference.display [ fhir:value "Dr. Anna Karlsson" ]
   ] . # 
 
-<urn:uuid:f06b7cf8-c15c-4288-a0f9-45a1026e5131> a fhir:Condition;
+<f06b7cf8-c15c-4288-a0f9-45a1026e5131> a fhir:Condition;
   fhir:Resource.id [ fhir:value "f06b7cf8-c15c-4288-a0f9-45a1026e5131"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Condition</b><a name=\"f06b7cf8-c15c-4288-a0f9-45a1026e5131\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Condition &quot;f06b7cf8-c15c-4288-a0f9-45a1026e5131&quot; </p></div><p><b>clinicalStatus</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-condition-clinical.html\">Condition Clinical Status Codes</a>#active)</span></p><p><b>code</b>: Hypertension <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#38341003 &quot;HT - Hypertension&quot;)</span></p><p><b>subject</b>: <a href=\"#Patient_c154158f-6a43-4ab7-8443-e7f4bf915dd1\">See above (urn:uuid:c154158f-6a43-4ab7-8443-e7f4bf915dd1: Maria Gravitate)</a></p><p><b>onset</b>: 1993</p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Condition</b><a name=\"f06b7cf8-c15c-4288-a0f9-45a1026e5131\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Condition &quot;f06b7cf8-c15c-4288-a0f9-45a1026e5131&quot; </p></div><p><b>clinicalStatus</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-condition-clinical.html\">Condition Clinical Status Codes</a>#active)</span></p><p><b>code</b>: Hypertension <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#38341003 &quot;HT - Hypertension&quot;)</span></p><p><b>subject</b>: <a href=\"#Patient_c154158f-6a43-4ab7-8443-e7f4bf915dd1\">See above (Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd1: Maria Gravitate)</a></p><p><b>onset</b>: 1993</p></div>"
   ]; # 
   fhir:Condition.clinicalStatus [
      fhir:CodeableConcept.coding [
@@ -391,12 +407,13 @@
      fhir:CodeableConcept.text [ fhir:value "Hypertension" ]
   ]; # 
   fhir:Condition.subject [
-     fhir:Reference.reference [ fhir:value "urn:uuid:c154158f-6a43-4ab7-8443-e7f4bf915dd1" ];
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd1>;
+     fhir:Reference.reference [ fhir:value "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd1" ];
      fhir:Reference.display [ fhir:value "Maria Gravitate" ]
   ]; # 
   fhir:Condition.onsetDateTime [ fhir:value "1993"^^xsd:gYear] . # 
 
-<urn:uuid:29074ca4-efcb-4ff4-8446-feed2399a891> a fhir:MedicationStatement;
+<29074ca4-efcb-4ff4-8446-feed2399a891> a fhir:MedicationStatement;
   fhir:Resource.id [ fhir:value "29074ca4-efcb-4ff4-8446-feed2399a891"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
@@ -404,11 +421,13 @@
   ]; # 
   fhir:MedicationStatement.status [ fhir:value "active"]; # 
   fhir:MedicationStatement.medicationReference [
-     fhir:Reference.reference [ fhir:value "urn:uuid:b50ae644-e0b7-4007-809f-26f493cbe361" ];
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Medication/b50ae644-e0b7-4007-809f-26f493cbe361>;
+     fhir:Reference.reference [ fhir:value "Medication/b50ae644-e0b7-4007-809f-26f493cbe361" ];
      fhir:Reference.display [ fhir:value "Dimethyl fumarate 30 mg Tablet" ]
   ]; # 
   fhir:MedicationStatement.subject [
-     fhir:Reference.reference [ fhir:value "urn:uuid:c154158f-6a43-4ab7-8443-e7f4bf915dd1" ];
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd1>;
+     fhir:Reference.reference [ fhir:value "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd1" ];
      fhir:Reference.display [ fhir:value "Maria Gravitate" ]
   ]; # 
   fhir:MedicationStatement.dosage [
@@ -423,19 +442,21 @@
      ]
   ] . # 
 
-<urn:uuid:f6cb1218-f81c-4338-80d8-3c10910f78f1> a fhir:MedicationStatement;
+<f6cb1218-f81c-4338-80d8-3c10910f78f1> a fhir:MedicationStatement;
   fhir:Resource.id [ fhir:value "f6cb1218-f81c-4338-80d8-3c10910f78f1"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicationStatement</b><a name=\"f6cb1218-f81c-4338-80d8-3c10910f78f1\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicationStatement &quot;f6cb1218-f81c-4338-80d8-3c10910f78f1&quot; </p></div><p><b>status</b>: active</p><p><b>medication</b>: <a href=\"#Medication_de131e15-ed13-4b31-b38c-3204a84d99c1\">See above (urn:uuid:de131e15-ed13-4b31-b38c-3204a84d99c1: Irbesartan 75 mg Tablet)</a></p><p><b>subject</b>: <a href=\"#Patient_c154158f-6a43-4ab7-8443-e7f4bf915dd1\">See above (urn:uuid:c154158f-6a43-4ab7-8443-e7f4bf915dd1: Maria Gravitate)</a></p><h3>Dosages</h3><table class=\"grid\"><tr><td>-</td><td><b>Route</b></td></tr><tr><td>*</td><td>Oral use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#20053000)</span></td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicationStatement</b><a name=\"f6cb1218-f81c-4338-80d8-3c10910f78f1\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicationStatement &quot;f6cb1218-f81c-4338-80d8-3c10910f78f1&quot; </p></div><p><b>status</b>: active</p><p><b>medication</b>: <a href=\"#Medication_de131e15-ed13-4b31-b38c-3204a84d99c1\">See above (Medication/de131e15-ed13-4b31-b38c-3204a84d99c1: Irbesartan 75 mg Tablet)</a></p><p><b>subject</b>: <a href=\"#Patient_c154158f-6a43-4ab7-8443-e7f4bf915dd1\">See above (Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd1: Maria Gravitate)</a></p><h3>Dosages</h3><table class=\"grid\"><tr><td>-</td><td><b>Route</b></td></tr><tr><td>*</td><td>Oral use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#20053000)</span></td></tr></table></div>"
   ]; # 
   fhir:MedicationStatement.status [ fhir:value "active"]; # 
   fhir:MedicationStatement.medicationReference [
-     fhir:Reference.reference [ fhir:value "urn:uuid:de131e15-ed13-4b31-b38c-3204a84d99c1" ];
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Medication/de131e15-ed13-4b31-b38c-3204a84d99c1>;
+     fhir:Reference.reference [ fhir:value "Medication/de131e15-ed13-4b31-b38c-3204a84d99c1" ];
      fhir:Reference.display [ fhir:value "Irbesartan 75 mg Tablet" ]
   ]; # 
   fhir:MedicationStatement.subject [
-     fhir:Reference.reference [ fhir:value "urn:uuid:c154158f-6a43-4ab7-8443-e7f4bf915dd1" ];
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd1>;
+     fhir:Reference.reference [ fhir:value "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd1" ];
      fhir:Reference.display [ fhir:value "Maria Gravitate" ]
   ]; # 
   fhir:MedicationStatement.dosage [
@@ -450,19 +471,21 @@
      ]
   ] . # 
 
-<urn:uuid:f26084c9-b1c8-46d9-acb2-1d400ade87b1> a fhir:MedicationStatement;
+<f26084c9-b1c8-46d9-acb2-1d400ade87b1> a fhir:MedicationStatement;
   fhir:Resource.id [ fhir:value "f26084c9-b1c8-46d9-acb2-1d400ade87b1"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicationStatement</b><a name=\"f26084c9-b1c8-46d9-acb2-1d400ade87b1\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicationStatement &quot;f26084c9-b1c8-46d9-acb2-1d400ade87b1&quot; </p></div><p><b>status</b>: active</p><p><b>medication</b>: <a href=\"#Medication_9ac3356c-4ea4-4814-84c3-235484f2ef11\">See above (urn:uuid:9ac3356c-4ea4-4814-84c3-235484f2ef11: Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray)</a></p><p><b>subject</b>: <a href=\"#Patient_c154158f-6a43-4ab7-8443-e7f4bf915dd1\">See above (urn:uuid:c154158f-6a43-4ab7-8443-e7f4bf915dd1: Maria Gravitate)</a></p><h3>Dosages</h3><table class=\"grid\"><tr><td>-</td><td><b>Route</b></td></tr><tr><td>*</td><td>Nasal use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#20049000)</span></td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicationStatement</b><a name=\"f26084c9-b1c8-46d9-acb2-1d400ade87b1\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicationStatement &quot;f26084c9-b1c8-46d9-acb2-1d400ade87b1&quot; </p></div><p><b>status</b>: active</p><p><b>medication</b>: <a href=\"#Medication_9ac3356c-4ea4-4814-84c3-235484f2ef11\">See above (Medication/9ac3356c-4ea4-4814-84c3-235484f2ef11: Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray)</a></p><p><b>subject</b>: <a href=\"#Patient_c154158f-6a43-4ab7-8443-e7f4bf915dd1\">See above (Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd1: Maria Gravitate)</a></p><h3>Dosages</h3><table class=\"grid\"><tr><td>-</td><td><b>Route</b></td></tr><tr><td>*</td><td>Nasal use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#20049000)</span></td></tr></table></div>"
   ]; # 
   fhir:MedicationStatement.status [ fhir:value "active"]; # 
   fhir:MedicationStatement.medicationReference [
-     fhir:Reference.reference [ fhir:value "urn:uuid:9ac3356c-4ea4-4814-84c3-235484f2ef11" ];
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Medication/9ac3356c-4ea4-4814-84c3-235484f2ef11>;
+     fhir:Reference.reference [ fhir:value "Medication/9ac3356c-4ea4-4814-84c3-235484f2ef11" ];
      fhir:Reference.display [ fhir:value "Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray" ]
   ]; # 
   fhir:MedicationStatement.subject [
-     fhir:Reference.reference [ fhir:value "urn:uuid:c154158f-6a43-4ab7-8443-e7f4bf915dd1" ];
+     fhir:link <http://hl7.eu/fhir/ig/gravitate-health-ips/Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd1>;
+     fhir:Reference.reference [ fhir:value "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd1" ];
      fhir:Reference.display [ fhir:value "Maria Gravitate" ]
   ]; # 
   fhir:MedicationStatement.dosage [
@@ -477,7 +500,7 @@
      ]
   ] . # 
 
-<urn:uuid:b50ae644-e0b7-4007-809f-26f493cbe361> a fhir:Medication;
+<b50ae644-e0b7-4007-809f-26f493cbe361> a fhir:Medication;
   fhir:Resource.id [ fhir:value "b50ae644-e0b7-4007-809f-26f493cbe361"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
@@ -536,7 +559,7 @@
      ]
   ] . # 
 
-<urn:uuid:de131e15-ed13-4b31-b38c-3204a84d99c1> a fhir:Medication;
+<de131e15-ed13-4b31-b38c-3204a84d99c1> a fhir:Medication;
   fhir:Resource.id [ fhir:value "de131e15-ed13-4b31-b38c-3204a84d99c1"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
@@ -595,7 +618,7 @@
      ]
   ] . # 
 
-<urn:uuid:9ac3356c-4ea4-4814-84c3-235484f2ef11> a fhir:Medication;
+<9ac3356c-4ea4-4814-84c3-235484f2ef11> a fhir:Medication;
   fhir:Resource.id [ fhir:value "9ac3356c-4ea4-4814-84c3-235484f2ef11"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
@@ -649,7 +672,7 @@
      ]
   ] . # 
 
-<urn:uuid:5d129355-4b20-40d8-841f-7f93acbc3e61> a fhir:Medication;
+<5d129355-4b20-40d8-841f-7f93acbc3e61> a fhir:Medication;
   fhir:Resource.id [ fhir:value "5d129355-4b20-40d8-841f-7f93acbc3e61"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
@@ -693,7 +716,7 @@
      ]
   ] . # 
 
-<urn:uuid:e06e43a1-38d4-468f-8c35-f7f12da91061> a fhir:Observation;
+<e06e43a1-38d4-468f-8c35-f7f12da91061> a fhir:Observation;
   fhir:Resource.id [ fhir:value "e06e43a1-38d4-468f-8c35-f7f12da91061"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];

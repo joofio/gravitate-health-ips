@@ -8,13 +8,13 @@
   "type" : "document",
   "timestamp" : "2021-09-03T08:38:00+02:00",
   "entry" : [{
-    "fullUrl" : "urn:uuid:2fa5b223-ebce-4f39-9c66-5dc014f73573",
+    "fullUrl" : "2fa5b223-ebce-4f39-9c66-5dc014f73573",
     "resource" : {
       "resourceType" : "Composition",
       "id" : "ips-example-2",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Composition</b><a name=\"ips-example-2\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Composition &quot;ips-example-2&quot; </p></div><p><b>status</b>: final</p><p><b>type</b>: Patient summary Document <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#60591-5)</span></p><p><b>date</b>: 2018-07-10 15:22:00+0200</p><p><b>author</b>: <a href=\"#Practitioner_1ece89c5-fda3-4db9-ace6-decbe6c603d3\">See above (urn:uuid:1ece89c5-fda3-4db9-ace6-decbe6c603d3: Dr. Anna Karlsson)</a></p><p><b>title</b>: Patient Summary (Maria Gravitate)</p><p><b>confidentiality</b>: N</p></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Composition</b><a name=\"ips-example-2\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Composition &quot;ips-example-2&quot; </p></div><p><b>status</b>: final</p><p><b>type</b>: Patient summary Document <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#60591-5)</span></p><p><b>date</b>: 2018-07-10 15:22:00+0200</p><p><b>author</b>: <a href=\"#Practitioner_1ece89c5-fda3-4db9-ace6-decbe6c603d3\">See above (Practitioner/1ece89c5-fda3-4db9-ace6-decbe6c603d3: Dr. Anna Karlsson)</a></p><p><b>title</b>: Patient Summary (Maria Gravitate)</p><p><b>confidentiality</b>: N</p></div>"
       },
       "status" : "final",
       "type" : {
@@ -25,12 +25,12 @@
         }]
       },
       "subject" : {
-        "reference" : "urn:uuid:c154158f-6a43-4ab7-8443-e7f4bf915dd3",
+        "reference" : "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd3",
         "display" : "Maria Gravitate"
       },
       "date" : "2018-07-10T15:22:00+02:00",
       "author" : [{
-        "reference" : "urn:uuid:1ece89c5-fda3-4db9-ace6-decbe6c603d3",
+        "reference" : "Practitioner/1ece89c5-fda3-4db9-ace6-decbe6c603d3",
         "display" : "Dr. Anna Karlsson"
       }],
       "title" : "Patient Summary (Maria Gravitate)",
@@ -45,7 +45,7 @@
           }]
         },
         "entry" : [{
-          "reference" : "urn:uuid:1dff4474-fa08-4f45-8260-dbb23094bf03",
+          "reference" : "AllergyIntolerance/1dff4474-fa08-4f45-8260-dbb23094bf03",
           "display" : "Hay fever (pollen)"
         }]
       },
@@ -59,15 +59,15 @@
           }]
         },
         "entry" : [{
-          "reference" : "urn:uuid:bcc79261-142c-48ec-b032-f3f9af49ec53",
+          "reference" : "Condition/bcc79261-142c-48ec-b032-f3f9af49ec53",
           "display" : "Psoriasis"
         },
         {
-          "reference" : "urn:uuid:f06b7cf8-c15c-4288-a0f9-45a1026e5133",
+          "reference" : "Condition/f06b7cf8-c15c-4288-a0f9-45a1026e5133",
           "display" : "Hypertension"
         },
         {
-          "reference" : "urn:uuid:a4a9d90a-d1b0-4d60-82f0-c52343dc6253",
+          "reference" : "Condition/a4a9d90a-d1b0-4d60-82f0-c52343dc6253",
           "display" : "Congestive heart failure"
         }]
       },
@@ -81,22 +81,22 @@
           }]
         },
         "entry" : [{
-          "reference" : "urn:uuid:29074ca4-efcb-4ff4-8446-feed2399a893",
+          "reference" : "MedicationStatement/29074ca4-efcb-4ff4-8446-feed2399a893",
           "display" : "Dimethyl fumarate 30 mg Gastro-resistant tablet"
         },
         {
-          "reference" : "urn:uuid:f6cb1218-f81c-4338-80d8-3c10910f78f3",
+          "reference" : "MedicationStatement/f6cb1218-f81c-4338-80d8-3c10910f78f3",
           "display" : "Irbesartan 75 mg Tablet"
         },
         {
-          "reference" : "urn:uuid:f26084c9-b1c8-46d9-acb2-1d400ade87b3",
+          "reference" : "MedicationStatement/f26084c9-b1c8-46d9-acb2-1d400ade87b3",
           "display" : "Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray"
         }]
       }]
     }
   },
   {
-    "fullUrl" : "urn:uuid:c154158f-6a43-4ab7-8443-e7f4bf915dd3",
+    "fullUrl" : "c154158f-6a43-4ab7-8443-e7f4bf915dd3",
     "resource" : {
       "resourceType" : "Patient",
       "id" : "c154158f-6a43-4ab7-8443-e7f4bf915dd3",
@@ -131,7 +131,7 @@
     }
   },
   {
-    "fullUrl" : "urn:uuid:1ece89c5-fda3-4db9-ace6-decbe6c603d3",
+    "fullUrl" : "1ece89c5-fda3-4db9-ace6-decbe6c603d3",
     "resource" : {
       "resourceType" : "Practitioner",
       "id" : "1ece89c5-fda3-4db9-ace6-decbe6c603d3",
@@ -147,7 +147,7 @@
     }
   },
   {
-    "fullUrl" : "urn:uuid:1dff4474-fa08-4f45-8260-dbb23094bf03",
+    "fullUrl" : "1dff4474-fa08-4f45-8260-dbb23094bf03",
     "resource" : {
       "resourceType" : "AllergyIntolerance",
       "id" : "1dff4474-fa08-4f45-8260-dbb23094bf03",
@@ -175,7 +175,7 @@
         }]
       },
       "patient" : {
-        "reference" : "urn:uuid:c154158f-6a43-4ab7-8443-e7f4bf915dd3",
+        "reference" : "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd3",
         "display" : "Maria Gravitate"
       },
       "reaction" : [{
@@ -191,13 +191,13 @@
     }
   },
   {
-    "fullUrl" : "urn:uuid:bcc79261-142c-48ec-b032-f3f9af49ec53",
+    "fullUrl" : "bcc79261-142c-48ec-b032-f3f9af49ec53",
     "resource" : {
       "resourceType" : "Condition",
       "id" : "bcc79261-142c-48ec-b032-f3f9af49ec53",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Condition</b><a name=\"bcc79261-142c-48ec-b032-f3f9af49ec53\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Condition &quot;bcc79261-142c-48ec-b032-f3f9af49ec53&quot; </p></div><p><b>clinicalStatus</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-condition-clinical.html\">Condition Clinical Status Codes</a>#active)</span></p><p><b>code</b>: Psoriasis <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#9014002)</span></p><p><b>subject</b>: <a href=\"#Patient_c154158f-6a43-4ab7-8443-e7f4bf915dd3\">See above (urn:uuid:c154158f-6a43-4ab7-8443-e7f4bf915dd3: Maria Gravitate)</a></p><p><b>asserter</b>: <a href=\"#Practitioner_1ece89c5-fda3-4db9-ace6-decbe6c603d3\">See above (urn:uuid:1ece89c5-fda3-4db9-ace6-decbe6c603d3: Dr. Anna Karlsson)</a></p></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Condition</b><a name=\"bcc79261-142c-48ec-b032-f3f9af49ec53\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Condition &quot;bcc79261-142c-48ec-b032-f3f9af49ec53&quot; </p></div><p><b>clinicalStatus</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-condition-clinical.html\">Condition Clinical Status Codes</a>#active)</span></p><p><b>code</b>: Psoriasis <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#9014002)</span></p><p><b>subject</b>: <a href=\"#Patient_c154158f-6a43-4ab7-8443-e7f4bf915dd3\">See above (Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd3: Maria Gravitate)</a></p><p><b>asserter</b>: <a href=\"#Practitioner_1ece89c5-fda3-4db9-ace6-decbe6c603d3\">See above (Practitioner/1ece89c5-fda3-4db9-ace6-decbe6c603d3: Dr. Anna Karlsson)</a></p></div>"
       },
       "clinicalStatus" : {
         "coding" : [{
@@ -214,17 +214,17 @@
         "text" : "Psoriasis"
       },
       "subject" : {
-        "reference" : "urn:uuid:c154158f-6a43-4ab7-8443-e7f4bf915dd3",
+        "reference" : "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd3",
         "display" : "Maria Gravitate"
       },
       "asserter" : {
-        "reference" : "urn:uuid:1ece89c5-fda3-4db9-ace6-decbe6c603d3",
+        "reference" : "Practitioner/1ece89c5-fda3-4db9-ace6-decbe6c603d3",
         "display" : "Dr. Anna Karlsson"
       }
     }
   },
   {
-    "fullUrl" : "urn:uuid:a4a9d90a-d1b0-4d60-82f0-c52343dc6253",
+    "fullUrl" : "a4a9d90a-d1b0-4d60-82f0-c52343dc6253",
     "resource" : {
       "resourceType" : "Condition",
       "id" : "a4a9d90a-d1b0-4d60-82f0-c52343dc6253",
@@ -247,24 +247,24 @@
         "text" : "Congestive heart failure"
       },
       "subject" : {
-        "reference" : "urn:uuid:c154158f-6a43-4ab7-8443-e7f4bf915dd3",
+        "reference" : "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd3",
         "display" : "Maria Gravitate"
       },
       "onsetDateTime" : "2015",
       "asserter" : {
-        "reference" : "urn:uuid:1ece89c5-fda3-4db9-ace6-decbe6c603d3",
+        "reference" : "Practitioner/1ece89c5-fda3-4db9-ace6-decbe6c603d3",
         "display" : "Dr. Anna Karlsson"
       }
     }
   },
   {
-    "fullUrl" : "urn:uuid:f06b7cf8-c15c-4288-a0f9-45a1026e5133",
+    "fullUrl" : "f06b7cf8-c15c-4288-a0f9-45a1026e5133",
     "resource" : {
       "resourceType" : "Condition",
       "id" : "f06b7cf8-c15c-4288-a0f9-45a1026e5133",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Condition</b><a name=\"f06b7cf8-c15c-4288-a0f9-45a1026e5133\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Condition &quot;f06b7cf8-c15c-4288-a0f9-45a1026e5133&quot; </p></div><p><b>clinicalStatus</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-condition-clinical.html\">Condition Clinical Status Codes</a>#active)</span></p><p><b>code</b>: Hypertension <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#38341003 &quot;HT - Hypertension&quot;)</span></p><p><b>subject</b>: <a href=\"#Patient_c154158f-6a43-4ab7-8443-e7f4bf915dd3\">See above (urn:uuid:c154158f-6a43-4ab7-8443-e7f4bf915dd3: Maria Gravitate)</a></p><p><b>onset</b>: 1993</p></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Condition</b><a name=\"f06b7cf8-c15c-4288-a0f9-45a1026e5133\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Condition &quot;f06b7cf8-c15c-4288-a0f9-45a1026e5133&quot; </p></div><p><b>clinicalStatus</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-condition-clinical.html\">Condition Clinical Status Codes</a>#active)</span></p><p><b>code</b>: Hypertension <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#38341003 &quot;HT - Hypertension&quot;)</span></p><p><b>subject</b>: <a href=\"#Patient_c154158f-6a43-4ab7-8443-e7f4bf915dd3\">See above (Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd3: Maria Gravitate)</a></p><p><b>onset</b>: 1993</p></div>"
       },
       "clinicalStatus" : {
         "coding" : [{
@@ -281,14 +281,14 @@
         "text" : "Hypertension"
       },
       "subject" : {
-        "reference" : "urn:uuid:c154158f-6a43-4ab7-8443-e7f4bf915dd3",
+        "reference" : "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd3",
         "display" : "Maria Gravitate"
       },
       "onsetDateTime" : "1993"
     }
   },
   {
-    "fullUrl" : "urn:uuid:29074ca4-efcb-4ff4-8446-feed2399a893",
+    "fullUrl" : "29074ca4-efcb-4ff4-8446-feed2399a893",
     "resource" : {
       "resourceType" : "MedicationStatement",
       "id" : "29074ca4-efcb-4ff4-8446-feed2399a893",
@@ -298,11 +298,11 @@
       },
       "status" : "active",
       "medicationReference" : {
-        "reference" : "urn:uuid:b50ae644-e0b7-4007-809f-26f493cbe363",
+        "reference" : "Medication/b50ae644-e0b7-4007-809f-26f493cbe363",
         "display" : "Dimethyl fumarate 30 mg Tablet"
       },
       "subject" : {
-        "reference" : "urn:uuid:c154158f-6a43-4ab7-8443-e7f4bf915dd3",
+        "reference" : "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd3",
         "display" : "Maria Gravitate"
       },
       "dosage" : [{
@@ -317,21 +317,21 @@
     }
   },
   {
-    "fullUrl" : "urn:uuid:f6cb1218-f81c-4338-80d8-3c10910f78f3",
+    "fullUrl" : "f6cb1218-f81c-4338-80d8-3c10910f78f3",
     "resource" : {
       "resourceType" : "MedicationStatement",
       "id" : "f6cb1218-f81c-4338-80d8-3c10910f78f3",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicationStatement</b><a name=\"f6cb1218-f81c-4338-80d8-3c10910f78f3\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicationStatement &quot;f6cb1218-f81c-4338-80d8-3c10910f78f3&quot; </p></div><p><b>status</b>: active</p><p><b>medication</b>: <a href=\"#Medication_de131e15-ed13-4b31-b38c-3204a84d99c3\">See above (urn:uuid:de131e15-ed13-4b31-b38c-3204a84d99c3: Irbesartan 75 mg Tablet)</a></p><p><b>subject</b>: <a href=\"#Patient_c154158f-6a43-4ab7-8443-e7f4bf915dd3\">See above (urn:uuid:c154158f-6a43-4ab7-8443-e7f4bf915dd3: Maria Gravitate)</a></p><h3>Dosages</h3><table class=\"grid\"><tr><td>-</td><td><b>Route</b></td></tr><tr><td>*</td><td>Oral use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#20053000)</span></td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicationStatement</b><a name=\"f6cb1218-f81c-4338-80d8-3c10910f78f3\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicationStatement &quot;f6cb1218-f81c-4338-80d8-3c10910f78f3&quot; </p></div><p><b>status</b>: active</p><p><b>medication</b>: <a href=\"#Medication_de131e15-ed13-4b31-b38c-3204a84d99c3\">See above (Medication/de131e15-ed13-4b31-b38c-3204a84d99c3: Irbesartan 75 mg Tablet)</a></p><p><b>subject</b>: <a href=\"#Patient_c154158f-6a43-4ab7-8443-e7f4bf915dd3\">See above (Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd3: Maria Gravitate)</a></p><h3>Dosages</h3><table class=\"grid\"><tr><td>-</td><td><b>Route</b></td></tr><tr><td>*</td><td>Oral use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#20053000)</span></td></tr></table></div>"
       },
       "status" : "active",
       "medicationReference" : {
-        "reference" : "urn:uuid:de131e15-ed13-4b31-b38c-3204a84d99c3",
+        "reference" : "Medication/de131e15-ed13-4b31-b38c-3204a84d99c3",
         "display" : "Irbesartan 75 mg Tablet"
       },
       "subject" : {
-        "reference" : "urn:uuid:c154158f-6a43-4ab7-8443-e7f4bf915dd3",
+        "reference" : "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd3",
         "display" : "Maria Gravitate"
       },
       "dosage" : [{
@@ -346,21 +346,21 @@
     }
   },
   {
-    "fullUrl" : "urn:uuid:f26084c9-b1c8-46d9-acb2-1d400ade87b3",
+    "fullUrl" : "f26084c9-b1c8-46d9-acb2-1d400ade87b3",
     "resource" : {
       "resourceType" : "MedicationStatement",
       "id" : "f26084c9-b1c8-46d9-acb2-1d400ade87b3",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicationStatement</b><a name=\"f26084c9-b1c8-46d9-acb2-1d400ade87b3\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicationStatement &quot;f26084c9-b1c8-46d9-acb2-1d400ade87b3&quot; </p></div><p><b>status</b>: active</p><p><b>medication</b>: <a href=\"#Medication_9ac3356c-4ea4-4814-84c3-235484f2ef13\">See above (urn:uuid:9ac3356c-4ea4-4814-84c3-235484f2ef13: Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray)</a></p><p><b>subject</b>: <a href=\"#Patient_c154158f-6a43-4ab7-8443-e7f4bf915dd3\">See above (urn:uuid:c154158f-6a43-4ab7-8443-e7f4bf915dd3: Maria Gravitate)</a></p><h3>Dosages</h3><table class=\"grid\"><tr><td>-</td><td><b>Route</b></td></tr><tr><td>*</td><td>Nasal use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#20049000)</span></td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicationStatement</b><a name=\"f26084c9-b1c8-46d9-acb2-1d400ade87b3\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicationStatement &quot;f26084c9-b1c8-46d9-acb2-1d400ade87b3&quot; </p></div><p><b>status</b>: active</p><p><b>medication</b>: <a href=\"#Medication_9ac3356c-4ea4-4814-84c3-235484f2ef13\">See above (Medication/9ac3356c-4ea4-4814-84c3-235484f2ef13: Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray)</a></p><p><b>subject</b>: <a href=\"#Patient_c154158f-6a43-4ab7-8443-e7f4bf915dd3\">See above (Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd3: Maria Gravitate)</a></p><h3>Dosages</h3><table class=\"grid\"><tr><td>-</td><td><b>Route</b></td></tr><tr><td>*</td><td>Nasal use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (standardterms.edqm.eu#20049000)</span></td></tr></table></div>"
       },
       "status" : "active",
       "medicationReference" : {
-        "reference" : "urn:uuid:9ac3356c-4ea4-4814-84c3-235484f2ef13",
+        "reference" : "Medication/9ac3356c-4ea4-4814-84c3-235484f2ef13",
         "display" : "Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray"
       },
       "subject" : {
-        "reference" : "urn:uuid:c154158f-6a43-4ab7-8443-e7f4bf915dd3",
+        "reference" : "Patient/c154158f-6a43-4ab7-8443-e7f4bf915dd3",
         "display" : "Maria Gravitate"
       },
       "dosage" : [{
@@ -375,7 +375,7 @@
     }
   },
   {
-    "fullUrl" : "urn:uuid:b50ae644-e0b7-4007-809f-26f493cbe363",
+    "fullUrl" : "b50ae644-e0b7-4007-809f-26f493cbe363",
     "resource" : {
       "resourceType" : "Medication",
       "id" : "b50ae644-e0b7-4007-809f-26f493cbe363",
@@ -434,7 +434,7 @@
     }
   },
   {
-    "fullUrl" : "urn:uuid:de131e15-ed13-4b31-b38c-3204a84d99c3",
+    "fullUrl" : "de131e15-ed13-4b31-b38c-3204a84d99c3",
     "resource" : {
       "resourceType" : "Medication",
       "id" : "de131e15-ed13-4b31-b38c-3204a84d99c3",
@@ -493,7 +493,7 @@
     }
   },
   {
-    "fullUrl" : "urn:uuid:9ac3356c-4ea4-4814-84c3-235484f2ef13",
+    "fullUrl" : "9ac3356c-4ea4-4814-84c3-235484f2ef13",
     "resource" : {
       "resourceType" : "Medication",
       "id" : "9ac3356c-4ea4-4814-84c3-235484f2ef13",
