@@ -1,58 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="6eadb795-d01f-4abd-ac1f-42ede5154720"/>
+  <id value="9ea36391-c4e3-45b2-ac8d-7a5144114734"/>
   <meta>
-    <lastUpdated value="2023-01-14T22:54:21.322+00:00"/>
+    <lastUpdated value="2023-01-20T16:43:49.562+00:00"/>
   </meta>
   <type value="collection"/>
-  <entry>
-    <fullUrl value="http://hl7.eu/fhir/ig/gravitate-health-ips/ValueSet/PDcategoryVS"/>
-    <resource>
-      <ValueSet>
-        <id value="PDcategoryVS"/>
-        <text>
-          <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 0 concepts</p>
-            <table class="codes">
-              <tr>
-                <td style="white-space:nowrap">
-                  <b>Code</b>
-                </td>
-                <td>
-                  <b>System</b>
-                </td>
-                <td>
-                  <b>Display</b>
-                </td>
-              </tr>
-            </table>
-          </div>
-        </text>
-        <url value="http://hl7.eu/fhir/ig/gravitate-health-ips/ValueSet/PDcategoryVS"/>
-        <version value="0.1.0"/>
-        <name value="PDcategoryVS"/>
-        <status value="active"/>
-        <date value="2023-01-14T22:54:21+00:00"/>
-        <contact>
-          <name value="Gravitate Health Project"/>
-          <telecom>
-            <system value="url"/>
-            <value value="https://www.gravitatehealth.eu/"/>
-          </telecom>
-        </contact>
-        <expansion>
-          <identifier value="urn:uuid:18076a61-3f34-4af1-8eb0-c58deea41614"/>
-          <timestamp value="2023-01-14T22:54:56+00:00"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
-        </expansion>
-      </ValueSet>
-    </resource>
-  </entry>
   <entry>
     <fullUrl value="http://hl7.eu/fhir/ig/gravitate-health-ips/ValueSet/PDtypeVS"/>
     <resource>
@@ -81,7 +34,7 @@
         <version value="0.1.0"/>
         <name value="PDtypeVS"/>
         <status value="active"/>
-        <date value="2023-01-14T22:54:21+00:00"/>
+        <date value="2023-01-20T16:43:49+00:00"/>
         <contact>
           <name value="Gravitate Health Project"/>
           <telecom>
@@ -90,8 +43,55 @@
           </telecom>
         </contact>
         <expansion>
-          <identifier value="urn:uuid:d4cbd7a4-4b44-4bf6-9d87-e730c83ec8f2"/>
-          <timestamp value="2023-01-14T22:54:59+00:00"/>
+          <identifier value="urn:uuid:acf2adb6-182d-471b-8d2c-ff1db5d8137e"/>
+          <timestamp value="2023-01-20T16:44:12+00:00"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.eu/fhir/ig/gravitate-health-ips/ValueSet/PDcategoryVS"/>
+    <resource>
+      <ValueSet>
+        <id value="PDcategoryVS"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 0 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://hl7.eu/fhir/ig/gravitate-health-ips/ValueSet/PDcategoryVS"/>
+        <version value="0.1.0"/>
+        <name value="PDcategoryVS"/>
+        <status value="active"/>
+        <date value="2023-01-20T16:43:49+00:00"/>
+        <contact>
+          <name value="Gravitate Health Project"/>
+          <telecom>
+            <system value="url"/>
+            <value value="https://www.gravitatehealth.eu/"/>
+          </telecom>
+        </contact>
+        <expansion>
+          <identifier value="urn:uuid:9fc59c88-fd1f-4023-889f-cbbedc71c734"/>
+          <timestamp value="2023-01-20T16:44:16+00:00"/>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>

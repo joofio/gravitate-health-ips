@@ -242,18 +242,16 @@
 
 
 
-<b>Composition</b>
-<br/>
 
-  <b>status:</b>
+  <b>Composition status:</b>
   final
 <br/>
 
-  <b>Type:</b>
+  <b>Composition Type:</b>
   Patient summary Document
 <br/>
-  <b>Subject:</b>
-  <div class="patient inner">
+<b>Subject:</b>
+<div class="patient block indent">
 
   
   
@@ -287,82 +285,89 @@
 
   
     
-    <div class="condition">
-
-    
+    <div class="problem-list block">
 
       
 
+        
 
-        
-          <b>Condition:</b>
-          COPD - Chronic obstructive pulmonary disease (42343007)<br/>
-        
-          <b>clinicalStatus:</b>
-          active <br/>
-        
-          <b>asserter:</b>
-          Dr. Anna Karlsson <br/>
+        <div class="condition indent block">
+
           
-          <br/>
-      
+            <b>Condition:</b>
+            COPD - Chronic obstructive pulmonary disease (42343007)<br/>
+          
+            <b>clinicalStatus:</b>
+            active <br/>
+          
+            <b>asserter:</b>
+            Dr. Anna Karlsson <br/>
+          
+        </div>
 
       
 
+        
 
-        
-          <b>Condition:</b>
-          Congestive heart failure (42343007)<br/>
-        
-          <b>clinicalStatus:</b>
-          active <br/>
-        
-          <b>asserter:</b>
-          Dr. Anna Karlsson <br/>
+        <div class="condition indent block">
+
+          
+            <b>Condition:</b>
+            Congestive heart failure (42343007)<br/>
+          
+            <b>clinicalStatus:</b>
+            active <br/>
+          
+            <b>asserter:</b>
+            Dr. Anna Karlsson <br/>
           
             <b>onsetDateTime:</b>
             2015 <br/>
           
-          <br/>
-      
+        </div>
 
       
 
+        
 
-        
-          <b>Condition:</b>
-          Osteoporosis (64859006)<br/>
-        
-          <b>clinicalStatus:</b>
-          active <br/>
-        
+        <div class="condition indent block">
+
+          
+            <b>Condition:</b>
+            Osteoporosis (64859006)<br/>
+          
+            <b>clinicalStatus:</b>
+            active <br/>
+          
           
             <b>onsetDateTime:</b>
             1993 <br/>
           
-          <br/>
-      
+        </div>
 
       
 
+        
 
-        
-          <b>Condition:</b>
-          Diabetes mellitus type 2 (44054006)<br/>
-        
-          <b>clinicalStatus:</b>
-          active <br/>
-        
+        <div class="condition indent block">
+
           
-          <br/>
+            <b>Condition:</b>
+            Diabetes mellitus type 2 (44054006)<br/>
+          
+            <b>clinicalStatus:</b>
+            active <br/>
+          
+          
+        </div>
+
       
-      </div>
+    </div>
 
-    
+  
 
-    
+  
 
-  </ul>
 
 
   <h4>Medication Summary</h4>
@@ -372,63 +377,65 @@
 
   
 
+  
     
-      
-      <div class="medicationStatement">
+    <div class="medication-summary block">
 
       
+        <div class="medicationStatement indent block">
 
-        
+          
 
 
           
             <b>Medication:</b>
-            Dimethyl fumarate 30 mg Tablet <br/>            
+            Dimethyl fumarate 30 mg Tablet <br/>
+          
 
-            
-              <b>status:</b>
-              active <br/>
+          
+            <b>status:</b>
+            active <br/>
           
           
           
           
-          <b>Medication Detail:</b>
-          <div class="medication inner">
-
-            
-              
-                <ul>
-                  <li>
-                    <b>System</b>
-                    http://ema.europa.eu/fhir/marketingAuthorizationNumber
-                    <b>Code:</b>
-                    EU/1/17/1201/001 [Skilarence]</li>
-                </ul>
+            <b>Medication Detail:</b>
+            <div class="medication indent block">
 
               
-                <ul>
-                  <li>
-                    <b>System</b>
-                    https://www.who-umc.org/phpid
-                    <b>Code:</b>
-                    0x9982CA8A825D4561506CE808982E3B9D [dimethyl fumarate, 30 mg/ 1 tablet, Gastro-resistant tablet]</li>
-                </ul>
+                
+                  <ul>
+                    <li>
+                      <b>System</b>
+                      http://ema.europa.eu/fhir/marketingAuthorizationNumber
+                      <b>Code:</b>
+                      EU/1/17/1201/001 [Skilarence]</li>
+                  </ul>
+
+                
+                  <ul>
+                    <li>
+                      <b>System</b>
+                      https://www.who-umc.org/phpid
+                      <b>Code:</b>
+                      0x9982CA8A825D4561506CE808982E3B9D [dimethyl fumarate, 30 mg/ 1 tablet, Gastro-resistant tablet]</li>
+                  </ul>
+
+                
+                  <ul>
+                    <li>
+                      <b>System</b>
+                      http://www.whocc.no/atc
+                      <b>Code:</b>
+                      L04AX07 [dimethyl fumarate]</li>
+                  </ul>
+
+                
+              
 
               
-                <ul>
-                  <li>
-                    <b>System</b>
-                    http://www.whocc.no/atc
-                    <b>Code:</b>
-                    L04AX07 [dimethyl fumarate]</li>
-                </ul>
-
-              
-            
-
-              
-              <b>Dose Form:</b>
-              Gastro-resistant tablet <br/>
+                <b>Dose Form:</b>
+                Gastro-resistant tablet <br/>
               
                 <b>Ingredient:</b>
                 dimethyl fumarate (http://fdasis.nlm.nih.gov#FO2303MNI2) <br/>
@@ -436,61 +443,61 @@
                   <b>strength:</b>
                   30 mg/1 Tablet <br/>
                 
+
               
-
-
-          </div>
-        
+            </div>
+          
 
           
             <b>Route:</b>
             Oral use<br/>
-          <br/>
+        </div>
+      
+        <div class="medicationStatement indent block">
 
-        
-
-        
+          
 
 
           
             <b>Medication:</b>
-            Irbesartan 75 mg Tablet <br/>            
+            Irbesartan 75 mg Tablet <br/>
+          
 
-            
-              <b>status:</b>
-              active <br/>
+          
+            <b>status:</b>
+            active <br/>
           
           
           
           
-          <b>Medication Detail:</b>
-          <div class="medication inner">
-
-            
-              
-                <ul>
-                  <li>
-                    <b>System</b>
-                    http://ema.europa.eu/fhir/marketingAuthorizationNumber
-                    <b>Code:</b>
-                    EMEA/H/C/000142 [Karvea]</li>
-                </ul>
+            <b>Medication Detail:</b>
+            <div class="medication indent block">
 
               
-                <ul>
-                  <li>
-                    <b>System</b>
-                    http://www.whocc.no/atc
-                    <b>Code:</b>
-                    C09DA04 [irbesartan and diuretics]</li>
-                </ul>
+                
+                  <ul>
+                    <li>
+                      <b>System</b>
+                      http://ema.europa.eu/fhir/marketingAuthorizationNumber
+                      <b>Code:</b>
+                      EMEA/H/C/000142 [Karvea]</li>
+                  </ul>
+
+                
+                  <ul>
+                    <li>
+                      <b>System</b>
+                      http://www.whocc.no/atc
+                      <b>Code:</b>
+                      C09DA04 [irbesartan and diuretics]</li>
+                  </ul>
+
+                
+              
 
               
-            
-
-              
-              <b>Dose Form:</b>
-              Tablet <br/>
+                <b>Dose Form:</b>
+                Tablet <br/>
               
                 <b>Ingredient:</b>
                 irbesartan (http://fdasis.nlm.nih.gov#J0E2756Z7N) <br/>
@@ -498,70 +505,70 @@
                   <b>strength:</b>
                   75 mg/1 Tablet <br/>
                 
+
               
-
-
-          </div>
-        
+            </div>
+          
 
           
             <b>Route:</b>
             Oral use<br/>
-          <br/>
+        </div>
+      
+        <div class="medicationStatement indent block">
 
-        
-
-        
+          
 
 
           
             <b>Medication:</b>
-            Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray <br/>            
+            Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray <br/>
+          
 
-            
-              <b>status:</b>
-              active <br/>
+          
+            <b>status:</b>
+            active <br/>
           
           
           
           
-          <b>Medication Detail:</b>
-          <div class="medication inner">
-
-            
-              
-                <ul>
-                  <li>
-                    <b>System</b>
-                    https://www.gravitatehealth.eu/sid/man
-                    <b>Code:</b>
-                    16028/0049 [Boots Decongestant 0.05% w/v Nasal spray]</li>
-                </ul>
+            <b>Medication Detail:</b>
+            <div class="medication indent block">
 
               
-                <ul>
-                  <li>
-                    <b>System</b>
-                    https://www.who-umc.org/phpid
-                    <b>Code:</b>
-                    0xF79CABF272B6A7EEF104DDDA44E82716 [Oxymetazoline hydrochloride, 0.5 mg/ 1 ml, Nasal spray, solution]</li>
-                </ul>
+                
+                  <ul>
+                    <li>
+                      <b>System</b>
+                      https://www.gravitatehealth.eu/sid/man
+                      <b>Code:</b>
+                      16028/0049 [Boots Decongestant 0.05% w/v Nasal spray]</li>
+                  </ul>
+
+                
+                  <ul>
+                    <li>
+                      <b>System</b>
+                      https://www.who-umc.org/phpid
+                      <b>Code:</b>
+                      0xF79CABF272B6A7EEF104DDDA44E82716 [Oxymetazoline hydrochloride, 0.5 mg/ 1 ml, Nasal spray, solution]</li>
+                  </ul>
+
+                
+                  <ul>
+                    <li>
+                      <b>System</b>
+                      http://www.whocc.no/atc
+                      <b>Code:</b>
+                      R01AA05 [oxymetazoline]</li>
+                  </ul>
+
+                
+              
 
               
-                <ul>
-                  <li>
-                    <b>System</b>
-                    http://www.whocc.no/atc
-                    <b>Code:</b>
-                    R01AA05 [oxymetazoline]</li>
-                </ul>
-
-              
-            
-
-              
-              <b>Dose Form:</b>
-              Nasal spray, solution <br/>
+                <b>Dose Form:</b>
+                Nasal spray, solution <br/>
               
                 <b>Ingredient:</b>
                 oxymetazoline hydrochloride (http://fdasis.nlm.nih.gov#K89MJ0S5VY) <br/>
@@ -569,70 +576,70 @@
                   <b>strength:</b>
                   0.05 mg/1  <br/>
                 
+
               
-
-
-          </div>
-        
+            </div>
+          
 
           
             <b>Route:</b>
             Nasal use<br/>
-          <br/>
+        </div>
+      
+        <div class="medicationStatement indent block">
 
-        
-
-        
+          
 
 
           
             <b>Medication:</b>
-            Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray <br/>            
+            Oxymetazoline hydrochloride  0.05 mg / 1 ml Spray <br/>
+          
 
-            
-              <b>status:</b>
-              active <br/>
+          
+            <b>status:</b>
+            active <br/>
           
           
           
           
-          <b>Medication Detail:</b>
-          <div class="medication inner">
-
-            
-              
-                <ul>
-                  <li>
-                    <b>System</b>
-                    https://www.gravitatehealth.eu/sid/man
-                    <b>Code:</b>
-                    16028/0049 [Boots Decongestant 0.05% w/v Nasal spray]</li>
-                </ul>
+            <b>Medication Detail:</b>
+            <div class="medication indent block">
 
               
-                <ul>
-                  <li>
-                    <b>System</b>
-                    https://www.who-umc.org/phpid
-                    <b>Code:</b>
-                    0xF79CABF272B6A7EEF104DDDA44E82716 [Oxymetazoline hydrochloride, 0.5 mg/ 1 ml, Nasal spray, solution]</li>
-                </ul>
+                
+                  <ul>
+                    <li>
+                      <b>System</b>
+                      https://www.gravitatehealth.eu/sid/man
+                      <b>Code:</b>
+                      16028/0049 [Boots Decongestant 0.05% w/v Nasal spray]</li>
+                  </ul>
+
+                
+                  <ul>
+                    <li>
+                      <b>System</b>
+                      https://www.who-umc.org/phpid
+                      <b>Code:</b>
+                      0xF79CABF272B6A7EEF104DDDA44E82716 [Oxymetazoline hydrochloride, 0.5 mg/ 1 ml, Nasal spray, solution]</li>
+                  </ul>
+
+                
+                  <ul>
+                    <li>
+                      <b>System</b>
+                      http://www.whocc.no/atc
+                      <b>Code:</b>
+                      R01AA05 [oxymetazoline]</li>
+                  </ul>
+
+                
+              
 
               
-                <ul>
-                  <li>
-                    <b>System</b>
-                    http://www.whocc.no/atc
-                    <b>Code:</b>
-                    R01AA05 [oxymetazoline]</li>
-                </ul>
-
-              
-            
-
-              
-              <b>Dose Form:</b>
-              Nasal spray, solution <br/>
+                <b>Dose Form:</b>
+                Nasal spray, solution <br/>
               
                 <b>Ingredient:</b>
                 oxymetazoline hydrochloride (http://fdasis.nlm.nih.gov#K89MJ0S5VY) <br/>
@@ -640,25 +647,19 @@
                   <b>strength:</b>
                   0.05 mg/1  <br/>
                 
+
               
-
-
-          </div>
-        
+            </div>
+          
 
           
             <b>Route:</b>
             Nasal use<br/>
-          <br/>
+        </div>
+      
+    </div>
+  
 
-        
-        <br/>
-
-      </div>
-      <br/>
-    
-
-  </ul>
 
 
 
@@ -704,7 +705,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.gravitatehealth.eu/"></a>.  Package hl7.eu.fhir.gh-ips#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sat, Jan 14, 2023 22:54+0000">2023-01-14</span>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.gravitatehealth.eu/"></a>.  Package hl7.eu.fhir.gh-ips#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Jan 20, 2023 16:43+0000">2023-01-20</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
             <div style="color: #33333" >

@@ -242,18 +242,16 @@
 
 
 
-<b>Composition</b>
-<br/>
 
-  <b>status:</b>
+  <b>Composition status:</b>
   final
 <br/>
 
-  <b>Type:</b>
+  <b>Composition Type:</b>
   Patient summary Document
 <br/>
-  <b>Subject:</b>
-  <div class="patient inner">
+<b>Subject:</b>
+<div class="patient block indent">
 
   
   
@@ -287,35 +285,36 @@
 
   
     
-    <div class="condition">
-
-    
+    <div class="problem-list block">
 
       
 
+        
 
-        
-          <b>Condition:</b>
-          Crohn's disease (34000006)<br/>
-        
-          <b>clinicalStatus:</b>
-          active <br/>
-        
-          <b>asserter:</b>
-          Dr. Ana Lopez <br/>
+        <div class="condition indent block">
+
+          
+            <b>Condition:</b>
+            Crohn's disease (34000006)<br/>
+          
+            <b>clinicalStatus:</b>
+            active <br/>
+          
+            <b>asserter:</b>
+            Dr. Ana Lopez <br/>
           
             <b>onsetDateTime:</b>
             2015 <br/>
           
-          <br/>
+        </div>
+
       
-      </div>
+    </div>
 
-    
+  
 
-    
+  
 
-  </ul>
 
 
   <h4>Medication Summary</h4>
@@ -325,54 +324,56 @@
 
   
 
+  
     
-      
-      <div class="medicationStatement">
+    <div class="medication-summary block">
 
       
+        <div class="medicationStatement indent block">
 
-        
+          
 
 
           
             <b>Medication:</b>
-            Humira 40 mg <br/>            
+            Humira 40 mg <br/>
+          
 
-            
-              <b>status:</b>
-              active <br/>
+          
+            <b>status:</b>
+            active <br/>
           
           
           
           
-          <b>Medication Detail:</b>
-          <div class="medication inner">
-
-            
-              
-                <ul>
-                  <li>
-                    <b>System</b>
-                    http://ema.europa.eu/fhir/marketingAuthorizationNumber
-                    <b>Code:</b>
-                    EU/1/96/007/035 [Humira 40 mg]</li>
-                </ul>
+            <b>Medication Detail:</b>
+            <div class="medication indent block">
 
               
-                <ul>
-                  <li>
-                    <b>System</b>
-                    http://www.whocc.no/atc
-                    <b>Code:</b>
-                    L04AB04 [adalimumab]</li>
-                </ul>
+                
+                  <ul>
+                    <li>
+                      <b>System</b>
+                      http://ema.europa.eu/fhir/marketingAuthorizationNumber
+                      <b>Code:</b>
+                      EU/1/96/007/035 [Humira 40 mg]</li>
+                  </ul>
+
+                
+                  <ul>
+                    <li>
+                      <b>System</b>
+                      http://www.whocc.no/atc
+                      <b>Code:</b>
+                      L04AB04 [adalimumab]</li>
+                  </ul>
+
+                
+              
 
               
-            
-
-              
-              <b>Dose Form:</b>
-              Solution for injection <br/>
+                <b>Dose Form:</b>
+                Solution for injection <br/>
               
                 <b>Ingredient:</b>
                 adalimumab (http://fdasis.nlm.nih.gov#FYS6T7F842) <br/>
@@ -380,61 +381,61 @@
                   <b>strength:</b>
                   40 mg/1  <br/>
                 
+
               
-
-
-          </div>
-        
+            </div>
+          
 
           
             <b>Route:</b>
             Subcutaneous use<br/>
-          <br/>
+        </div>
+      
+        <div class="medicationStatement indent block">
 
-        
-
-        
+          
 
 
           
             <b>Medication:</b>
-            PARACETAMOL 500 MG <br/>            
+            PARACETAMOL 500 MG <br/>
+          
 
-            
-              <b>status:</b>
-              active <br/>
+          
+            <b>status:</b>
+            active <br/>
           
           
           
           
-          <b>Medication Detail:</b>
-          <div class="medication inner">
-
-            
-              
-                <ul>
-                  <li>
-                    <b>System</b>
-                    http://ema.europa.eu/fhir/marketingAuthorizationNumber
-                    <b>Code:</b>
-                    PL31654/0006 [DOLOCATIL 1 g tablets]</li>
-                </ul>
+            <b>Medication Detail:</b>
+            <div class="medication indent block">
 
               
-                <ul>
-                  <li>
-                    <b>System</b>
-                    http://www.whocc.no/atc
-                    <b>Code:</b>
-                    N02BE01 [paracetamol]</li>
-                </ul>
+                
+                  <ul>
+                    <li>
+                      <b>System</b>
+                      http://ema.europa.eu/fhir/marketingAuthorizationNumber
+                      <b>Code:</b>
+                      PL31654/0006 [DOLOCATIL 1 g tablets]</li>
+                  </ul>
+
+                
+                  <ul>
+                    <li>
+                      <b>System</b>
+                      http://www.whocc.no/atc
+                      <b>Code:</b>
+                      N02BE01 [paracetamol]</li>
+                  </ul>
+
+                
+              
 
               
-            
-
-              
-              <b>Dose Form:</b>
-              Coated tablet <br/>
+                <b>Dose Form:</b>
+                Coated tablet <br/>
               
                 <b>Ingredient:</b>
                 ACETAMINOPHEN (http://fdasis.nlm.nih.gov#362O9ITL9D) <br/>
@@ -442,61 +443,61 @@
                   <b>strength:</b>
                   1000 mg/1 Tablet <br/>
                 
+
               
-
-
-          </div>
-        
+            </div>
+          
 
           
             <b>Route:</b>
             Oral use<br/>
-          <br/>
+        </div>
+      
+        <div class="medicationStatement indent block">
 
-        
-
-        
+          
 
 
           
             <b>Medication:</b>
-            Pentasa 1g mesalazine <br/>            
+            Pentasa 1g mesalazine <br/>
+          
 
-            
-              <b>status:</b>
-              active <br/>
+          
+            <b>status:</b>
+            active <br/>
           
           
           
           
-          <b>Medication Detail:</b>
-          <div class="medication inner">
-
-            
-              
-                <ul>
-                  <li>
-                    <b>System</b>
-                    https://www.gravitatehealth.eu/sid/man
-                    <b>Code:</b>
-                    16028/0049 [Pentasa Slow Release Tablets 1g]</li>
-                </ul>
+            <b>Medication Detail:</b>
+            <div class="medication indent block">
 
               
-                <ul>
-                  <li>
-                    <b>System</b>
-                    http://www.whocc.no/atc
-                    <b>Code:</b>
-                    A07EC02 [mesalazine]</li>
-                </ul>
+                
+                  <ul>
+                    <li>
+                      <b>System</b>
+                      https://www.gravitatehealth.eu/sid/man
+                      <b>Code:</b>
+                      16028/0049 [Pentasa Slow Release Tablets 1g]</li>
+                  </ul>
+
+                
+                  <ul>
+                    <li>
+                      <b>System</b>
+                      http://www.whocc.no/atc
+                      <b>Code:</b>
+                      A07EC02 [mesalazine]</li>
+                  </ul>
+
+                
+              
 
               
-            
-
-              
-              <b>Dose Form:</b>
-              Tablet <br/>
+                <b>Dose Form:</b>
+                Tablet <br/>
               
                 <b>Ingredient:</b>
                 MESALAMINE (http://fdasis.nlm.nih.gov#4Q81I59GXC) <br/>
@@ -504,25 +505,19 @@
                   <b>strength:</b>
                   1000 mg/1 Tablet <br/>
                 
+
               
-
-
-          </div>
-        
+            </div>
+          
 
           
             <b>Route:</b>
             Oral use<br/>
-          <br/>
+        </div>
+      
+    </div>
+  
 
-        
-        <br/>
-
-      </div>
-      <br/>
-    
-
-  </ul>
 
 
 
@@ -568,7 +563,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.gravitatehealth.eu/"></a>.  Package hl7.eu.fhir.gh-ips#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sat, Jan 14, 2023 22:54+0000">2023-01-14</span>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.gravitatehealth.eu/"></a>.  Package hl7.eu.fhir.gh-ips#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Jan 20, 2023 16:43+0000">2023-01-20</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
             <div style="color: #33333" >
